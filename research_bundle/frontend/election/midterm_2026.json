@@ -11,44 +11,25 @@
     "majority": 51
   },
   "scenario": {
-    "title": "民主党大胜 · 智见预测",
+    "title": "智见 · 2026 年中期选举预测",
     "kind": "retrospective_scenario",
-    "basis": "9 月底资料 · 高摆幅情景",
+    "basis": "9 月底资料 · 选区摆幅情景",
     "house": {
       "baseline_democratic": 215,
-      "assumed_gain": 45,
-      "assumed_seats_per_margin_point": 7,
-      "observation_states": [
-        "AZ",
-        "CA",
-        "CO",
-        "FL",
-        "GA",
-        "IA",
-        "IN",
-        "KY",
-        "MI",
-        "MO",
-        "NC",
-        "NJ",
-        "NV",
-        "NY",
-        "OH",
-        "PA",
-        "TX",
-        "VA",
-        "WI"
-      ],
+      "projected_gain": 25,
+      "national_baseline_margin_pp": -2.788024,
+      "poll_target_margin_pp": 8.070988,
+      "applied_margin_shift_pp": 10.859011,
       "states": [
         {
           "state": "AK",
           "total_seats": 1,
           "baseline_democratic_seats": 0,
-          "additional_democratic_seats": 0,
-          "predicted_democratic_seats": 0,
-          "predicted_republican_seats": 1,
-          "seat_margin_score": -1.0,
-          "leading_party": "republican"
+          "additional_democratic_seats": 1,
+          "predicted_democratic_seats": 1,
+          "predicted_republican_seats": 0,
+          "seat_margin_score": 1.0,
+          "leading_party": "democratic"
         },
         {
           "state": "AL",
@@ -74,10 +55,10 @@
           "state": "AZ",
           "total_seats": 9,
           "baseline_democratic_seats": 3,
-          "additional_democratic_seats": 2,
-          "predicted_democratic_seats": 5,
-          "predicted_republican_seats": 4,
-          "seat_margin_score": 0.111111,
+          "additional_democratic_seats": 3,
+          "predicted_democratic_seats": 6,
+          "predicted_republican_seats": 3,
+          "seat_margin_score": 0.333333,
           "leading_party": "democratic"
         },
         {
@@ -94,10 +75,10 @@
           "state": "CO",
           "total_seats": 8,
           "baseline_democratic_seats": 4,
-          "additional_democratic_seats": 1,
-          "predicted_democratic_seats": 5,
-          "predicted_republican_seats": 3,
-          "seat_margin_score": 0.25,
+          "additional_democratic_seats": 2,
+          "predicted_democratic_seats": 6,
+          "predicted_republican_seats": 2,
+          "seat_margin_score": 0.5,
           "leading_party": "democratic"
         },
         {
@@ -124,21 +105,21 @@
           "state": "FL",
           "total_seats": 28,
           "baseline_democratic_seats": 8,
-          "additional_democratic_seats": 6,
-          "predicted_democratic_seats": 14,
-          "predicted_republican_seats": 14,
-          "seat_margin_score": 0.0,
-          "leading_party": "tie"
+          "additional_democratic_seats": 1,
+          "predicted_democratic_seats": 9,
+          "predicted_republican_seats": 19,
+          "seat_margin_score": -0.357143,
+          "leading_party": "republican"
         },
         {
           "state": "GA",
           "total_seats": 14,
           "baseline_democratic_seats": 5,
-          "additional_democratic_seats": 3,
-          "predicted_democratic_seats": 8,
-          "predicted_republican_seats": 6,
-          "seat_margin_score": 0.142857,
-          "leading_party": "democratic"
+          "additional_democratic_seats": 0,
+          "predicted_democratic_seats": 5,
+          "predicted_republican_seats": 9,
+          "seat_margin_score": -0.285714,
+          "leading_party": "republican"
         },
         {
           "state": "HI",
@@ -154,11 +135,11 @@
           "state": "IA",
           "total_seats": 4,
           "baseline_democratic_seats": 0,
-          "additional_democratic_seats": 1,
-          "predicted_democratic_seats": 1,
-          "predicted_republican_seats": 3,
-          "seat_margin_score": -0.5,
-          "leading_party": "republican"
+          "additional_democratic_seats": 2,
+          "predicted_democratic_seats": 2,
+          "predicted_republican_seats": 2,
+          "seat_margin_score": 0.0,
+          "leading_party": "tie"
         },
         {
           "state": "ID",
@@ -184,10 +165,10 @@
           "state": "IN",
           "total_seats": 9,
           "baseline_democratic_seats": 2,
-          "additional_democratic_seats": 2,
-          "predicted_democratic_seats": 4,
-          "predicted_republican_seats": 5,
-          "seat_margin_score": -0.111111,
+          "additional_democratic_seats": 0,
+          "predicted_democratic_seats": 2,
+          "predicted_republican_seats": 7,
+          "seat_margin_score": -0.555556,
           "leading_party": "republican"
         },
         {
@@ -204,10 +185,10 @@
           "state": "KY",
           "total_seats": 6,
           "baseline_democratic_seats": 1,
-          "additional_democratic_seats": 1,
-          "predicted_democratic_seats": 2,
-          "predicted_republican_seats": 4,
-          "seat_margin_score": -0.333333,
+          "additional_democratic_seats": 0,
+          "predicted_democratic_seats": 1,
+          "predicted_republican_seats": 5,
+          "seat_margin_score": -0.666667,
           "leading_party": "republican"
         },
         {
@@ -274,11 +255,11 @@
           "state": "MO",
           "total_seats": 8,
           "baseline_democratic_seats": 2,
-          "additional_democratic_seats": 2,
-          "predicted_democratic_seats": 4,
-          "predicted_republican_seats": 4,
-          "seat_margin_score": 0.0,
-          "leading_party": "tie"
+          "additional_democratic_seats": 0,
+          "predicted_democratic_seats": 2,
+          "predicted_republican_seats": 6,
+          "seat_margin_score": -0.5,
+          "leading_party": "republican"
         },
         {
           "state": "MS",
@@ -294,21 +275,21 @@
           "state": "MT",
           "total_seats": 2,
           "baseline_democratic_seats": 0,
-          "additional_democratic_seats": 0,
-          "predicted_democratic_seats": 0,
-          "predicted_republican_seats": 2,
-          "seat_margin_score": -1.0,
-          "leading_party": "republican"
+          "additional_democratic_seats": 1,
+          "predicted_democratic_seats": 1,
+          "predicted_republican_seats": 1,
+          "seat_margin_score": 0.0,
+          "leading_party": "tie"
         },
         {
           "state": "NC",
           "total_seats": 14,
           "baseline_democratic_seats": 4,
-          "additional_democratic_seats": 3,
-          "predicted_democratic_seats": 7,
-          "predicted_republican_seats": 7,
-          "seat_margin_score": 0.0,
-          "leading_party": "tie"
+          "additional_democratic_seats": 0,
+          "predicted_democratic_seats": 4,
+          "predicted_republican_seats": 10,
+          "seat_margin_score": -0.428571,
+          "leading_party": "republican"
         },
         {
           "state": "ND",
@@ -324,10 +305,10 @@
           "state": "NE",
           "total_seats": 3,
           "baseline_democratic_seats": 0,
-          "additional_democratic_seats": 0,
-          "predicted_democratic_seats": 0,
-          "predicted_republican_seats": 3,
-          "seat_margin_score": -1.0,
+          "additional_democratic_seats": 1,
+          "predicted_democratic_seats": 1,
+          "predicted_republican_seats": 2,
+          "seat_margin_score": -0.333333,
           "leading_party": "republican"
         },
         {
@@ -384,11 +365,11 @@
           "state": "OH",
           "total_seats": 15,
           "baseline_democratic_seats": 5,
-          "additional_democratic_seats": 3,
-          "predicted_democratic_seats": 8,
-          "predicted_republican_seats": 7,
-          "seat_margin_score": 0.066667,
-          "leading_party": "democratic"
+          "additional_democratic_seats": 0,
+          "predicted_democratic_seats": 5,
+          "predicted_republican_seats": 10,
+          "seat_margin_score": -0.333333,
+          "leading_party": "republican"
         },
         {
           "state": "OK",
@@ -464,11 +445,11 @@
           "state": "TX",
           "total_seats": 38,
           "baseline_democratic_seats": 13,
-          "additional_democratic_seats": 8,
-          "predicted_democratic_seats": 21,
-          "predicted_republican_seats": 17,
-          "seat_margin_score": 0.105263,
-          "leading_party": "democratic"
+          "additional_democratic_seats": 0,
+          "predicted_democratic_seats": 13,
+          "predicted_republican_seats": 25,
+          "seat_margin_score": -0.315789,
+          "leading_party": "republican"
         },
         {
           "state": "UT",
@@ -514,11 +495,11 @@
           "state": "WI",
           "total_seats": 8,
           "baseline_democratic_seats": 2,
-          "additional_democratic_seats": 1,
-          "predicted_democratic_seats": 3,
-          "predicted_republican_seats": 5,
-          "seat_margin_score": -0.25,
-          "leading_party": "republican"
+          "additional_democratic_seats": 2,
+          "predicted_democratic_seats": 4,
+          "predicted_republican_seats": 4,
+          "seat_margin_score": 0.0,
+          "leading_party": "tie"
         },
         {
           "state": "WV",
@@ -544,14 +525,14 @@
     },
     "senate": {
       "baseline_democratic_caucus": 47,
-      "assumed_net_gain": 8
+      "assumed_net_gain": 5
     },
     "method": [
-      "历史基线：2024 年众议院选举的各州两党席位。众议院在 50 州共 435 个表决席位。",
-      "全国情景：Pew 7 月民主党领先 6 点、Reuters/Ipsos 9 月领先 7 点，取均值 6.5 点。高摆幅情景每点对应 7 席，向下取整为 45 席增量。",
-      "州级汇总：在 19 个预设观察州中，每轮给「2024 年共和党席位 ÷（1＋已分配增量）」最高且还有容量的州分配一席；同分按州代码排序。其余各州保留历史基线。",
-      "情绪波以事件日前的 8 为基线，按设定的当日响应值和 exp(−0.4 × 天数) 计算后续变化。",
-      "参议院全国情景：民主党阵营 47 席基线，设定净增 8 席；逐州地图展示众议院预测。"
+      "历史基线：使用 2024 年的 435 个众议院选区。各党取本党得票最高的候选人，同名候选人跨党派票线合并。",
+      "全国摆幅：把 7 月 Pew 和 9 月 Reuters/Ipsos 的国会投票意向换算为两党票差后取均值（民主党领先 8.07 点），与历史基线比较。",
+      "逐区汇总：两党竞争选区的民主党票差统一上调 10.86 点，单党参选选区沿用历史阵营。以 2024 选区为比较单元，再汇总到 50 州。",
+      "情绪波按各事件的当日响应和后续变化展示，时间范围截至 9 月 30 日。",
+      "参议院：全国席位情景以民主党阵营 47 席为基线，设定净增 5 席。"
     ]
   },
   "sources": [
@@ -563,25 +544,11 @@
       "data_date": "2024-11-05"
     },
     {
-      "id": "house-by-state",
-      "label": "2024 众议院结果 · 分州汇总",
-      "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections#Per_state",
-      "detail": "按 2024 年历史选举结果汇总各州党派席位；与书记官汇总总数核对。",
-      "data_date": "2024-11-05"
-    },
-    {
       "id": "census",
       "label": "美国人口普查局 · 州际席位配额",
       "url": "https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html",
       "published_at": "2021-04-26",
       "detail": "50 州共有 435 个众议院表决席位。"
-    },
-    {
-      "id": "july-cost",
-      "label": "Washington Post / Ipsos · 物价与投票议题",
-      "url": "https://www.ipsos.com/en-us/Washington-Post-Ipsos-Poll-July-2026",
-      "published_at": "2026-07-16",
-      "detail": "54% 的受访登记选民提到经济或物价作为主要投票考虑。"
     },
     {
       "id": "pew",
@@ -591,27 +558,6 @@
       "detail": "全国登记选民的国会投票意向为民主党 43%、共和党 37%。"
     },
     {
-      "id": "august-cost",
-      "label": "Reuters / Ipsos · 生活成本",
-      "url": "https://www.ipsos.com/en-us/cost-living-remains-top-mind-voters-heading-2026-midterms",
-      "published_at": "2026-08-31",
-      "detail": "47% 的受访登记选民将生活成本列为最重要的中期选举考虑。"
-    },
-    {
-      "id": "cpi",
-      "label": "美国劳工统计局 · 8 月消费者物价",
-      "url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
-      "published_at": "2026-09-11",
-      "detail": "8 月 CPI 环比升 0.4%、同比升 3.4%。"
-    },
-    {
-      "id": "sept-ipsos",
-      "label": "Reuters / Ipsos · 9 月国会选情调查",
-      "url": "https://www.ipsos.com/en-us/reutersipsos-september-2026-survey",
-      "published_at": "2026-09-14",
-      "detail": "调查于 9 月 11–14 日进行，覆盖中期选举及总统支持度。"
-    },
-    {
       "id": "sept-ipsos-topline",
       "label": "Reuters / Ipsos · 9 月调查原表",
       "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Reuters%20Ipsos%20Survey%20September%202026%20FULL.pdf#page=2",
@@ -619,112 +565,136 @@
       "data_date": "2026-09-14"
     },
     {
-      "id": "fed",
-      "label": "美联储 · 9 月利率决议",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-      "published_at": "2026-09-16",
-      "detail": "9 月 16 日上调利率 25 个基点，目标区间为 3.75%–4.00%。"
-    },
-    {
-      "id": "cook",
-      "label": "Cook Political Report · 9 月 25 日众议院评级调整",
-      "url": "https://www.cookpolitical.com/analysis/house/house-overview/gop-track-lose-house-majority-15-race-ratings-shift-towards-dems",
-      "published_at": "2026-09-25",
-      "detail": "报道 15 项评级向民主党方向调整，为竞争席位情景提供背景。"
-    },
-    {
       "id": "senate-baseline",
       "label": "美国参议院 · 第 119 届党派构成",
       "url": "https://www.senate.gov/about/parties-leadership/party-division.shtml",
       "detail": "选前基线：共和党 53 席，民主党 45 席及与其共同组团的独立议员 2 名。",
       "data_date": "2025-01-03"
+    },
+    {
+      "id": "medsl-2024",
+      "label": "MIT 选举实验室 · 众议院选区结果（第 15 版）",
+      "url": "https://doi.org/10.7910/DVN/IG0UN2",
+      "published_at": "2026-03-09",
+      "detail": "2024 年 435 个表决选区的候选人得票。"
+    },
+    {
+      "id": "fbi-crime",
+      "label": "FBI · 年度治安统计",
+      "url": "https://www.fbi.gov/news/stories/violent-crime-falls-at-historic-rate-new-fbi-data-show",
+      "published_at": "2026-08-19",
+      "detail": "FBI 公布完整统计：2025 年全国暴力犯罪率比 2024 年低 9.3%。"
+    },
+    {
+      "id": "gdp",
+      "label": "美国经济分析局 · 二季度 GDP 第二次估算",
+      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+      "published_at": "2026-08-26",
+      "detail": "经济分析局的第二次估算显示，实际 GDP 折年增长 1.5%，私人国内最终销售折年增长 4.2%。"
+    },
+    {
+      "id": "jobs",
+      "label": "美国劳工统计局 · 8 月就业报告",
+      "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
+      "published_at": "2026-09-04",
+      "detail": "9 月 4 日公布的初值显示，8 月非农就业增加 16.2 万，失业率维持在 4.1%。"
+    },
+    {
+      "id": "cpi",
+      "label": "美国劳工统计局 · 8 月消费者物价",
+      "url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+      "published_at": "2026-09-11",
+      "detail": "8 月 CPI 环比上升 0.4%、同比上升 3.4%；汽油价格环比上涨 3.9%。"
+    },
+    {
+      "id": "fed",
+      "label": "美联储 · 9 月利率决议",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "published_at": "2026-09-16",
+      "detail": "联邦基金利率目标区间上调 25 个基点至 3.75%–4.00%。"
+    },
+    {
+      "id": "medicare",
+      "label": "美国医保与医疗补助服务中心 · 2027 年计划展望",
+      "url": "https://www.cms.gov/newsroom/press-releases/medicare-advantage-medicare-prescription-drug-programs-expected-remain-stable-2027",
+      "published_at": "2026-09-28",
+      "detail": "美国医保与医疗补助服务中心预计，2027 年 Medicare Advantage 平均月保费由 14.37 美元降至 12 美元。"
+    },
+    {
+      "id": "income",
+      "label": "美国经济分析局 · 8 月个人收入与支出",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+      "published_at": "2026-09-30",
+      "detail": "经济分析局公布的 8 月数据中，扣除物价后的可支配收入环比持平，实际个人消费支出上升 0.6%。"
     }
   ],
   "events": [
     {
-      "id": "july-cost",
-      "date": "2026-07-16",
-      "title": "物价成为投票议题",
-      "domain": "生活成本",
-      "content": "调查中，54% 的登记选民提到经济或物价。",
-      "analysis": "将可负担性列入议题追踪，主要观察独立选民反应。",
+      "id": "fbi-crime",
+      "date": "2026-08-19",
+      "title": "FBI 发布 2025 年治安统计",
+      "domain": "公共安全",
+      "lean": "republican",
+      "content": "FBI 公布完整统计：2025 年全国暴力犯罪率比 2024 年低 9.3%。",
+      "analysis": "治安改善为共和党强调公共安全提供了数据；下降趋势也涉及各级执法部门的共同工作。",
       "impact": {
-        "rep_angry": 0.16,
+        "rep_angry": 0.12,
+        "dem_angry": 0.17,
+        "ind_angry": 0.14
+      },
+      "source_ids": [
+        "fbi-crime"
+      ]
+    },
+    {
+      "id": "gdp",
+      "date": "2026-08-26",
+      "title": "二季度经济增长数据发布",
+      "domain": "宏观经济",
+      "lean": "mixed",
+      "content": "经济分析局的第二次估算显示，实际 GDP 折年增长 1.5%，私人国内最终销售折年增长 4.2%。",
+      "analysis": "私人需求仍有韧性，但整体增速低于第一季度。增长与放缓两种信号同时存在。",
+      "impact": {
+        "rep_angry": 0.17,
         "dem_angry": 0.22,
-        "ind_angry": 0.28
+        "ind_angry": 0.23
       },
-      "source_id": "july-cost",
       "source_ids": [
-        "july-cost"
+        "gdp"
       ]
     },
     {
-      "id": "pew",
-      "date": "2026-07-23",
-      "title": "7 月全国国会选情",
-      "domain": "选举民调",
-      "content": "Pew 调查的投票意向为民主党 43%、共和党 37%。",
-      "analysis": "记录民主党领先 6 个百分点，纳入全国摆幅情景。",
+      "id": "jobs",
+      "date": "2026-09-04",
+      "title": "8 月新增非农就业 16.2 万",
+      "domain": "就业",
+      "lean": "republican",
+      "content": "9 月 4 日公布的初值显示，8 月非农就业增加 16.2 万，失业率维持在 4.1%。",
+      "analysis": "就业增长和失业率稳定，为共和党强调劳动力市场韧性提供了依据。",
       "impact": {
-        "rep_angry": 0.24,
-        "dem_angry": 0.12,
-        "ind_angry": 0.16
+        "rep_angry": 0.11,
+        "dem_angry": 0.18,
+        "ind_angry": 0.14
       },
-      "source_id": "pew",
       "source_ids": [
-        "pew"
-      ]
-    },
-    {
-      "id": "august-cost",
-      "date": "2026-08-31",
-      "title": "生活成本继续受到关注",
-      "domain": "生活成本",
-      "content": "47% 的受访登记选民把生活成本列为首要投票考虑。",
-      "analysis": "持续跟踪物价议题，观察独立选民对现状的情绪响应。",
-      "impact": {
-        "rep_angry": 0.18,
-        "dem_angry": 0.24,
-        "ind_angry": 0.32
-      },
-      "source_id": "august-cost",
-      "source_ids": [
-        "august-cost"
+        "jobs"
       ]
     },
     {
       "id": "cpi",
       "date": "2026-09-11",
-      "title": "8 月 CPI 发布",
-      "domain": "宏观经济",
-      "content": "8 月 CPI 环比上升 0.4%，同比上升 3.4%。",
-      "analysis": "用公开经济数据更新生活成本背景，保留情绪响应为独立情景。",
+      "title": "8 月物价环比上涨 0.4%",
+      "domain": "生活成本",
+      "lean": "democratic",
+      "content": "8 月 CPI 环比上升 0.4%、同比上升 3.4%；汽油价格环比上涨 3.9%。",
+      "analysis": "汽油和日常支出上涨延续了家庭预算压力，也使民主党强调降低生活成本更贴近当时的议题。",
       "impact": {
         "rep_angry": 0.24,
         "dem_angry": 0.34,
         "ind_angry": 0.39
       },
-      "source_id": "cpi",
       "source_ids": [
         "cpi"
-      ]
-    },
-    {
-      "id": "sept-ipsos",
-      "date": "2026-09-14",
-      "title": "9 月全国国会选情",
-      "domain": "选举民调",
-      "content": "Reuters/Ipsos 9 月 11–14 日调查中，民主党 44%、共和党 37%。",
-      "analysis": "纳入民主党领先 7 个百分点的观测，与 7 月读数形成高摆幅情景的全国输入。",
-      "impact": {
-        "rep_angry": 0.3,
-        "dem_angry": 0.14,
-        "ind_angry": 0.2
-      },
-      "source_id": "sept-ipsos",
-      "source_ids": [
-        "sept-ipsos",
-        "sept-ipsos-topline"
       ]
     },
     {
@@ -732,268 +702,285 @@
       "date": "2026-09-16",
       "title": "美联储上调利率",
       "domain": "货币政策",
+      "lean": "mixed",
       "content": "联邦基金利率目标区间上调 25 个基点至 3.75%–4.00%。",
-      "analysis": "把融资成本纳入经济议题观察，分群展示事件后的响应衰减。",
+      "analysis": "加息体现压低通胀的政策取向，也让住房和借贷成本继续成为选举议题。",
       "impact": {
         "rep_angry": 0.26,
         "dem_angry": 0.3,
         "ind_angry": 0.36
       },
-      "source_id": "fed",
       "source_ids": [
         "fed"
       ]
     },
     {
-      "id": "cook",
-      "date": "2026-09-25",
-      "title": "众议院竞争评级调整",
-      "domain": "选区动态",
-      "content": "Cook Political Report 发布了 15 项向民主党方向调整的众议院评级。",
-      "analysis": "作为州级竞争背景；全国增量按本项目的容量规则分配。",
+      "id": "medicare",
+      "date": "2026-09-28",
+      "title": "公布 2027 年医保保费预估",
+      "domain": "医疗保障",
+      "lean": "republican",
+      "content": "美国医保与医疗补助服务中心预计，2027 年 Medicare Advantage 平均月保费由 14.37 美元降至 12 美元。",
+      "analysis": "这项官方预估为共和党政府讨论老年人医疗负担提供了具体数据。",
       "impact": {
-        "rep_angry": 0.34,
-        "dem_angry": 0.14,
-        "ind_angry": 0.21
+        "rep_angry": 0.13,
+        "dem_angry": 0.19,
+        "ind_angry": 0.16
       },
-      "source_id": "cook",
       "source_ids": [
-        "cook"
+        "medicare"
+      ]
+    },
+    {
+      "id": "income",
+      "date": "2026-09-30",
+      "title": "8 月实际可支配收入持平",
+      "domain": "家庭收入",
+      "lean": "democratic",
+      "content": "经济分析局公布的 8 月数据中，扣除物价后的可支配收入环比持平，实际个人消费支出上升 0.6%。",
+      "analysis": "消费增长和购买力停滞并存，家庭预算仍是民主党讨论生活成本的有利议题。",
+      "impact": {
+        "rep_angry": 0.21,
+        "dem_angry": 0.27,
+        "ind_angry": 0.32
+      },
+      "source_ids": [
+        "income"
       ]
     }
   ],
   "emotion_waves": [
     {
-      "event_id": "july-cost",
-      "title": "物价成为投票议题",
+      "event_id": "fbi-crime",
+      "title": "FBI 发布 2025 年治安统计",
       "timeline": [
         {
           "day_offset": -2,
-          "date": "2026-07-14",
+          "date": "2026-08-17",
           "rep_angry": 0.08,
           "dem_angry": 0.08,
           "ind_angry": 0.08
         },
         {
           "day_offset": -1,
-          "date": "2026-07-15",
+          "date": "2026-08-18",
           "rep_angry": 0.08,
           "dem_angry": 0.08,
           "ind_angry": 0.08
         },
         {
           "day_offset": 0,
-          "date": "2026-07-16",
-          "rep_angry": 0.16,
-          "dem_angry": 0.22,
-          "ind_angry": 0.28
+          "date": "2026-08-19",
+          "rep_angry": 0.12,
+          "dem_angry": 0.17,
+          "ind_angry": 0.14
         },
         {
           "day_offset": 1,
-          "date": "2026-07-17",
-          "rep_angry": 0.1336,
-          "dem_angry": 0.1738,
-          "ind_angry": 0.2141
+          "date": "2026-08-20",
+          "rep_angry": 0.1068,
+          "dem_angry": 0.1403,
+          "ind_angry": 0.1202
         },
         {
           "day_offset": 2,
-          "date": "2026-07-18",
-          "rep_angry": 0.1159,
-          "dem_angry": 0.1429,
-          "ind_angry": 0.1699
+          "date": "2026-08-21",
+          "rep_angry": 0.098,
+          "dem_angry": 0.1204,
+          "ind_angry": 0.107
         },
         {
           "day_offset": 3,
-          "date": "2026-07-19",
-          "rep_angry": 0.1041,
-          "dem_angry": 0.1222,
-          "ind_angry": 0.1402
-        },
-        {
-          "day_offset": 4,
-          "date": "2026-07-20",
-          "rep_angry": 0.0962,
-          "dem_angry": 0.1083,
-          "ind_angry": 0.1204
-        },
-        {
-          "day_offset": 5,
-          "date": "2026-07-21",
-          "rep_angry": 0.0908,
-          "dem_angry": 0.0989,
-          "ind_angry": 0.1071
-        },
-        {
-          "day_offset": 6,
-          "date": "2026-07-22",
-          "rep_angry": 0.0873,
-          "dem_angry": 0.0927,
+          "date": "2026-08-22",
+          "rep_angry": 0.092,
+          "dem_angry": 0.1071,
           "ind_angry": 0.0981
         },
         {
+          "day_offset": 4,
+          "date": "2026-08-23",
+          "rep_angry": 0.0881,
+          "dem_angry": 0.0982,
+          "ind_angry": 0.0921
+        },
+        {
+          "day_offset": 5,
+          "date": "2026-08-24",
+          "rep_angry": 0.0854,
+          "dem_angry": 0.0922,
+          "ind_angry": 0.0881
+        },
+        {
+          "day_offset": 6,
+          "date": "2026-08-25",
+          "rep_angry": 0.0836,
+          "dem_angry": 0.0882,
+          "ind_angry": 0.0854
+        },
+        {
           "day_offset": 7,
-          "date": "2026-07-23",
-          "rep_angry": 0.0849,
-          "dem_angry": 0.0885,
-          "ind_angry": 0.0922
+          "date": "2026-08-26",
+          "rep_angry": 0.0824,
+          "dem_angry": 0.0855,
+          "ind_angry": 0.0836
         }
       ]
     },
     {
-      "event_id": "pew",
-      "title": "7 月全国国会选情",
+      "event_id": "gdp",
+      "title": "二季度经济增长数据发布",
       "timeline": [
         {
           "day_offset": -2,
-          "date": "2026-07-21",
+          "date": "2026-08-24",
           "rep_angry": 0.08,
           "dem_angry": 0.08,
           "ind_angry": 0.08
         },
         {
           "day_offset": -1,
-          "date": "2026-07-22",
+          "date": "2026-08-25",
           "rep_angry": 0.08,
           "dem_angry": 0.08,
           "ind_angry": 0.08
         },
         {
           "day_offset": 0,
-          "date": "2026-07-23",
-          "rep_angry": 0.24,
-          "dem_angry": 0.12,
-          "ind_angry": 0.16
+          "date": "2026-08-26",
+          "rep_angry": 0.17,
+          "dem_angry": 0.22,
+          "ind_angry": 0.23
         },
         {
           "day_offset": 1,
-          "date": "2026-07-24",
-          "rep_angry": 0.1873,
-          "dem_angry": 0.1068,
-          "ind_angry": 0.1336
+          "date": "2026-08-27",
+          "rep_angry": 0.1403,
+          "dem_angry": 0.1738,
+          "ind_angry": 0.1805
         },
         {
           "day_offset": 2,
-          "date": "2026-07-25",
-          "rep_angry": 0.1519,
-          "dem_angry": 0.098,
-          "ind_angry": 0.1159
+          "date": "2026-08-28",
+          "rep_angry": 0.1204,
+          "dem_angry": 0.1429,
+          "ind_angry": 0.1474
         },
         {
           "day_offset": 3,
-          "date": "2026-07-26",
-          "rep_angry": 0.1282,
-          "dem_angry": 0.092,
-          "ind_angry": 0.1041
-        },
-        {
-          "day_offset": 4,
-          "date": "2026-07-27",
-          "rep_angry": 0.1123,
-          "dem_angry": 0.0881,
-          "ind_angry": 0.0962
-        },
-        {
-          "day_offset": 5,
-          "date": "2026-07-28",
-          "rep_angry": 0.1017,
-          "dem_angry": 0.0854,
-          "ind_angry": 0.0908
-        },
-        {
-          "day_offset": 6,
-          "date": "2026-07-29",
-          "rep_angry": 0.0945,
-          "dem_angry": 0.0836,
-          "ind_angry": 0.0873
-        },
-        {
-          "day_offset": 7,
-          "date": "2026-07-30",
-          "rep_angry": 0.0897,
-          "dem_angry": 0.0824,
-          "ind_angry": 0.0849
-        }
-      ]
-    },
-    {
-      "event_id": "august-cost",
-      "title": "生活成本继续受到关注",
-      "timeline": [
-        {
-          "day_offset": -2,
           "date": "2026-08-29",
+          "rep_angry": 0.1071,
+          "dem_angry": 0.1222,
+          "ind_angry": 0.1252
+        },
+        {
+          "day_offset": 4,
+          "date": "2026-08-30",
+          "rep_angry": 0.0982,
+          "dem_angry": 0.1083,
+          "ind_angry": 0.1103
+        },
+        {
+          "day_offset": 5,
+          "date": "2026-08-31",
+          "rep_angry": 0.0922,
+          "dem_angry": 0.0989,
+          "ind_angry": 0.1003
+        },
+        {
+          "day_offset": 6,
+          "date": "2026-09-01",
+          "rep_angry": 0.0882,
+          "dem_angry": 0.0927,
+          "ind_angry": 0.0936
+        },
+        {
+          "day_offset": 7,
+          "date": "2026-09-02",
+          "rep_angry": 0.0855,
+          "dem_angry": 0.0885,
+          "ind_angry": 0.0891
+        }
+      ]
+    },
+    {
+      "event_id": "jobs",
+      "title": "8 月新增非农就业 16.2 万",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "date": "2026-09-02",
           "rep_angry": 0.08,
           "dem_angry": 0.08,
           "ind_angry": 0.08
         },
         {
           "day_offset": -1,
-          "date": "2026-08-30",
+          "date": "2026-09-03",
           "rep_angry": 0.08,
           "dem_angry": 0.08,
           "ind_angry": 0.08
         },
         {
           "day_offset": 0,
-          "date": "2026-08-31",
-          "rep_angry": 0.18,
-          "dem_angry": 0.24,
-          "ind_angry": 0.32
+          "date": "2026-09-04",
+          "rep_angry": 0.11,
+          "dem_angry": 0.18,
+          "ind_angry": 0.14
         },
         {
           "day_offset": 1,
-          "date": "2026-09-01",
-          "rep_angry": 0.147,
-          "dem_angry": 0.1873,
-          "ind_angry": 0.2409
+          "date": "2026-09-05",
+          "rep_angry": 0.1001,
+          "dem_angry": 0.147,
+          "ind_angry": 0.1202
         },
         {
           "day_offset": 2,
-          "date": "2026-09-02",
-          "rep_angry": 0.1249,
-          "dem_angry": 0.1519,
-          "ind_angry": 0.1878
+          "date": "2026-09-06",
+          "rep_angry": 0.0935,
+          "dem_angry": 0.1249,
+          "ind_angry": 0.107
         },
         {
           "day_offset": 3,
-          "date": "2026-09-03",
-          "rep_angry": 0.1101,
-          "dem_angry": 0.1282,
-          "ind_angry": 0.1523
+          "date": "2026-09-07",
+          "rep_angry": 0.089,
+          "dem_angry": 0.1101,
+          "ind_angry": 0.0981
         },
         {
           "day_offset": 4,
-          "date": "2026-09-04",
-          "rep_angry": 0.1002,
-          "dem_angry": 0.1123,
-          "ind_angry": 0.1285
+          "date": "2026-09-08",
+          "rep_angry": 0.0861,
+          "dem_angry": 0.1002,
+          "ind_angry": 0.0921
         },
         {
           "day_offset": 5,
-          "date": "2026-09-05",
-          "rep_angry": 0.0935,
-          "dem_angry": 0.1017,
-          "ind_angry": 0.1125
+          "date": "2026-09-09",
+          "rep_angry": 0.0841,
+          "dem_angry": 0.0935,
+          "ind_angry": 0.0881
         },
         {
           "day_offset": 6,
-          "date": "2026-09-06",
-          "rep_angry": 0.0891,
-          "dem_angry": 0.0945,
-          "ind_angry": 0.1018
+          "date": "2026-09-10",
+          "rep_angry": 0.0827,
+          "dem_angry": 0.0891,
+          "ind_angry": 0.0854
         },
         {
           "day_offset": 7,
-          "date": "2026-09-07",
-          "rep_angry": 0.0861,
-          "dem_angry": 0.0897,
-          "ind_angry": 0.0946
+          "date": "2026-09-11",
+          "rep_angry": 0.0818,
+          "dem_angry": 0.0861,
+          "ind_angry": 0.0836
         }
       ]
     },
     {
       "event_id": "cpi",
-      "title": "8 月 CPI 发布",
+      "title": "8 月物价环比上涨 0.4%",
       "timeline": [
         {
           "day_offset": -2,
@@ -1064,82 +1051,6 @@
           "rep_angry": 0.0897,
           "dem_angry": 0.0958,
           "ind_angry": 0.0989
-        }
-      ]
-    },
-    {
-      "event_id": "sept-ipsos",
-      "title": "9 月全国国会选情",
-      "timeline": [
-        {
-          "day_offset": -2,
-          "date": "2026-09-12",
-          "rep_angry": 0.08,
-          "dem_angry": 0.08,
-          "ind_angry": 0.08
-        },
-        {
-          "day_offset": -1,
-          "date": "2026-09-13",
-          "rep_angry": 0.08,
-          "dem_angry": 0.08,
-          "ind_angry": 0.08
-        },
-        {
-          "day_offset": 0,
-          "date": "2026-09-14",
-          "rep_angry": 0.3,
-          "dem_angry": 0.14,
-          "ind_angry": 0.2
-        },
-        {
-          "day_offset": 1,
-          "date": "2026-09-15",
-          "rep_angry": 0.2275,
-          "dem_angry": 0.1202,
-          "ind_angry": 0.1604
-        },
-        {
-          "day_offset": 2,
-          "date": "2026-09-16",
-          "rep_angry": 0.1789,
-          "dem_angry": 0.107,
-          "ind_angry": 0.1339
-        },
-        {
-          "day_offset": 3,
-          "date": "2026-09-17",
-          "rep_angry": 0.1463,
-          "dem_angry": 0.0981,
-          "ind_angry": 0.1161
-        },
-        {
-          "day_offset": 4,
-          "date": "2026-09-18",
-          "rep_angry": 0.1244,
-          "dem_angry": 0.0921,
-          "ind_angry": 0.1042
-        },
-        {
-          "day_offset": 5,
-          "date": "2026-09-19",
-          "rep_angry": 0.1098,
-          "dem_angry": 0.0881,
-          "ind_angry": 0.0962
-        },
-        {
-          "day_offset": 6,
-          "date": "2026-09-20",
-          "rep_angry": 0.1,
-          "dem_angry": 0.0854,
-          "ind_angry": 0.0909
-        },
-        {
-          "day_offset": 7,
-          "date": "2026-09-21",
-          "rep_angry": 0.0934,
-          "dem_angry": 0.0836,
-          "ind_angry": 0.0873
         }
       ]
     },
@@ -1220,64 +1131,70 @@
       ]
     },
     {
-      "event_id": "cook",
-      "title": "众议院竞争评级调整",
+      "event_id": "medicare",
+      "title": "公布 2027 年医保保费预估",
       "timeline": [
         {
           "day_offset": -2,
-          "date": "2026-09-23",
+          "date": "2026-09-26",
           "rep_angry": 0.08,
           "dem_angry": 0.08,
           "ind_angry": 0.08
         },
         {
           "day_offset": -1,
-          "date": "2026-09-24",
+          "date": "2026-09-27",
           "rep_angry": 0.08,
           "dem_angry": 0.08,
           "ind_angry": 0.08
         },
         {
           "day_offset": 0,
-          "date": "2026-09-25",
-          "rep_angry": 0.34,
-          "dem_angry": 0.14,
-          "ind_angry": 0.21
+          "date": "2026-09-28",
+          "rep_angry": 0.13,
+          "dem_angry": 0.19,
+          "ind_angry": 0.16
         },
         {
           "day_offset": 1,
-          "date": "2026-09-26",
-          "rep_angry": 0.2543,
-          "dem_angry": 0.1202,
-          "ind_angry": 0.1671
+          "date": "2026-09-29",
+          "rep_angry": 0.1135,
+          "dem_angry": 0.1537,
+          "ind_angry": 0.1336
         },
         {
           "day_offset": 2,
-          "date": "2026-09-27",
-          "rep_angry": 0.1968,
-          "dem_angry": 0.107,
-          "ind_angry": 0.1384
-        },
-        {
-          "day_offset": 3,
-          "date": "2026-09-28",
-          "rep_angry": 0.1583,
-          "dem_angry": 0.0981,
-          "ind_angry": 0.1192
-        },
-        {
-          "day_offset": 4,
-          "date": "2026-09-29",
-          "rep_angry": 0.1325,
-          "dem_angry": 0.0921,
-          "ind_angry": 0.1062
-        },
-        {
-          "day_offset": 5,
           "date": "2026-09-30",
-          "rep_angry": 0.1152,
-          "dem_angry": 0.0881,
-          "ind_angry": 0.0976
+          "rep_angry": 0.1025,
+          "dem_angry": 0.1294,
+          "ind_angry": 0.1159
+        }
+      ]
+    },
+    {
+      "event_id": "income",
+      "title": "8 月实际可支配收入持平",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "date": "2026-09-28",
+          "rep_angry": 0.08,
+          "dem_angry": 0.08,
+          "ind_angry": 0.08
+        },
+        {
+          "day_offset": -1,
+          "date": "2026-09-29",
+          "rep_angry": 0.08,
+          "dem_angry": 0.08,
+          "ind_angry": 0.08
+        },
+        {
+          "day_offset": 0,
+          "date": "2026-09-30",
+          "rep_angry": 0.21,
+          "dem_angry": 0.27,
+          "ind_angry": 0.32
         }
       ]
     }

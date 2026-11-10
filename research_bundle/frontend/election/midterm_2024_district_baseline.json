@@ -1,0 +1,3052 @@
+{
+  "source": "https://doi.org/10.7910/DVN/IG0UN2",
+  "version": "15",
+  "mirror": "https://crproject.org/data/jsoncsv/mit-1976-2024-house.csv",
+  "rows": [
+    {
+      "state": "AK",
+      "district_2024": 0,
+      "democratic_votes_2024": 152828,
+      "republican_votes_2024": 159550,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "AL",
+      "district_2024": 1,
+      "democratic_votes_2024": 70929,
+      "republican_votes_2024": 258619,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AL",
+      "district_2024": 2,
+      "democratic_votes_2024": 158041,
+      "republican_votes_2024": 131414,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "AL",
+      "district_2024": 3,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 243848,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AL",
+      "district_2024": 4,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 274498,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AL",
+      "district_2024": 5,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 250322,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AL",
+      "district_2024": 6,
+      "democratic_votes_2024": 102504,
+      "republican_votes_2024": 243741,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AL",
+      "district_2024": 7,
+      "democratic_votes_2024": 186723,
+      "republican_votes_2024": 106312,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "AR",
+      "district_2024": 1,
+      "democratic_votes_2024": 64113,
+      "republican_votes_2024": 194711,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AR",
+      "district_2024": 2,
+      "democratic_votes_2024": 125777,
+      "republican_votes_2024": 180509,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AR",
+      "district_2024": 3,
+      "democratic_votes_2024": 95652,
+      "republican_votes_2024": 192101,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AR",
+      "district_2024": 4,
+      "democratic_votes_2024": 73207,
+      "republican_votes_2024": 197046,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AZ",
+      "district_2024": 1,
+      "democratic_votes_2024": 208966,
+      "republican_votes_2024": 225538,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "AZ",
+      "district_2024": 2,
+      "democratic_votes_2024": 184963,
+      "republican_votes_2024": 221413,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "AZ",
+      "district_2024": 3,
+      "democratic_votes_2024": 143336,
+      "republican_votes_2024": 53705,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "AZ",
+      "district_2024": 4,
+      "democratic_votes_2024": 176428,
+      "republican_votes_2024": 152052,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "AZ",
+      "district_2024": 5,
+      "democratic_votes_2024": 167680,
+      "republican_votes_2024": 255628,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AZ",
+      "district_2024": 6,
+      "democratic_votes_2024": 204774,
+      "republican_votes_2024": 215596,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "AZ",
+      "district_2024": 7,
+      "democratic_votes_2024": 171954,
+      "republican_votes_2024": 99057,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "AZ",
+      "district_2024": 8,
+      "democratic_votes_2024": 160344,
+      "republican_votes_2024": 208269,
+      "projected_party": "republican"
+    },
+    {
+      "state": "AZ",
+      "district_2024": 9,
+      "democratic_votes_2024": 132640,
+      "republican_votes_2024": 249583,
+      "projected_party": "republican"
+    },
+    {
+      "state": "CA",
+      "district_2024": 1,
+      "democratic_votes_2024": 110636,
+      "republican_votes_2024": 208592,
+      "projected_party": "republican"
+    },
+    {
+      "state": "CA",
+      "district_2024": 2,
+      "democratic_votes_2024": 272883,
+      "republican_votes_2024": 106734,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 3,
+      "democratic_votes_2024": 188067,
+      "republican_votes_2024": 234246,
+      "projected_party": "republican"
+    },
+    {
+      "state": "CA",
+      "district_2024": 4,
+      "democratic_votes_2024": 227730,
+      "republican_votes_2024": 114950,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 5,
+      "democratic_votes_2024": 140919,
+      "republican_votes_2024": 227643,
+      "projected_party": "republican"
+    },
+    {
+      "state": "CA",
+      "district_2024": 6,
+      "democratic_votes_2024": 165408,
+      "republican_votes_2024": 121664,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 7,
+      "democratic_votes_2024": 197429,
+      "republican_votes_2024": 98341,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 8,
+      "democratic_votes_2024": 201962,
+      "republican_votes_2024": 71068,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 9,
+      "democratic_votes_2024": 130183,
+      "republican_votes_2024": 121174,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 10,
+      "democratic_votes_2024": 242325,
+      "republican_votes_2024": 122219,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 11,
+      "democratic_votes_2024": 274796,
+      "republican_votes_2024": 64315,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 12,
+      "democratic_votes_2024": 185176,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 13,
+      "democratic_votes_2024": 105554,
+      "republican_votes_2024": 105367,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 14,
+      "democratic_votes_2024": 187263,
+      "republican_votes_2024": 89125,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 15,
+      "democratic_votes_2024": 211648,
+      "republican_votes_2024": 77896,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 16,
+      "democratic_votes_2024": 179583,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 17,
+      "democratic_votes_2024": 172462,
+      "republican_votes_2024": 82415,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 18,
+      "democratic_votes_2024": 147674,
+      "republican_votes_2024": 80832,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 19,
+      "democratic_votes_2024": 252458,
+      "republican_votes_2024": 111862,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 20,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 187862,
+      "projected_party": "republican"
+    },
+    {
+      "state": "CA",
+      "district_2024": 21,
+      "democratic_votes_2024": 102798,
+      "republican_votes_2024": 92733,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 22,
+      "democratic_votes_2024": 78023,
+      "republican_votes_2024": 89484,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 23,
+      "democratic_votes_2024": 105563,
+      "republican_votes_2024": 159286,
+      "projected_party": "republican"
+    },
+    {
+      "state": "CA",
+      "district_2024": 24,
+      "democratic_votes_2024": 214724,
+      "republican_votes_2024": 127755,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 25,
+      "democratic_votes_2024": 137837,
+      "republican_votes_2024": 107194,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 26,
+      "democratic_votes_2024": 187393,
+      "republican_votes_2024": 146913,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 27,
+      "democratic_votes_2024": 154040,
+      "republican_votes_2024": 146050,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 28,
+      "democratic_votes_2024": 204489,
+      "republican_votes_2024": 110455,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 29,
+      "democratic_votes_2024": 146312,
+      "republican_votes_2024": 63374,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 30,
+      "democratic_votes_2024": 213100,
+      "republican_votes_2024": 98559,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 31,
+      "democratic_votes_2024": 148095,
+      "republican_votes_2024": 99856,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 32,
+      "democratic_votes_2024": 212934,
+      "republican_votes_2024": 108711,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 33,
+      "democratic_votes_2024": 137197,
+      "republican_votes_2024": 96078,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 34,
+      "democratic_votes_2024": 105394,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 35,
+      "democratic_votes_2024": 136413,
+      "republican_votes_2024": 97142,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 36,
+      "democratic_votes_2024": 246002,
+      "republican_votes_2024": 111985,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 37,
+      "democratic_votes_2024": 160364,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 38,
+      "democratic_votes_2024": 165110,
+      "republican_votes_2024": 110818,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 39,
+      "democratic_votes_2024": 130191,
+      "republican_votes_2024": 99469,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 40,
+      "democratic_votes_2024": 171637,
+      "republican_votes_2024": 211998,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 41,
+      "democratic_votes_2024": 171229,
+      "republican_votes_2024": 183216,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 42,
+      "democratic_votes_2024": 159153,
+      "republican_votes_2024": 74410,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 43,
+      "democratic_votes_2024": 160080,
+      "republican_votes_2024": 53152,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 44,
+      "democratic_votes_2024": 164765,
+      "republican_votes_2024": 66087,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 45,
+      "democratic_votes_2024": 158264,
+      "republican_votes_2024": 157611,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 46,
+      "democratic_votes_2024": 134013,
+      "republican_votes_2024": 77279,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 47,
+      "democratic_votes_2024": 181721,
+      "republican_votes_2024": 171554,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 48,
+      "democratic_votes_2024": 146665,
+      "republican_votes_2024": 213625,
+      "projected_party": "republican"
+    },
+    {
+      "state": "CA",
+      "district_2024": 49,
+      "democratic_votes_2024": 197397,
+      "republican_votes_2024": 180950,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 50,
+      "democratic_votes_2024": 231836,
+      "republican_votes_2024": 128859,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 51,
+      "democratic_votes_2024": 198835,
+      "republican_votes_2024": 128749,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CA",
+      "district_2024": 52,
+      "democratic_votes_2024": 172217,
+      "republican_votes_2024": 87501,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CO",
+      "district_2024": 1,
+      "democratic_votes_2024": 264606,
+      "republican_votes_2024": 74598,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CO",
+      "district_2024": 2,
+      "democratic_votes_2024": 284994,
+      "republican_votes_2024": 120633,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CO",
+      "district_2024": 3,
+      "democratic_votes_2024": 182147,
+      "republican_votes_2024": 201951,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CO",
+      "district_2024": 4,
+      "democratic_votes_2024": 188249,
+      "republican_votes_2024": 240213,
+      "projected_party": "republican"
+    },
+    {
+      "state": "CO",
+      "district_2024": 5,
+      "democratic_votes_2024": 147972,
+      "republican_votes_2024": 197924,
+      "projected_party": "republican"
+    },
+    {
+      "state": "CO",
+      "district_2024": 6,
+      "democratic_votes_2024": 202686,
+      "republican_votes_2024": 132174,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CO",
+      "district_2024": 7,
+      "democratic_votes_2024": 235688,
+      "republican_votes_2024": 175273,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CO",
+      "district_2024": 8,
+      "democratic_votes_2024": 160871,
+      "republican_votes_2024": 163320,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CT",
+      "district_2024": 1,
+      "democratic_votes_2024": 197788,
+      "republican_votes_2024": 115065,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CT",
+      "district_2024": 2,
+      "democratic_votes_2024": 218162,
+      "republican_votes_2024": 157878,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CT",
+      "district_2024": 3,
+      "democratic_votes_2024": 193684,
+      "republican_votes_2024": 130095,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CT",
+      "district_2024": 4,
+      "democratic_votes_2024": 200791,
+      "republican_votes_2024": 122793,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "CT",
+      "district_2024": 5,
+      "democratic_votes_2024": 171337,
+      "republican_votes_2024": 157258,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "DE",
+      "district_2024": 0,
+      "democratic_votes_2024": 287830,
+      "republican_votes_2024": 209606,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 1,
+      "democratic_votes_2024": 140980,
+      "republican_votes_2024": 274108,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 2,
+      "democratic_votes_2024": 154323,
+      "republican_votes_2024": 247957,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 3,
+      "democratic_votes_2024": 150283,
+      "republican_votes_2024": 241174,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 4,
+      "democratic_votes_2024": 165912,
+      "republican_votes_2024": 222364,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 5,
+      "democratic_votes_2024": 156570,
+      "republican_votes_2024": 267471,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 6,
+      "democratic_votes_2024": 143050,
+      "republican_votes_2024": 284414,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 7,
+      "democratic_votes_2024": 179917,
+      "republican_votes_2024": 233937,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 8,
+      "democratic_votes_2024": 170096,
+      "republican_votes_2024": 280352,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 9,
+      "democratic_votes_2024": 178785,
+      "republican_votes_2024": 138076,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 10,
+      "democratic_votes_2024": 181455,
+      "republican_votes_2024": 109460,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 11,
+      "democratic_votes_2024": 176726,
+      "republican_votes_2024": 269277,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 12,
+      "democratic_votes_2024": 124949,
+      "republican_votes_2024": 306487,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 13,
+      "democratic_votes_2024": 185930,
+      "republican_votes_2024": 225636,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 14,
+      "democratic_votes_2024": 199423,
+      "republican_votes_2024": 145643,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 15,
+      "democratic_votes_2024": 152361,
+      "republican_votes_2024": 195334,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 16,
+      "democratic_votes_2024": 168625,
+      "republican_votes_2024": 247516,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 17,
+      "democratic_votes_2024": 164566,
+      "republican_votes_2024": 291347,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 18,
+      "democratic_votes_2024": 119637,
+      "republican_votes_2024": 225170,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 19,
+      "democratic_votes_2024": 140038,
+      "republican_votes_2024": 275708,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 20,
+      "democratic_votes_2024": 1,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 21,
+      "democratic_votes_2024": 171312,
+      "republican_votes_2024": 277435,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 22,
+      "democratic_votes_2024": 201608,
+      "republican_votes_2024": 165248,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 23,
+      "democratic_votes_2024": 196311,
+      "republican_votes_2024": 178006,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 24,
+      "democratic_votes_2024": 194874,
+      "republican_votes_2024": 90692,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 25,
+      "democratic_votes_2024": 186942,
+      "republican_votes_2024": 156208,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "FL",
+      "district_2024": 26,
+      "democratic_votes_2024": 89072,
+      "republican_votes_2024": 217199,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 27,
+      "democratic_votes_2024": 130708,
+      "republican_votes_2024": 199159,
+      "projected_party": "republican"
+    },
+    {
+      "state": "FL",
+      "district_2024": 28,
+      "democratic_votes_2024": 115280,
+      "republican_votes_2024": 210057,
+      "projected_party": "republican"
+    },
+    {
+      "state": "GA",
+      "district_2024": 1,
+      "democratic_votes_2024": 135281,
+      "republican_votes_2024": 220576,
+      "projected_party": "republican"
+    },
+    {
+      "state": "GA",
+      "district_2024": 2,
+      "democratic_votes_2024": 176028,
+      "republican_votes_2024": 136473,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "GA",
+      "district_2024": 3,
+      "democratic_votes_2024": 138749,
+      "republican_votes_2024": 273036,
+      "projected_party": "republican"
+    },
+    {
+      "state": "GA",
+      "district_2024": 4,
+      "democratic_votes_2024": 229290,
+      "republican_votes_2024": 74071,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "GA",
+      "district_2024": 5,
+      "democratic_votes_2024": 294470,
+      "republican_votes_2024": 49221,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "GA",
+      "district_2024": 6,
+      "democratic_votes_2024": 277027,
+      "republican_votes_2024": 93909,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "GA",
+      "district_2024": 7,
+      "democratic_votes_2024": 149535,
+      "republican_votes_2024": 275907,
+      "projected_party": "republican"
+    },
+    {
+      "state": "GA",
+      "district_2024": 8,
+      "democratic_votes_2024": 104434,
+      "republican_votes_2024": 231547,
+      "projected_party": "republican"
+    },
+    {
+      "state": "GA",
+      "district_2024": 9,
+      "democratic_votes_2024": 121754,
+      "republican_votes_2024": 271062,
+      "projected_party": "republican"
+    },
+    {
+      "state": "GA",
+      "district_2024": 10,
+      "democratic_votes_2024": 150274,
+      "republican_votes_2024": 256442,
+      "projected_party": "republican"
+    },
+    {
+      "state": "GA",
+      "district_2024": 11,
+      "democratic_votes_2024": 131064,
+      "republican_votes_2024": 269849,
+      "projected_party": "republican"
+    },
+    {
+      "state": "GA",
+      "district_2024": 12,
+      "democratic_votes_2024": 135417,
+      "republican_votes_2024": 205849,
+      "projected_party": "republican"
+    },
+    {
+      "state": "GA",
+      "district_2024": 13,
+      "democratic_votes_2024": 256902,
+      "republican_votes_2024": 100730,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "GA",
+      "district_2024": 14,
+      "democratic_votes_2024": 134759,
+      "republican_votes_2024": 243446,
+      "projected_party": "republican"
+    },
+    {
+      "state": "HI",
+      "district_2024": 1,
+      "democratic_votes_2024": 164237,
+      "republican_votes_2024": 64373,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "HI",
+      "district_2024": 2,
+      "democratic_votes_2024": 166251,
+      "republican_votes_2024": 75471,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IA",
+      "district_2024": 1,
+      "democratic_votes_2024": 206156,
+      "republican_votes_2024": 206955,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IA",
+      "district_2024": 2,
+      "democratic_votes_2024": 169740,
+      "republican_votes_2024": 233340,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IA",
+      "district_2024": 3,
+      "democratic_votes_2024": 197962,
+      "republican_votes_2024": 213746,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IA",
+      "district_2024": 4,
+      "democratic_votes_2024": 122175,
+      "republican_votes_2024": 250522,
+      "projected_party": "republican"
+    },
+    {
+      "state": "ID",
+      "district_2024": 1,
+      "democratic_votes_2024": 118656,
+      "republican_votes_2024": 331049,
+      "projected_party": "republican"
+    },
+    {
+      "state": "ID",
+      "district_2024": 2,
+      "democratic_votes_2024": 126229,
+      "republican_votes_2024": 250119,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IL",
+      "district_2024": 1,
+      "democratic_votes_2024": 208398,
+      "republican_votes_2024": 108064,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 2,
+      "democratic_votes_2024": 195777,
+      "republican_votes_2024": 94004,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 3,
+      "democratic_votes_2024": 174825,
+      "republican_votes_2024": 84987,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 4,
+      "democratic_votes_2024": 139343,
+      "republican_votes_2024": 56323,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 5,
+      "democratic_votes_2024": 251025,
+      "republican_votes_2024": 112931,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 6,
+      "democratic_votes_2024": 196647,
+      "republican_votes_2024": 166116,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 7,
+      "democratic_votes_2024": 222408,
+      "republican_votes_2024": 44598,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 8,
+      "democratic_votes_2024": 172920,
+      "republican_votes_2024": 130153,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 9,
+      "democratic_votes_2024": 231722,
+      "republican_votes_2024": 107106,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 10,
+      "democratic_votes_2024": 196358,
+      "republican_votes_2024": 131025,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 11,
+      "democratic_votes_2024": 199825,
+      "republican_votes_2024": 159630,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 12,
+      "democratic_votes_2024": 94875,
+      "republican_votes_2024": 272754,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IL",
+      "district_2024": 13,
+      "democratic_votes_2024": 191339,
+      "republican_votes_2024": 137917,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 14,
+      "democratic_votes_2024": 183446,
+      "republican_votes_2024": 149464,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IL",
+      "district_2024": 15,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 308825,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IL",
+      "district_2024": 16,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 310925,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IL",
+      "district_2024": 17,
+      "democratic_votes_2024": 170261,
+      "republican_votes_2024": 142567,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IN",
+      "district_2024": 1,
+      "democratic_votes_2024": 172467,
+      "republican_votes_2024": 145056,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IN",
+      "district_2024": 2,
+      "democratic_votes_2024": 101962,
+      "republican_votes_2024": 184848,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IN",
+      "district_2024": 3,
+      "democratic_votes_2024": 97871,
+      "republican_votes_2024": 202653,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IN",
+      "district_2024": 4,
+      "democratic_votes_2024": 100091,
+      "republican_votes_2024": 209794,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IN",
+      "district_2024": 5,
+      "democratic_votes_2024": 136554,
+      "republican_votes_2024": 203293,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IN",
+      "district_2024": 6,
+      "democratic_votes_2024": 99841,
+      "republican_votes_2024": 201357,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IN",
+      "district_2024": 7,
+      "democratic_votes_2024": 185987,
+      "republican_votes_2024": 78792,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "IN",
+      "district_2024": 8,
+      "democratic_votes_2024": 95311,
+      "republican_votes_2024": 219941,
+      "projected_party": "republican"
+    },
+    {
+      "state": "IN",
+      "district_2024": 9,
+      "democratic_votes_2024": 113400,
+      "republican_votes_2024": 222884,
+      "projected_party": "republican"
+    },
+    {
+      "state": "KS",
+      "district_2024": 1,
+      "democratic_votes_2024": 93965,
+      "republican_votes_2024": 210493,
+      "projected_party": "republican"
+    },
+    {
+      "state": "KS",
+      "district_2024": 2,
+      "democratic_votes_2024": 115685,
+      "republican_votes_2024": 172847,
+      "projected_party": "republican"
+    },
+    {
+      "state": "KS",
+      "district_2024": 3,
+      "democratic_votes_2024": 209871,
+      "republican_votes_2024": 167570,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "KS",
+      "district_2024": 4,
+      "democratic_votes_2024": 106632,
+      "republican_votes_2024": 198465,
+      "projected_party": "republican"
+    },
+    {
+      "state": "KY",
+      "district_2024": 1,
+      "democratic_votes_2024": 85524,
+      "republican_votes_2024": 252729,
+      "projected_party": "republican"
+    },
+    {
+      "state": "KY",
+      "district_2024": 2,
+      "democratic_votes_2024": 93029,
+      "republican_votes_2024": 252826,
+      "projected_party": "republican"
+    },
+    {
+      "state": "KY",
+      "district_2024": 3,
+      "democratic_votes_2024": 203100,
+      "republican_votes_2024": 124713,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "KY",
+      "district_2024": 4,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 278386,
+      "projected_party": "republican"
+    },
+    {
+      "state": "KY",
+      "district_2024": 5,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 261407,
+      "projected_party": "republican"
+    },
+    {
+      "state": "KY",
+      "district_2024": 6,
+      "democratic_votes_2024": 130345,
+      "republican_votes_2024": 222293,
+      "projected_party": "republican"
+    },
+    {
+      "state": "LA",
+      "district_2024": 1,
+      "democratic_votes_2024": 85911,
+      "republican_votes_2024": 238842,
+      "projected_party": "republican"
+    },
+    {
+      "state": "LA",
+      "district_2024": 2,
+      "democratic_votes_2024": 184009,
+      "republican_votes_2024": 41641,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "LA",
+      "district_2024": 3,
+      "democratic_votes_2024": 59834,
+      "republican_votes_2024": 226279,
+      "projected_party": "republican"
+    },
+    {
+      "state": "LA",
+      "district_2024": 4,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 262821,
+      "projected_party": "republican"
+    },
+    {
+      "state": "LA",
+      "district_2024": 5,
+      "democratic_votes_2024": 82981,
+      "republican_votes_2024": 201037,
+      "projected_party": "republican"
+    },
+    {
+      "state": "LA",
+      "district_2024": 6,
+      "democratic_votes_2024": 150323,
+      "republican_votes_2024": 111737,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MA",
+      "district_2024": 1,
+      "democratic_votes_2024": 223325,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MA",
+      "district_2024": 2,
+      "democratic_votes_2024": 251441,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MA",
+      "district_2024": 3,
+      "democratic_votes_2024": 264698,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MA",
+      "district_2024": 4,
+      "democratic_votes_2024": 289347,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MA",
+      "district_2024": 5,
+      "democratic_votes_2024": 286689,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MA",
+      "district_2024": 6,
+      "democratic_votes_2024": 321186,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MA",
+      "district_2024": 7,
+      "democratic_votes_2024": 232094,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MA",
+      "district_2024": 8,
+      "democratic_votes_2024": 265432,
+      "republican_votes_2024": 110638,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MA",
+      "district_2024": 9,
+      "democratic_votes_2024": 251931,
+      "republican_votes_2024": 193822,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MD",
+      "district_2024": 1,
+      "democratic_votes_2024": 154985,
+      "republican_votes_2024": 246356,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MD",
+      "district_2024": 2,
+      "democratic_votes_2024": 223797,
+      "republican_votes_2024": 152079,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MD",
+      "district_2024": 3,
+      "democratic_votes_2024": 236681,
+      "republican_votes_2024": 151186,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MD",
+      "district_2024": 4,
+      "democratic_votes_2024": 239596,
+      "republican_votes_2024": 30454,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MD",
+      "district_2024": 5,
+      "democratic_votes_2024": 283619,
+      "republican_votes_2024": 133985,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MD",
+      "district_2024": 6,
+      "democratic_votes_2024": 199788,
+      "republican_votes_2024": 175974,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MD",
+      "district_2024": 7,
+      "democratic_votes_2024": 232849,
+      "republican_votes_2024": 49799,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MD",
+      "district_2024": 8,
+      "democratic_votes_2024": 292101,
+      "republican_votes_2024": 77821,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "ME",
+      "district_2024": 1,
+      "democratic_votes_2024": 249798,
+      "republican_votes_2024": 154849,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "ME",
+      "district_2024": 2,
+      "democratic_votes_2024": 197151,
+      "republican_votes_2024": 194445,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MI",
+      "district_2024": 1,
+      "democratic_votes_2024": 180937,
+      "republican_votes_2024": 282264,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MI",
+      "district_2024": 2,
+      "democratic_votes_2024": 135824,
+      "republican_votes_2024": 279167,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MI",
+      "district_2024": 3,
+      "democratic_votes_2024": 225510,
+      "republican_votes_2024": 183952,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MI",
+      "district_2024": 4,
+      "democratic_votes_2024": 184641,
+      "republican_votes_2024": 234489,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MI",
+      "district_2024": 5,
+      "democratic_votes_2024": 134282,
+      "republican_votes_2024": 269215,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MI",
+      "district_2024": 6,
+      "democratic_votes_2024": 281162,
+      "republican_votes_2024": 158658,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MI",
+      "district_2024": 7,
+      "democratic_votes_2024": 209959,
+      "republican_votes_2024": 226722,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MI",
+      "district_2024": 8,
+      "democratic_votes_2024": 217490,
+      "republican_votes_2024": 189317,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MI",
+      "district_2024": 9,
+      "democratic_votes_2024": 138138,
+      "republican_votes_2024": 312593,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MI",
+      "district_2024": 10,
+      "democratic_votes_2024": 191363,
+      "republican_votes_2024": 217437,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MI",
+      "district_2024": 11,
+      "democratic_votes_2024": 260780,
+      "republican_votes_2024": 177432,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MI",
+      "district_2024": 12,
+      "democratic_votes_2024": 253354,
+      "republican_votes_2024": 92490,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MI",
+      "district_2024": 13,
+      "democratic_votes_2024": 220788,
+      "republican_votes_2024": 78917,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MN",
+      "district_2024": 1,
+      "democratic_votes_2024": 156375,
+      "republican_votes_2024": 220929,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MN",
+      "district_2024": 2,
+      "democratic_votes_2024": 231751,
+      "republican_votes_2024": 175621,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MN",
+      "district_2024": 3,
+      "democratic_votes_2024": 240209,
+      "republican_votes_2024": 170427,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MN",
+      "district_2024": 4,
+      "democratic_votes_2024": 242802,
+      "republican_votes_2024": 117618,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MN",
+      "district_2024": 5,
+      "democratic_votes_2024": 261066,
+      "republican_votes_2024": 86213,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MN",
+      "district_2024": 6,
+      "democratic_votes_2024": 155836,
+      "republican_votes_2024": 260095,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MN",
+      "district_2024": 7,
+      "democratic_votes_2024": 114979,
+      "republican_votes_2024": 275098,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MN",
+      "district_2024": 8,
+      "democratic_votes_2024": 176724,
+      "republican_votes_2024": 244498,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MO",
+      "district_2024": 1,
+      "democratic_votes_2024": 233312,
+      "republican_votes_2024": 56453,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MO",
+      "district_2024": 2,
+      "democratic_votes_2024": 182056,
+      "republican_votes_2024": 233444,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MO",
+      "district_2024": 3,
+      "democratic_votes_2024": 138532,
+      "republican_votes_2024": 240620,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MO",
+      "district_2024": 4,
+      "democratic_votes_2024": 96568,
+      "republican_votes_2024": 259886,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MO",
+      "district_2024": 5,
+      "democratic_votes_2024": 199900,
+      "republican_votes_2024": 120957,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MO",
+      "district_2024": 6,
+      "democratic_votes_2024": 100999,
+      "republican_votes_2024": 265210,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MO",
+      "district_2024": 7,
+      "democratic_votes_2024": 96655,
+      "republican_votes_2024": 263231,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MO",
+      "district_2024": 8,
+      "democratic_votes_2024": 77649,
+      "republican_votes_2024": 271249,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MS",
+      "district_2024": 1,
+      "democratic_votes_2024": 96697,
+      "republican_votes_2024": 223589,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MS",
+      "district_2024": 2,
+      "democratic_votes_2024": 177885,
+      "republican_votes_2024": 108956,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MS",
+      "district_2024": 3,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 265159,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MS",
+      "district_2024": 4,
+      "democratic_votes_2024": 75771,
+      "republican_votes_2024": 215095,
+      "projected_party": "republican"
+    },
+    {
+      "state": "MT",
+      "district_2024": 1,
+      "democratic_votes_2024": 143783,
+      "republican_votes_2024": 168529,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "MT",
+      "district_2024": 2,
+      "democratic_votes_2024": 93713,
+      "republican_votes_2024": 181832,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 1,
+      "democratic_votes_2024": 186341,
+      "republican_votes_2024": 180034,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NC",
+      "district_2024": 2,
+      "democratic_votes_2024": 268662,
+      "republican_votes_2024": 128164,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NC",
+      "district_2024": 3,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 248276,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 4,
+      "democratic_votes_2024": 308064,
+      "republican_votes_2024": 112084,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NC",
+      "district_2024": 5,
+      "democratic_votes_2024": 162390,
+      "republican_votes_2024": 238304,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 6,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 233303,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 7,
+      "democratic_votes_2024": 179512,
+      "republican_votes_2024": 254022,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 8,
+      "democratic_votes_2024": 161709,
+      "republican_votes_2024": 238640,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 9,
+      "democratic_votes_2024": 140852,
+      "republican_votes_2024": 210042,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 10,
+      "democratic_votes_2024": 155383,
+      "republican_votes_2024": 233814,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 11,
+      "democratic_votes_2024": 186977,
+      "republican_votes_2024": 245546,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 12,
+      "democratic_votes_2024": 259627,
+      "republican_votes_2024": 91128,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NC",
+      "district_2024": 13,
+      "democratic_votes_2024": 171835,
+      "republican_votes_2024": 243655,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NC",
+      "district_2024": 14,
+      "democratic_votes_2024": 168269,
+      "republican_votes_2024": 232987,
+      "projected_party": "republican"
+    },
+    {
+      "state": "ND",
+      "district_2024": 0,
+      "democratic_votes_2024": 109231,
+      "republican_votes_2024": 249101,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NE",
+      "district_2024": 1,
+      "democratic_votes_2024": 124498,
+      "republican_votes_2024": 187559,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NE",
+      "district_2024": 2,
+      "democratic_votes_2024": 154369,
+      "republican_votes_2024": 160198,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NE",
+      "district_2024": 3,
+      "democratic_votes_2024": 59287,
+      "republican_votes_2024": 243481,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NH",
+      "district_2024": 1,
+      "democratic_votes_2024": 218577,
+      "republican_votes_2024": 185936,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NH",
+      "district_2024": 2,
+      "democratic_votes_2024": 211641,
+      "republican_votes_2024": 187810,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 1,
+      "democratic_votes_2024": 208808,
+      "republican_votes_2024": 144390,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 2,
+      "democratic_votes_2024": 153117,
+      "republican_votes_2024": 215946,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 3,
+      "democratic_votes_2024": 202034,
+      "republican_votes_2024": 169454,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 4,
+      "democratic_votes_2024": 124803,
+      "republican_votes_2024": 265652,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 5,
+      "democratic_votes_2024": 208359,
+      "republican_votes_2024": 165287,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 6,
+      "democratic_votes_2024": 170275,
+      "republican_votes_2024": 122519,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 7,
+      "democratic_votes_2024": 200025,
+      "republican_votes_2024": 223331,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 8,
+      "democratic_votes_2024": 116434,
+      "republican_votes_2024": 68152,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 9,
+      "democratic_votes_2024": 130514,
+      "republican_votes_2024": 117939,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 10,
+      "democratic_votes_2024": 182020,
+      "republican_votes_2024": 54405,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 11,
+      "democratic_votes_2024": 222583,
+      "republican_votes_2024": 164556,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NJ",
+      "district_2024": 12,
+      "democratic_votes_2024": 196871,
+      "republican_votes_2024": 117222,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NM",
+      "district_2024": 1,
+      "democratic_votes_2024": 193203,
+      "republican_votes_2024": 149546,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NM",
+      "district_2024": 2,
+      "democratic_votes_2024": 138177,
+      "republican_votes_2024": 127145,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NM",
+      "district_2024": 3,
+      "democratic_votes_2024": 162342,
+      "republican_votes_2024": 126085,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NV",
+      "district_2024": 1,
+      "democratic_votes_2024": 167885,
+      "republican_votes_2024": 143650,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NV",
+      "district_2024": 2,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 219919,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NV",
+      "district_2024": 3,
+      "democratic_votes_2024": 191304,
+      "republican_votes_2024": 181084,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NV",
+      "district_2024": 4,
+      "democratic_votes_2024": 174926,
+      "republican_votes_2024": 148061,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 1,
+      "democratic_votes_2024": 183540,
+      "republican_votes_2024": 226285,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 2,
+      "democratic_votes_2024": 136371,
+      "republican_votes_2024": 202597,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NY",
+      "district_2024": 3,
+      "democratic_votes_2024": 187651,
+      "republican_votes_2024": 174693,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 4,
+      "democratic_votes_2024": 191760,
+      "republican_votes_2024": 183157,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 5,
+      "democratic_votes_2024": 168425,
+      "republican_votes_2024": 56689,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 6,
+      "democratic_votes_2024": 120205,
+      "republican_votes_2024": 74559,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 7,
+      "democratic_votes_2024": 172795,
+      "republican_votes_2024": 48435,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 8,
+      "democratic_votes_2024": 168036,
+      "republican_votes_2024": 54863,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 9,
+      "democratic_votes_2024": 173207,
+      "republican_votes_2024": 60064,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 10,
+      "democratic_votes_2024": 206206,
+      "republican_votes_2024": 37555,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 11,
+      "democratic_votes_2024": 93586,
+      "republican_votes_2024": 167099,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NY",
+      "district_2024": 12,
+      "democratic_votes_2024": 260165,
+      "republican_votes_2024": 62989,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 13,
+      "democratic_votes_2024": 181800,
+      "republican_votes_2024": 35822,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 14,
+      "democratic_votes_2024": 132714,
+      "republican_votes_2024": 59078,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 15,
+      "democratic_votes_2024": 130392,
+      "republican_votes_2024": 36010,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 16,
+      "democratic_votes_2024": 217668,
+      "republican_votes_2024": 86408,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 17,
+      "democratic_votes_2024": 173899,
+      "republican_votes_2024": 197845,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 18,
+      "democratic_votes_2024": 207106,
+      "republican_votes_2024": 155129,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 19,
+      "democratic_votes_2024": 192647,
+      "republican_votes_2024": 184290,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 20,
+      "democratic_votes_2024": 221997,
+      "republican_votes_2024": 141151,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 21,
+      "democratic_votes_2024": 132447,
+      "republican_votes_2024": 215996,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NY",
+      "district_2024": 22,
+      "democratic_votes_2024": 194450,
+      "republican_votes_2024": 161939,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 23,
+      "democratic_votes_2024": 128397,
+      "republican_votes_2024": 246969,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NY",
+      "district_2024": 24,
+      "democratic_votes_2024": 123317,
+      "republican_votes_2024": 235867,
+      "projected_party": "republican"
+    },
+    {
+      "state": "NY",
+      "district_2024": 25,
+      "democratic_votes_2024": 219175,
+      "republican_votes_2024": 141195,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "NY",
+      "district_2024": 26,
+      "democratic_votes_2024": 209131,
+      "republican_votes_2024": 111772,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OH",
+      "district_2024": 1,
+      "democratic_votes_2024": 213916,
+      "republican_votes_2024": 177993,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OH",
+      "district_2024": 2,
+      "democratic_votes_2024": 96401,
+      "republican_votes_2024": 268211,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OH",
+      "district_2024": 3,
+      "democratic_votes_2024": 242632,
+      "republican_votes_2024": 100355,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OH",
+      "district_2024": 4,
+      "democratic_votes_2024": 125905,
+      "republican_votes_2024": 273297,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OH",
+      "district_2024": 5,
+      "democratic_votes_2024": 123024,
+      "republican_votes_2024": 255633,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OH",
+      "district_2024": 6,
+      "democratic_votes_2024": 122515,
+      "republican_votes_2024": 245860,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OH",
+      "district_2024": 7,
+      "democratic_votes_2024": 144613,
+      "republican_votes_2024": 204494,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OH",
+      "district_2024": 8,
+      "democratic_votes_2024": 140625,
+      "republican_votes_2024": 237503,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OH",
+      "district_2024": 9,
+      "democratic_votes_2024": 181098,
+      "republican_votes_2024": 178716,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OH",
+      "district_2024": 10,
+      "democratic_votes_2024": 145420,
+      "republican_votes_2024": 213695,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OH",
+      "district_2024": 11,
+      "democratic_votes_2024": 236883,
+      "republican_votes_2024": 59394,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OH",
+      "district_2024": 12,
+      "democratic_votes_2024": 119738,
+      "republican_votes_2024": 260450,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OH",
+      "district_2024": 13,
+      "democratic_votes_2024": 197466,
+      "republican_votes_2024": 188924,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OH",
+      "district_2024": 14,
+      "democratic_votes_2024": 140431,
+      "republican_votes_2024": 243427,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OH",
+      "district_2024": 15,
+      "democratic_votes_2024": 151411,
+      "republican_votes_2024": 196338,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OK",
+      "district_2024": 1,
+      "democratic_votes_2024": 107903,
+      "republican_votes_2024": 188832,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OK",
+      "district_2024": 2,
+      "democratic_votes_2024": 68841,
+      "republican_votes_2024": 238123,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OK",
+      "district_2024": 3,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 1,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OK",
+      "district_2024": 4,
+      "democratic_votes_2024": 86641,
+      "republican_votes_2024": 199962,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OK",
+      "district_2024": 5,
+      "democratic_votes_2024": 134471,
+      "republican_votes_2024": 207636,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OR",
+      "district_2024": 1,
+      "democratic_votes_2024": 241556,
+      "republican_votes_2024": 98908,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OR",
+      "district_2024": 2,
+      "democratic_votes_2024": 115337,
+      "republican_votes_2024": 224601,
+      "projected_party": "republican"
+    },
+    {
+      "state": "OR",
+      "district_2024": 3,
+      "democratic_votes_2024": 226405,
+      "republican_votes_2024": 84344,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OR",
+      "district_2024": 4,
+      "democratic_votes_2024": 195862,
+      "republican_votes_2024": 166430,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OR",
+      "district_2024": 5,
+      "democratic_votes_2024": 191365,
+      "republican_votes_2024": 180420,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "OR",
+      "district_2024": 6,
+      "democratic_votes_2024": 180869,
+      "republican_votes_2024": 157634,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 1,
+      "democratic_votes_2024": 202042,
+      "republican_votes_2024": 261390,
+      "projected_party": "republican"
+    },
+    {
+      "state": "PA",
+      "district_2024": 2,
+      "democratic_votes_2024": 193691,
+      "republican_votes_2024": 77355,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 3,
+      "democratic_votes_2024": 340223,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 4,
+      "democratic_votes_2024": 269066,
+      "republican_votes_2024": 186457,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 5,
+      "democratic_votes_2024": 267754,
+      "republican_votes_2024": 142355,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 6,
+      "democratic_votes_2024": 235625,
+      "republican_votes_2024": 183638,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 7,
+      "democratic_votes_2024": 199626,
+      "republican_votes_2024": 203688,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 8,
+      "democratic_votes_2024": 189411,
+      "republican_votes_2024": 195663,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 9,
+      "democratic_votes_2024": 115523,
+      "republican_votes_2024": 276212,
+      "projected_party": "republican"
+    },
+    {
+      "state": "PA",
+      "district_2024": 10,
+      "democratic_votes_2024": 200434,
+      "republican_votes_2024": 205567,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 11,
+      "democratic_votes_2024": 149641,
+      "republican_votes_2024": 253672,
+      "projected_party": "republican"
+    },
+    {
+      "state": "PA",
+      "district_2024": 12,
+      "democratic_votes_2024": 234802,
+      "republican_votes_2024": 181426,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "PA",
+      "district_2024": 13,
+      "democratic_votes_2024": 104823,
+      "republican_votes_2024": 301460,
+      "projected_party": "republican"
+    },
+    {
+      "state": "PA",
+      "district_2024": 14,
+      "democratic_votes_2024": 134755,
+      "republican_votes_2024": 268380,
+      "projected_party": "republican"
+    },
+    {
+      "state": "PA",
+      "district_2024": 15,
+      "democratic_votes_2024": 111408,
+      "republican_votes_2024": 279027,
+      "projected_party": "republican"
+    },
+    {
+      "state": "PA",
+      "district_2024": 16,
+      "democratic_votes_2024": 146709,
+      "republican_votes_2024": 256923,
+      "projected_party": "republican"
+    },
+    {
+      "state": "PA",
+      "district_2024": 17,
+      "democratic_votes_2024": 242838,
+      "republican_votes_2024": 207900,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "RI",
+      "district_2024": 1,
+      "democratic_votes_2024": 139352,
+      "republican_votes_2024": 70742,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "RI",
+      "district_2024": 2,
+      "democratic_votes_2024": 153439,
+      "republican_votes_2024": 109381,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "SC",
+      "district_2024": 1,
+      "democratic_votes_2024": 162582,
+      "republican_votes_2024": 227502,
+      "projected_party": "republican"
+    },
+    {
+      "state": "SC",
+      "district_2024": 2,
+      "democratic_votes_2024": 142985,
+      "republican_votes_2024": 211514,
+      "projected_party": "republican"
+    },
+    {
+      "state": "SC",
+      "district_2024": 3,
+      "democratic_votes_2024": 87735,
+      "republican_votes_2024": 248451,
+      "projected_party": "republican"
+    },
+    {
+      "state": "SC",
+      "district_2024": 4,
+      "democratic_votes_2024": 128976,
+      "republican_votes_2024": 206916,
+      "projected_party": "republican"
+    },
+    {
+      "state": "SC",
+      "district_2024": 5,
+      "democratic_votes_2024": 130592,
+      "republican_votes_2024": 228260,
+      "projected_party": "republican"
+    },
+    {
+      "state": "SC",
+      "district_2024": 6,
+      "democratic_votes_2024": 182056,
+      "republican_votes_2024": 112360,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "SC",
+      "district_2024": 7,
+      "democratic_votes_2024": 129522,
+      "republican_votes_2024": 240326,
+      "projected_party": "republican"
+    },
+    {
+      "state": "SD",
+      "district_2024": 0,
+      "democratic_votes_2024": 117818,
+      "republican_votes_2024": 303630,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TN",
+      "district_2024": 1,
+      "democratic_votes_2024": 64021,
+      "republican_votes_2024": 257825,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TN",
+      "district_2024": 2,
+      "democratic_votes_2024": 111316,
+      "republican_votes_2024": 250782,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TN",
+      "district_2024": 3,
+      "democratic_votes_2024": 102841,
+      "republican_votes_2024": 236519,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TN",
+      "district_2024": 4,
+      "democratic_votes_2024": 83832,
+      "republican_votes_2024": 219133,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TN",
+      "district_2024": 5,
+      "democratic_votes_2024": 142387,
+      "republican_votes_2024": 205075,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TN",
+      "district_2024": 6,
+      "democratic_votes_2024": 106144,
+      "republican_votes_2024": 225543,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TN",
+      "district_2024": 7,
+      "democratic_votes_2024": 122764,
+      "republican_votes_2024": 191992,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TN",
+      "district_2024": 8,
+      "democratic_votes_2024": 85043,
+      "republican_votes_2024": 240411,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TN",
+      "district_2024": 9,
+      "democratic_votes_2024": 159522,
+      "republican_votes_2024": 57411,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 1,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 258523,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 2,
+      "democratic_votes_2024": 112252,
+      "republican_votes_2024": 214631,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 3,
+      "democratic_votes_2024": 142953,
+      "republican_votes_2024": 237794,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 4,
+      "democratic_votes_2024": 111696,
+      "republican_votes_2024": 241603,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 5,
+      "democratic_votes_2024": 107712,
+      "republican_votes_2024": 192185,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 6,
+      "democratic_votes_2024": 98319,
+      "republican_votes_2024": 188119,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 7,
+      "democratic_votes_2024": 149820,
+      "republican_votes_2024": 94651,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 8,
+      "democratic_votes_2024": 108754,
+      "republican_votes_2024": 233423,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 9,
+      "democratic_votes_2024": 184141,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 10,
+      "democratic_votes_2024": 118280,
+      "republican_votes_2024": 221229,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 11,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 211975,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 12,
+      "democratic_votes_2024": 124154,
+      "republican_votes_2024": 215564,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 13,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 240622,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 14,
+      "democratic_votes_2024": 95875,
+      "republican_votes_2024": 210320,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 15,
+      "democratic_votes_2024": 95965,
+      "republican_votes_2024": 127804,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 16,
+      "democratic_votes_2024": 131391,
+      "republican_votes_2024": 89281,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 17,
+      "democratic_votes_2024": 97941,
+      "republican_votes_2024": 193101,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 18,
+      "democratic_votes_2024": 151834,
+      "republican_votes_2024": 66810,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 19,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 214950,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 20,
+      "democratic_votes_2024": 157890,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 21,
+      "democratic_votes_2024": 153765,
+      "republican_votes_2024": 263744,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 22,
+      "democratic_votes_2024": 127604,
+      "republican_votes_2024": 209285,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 23,
+      "democratic_votes_2024": 109373,
+      "republican_votes_2024": 180720,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 24,
+      "democratic_votes_2024": 149518,
+      "republican_votes_2024": 227108,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 25,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 263042,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 26,
+      "democratic_votes_2024": 138558,
+      "republican_votes_2024": 241096,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 27,
+      "democratic_votes_2024": 94596,
+      "republican_votes_2024": 183980,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 28,
+      "democratic_votes_2024": 125280,
+      "republican_votes_2024": 112018,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 29,
+      "democratic_votes_2024": 99379,
+      "republican_votes_2024": 52830,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 30,
+      "democratic_votes_2024": 197650,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 31,
+      "democratic_votes_2024": 126470,
+      "republican_votes_2024": 229087,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 32,
+      "democratic_votes_2024": 140536,
+      "republican_votes_2024": 85941,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 33,
+      "democratic_votes_2024": 114289,
+      "republican_votes_2024": 51864,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 34,
+      "democratic_votes_2024": 102780,
+      "republican_votes_2024": 97603,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 35,
+      "democratic_votes_2024": 170509,
+      "republican_votes_2024": 82610,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 36,
+      "democratic_votes_2024": 91009,
+      "republican_votes_2024": 206009,
+      "projected_party": "republican"
+    },
+    {
+      "state": "TX",
+      "district_2024": 37,
+      "democratic_votes_2024": 252980,
+      "republican_votes_2024": 80366,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "TX",
+      "district_2024": 38,
+      "democratic_votes_2024": 127640,
+      "republican_votes_2024": 215030,
+      "projected_party": "republican"
+    },
+    {
+      "state": "UT",
+      "district_2024": 1,
+      "democratic_votes_2024": 117319,
+      "republican_votes_2024": 230975,
+      "projected_party": "republican"
+    },
+    {
+      "state": "UT",
+      "district_2024": 2,
+      "democratic_votes_2024": 121114,
+      "republican_votes_2024": 205234,
+      "projected_party": "republican"
+    },
+    {
+      "state": "UT",
+      "district_2024": 3,
+      "democratic_votes_2024": 122780,
+      "republican_votes_2024": 242496,
+      "projected_party": "republican"
+    },
+    {
+      "state": "UT",
+      "district_2024": 4,
+      "democratic_votes_2024": 109838,
+      "republican_votes_2024": 230627,
+      "projected_party": "republican"
+    },
+    {
+      "state": "VA",
+      "district_2024": 1,
+      "democratic_votes_2024": 208445,
+      "republican_votes_2024": 269657,
+      "projected_party": "republican"
+    },
+    {
+      "state": "VA",
+      "district_2024": 2,
+      "democratic_votes_2024": 191666,
+      "republican_votes_2024": 207368,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "VA",
+      "district_2024": 3,
+      "democratic_votes_2024": 219926,
+      "republican_votes_2024": 93801,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "VA",
+      "district_2024": 4,
+      "democratic_votes_2024": 252885,
+      "republican_votes_2024": 121814,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "VA",
+      "district_2024": 5,
+      "democratic_votes_2024": 184229,
+      "republican_votes_2024": 249564,
+      "projected_party": "republican"
+    },
+    {
+      "state": "VA",
+      "district_2024": 6,
+      "democratic_votes_2024": 141612,
+      "republican_votes_2024": 256933,
+      "projected_party": "republican"
+    },
+    {
+      "state": "VA",
+      "district_2024": 7,
+      "democratic_votes_2024": 203336,
+      "republican_votes_2024": 192847,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "VA",
+      "district_2024": 8,
+      "democratic_votes_2024": 274593,
+      "republican_votes_2024": 94676,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "VA",
+      "district_2024": 9,
+      "democratic_votes_2024": 109570,
+      "republican_votes_2024": 290645,
+      "projected_party": "republican"
+    },
+    {
+      "state": "VA",
+      "district_2024": 10,
+      "democratic_votes_2024": 215131,
+      "republican_votes_2024": 196343,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "VA",
+      "district_2024": 11,
+      "democratic_votes_2024": 273529,
+      "republican_votes_2024": 134802,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "VT",
+      "district_2024": 0,
+      "democratic_votes_2024": 218398,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WA",
+      "district_2024": 1,
+      "democratic_votes_2024": 227213,
+      "republican_votes_2024": 132538,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WA",
+      "district_2024": 2,
+      "democratic_votes_2024": 263750,
+      "republican_votes_2024": 148167,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WA",
+      "district_2024": 3,
+      "democratic_votes_2024": 215177,
+      "republican_votes_2024": 199054,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WA",
+      "district_2024": 4,
+      "democratic_votes_2024": 0,
+      "republican_votes_2024": 153477,
+      "projected_party": "republican"
+    },
+    {
+      "state": "WA",
+      "district_2024": 5,
+      "democratic_votes_2024": 156074,
+      "republican_votes_2024": 240619,
+      "projected_party": "republican"
+    },
+    {
+      "state": "WA",
+      "district_2024": 6,
+      "democratic_votes_2024": 239687,
+      "republican_votes_2024": 182182,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WA",
+      "district_2024": 7,
+      "democratic_votes_2024": 352286,
+      "republican_votes_2024": 66220,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WA",
+      "district_2024": 8,
+      "democratic_votes_2024": 224607,
+      "republican_votes_2024": 190675,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WA",
+      "district_2024": 9,
+      "democratic_votes_2024": 182780,
+      "republican_votes_2024": 0,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WA",
+      "district_2024": 10,
+      "democratic_votes_2024": 203732,
+      "republican_votes_2024": 143492,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WI",
+      "district_2024": 1,
+      "democratic_votes_2024": 172402,
+      "republican_votes_2024": 212515,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WI",
+      "district_2024": 2,
+      "democratic_votes_2024": 320317,
+      "republican_votes_2024": 136357,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WI",
+      "district_2024": 3,
+      "democratic_votes_2024": 200808,
+      "republican_votes_2024": 212064,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WI",
+      "district_2024": 4,
+      "democratic_votes_2024": 249938,
+      "republican_votes_2024": 74921,
+      "projected_party": "democratic"
+    },
+    {
+      "state": "WI",
+      "district_2024": 5,
+      "democratic_votes_2024": 165653,
+      "republican_votes_2024": 300521,
+      "projected_party": "republican"
+    },
+    {
+      "state": "WI",
+      "district_2024": 6,
+      "democratic_votes_2024": 159042,
+      "republican_votes_2024": 251889,
+      "projected_party": "republican"
+    },
+    {
+      "state": "WI",
+      "district_2024": 7,
+      "democratic_votes_2024": 156524,
+      "republican_votes_2024": 273553,
+      "projected_party": "republican"
+    },
+    {
+      "state": "WI",
+      "district_2024": 8,
+      "democratic_votes_2024": 178666,
+      "republican_votes_2024": 240040,
+      "projected_party": "republican"
+    },
+    {
+      "state": "WV",
+      "district_2024": 1,
+      "democratic_votes_2024": 90038,
+      "republican_votes_2024": 228491,
+      "projected_party": "republican"
+    },
+    {
+      "state": "WV",
+      "district_2024": 2,
+      "democratic_votes_2024": 110775,
+      "republican_votes_2024": 268190,
+      "projected_party": "republican"
+    },
+    {
+      "state": "WY",
+      "district_2024": 0,
+      "democratic_votes_2024": 60778,
+      "republican_votes_2024": 184680,
+      "projected_party": "republican"
+    }
+  ]
+}

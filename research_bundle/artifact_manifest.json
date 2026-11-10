@@ -310,8 +310,8 @@
       "artifact_type": "midterm_forecast",
       "track_id": "gas3_us_election",
       "frontend_route": "/election",
-      "sha256": "9d2fa459abadf2c12cd1c15ae7412a52f7476d6887d4ce7d626a38690605ae39",
-      "byte_size": 39085,
+      "sha256": "448457c97b59f0f009dc179f4e7c086887b08fcfbffb49daa1020b228da33c84",
+      "byte_size": 37923,
       "generated_at": "2026-11-10T04:15:21+00:00",
       "evidence_level": "derived"
     },
@@ -324,6 +324,18 @@
       "frontend_route": "/election",
       "sha256": "1c92b3514171007f1f159576e28b5270c2a0833bf003fed71b8380f114a0f127",
       "byte_size": 6787,
+      "generated_at": "2026-11-10T04:15:21+00:00",
+      "evidence_level": "derived"
+    },
+    {
+      "artifact_id": "frontend:election:midterm_2024_district_baseline.json",
+      "relative_path": "frontend/election/midterm_2024_district_baseline.json",
+      "media_type": "application/json",
+      "artifact_type": "midterm_district_baseline",
+      "track_id": "gas3_us_election",
+      "frontend_route": "/election",
+      "sha256": "bb241f5f453e403354904f929284d00bcfb41091a3b95daee150aac913102fc5",
+      "byte_size": 79609,
       "generated_at": "2026-11-10T04:15:21+00:00",
       "evidence_level": "derived"
     }
@@ -347,7 +359,8 @@
       "frontend/election/midterm_2026.json",
       "frontend/election/midterm_2026_results.json",
       "tracks/gas3_us_election.json",
-      "frontend/election/election_result.json"
+      "frontend/election/election_result.json",
+      "frontend/election/midterm_2024_district_baseline.json"
     ],
     "/opinion": [
       "frontend/opinion/events.json",
@@ -382,6 +395,7 @@
     "frontend/opinion/analysis_bundle.json",
     "frontend/opinion/audit.json",
     "bailian_call_receipts.json",
-    "bailian_proof.html"
+    "bailian_proof.html",
+    "frontend/election/midterm_2024_district_baseline.json"
   ]
 }
