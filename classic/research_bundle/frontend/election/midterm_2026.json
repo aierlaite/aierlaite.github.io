@@ -1,0 +1,626 @@
+{
+  "year": 2026,
+  "election_date": "2026-11-03",
+  "snapshot_date": "2026-11-08",
+  "snapshot_definition": "Political.org 整理的美联社判定快照。席位按已判定和待定分别统计。",
+  "house": {
+    "total": 435,
+    "majority": 218,
+    "democratic": 252,
+    "republican": 161,
+    "pending": 22
+  },
+  "senate": {
+    "total": 100,
+    "majority": 51,
+    "not_up": {
+      "democratic": 32,
+      "republican": 31,
+      "independent_democratic_caucus": 2
+    },
+    "races": [
+      {
+        "state": "AK",
+        "name": "阿拉斯加",
+        "party": "pending",
+        "candidate": "Mary Peltola / Dan Sullivan"
+      },
+      {
+        "state": "AL",
+        "name": "阿拉巴马",
+        "party": "republican",
+        "candidate": "Barry Moore"
+      },
+      {
+        "state": "AR",
+        "name": "阿肯色",
+        "party": "republican",
+        "candidate": "Tom Cotton"
+      },
+      {
+        "state": "CO",
+        "name": "科罗拉多",
+        "party": "democratic",
+        "candidate": "John Hickenlooper"
+      },
+      {
+        "state": "DE",
+        "name": "特拉华",
+        "party": "democratic",
+        "candidate": "Chris Coons"
+      },
+      {
+        "state": "FL",
+        "name": "佛罗里达",
+        "party": "republican",
+        "candidate": "Ashley Moody",
+        "special": true
+      },
+      {
+        "state": "GA",
+        "name": "佐治亚",
+        "party": "democratic",
+        "candidate": "Jon Ossoff"
+      },
+      {
+        "state": "IA",
+        "name": "艾奥瓦",
+        "party": "democratic",
+        "candidate": "Josh Turek",
+        "flipped": true
+      },
+      {
+        "state": "ID",
+        "name": "爱达荷",
+        "party": "republican",
+        "candidate": "Jim Risch"
+      },
+      {
+        "state": "IL",
+        "name": "伊利诺伊",
+        "party": "democratic",
+        "candidate": "Juliana Stratton"
+      },
+      {
+        "state": "KS",
+        "name": "堪萨斯",
+        "party": "democratic",
+        "candidate": "Adam Hamilton",
+        "flipped": true
+      },
+      {
+        "state": "KY",
+        "name": "肯塔基",
+        "party": "republican",
+        "candidate": "Andy Barr"
+      },
+      {
+        "state": "LA",
+        "name": "路易斯安那",
+        "party": "republican",
+        "candidate": "Julia Letlow"
+      },
+      {
+        "state": "MA",
+        "name": "马萨诸塞",
+        "party": "democratic",
+        "candidate": "Edward Markey"
+      },
+      {
+        "state": "ME",
+        "name": "缅因",
+        "party": "democratic",
+        "candidate": "Troy Jackson",
+        "flipped": true
+      },
+      {
+        "state": "MI",
+        "name": "密歇根",
+        "party": "democratic",
+        "candidate": "Abdul El-Sayed"
+      },
+      {
+        "state": "MN",
+        "name": "明尼苏达",
+        "party": "democratic",
+        "candidate": "Peggy Flanagan"
+      },
+      {
+        "state": "MS",
+        "name": "密西西比",
+        "party": "pending",
+        "candidate": "Scott Colom / Cindy Hyde-Smith"
+      },
+      {
+        "state": "MT",
+        "name": "蒙大拿",
+        "party": "republican",
+        "candidate": "Kurt Alme"
+      },
+      {
+        "state": "NC",
+        "name": "北卡罗来纳",
+        "party": "democratic",
+        "candidate": "Roy Cooper",
+        "flipped": true
+      },
+      {
+        "state": "NE",
+        "name": "内布拉斯加",
+        "party": "republican",
+        "candidate": "Pete Ricketts"
+      },
+      {
+        "state": "NH",
+        "name": "新罕布什尔",
+        "party": "democratic",
+        "candidate": "Chris Pappas"
+      },
+      {
+        "state": "NJ",
+        "name": "新泽西",
+        "party": "democratic",
+        "candidate": "Cory Booker"
+      },
+      {
+        "state": "NM",
+        "name": "新墨西哥",
+        "party": "democratic",
+        "candidate": "Ben Ray Luján"
+      },
+      {
+        "state": "OH",
+        "name": "俄亥俄",
+        "party": "democratic",
+        "candidate": "Sherrod Brown",
+        "special": true,
+        "flipped": true
+      },
+      {
+        "state": "OK",
+        "name": "俄克拉何马",
+        "party": "republican",
+        "candidate": "Kevin Hern"
+      },
+      {
+        "state": "OR",
+        "name": "俄勒冈",
+        "party": "democratic",
+        "candidate": "Jeff Merkley"
+      },
+      {
+        "state": "RI",
+        "name": "罗得岛",
+        "party": "democratic",
+        "candidate": "Jack Reed"
+      },
+      {
+        "state": "SC",
+        "name": "南卡罗来纳",
+        "party": "democratic",
+        "candidate": "Annie Andrews",
+        "flipped": true
+      },
+      {
+        "state": "SD",
+        "name": "南达科他",
+        "party": "republican",
+        "candidate": "Mike Rounds"
+      },
+      {
+        "state": "TN",
+        "name": "田纳西",
+        "party": "republican",
+        "candidate": "Bill Hagerty"
+      },
+      {
+        "state": "TX",
+        "name": "得克萨斯",
+        "party": "democratic",
+        "candidate": "James Talarico",
+        "flipped": true
+      },
+      {
+        "state": "VA",
+        "name": "弗吉尼亚",
+        "party": "democratic",
+        "candidate": "Mark Warner"
+      },
+      {
+        "state": "WV",
+        "name": "西弗吉尼亚",
+        "party": "republican",
+        "candidate": "Shelley Moore Capito"
+      },
+      {
+        "state": "WY",
+        "name": "怀俄明",
+        "party": "republican",
+        "candidate": "Harriet Hageman"
+      }
+    ]
+  },
+  "scenario": {
+    "title": "民主党大胜 · 项目预测",
+    "kind": "retrospective_scenario",
+    "basis": "选前资料复盘 · 高摆幅情景",
+    "house": {
+      "baseline_democratic": 228,
+      "assumed_gain": 32,
+      "states": [
+        {
+          "state": "AL",
+          "total_seats": 7,
+          "baseline_democratic_seats": 1,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "AK",
+          "total_seats": 1,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "AZ",
+          "total_seats": 9,
+          "baseline_democratic_seats": 5,
+          "additional_democratic_seats": 1
+        },
+        {
+          "state": "AR",
+          "total_seats": 4,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "CA",
+          "total_seats": 52,
+          "baseline_democratic_seats": 43,
+          "additional_democratic_seats": 2
+        },
+        {
+          "state": "CO",
+          "total_seats": 8,
+          "baseline_democratic_seats": 5,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "CT",
+          "total_seats": 5,
+          "baseline_democratic_seats": 5,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "DE",
+          "total_seats": 1,
+          "baseline_democratic_seats": 1,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "FL",
+          "total_seats": 28,
+          "baseline_democratic_seats": 8,
+          "additional_democratic_seats": 5
+        },
+        {
+          "state": "GA",
+          "total_seats": 14,
+          "baseline_democratic_seats": 6,
+          "additional_democratic_seats": 2
+        },
+        {
+          "state": "HI",
+          "total_seats": 2,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "ID",
+          "total_seats": 2,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "IL",
+          "total_seats": 17,
+          "baseline_democratic_seats": 13,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "IN",
+          "total_seats": 9,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 2
+        },
+        {
+          "state": "IA",
+          "total_seats": 4,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "KS",
+          "total_seats": 4,
+          "baseline_democratic_seats": 1,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "KY",
+          "total_seats": 6,
+          "baseline_democratic_seats": 1,
+          "additional_democratic_seats": 1
+        },
+        {
+          "state": "LA",
+          "total_seats": 6,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "ME",
+          "total_seats": 2,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "MD",
+          "total_seats": 8,
+          "baseline_democratic_seats": 7,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "MA",
+          "total_seats": 9,
+          "baseline_democratic_seats": 9,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "MI",
+          "total_seats": 13,
+          "baseline_democratic_seats": 8,
+          "additional_democratic_seats": 1
+        },
+        {
+          "state": "MN",
+          "total_seats": 8,
+          "baseline_democratic_seats": 5,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "MS",
+          "total_seats": 4,
+          "baseline_democratic_seats": 1,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "MO",
+          "total_seats": 8,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 1
+        },
+        {
+          "state": "MT",
+          "total_seats": 2,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "NE",
+          "total_seats": 3,
+          "baseline_democratic_seats": 1,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "NV",
+          "total_seats": 4,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "NH",
+          "total_seats": 2,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "NJ",
+          "total_seats": 12,
+          "baseline_democratic_seats": 10,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "NM",
+          "total_seats": 3,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "NY",
+          "total_seats": 26,
+          "baseline_democratic_seats": 19,
+          "additional_democratic_seats": 2
+        },
+        {
+          "state": "NC",
+          "total_seats": 14,
+          "baseline_democratic_seats": 5,
+          "additional_democratic_seats": 2
+        },
+        {
+          "state": "ND",
+          "total_seats": 1,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "OH",
+          "total_seats": 15,
+          "baseline_democratic_seats": 6,
+          "additional_democratic_seats": 2
+        },
+        {
+          "state": "OK",
+          "total_seats": 5,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "OR",
+          "total_seats": 6,
+          "baseline_democratic_seats": 5,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "PA",
+          "total_seats": 17,
+          "baseline_democratic_seats": 9,
+          "additional_democratic_seats": 2
+        },
+        {
+          "state": "RI",
+          "total_seats": 2,
+          "baseline_democratic_seats": 2,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "SC",
+          "total_seats": 7,
+          "baseline_democratic_seats": 1,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "SD",
+          "total_seats": 1,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "TN",
+          "total_seats": 9,
+          "baseline_democratic_seats": 1,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "TX",
+          "total_seats": 38,
+          "baseline_democratic_seats": 13,
+          "additional_democratic_seats": 7
+        },
+        {
+          "state": "UT",
+          "total_seats": 4,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "VT",
+          "total_seats": 1,
+          "baseline_democratic_seats": 1,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "VA",
+          "total_seats": 11,
+          "baseline_democratic_seats": 7,
+          "additional_democratic_seats": 1
+        },
+        {
+          "state": "WA",
+          "total_seats": 10,
+          "baseline_democratic_seats": 7,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "WV",
+          "total_seats": 2,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        },
+        {
+          "state": "WI",
+          "total_seats": 8,
+          "baseline_democratic_seats": 4,
+          "additional_democratic_seats": 1
+        },
+        {
+          "state": "WY",
+          "total_seats": 1,
+          "baseline_democratic_seats": 0,
+          "additional_democratic_seats": 0
+        }
+      ]
+    },
+    "senate": {
+      "baseline_democratic_caucus": 47,
+      "assumed_net_gain": 8
+    },
+    "method": [
+      "众议院：采用 2020 年普查确定的 435 席州际配额。以项目设定的 228 席为基线，在 19 个观察州分配 32 席高摆幅增量。",
+      "州级分配：每轮将一席分配给「基线共和党席位 ÷（1＋已分配增量）」最高且仍有可转移席位的观察州；同分按州代码排序。",
+      "参议院：以选前民主党阵营 47 席（含 2 名共同党团独立议员）为基线，设定净增 8 席。",
+      "CBS 选前估计提供外部参照。32 席及 8 席为项目高摆幅情景参数，开票快照单独用于比较。"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ap",
+      "label": "美联社 · 两院控制权与参议院判定",
+      "url": "https://www.ap.org/the-definitive-source/behind-the-news/calling-control-of-congress-in-the-2026-midterm-elections/",
+      "detail": "两院控制权的判定时间、各州参议院获胜方。"
+    },
+    {
+      "id": "snapshot",
+      "label": "Political.org · 美联社判定快照",
+      "url": "https://political.org/explained/2026-midterm-elections/",
+      "detail": "11 月 8 日两院席位、7 个参议院翻转州、阿拉斯加和密西西比的待定状态。"
+    },
+    {
+      "id": "cbs-senate",
+      "label": "CBS News · 两个待定参议院席位",
+      "url": "https://www.cbsnews.com/news/2026-midterm-election-house-senate-projections-toss-up/",
+      "detail": "11 月 9 日报道：民主党阵营至少 54 席，共和党 44 席，另有两席待定。"
+    },
+    {
+      "id": "house",
+      "label": "美国众议院 · 435 个表决席位",
+      "url": "https://www.house.gov/the-house-explained",
+      "detail": "众议院满额 435 席，过半为 218 席。"
+    },
+    {
+      "id": "fec",
+      "label": "联邦选举委员会 · 联邦选举日期",
+      "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+      "detail": "本轮联邦大选日期为 2026 年 11 月 3 日。"
+    },
+    {
+      "id": "cost",
+      "label": "AP Voter Poll · 生活成本",
+      "url": "https://apnews.com/article/f8dbe8800549340c8a75d956302c126b",
+      "detail": "约九成受访选民将生活成本视为国会投票的重要因素。"
+    },
+    {
+      "id": "youth",
+      "label": "AP Voter Poll · 年轻选民",
+      "url": "https://apnews.com/article/70dc21f87d633f6936faf0200922bc57",
+      "detail": "约四分之三的 30 岁以下受访选民支持当地民主党候选人。"
+    },
+    {
+      "id": "apportionment",
+      "label": "美国人口普查局 · 州际席位配额",
+      "url": "https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html",
+      "detail": "众议院各州的 435 个表决席位。"
+    },
+    {
+      "id": "pre-cbs",
+      "label": "CBS Battleground Tracker · 选前参照",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "detail": "10 月 25 日中心估计为民主党 229 席，范围 215–237 席。项目另设高摆幅情景。"
+    },
+    {
+      "id": "senate-before",
+      "label": "美国参议院 · 选前党派构成",
+      "url": "https://www.senate.gov/about/parties-leadership/party-division.shtml",
+      "detail": "第 119 届参议院为共和党 53 席、民主党 45 席和 2 名与民主党共同组团的独立议员。"
+    }
+  ]
+}

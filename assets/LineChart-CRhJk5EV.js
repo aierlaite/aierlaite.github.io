@@ -1,0 +1,1 @@
+import{g as e,y as t}from"./jsx-runtime-jrBgDLJs.js";import{lt as n,n as r}from"./BarChart-ChR7xeeR.js";var i=t(e()),a=[`axis`],o=(0,i.forwardRef)((e,t)=>i.createElement(r,{chartName:`LineChart`,defaultTooltipEventType:`axis`,validateTooltipEventTypes:a,tooltipPayloadSearcher:n,categoricalChartProps:e,ref:t}));export{o as t};
