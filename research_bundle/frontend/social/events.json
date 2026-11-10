@@ -1,0 +1,29 @@
+[
+  {
+    "id": 8,
+    "title": "Vocational Student Ranks 12th Globally in Math Competition",
+    "content": "CLARIFY: CLARIFY: EXPLAIN: Reported on June 13, Jiang Ping, a 17-year-old vocational student from Huaian, Jiangsu, ranked 12th globally in an international math competition, becoming the first secondary school student to reach the finals. Most of the 801 finalists are from prestigious universities such as Tsinghua, Peking, MIT, and Cambridge. Jiang, a fashion design major, self-studied advanced math like PDEs for two years. Her story gained public support but later drew skepticism—netizens questioned her past grades, noticed errors in her blackboard writing, and suspected cheating due to the open-book format. On June 27, reports revealed she scored 83 on a recent math test, fueling accusations of academic dishonesty in the Alibaba-sponsored contest.\nThe source agent issues an explanatory note on 'Vocational Student Ranks 12th Globally in Math Competition' to frame the ongoing discussion.",
+    "category": "Education",
+    "publish_time": "2024-01-01",
+    "source_dataset": "SNB",
+    "Engagement Data": {
+      "view_count": 2780.43,
+      "like_count": 254.6,
+      "share_count": 24.53,
+      "comment_count": 19.84
+    },
+    "Network Traffic Variations": {
+      "day1": 0,
+      "day2": 18501429,
+      "day3": 5790436,
+      "day4": 841774,
+      "day5": 437969,
+      "day6": 1651948,
+      "day7": 580742
+    },
+    "audit": {
+      "track_id": "intervensim_social_simulation",
+      "source": "current NewsState"
+    }
+  }
+]

@@ -1,0 +1,2566 @@
+[
+  {
+    "id": "FV_001",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.426,
+        "actual_label": 5.05,
+        "predicted_play": 2650,
+        "predicted_like": 1080,
+        "predicted_comment": 297
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_002",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.9817,
+        "actual_label": 10.58,
+        "predicted_play": 12076,
+        "predicted_like": 2287,
+        "predicted_comment": 562
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_003",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 7.5975,
+        "actual_label": 7.69,
+        "predicted_play": 6565,
+        "predicted_like": 1700,
+        "predicted_comment": 427
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_004",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.1371,
+        "actual_label": 9.49,
+        "predicted_play": 9522,
+        "predicted_like": 2087,
+        "predicted_comment": 478
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_005",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.0297,
+        "actual_label": 9.48,
+        "predicted_play": 9406,
+        "predicted_like": 2056,
+        "predicted_comment": 499
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_006",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.9761,
+        "actual_label": 10.34,
+        "predicted_play": 11387,
+        "predicted_like": 2166,
+        "predicted_comment": 566
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_007",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.3748,
+        "actual_label": 6.0,
+        "predicted_play": 3858,
+        "predicted_like": 1250,
+        "predicted_comment": 314
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_008",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.6521,
+        "actual_label": 10.21,
+        "predicted_play": 11193,
+        "predicted_like": 2099,
+        "predicted_comment": 528
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_009",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 7.8384,
+        "actual_label": 8.14,
+        "predicted_play": 6812,
+        "predicted_like": 1766,
+        "predicted_comment": 419
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_010",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 10.4117,
+        "actual_label": 10.94,
+        "predicted_play": 12796,
+        "predicted_like": 2384,
+        "predicted_comment": 569
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_011",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 6.4827,
+        "actual_label": 5.68,
+        "predicted_play": 3265,
+        "predicted_like": 1143,
+        "predicted_comment": 291
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_012",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 8.7082,
+        "actual_label": 8.9,
+        "predicted_play": 8276,
+        "predicted_like": 1805,
+        "predicted_comment": 478
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_013",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.9948,
+        "actual_label": 10.69,
+        "predicted_play": 12063,
+        "predicted_like": 2307,
+        "predicted_comment": 580
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_014",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 6.2855,
+        "actual_label": 6.67,
+        "predicted_play": 5176,
+        "predicted_like": 1436,
+        "predicted_comment": 370
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_015",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.0433,
+        "actual_label": 5.11,
+        "predicted_play": 2635,
+        "predicted_like": 1059,
+        "predicted_comment": 275
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_016",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 10.9063,
+        "actual_label": 11.22,
+        "predicted_play": 13560,
+        "predicted_like": 2291,
+        "predicted_comment": 595
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_017",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.622,
+        "actual_label": 9.65,
+        "predicted_play": 10248,
+        "predicted_like": 2062,
+        "predicted_comment": 496
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_018",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 10.1588,
+        "actual_label": 10.5,
+        "predicted_play": 11554,
+        "predicted_like": 2185,
+        "predicted_comment": 533
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_019",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.0337,
+        "actual_label": 4.69,
+        "predicted_play": 2444,
+        "predicted_like": 953,
+        "predicted_comment": 280
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_020",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 8.6042,
+        "actual_label": 8.86,
+        "predicted_play": 8738,
+        "predicted_like": 1960,
+        "predicted_comment": 465
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_021",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 13.2659,
+        "actual_label": 12.52,
+        "predicted_play": 16139,
+        "predicted_like": 2543,
+        "predicted_comment": 664
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_022",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 10.5661,
+        "actual_label": 10.25,
+        "predicted_play": 10940,
+        "predicted_like": 2092,
+        "predicted_comment": 546
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_023",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 7.0427,
+        "actual_label": 7.56,
+        "predicted_play": 6308,
+        "predicted_like": 1520,
+        "predicted_comment": 426
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_024",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 3.4135,
+        "actual_label": 2.93,
+        "predicted_play": 895,
+        "predicted_like": 772,
+        "predicted_comment": 188
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_025",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 8.314,
+        "actual_label": 8.87,
+        "predicted_play": 8121,
+        "predicted_like": 1964,
+        "predicted_comment": 463
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_026",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 8.9225,
+        "actual_label": 8.34,
+        "predicted_play": 7646,
+        "predicted_like": 1855,
+        "predicted_comment": 431
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_027",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.4081,
+        "actual_label": 8.81,
+        "predicted_play": 8137,
+        "predicted_like": 1831,
+        "predicted_comment": 465
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_028",
+    "dataset": "FV",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 7.1814,
+        "actual_label": 7.23,
+        "predicted_play": 5244,
+        "predicted_like": 1538,
+        "predicted_comment": 395
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_001",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.4745,
+        "actual_label": 0.4233,
+        "predicted_play": -105,
+        "predicted_like": 50,
+        "predicted_comment": -4
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_002",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.1634,
+        "actual_label": 0.3727,
+        "predicted_play": -260,
+        "predicted_like": 10,
+        "predicted_comment": 1
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_003",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.1065,
+        "actual_label": 0.175,
+        "predicted_play": 428,
+        "predicted_like": -43,
+        "predicted_comment": 7
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_004",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.2811,
+        "actual_label": 0.5268,
+        "predicted_play": 208,
+        "predicted_like": 22,
+        "predicted_comment": 7
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_005",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 1.0263,
+        "actual_label": 0.8225,
+        "predicted_play": 265,
+        "predicted_like": 3,
+        "predicted_comment": 3
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_006",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.1486,
+        "actual_label": 0.5236,
+        "predicted_play": -405,
+        "predicted_like": 13,
+        "predicted_comment": 1
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_007",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": -0.0172,
+        "actual_label": 0.2186,
+        "predicted_play": 201,
+        "predicted_like": -8,
+        "predicted_comment": 0
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_008",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 1.346,
+        "actual_label": 0.7666,
+        "predicted_play": -192,
+        "predicted_like": 50,
+        "predicted_comment": 14
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_009",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.8783,
+        "actual_label": 0.6003,
+        "predicted_play": -249,
+        "predicted_like": 27,
+        "predicted_comment": 1
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_010",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.1501,
+        "actual_label": 0.5305,
+        "predicted_play": 43,
+        "predicted_like": 53,
+        "predicted_comment": 1
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_011",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.4634,
+        "actual_label": 0.5908,
+        "predicted_play": -261,
+        "predicted_like": 8,
+        "predicted_comment": 13
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_012",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.1539,
+        "actual_label": 0.4711,
+        "predicted_play": 10,
+        "predicted_like": 12,
+        "predicted_comment": 1
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_013",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.5256,
+        "actual_label": 0.6497,
+        "predicted_play": 64,
+        "predicted_like": -38,
+        "predicted_comment": -3
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_014",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.1676,
+        "actual_label": 0.3671,
+        "predicted_play": 14,
+        "predicted_like": 28,
+        "predicted_comment": -5
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_015",
+    "dataset": "Informs",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 0.9428,
+        "actual_label": 0.5224,
+        "predicted_play": 500,
+        "predicted_like": 3,
+        "predicted_comment": -4
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_001",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.089,
+        "actual_label": 5.2479,
+        "predicted_play": 29521,
+        "predicted_like": 2953,
+        "predicted_comment": 65
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_002",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 1.8724,
+        "actual_label": 2.3219,
+        "predicted_play": 5953,
+        "predicted_like": 1597,
+        "predicted_comment": 11
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_003",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 4.8311,
+        "actual_label": 4.9069,
+        "predicted_play": 26147,
+        "predicted_like": 2702,
+        "predicted_comment": 38
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_004",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 1.0222,
+        "actual_label": 1.585,
+        "predicted_play": 7361,
+        "predicted_like": 1011,
+        "predicted_comment": 21
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_005",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 4.3254,
+        "actual_label": 4.4594,
+        "predicted_play": 24585,
+        "predicted_like": 2398,
+        "predicted_comment": 43
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_006",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 3.4325,
+        "actual_label": 3.0,
+        "predicted_play": 11038,
+        "predicted_like": 1918,
+        "predicted_comment": 37
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_007",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 3.3023,
+        "actual_label": 3.3219,
+        "predicted_play": 11509,
+        "predicted_like": 2077,
+        "predicted_comment": 35
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_008",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 3.7065,
+        "actual_label": 4.0,
+        "predicted_play": 20683,
+        "predicted_like": 2086,
+        "predicted_comment": 57
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_009",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 1.7582,
+        "actual_label": 2.0,
+        "predicted_play": 7430,
+        "predicted_like": 1339,
+        "predicted_comment": 8
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_010",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 4.5141,
+        "actual_label": 4.585,
+        "predicted_play": 23403,
+        "predicted_like": 2513,
+        "predicted_comment": 59
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_011",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.0741,
+        "actual_label": 5.2479,
+        "predicted_play": 27790,
+        "predicted_like": 3005,
+        "predicted_comment": 44
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_012",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 1.8761,
+        "actual_label": 1.585,
+        "predicted_play": 3902,
+        "predicted_like": 998,
+        "predicted_comment": 7
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_013",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.6836,
+        "actual_label": 5.3923,
+        "predicted_play": 29182,
+        "predicted_like": 3115,
+        "predicted_comment": 70
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_014",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 2.703,
+        "actual_label": 2.585,
+        "predicted_play": 8448,
+        "predicted_like": 1579,
+        "predicted_comment": 38
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_015",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.034,
+        "actual_label": 5.3923,
+        "predicted_play": 33345,
+        "predicted_like": 2855,
+        "predicted_comment": 76
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_016",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 6.4392,
+        "actual_label": 6.6439,
+        "predicted_play": 47818,
+        "predicted_like": 3783,
+        "predicted_comment": 121
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_017",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 1.9917,
+        "actual_label": 2.0,
+        "predicted_play": 8736,
+        "predicted_like": 1279,
+        "predicted_comment": 39
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_018",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 4.3081,
+        "actual_label": 4.2479,
+        "predicted_play": 20255,
+        "predicted_like": 2607,
+        "predicted_comment": 39
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_019",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.5297,
+        "actual_label": 5.6439,
+        "predicted_play": 34576,
+        "predicted_like": 3244,
+        "predicted_comment": 65
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_020",
+    "dataset": "MicroLens",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 4.8201,
+        "actual_label": 5.0875,
+        "predicted_play": 26475,
+        "predicted_like": 3027,
+        "predicted_comment": 52
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_001",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 10.4442,
+        "actual_label": 9.99,
+        "predicted_play": 10157,
+        "predicted_like": 2186,
+        "predicted_comment": 533
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_002",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 10.5575,
+        "actual_label": 10.81,
+        "predicted_play": 12029,
+        "predicted_like": 2286,
+        "predicted_comment": 584
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_003",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.1514,
+        "actual_label": 5.41,
+        "predicted_play": 3909,
+        "predicted_like": 1236,
+        "predicted_comment": 307
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_004",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 12.0588,
+        "actual_label": 11.83,
+        "predicted_play": 14350,
+        "predicted_like": 2413,
+        "predicted_comment": 597
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_005",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 7.2396,
+        "actual_label": 7.58,
+        "predicted_play": 6642,
+        "predicted_like": 1564,
+        "predicted_comment": 402
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_006",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.0653,
+        "actual_label": 5.0,
+        "predicted_play": 3393,
+        "predicted_like": 1070,
+        "predicted_comment": 259
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_007",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 11.8919,
+        "actual_label": 11.51,
+        "predicted_play": 13583,
+        "predicted_like": 2489,
+        "predicted_comment": 605
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_008",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 5.0183,
+        "actual_label": 5.38,
+        "predicted_play": 3574,
+        "predicted_like": 1142,
+        "predicted_comment": 301
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_009",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.82,
+        "actual_label": 9.86,
+        "predicted_play": 10592,
+        "predicted_like": 2038,
+        "predicted_comment": 515
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_010",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 9.9644,
+        "actual_label": 9.45,
+        "predicted_play": 9799,
+        "predicted_like": 1958,
+        "predicted_comment": 512
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_011",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 10.9183,
+        "actual_label": 10.69,
+        "predicted_play": 12228,
+        "predicted_like": 2247,
+        "predicted_comment": 582
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_012",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 1.9872,
+        "actual_label": 1.3,
+        "predicted_play": 885,
+        "predicted_like": 317,
+        "predicted_comment": 73
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_013",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 10.2422,
+        "actual_label": 10.39,
+        "predicted_play": 10870,
+        "predicted_like": 2128,
+        "predicted_comment": 537
+      },
+      "risk_assessment": {
+        "level": "中",
+        "factors": [
+          "热度持续增长",
+          "情绪波动明显"
+        ],
+        "recommended_actions": [
+          "继续监测",
+          "人工审核"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测",
+        "人工审核"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_014",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 8.1578,
+        "actual_label": 8.26,
+        "predicted_play": 7653,
+        "predicted_like": 1720,
+        "predicted_comment": 416
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_015",
+    "dataset": "SMP-Video",
+    "output_panel": {
+      "heat_prediction": {
+        "predicted_label": 6.1118,
+        "actual_label": 6.32,
+        "predicted_play": 4578,
+        "predicted_like": 1269,
+        "predicted_comment": 340
+      },
+      "risk_assessment": {
+        "level": "低",
+        "factors": [
+          "热度平稳",
+          "情绪正面为主"
+        ],
+        "recommended_actions": [
+          "继续监测"
+        ]
+      },
+      "spread_summary": {
+        "who": "以核心粉丝和兴趣用户为主",
+        "when": "在6-24h期间传播最快",
+        "where": "主要在抖音和微博传播"
+      },
+      "recommended_actions": [
+        "继续监测"
+      ],
+      "simulated": true
+    }
+  }
+]

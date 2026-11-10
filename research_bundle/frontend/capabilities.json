@@ -1,0 +1,151 @@
+{
+  "schema_version": "XH-202619/capability-surfaces-1.0",
+  "scientific_track_count": 3,
+  "navigation_surface_count": 4,
+  "surfaces": [
+    {
+      "display_order": 1,
+      "capability_id": "heat_prediction",
+      "navigation_label": "热度预测",
+      "frontend_route": "/heat",
+      "engine": "STAP",
+      "primary_track_id": "stap_popularity_prediction",
+      "research_role": "primary_research_track",
+      "backend_role": "ExperimentAgent",
+      "backend_service": "app.services.track_experiments._heat_replay",
+      "backend_schema": "TrackFeasibilityResult + frontend/heat/*.json",
+      "input_contract": [
+        "long frame sequence",
+        "title/text and creator features",
+        "historical heat memory"
+      ],
+      "output_contract": [
+        "heat curve",
+        "peak time",
+        "prediction interval",
+        "memory retrieval evidence"
+      ],
+      "artifact_paths": [
+        "tracks/stap_popularity_prediction.json",
+        "frontend/heat/",
+        "experiment_results.json"
+      ],
+      "pdf_alignment": [
+        "Problem Statement",
+        "Methods",
+        "Baselines",
+        "Metrics",
+        "Results",
+        "References"
+      ],
+      "evidence_scope": "Bundled derived-output replay; a full STAP checkpoint run remains required for confirmation."
+    },
+    {
+      "display_order": 2,
+      "capability_id": "social_simulation",
+      "navigation_label": "社交模拟",
+      "frontend_route": "/social",
+      "engine": "IntervenSim",
+      "primary_track_id": "intervensim_social_simulation",
+      "research_role": "primary_research_track",
+      "backend_role": "SourceAgent + CrowdAgent + ExperimentAgent",
+      "backend_service": "app.environment.simulation_env + app.services.track_experiments._social_execution",
+      "backend_schema": "SimulationResult + frontend/social/trajectories.json",
+      "input_contract": [
+        "audited social event",
+        "hierarchical group priors",
+        "source intervention sequence"
+      ],
+      "output_contract": [
+        "round trajectories",
+        "group states",
+        "interaction metrics",
+        "public-signal feedback"
+      ],
+      "artifact_paths": [
+        "tracks/intervensim_social_simulation.json",
+        "frontend/social/",
+        "experiment_results.json"
+      ],
+      "pdf_alignment": [
+        "Problem Statement",
+        "Rationale",
+        "Methods",
+        "Experiments",
+        "Executed Results"
+      ],
+      "evidence_scope": "Actual current-event multi-round execution; no cross-event generalization claim."
+    },
+    {
+      "display_order": 3,
+      "capability_id": "election_simulation",
+      "navigation_label": "选举模拟",
+      "frontend_route": "/election",
+      "engine": "GAS-3",
+      "primary_track_id": "gas3_us_election",
+      "research_role": "primary_research_track",
+      "backend_role": "ExperimentAgent",
+      "backend_service": "app.services.track_experiments._election_replay",
+      "backend_schema": "TrackFeasibilityResult + frontend/election/election_result.json",
+      "input_contract": [
+        "state election returns",
+        "electoral votes",
+        "voter-cohort display priors"
+      ],
+      "output_contract": [
+        "state scores",
+        "electoral-vote totals",
+        "Brier score",
+        "bounded replay audit"
+      ],
+      "artifact_paths": [
+        "tracks/gas3_us_election.json",
+        "frontend/election/",
+        "experiment_results.json"
+      ],
+      "pdf_alignment": [
+        "Source/Target Datasets",
+        "Methods",
+        "Baselines",
+        "Metrics",
+        "Results"
+      ],
+      "evidence_scope": "Historical reconstruction sanity check; not a prospective election forecast."
+    },
+    {
+      "display_order": 4,
+      "capability_id": "opinion_analysis",
+      "navigation_label": "舆情分析",
+      "frontend_route": "/opinion",
+      "engine": "IntervenSim + Agenda",
+      "primary_track_id": "intervensim_social_simulation",
+      "research_role": "derived_analysis_surface",
+      "backend_role": "OpinionAnalystAgent",
+      "backend_service": "app.services.opinion_analysis.build_opinion_analysis",
+      "backend_schema": "OpinionAnalysisBundle / OpinionScenario",
+      "input_contract": [
+        "executed IntervenSim rounds",
+        "source interventions",
+        "group-weighted attitude and engagement"
+      ],
+      "output_contract": [
+        "indicators",
+        "state trends",
+        "executed agenda path",
+        "agenda-group graph",
+        "audit boundary"
+      ],
+      "artifact_paths": [
+        "frontend/opinion/events.json",
+        "frontend/opinion/analysis_bundle.json"
+      ],
+      "pdf_alignment": [
+        "Rationale reasoning evidence",
+        "Executed Results",
+        "Audit provenance",
+        "Human review status"
+      ],
+      "evidence_scope": "Derived only from the social-track execution; probability, factors and risks stay pending until calibrated experiments exist."
+    }
+  ]
+}

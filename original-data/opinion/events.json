@@ -1,0 +1,3295 @@
+[
+  {
+    "id": 1,
+    "title": "美以伊战事终结：中东迎来和平曙光",
+    "period": "6月14日-6月30日",
+    "probability": "58%",
+    "probClass": "high",
+    "probLabel": "平稳落地",
+    "summary": "持续超百日的冲突迎来转折，美伊达成谅解备忘录，霍尔木兹重新开放，为核谈判铺路。",
+    "tags": [
+      "地缘冲突",
+      "能源安全",
+      "核谈判",
+      "中东和平"
+    ],
+    "indicators": [
+      {
+        "name": "油价",
+        "value": 78,
+        "max": 150,
+        "unit": "美元/桶",
+        "detail": "较峰值-24%",
+        "interp": "油价从冲突峰值120美元大幅回落至78美元，反映市场对和平前景的乐观定价，但仍在历史中高位运行。"
+      },
+      {
+        "name": "霍尔木兹通航量",
+        "value": 85,
+        "max": 100,
+        "unit": "%",
+        "detail": "",
+        "interp": "海峡通航量恢复至冲突前的85%，仍有15%运力受保险和合规问题制约，完全恢复需等待制裁豁免落地。"
+      },
+      {
+        "name": "制裁豁免进度",
+        "value": 60,
+        "max": 100,
+        "unit": "%",
+        "detail": "",
+        "interp": "美国已批准60%的制裁豁免项目，主要集中在石油出口和金融结算，但高浓铀相关条款仍待落实。"
+      },
+      {
+        "name": "以北部交火",
+        "value": 2,
+        "max": 20,
+        "unit": "次/周",
+        "detail": "↓90%",
+        "interp": "交火频率从每周20+次骤降至2次，真主党在伊朗约束下基本停火，零星交火属技术性摩擦。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "军事冲突烈度",
+        "经济恢复速度",
+        "外交协调度",
+        "伊朗核风险",
+        "以色列安全焦虑",
+        "海湾支持度"
+      ],
+      "vals": [
+        2,
+        8,
+        7,
+        5,
+        6,
+        8
+      ]
+    },
+    "pie": [
+      {
+        "name": "和平落地",
+        "value": 58
+      },
+      {
+        "name": "局部摩擦",
+        "value": 32
+      },
+      {
+        "name": "破裂再战",
+        "value": 10
+      }
+    ],
+    "timeline": [
+      {
+        "round": "第1轮",
+        "date": "6.15-18",
+        "desc": "换俘&试航"
+      },
+      {
+        "round": "第2轮",
+        "date": "6.19-22",
+        "desc": "IAEA检查"
+      },
+      {
+        "round": "第3轮",
+        "date": "6.23-26",
+        "desc": "降浓缩铀"
+      },
+      {
+        "round": "第4轮",
+        "date": "6.27-30",
+        "desc": "起草全面协议"
+      }
+    ],
+    "factors": [
+      {
+        "name": "核谈判进展",
+        "score": 9
+      },
+      {
+        "name": "霍尔木兹通航",
+        "score": 8
+      },
+      {
+        "name": "制裁执行",
+        "score": 7
+      },
+      {
+        "name": "以色列立场",
+        "score": 6
+      },
+      {
+        "name": "海湾态度",
+        "score": 5
+      },
+      {
+        "name": "油价波动",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "6.15-18",
+        "6.19-22",
+        "6.23-26",
+        "6.27-30"
+      ],
+      "series": [
+        {
+          "name": "油价(美元)",
+          "data": [
+            120,
+            105,
+            88,
+            78
+          ]
+        },
+        {
+          "name": "通航量(%)",
+          "data": [
+            30,
+            55,
+            72,
+            85
+          ]
+        },
+        {
+          "name": "制裁豁免(%)",
+          "data": [
+            0,
+            20,
+            40,
+            60
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "和平破裂",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "name": "海峡封锁",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "name": "以色列单边行动",
+        "x": 5,
+        "y": 7
+      },
+      {
+        "name": "核问题反弹",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "name": "油价飙升",
+        "x": 2,
+        "y": 7
+      }
+    ],
+    "scenarioTree": {
+      "name": "当前僵局",
+      "children": [
+        {
+          "name": "谈判突破",
+          "children": [
+            {
+              "name": "和平落地 58%",
+              "value": 58
+            }
+          ]
+        },
+        {
+          "name": "谈判停滞",
+          "children": [
+            {
+              "name": "局部摩擦 32%",
+              "value": 32
+            }
+          ]
+        },
+        {
+          "name": "谈判破裂",
+          "children": [
+            {
+              "name": "全面再战 10%",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "美国",
+          "category": 0,
+          "symbolSize": 48
+        },
+        {
+          "name": "伊朗",
+          "category": 0,
+          "symbolSize": 42
+        },
+        {
+          "name": "以色列",
+          "category": 0,
+          "symbolSize": 40
+        },
+        {
+          "name": "欧盟",
+          "category": 1,
+          "symbolSize": 34
+        },
+        {
+          "name": "海湾国家",
+          "category": 0,
+          "symbolSize": 36
+        },
+        {
+          "name": "联合国",
+          "category": 1,
+          "symbolSize": 30
+        }
+      ],
+      "links": [
+        {
+          "source": "美国",
+          "target": "伊朗",
+          "label": "合作",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 2
+          }
+        },
+        {
+          "source": "美国",
+          "target": "以色列",
+          "label": "紧密联盟",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2.5
+          }
+        },
+        {
+          "source": "伊朗",
+          "target": "以色列",
+          "label": "冲突",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2.5
+          }
+        },
+        {
+          "source": "欧盟",
+          "target": "伊朗",
+          "label": "缓和",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "海湾国家",
+          "target": "美国",
+          "label": "支持",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/地区"
+        },
+        {
+          "name": "组织/机构"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "史上\"最政治化\"世界杯",
+    "period": "6月11日-6月30日",
+    "probability": "65%",
+    "probClass": "high",
+    "probLabel": "安全完赛但争议贯穿",
+    "summary": "美加墨世界杯深陷政治漩涡，伊朗队被拒签、裁判遣返，赛事边缘化。",
+    "tags": [
+      "体育政治化",
+      "国际关系",
+      "安保",
+      "北美"
+    ],
+    "indicators": [
+      {
+        "name": "收视率",
+        "value": 77,
+        "max": 100,
+        "unit": "分",
+        "detail": "较上届-23%",
+        "interp": "收视率大幅下滑，政治争议导致全球观众兴趣降低，赞助商价值缩水。"
+      },
+      {
+        "name": "抵制国家",
+        "value": 7,
+        "max": 20,
+        "unit": "个",
+        "detail": "",
+        "interp": "7国公开抵制赛事，主要集中在中东和拉美地区，形成政治声浪。"
+      },
+      {
+        "name": "政治事件",
+        "value": 15,
+        "max": 30,
+        "unit": "起",
+        "detail": "",
+        "interp": "赛场内外共发生15起政治性事件，包括抗议、标语、球员拒赛等。"
+      },
+      {
+        "name": "安全等级",
+        "value": 75,
+        "max": 100,
+        "unit": "/100",
+        "detail": "中高风险",
+        "interp": "综合安保等级升至中高风险，多国发布旅行警示，安保支出翻倍。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "体育中立性",
+        "政治干预度",
+        "北美协调度",
+        "全球关注度",
+        "安保压力",
+        "经济损失"
+      ],
+      "vals": [
+        2,
+        9,
+        4,
+        6,
+        8,
+        5
+      ]
+    },
+    "pie": [
+      {
+        "name": "安全完赛争议贯穿",
+        "value": 65
+      },
+      {
+        "name": "重大政治打断",
+        "value": 25
+      },
+      {
+        "name": "恐怖袭击",
+        "value": 10
+      }
+    ],
+    "timeline": [
+      {
+        "round": "第1轮",
+        "date": "6.11-14",
+        "desc": "小组赛美伊冲突"
+      },
+      {
+        "round": "第2轮",
+        "date": "6.15-18",
+        "desc": "俄白被禁赛"
+      },
+      {
+        "round": "第3轮",
+        "date": "6.19-22",
+        "desc": "球迷边境冲突"
+      },
+      {
+        "round": "第4轮",
+        "date": "6.23-30",
+        "desc": "决赛领导人缺席"
+      }
+    ],
+    "factors": [
+      {
+        "name": "政治抵制",
+        "score": 9
+      },
+      {
+        "name": "伊朗参赛",
+        "score": 8
+      },
+      {
+        "name": "安保威胁",
+        "score": 7
+      },
+      {
+        "name": "FIFA决策",
+        "score": 6
+      },
+      {
+        "name": "媒体舆论",
+        "score": 5
+      },
+      {
+        "name": "北美协调",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "6.11-14",
+        "6.15-18",
+        "6.19-22",
+        "6.23-30"
+      ],
+      "series": [
+        {
+          "name": "收视率(分)",
+          "data": [
+            100,
+            82,
+            70,
+            77
+          ]
+        },
+        {
+          "name": "政治事件(起)",
+          "data": [
+            2,
+            8,
+            15,
+            10
+          ]
+        },
+        {
+          "name": "安全等级(/100)",
+          "data": [
+            40,
+            60,
+            75,
+            65
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "恐怖袭击",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "name": "伊朗退赛",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "name": "大规模抗议",
+        "x": 7,
+        "y": 6
+      },
+      {
+        "name": "赛事取消",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "name": "外交危机",
+        "x": 5,
+        "y": 7
+      }
+    ],
+    "scenarioTree": {
+      "name": "赛事进行",
+      "children": [
+        {
+          "name": "顺利推进",
+          "children": [
+            {
+              "name": "安全完赛 65%",
+              "value": 65
+            }
+          ]
+        },
+        {
+          "name": "政治升级",
+          "children": [
+            {
+              "name": "重大打断 25%",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "安全失控",
+          "children": [
+            {
+              "name": "恐怖袭击 10%",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "国际足联",
+          "category": 1,
+          "symbolSize": 42
+        },
+        {
+          "name": "美国",
+          "category": 0,
+          "symbolSize": 44
+        },
+        {
+          "name": "伊朗",
+          "category": 0,
+          "symbolSize": 36
+        },
+        {
+          "name": "俄罗斯",
+          "category": 0,
+          "symbolSize": 34
+        },
+        {
+          "name": "墨西哥",
+          "category": 0,
+          "symbolSize": 30
+        },
+        {
+          "name": "加拿大",
+          "category": 0,
+          "symbolSize": 30
+        },
+        {
+          "name": "抗议群体",
+          "category": 2,
+          "symbolSize": 28
+        }
+      ],
+      "links": [
+        {
+          "source": "美国",
+          "target": "伊朗",
+          "label": "对抗",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2.5
+          }
+        },
+        {
+          "source": "俄罗斯",
+          "target": "国际足联",
+          "label": "被孤立",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#94a3b8",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "美国",
+          "target": "墨西哥",
+          "label": "合作安保",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        },
+        {
+          "source": "美国",
+          "target": "加拿大",
+          "label": "合作安保",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        },
+        {
+          "source": "国际足联",
+          "target": "美国",
+          "label": "矛盾",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "国际足联",
+          "target": "伊朗",
+          "label": "矛盾",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "抗议群体",
+          "target": "美国",
+          "label": "反对",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 1.5
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/地区"
+        },
+        {
+          "name": "组织/机构"
+        },
+        {
+          "name": "群体/个人"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "剑拔弩张的G7峰会",
+    "period": "6月15日-6月18日",
+    "probability": "70%",
+    "probClass": "high",
+    "probLabel": "无联合公报",
+    "summary": "峰会内外交困，欧美在伊朗、乌克兰等问题上分歧严重，场外暴力抗议。",
+    "tags": [
+      "G7",
+      "西方分裂",
+      "社会抗议",
+      "全球治理"
+    ],
+    "indicators": [
+      {
+        "name": "公报完成度",
+        "value": 0,
+        "max": 100,
+        "unit": "%",
+        "detail": "已流产",
+        "interp": "联合公报完全流产，各方无法就核心议题达成一致，G7协调机制严重受损。"
+      },
+      {
+        "name": "抗议规模",
+        "value": 90,
+        "max": 100,
+        "unit": "分",
+        "detail": ">10万人",
+        "interp": "场外抗议人数超10万，暴力冲突频发，警察动用催泪弹和水炮。"
+      },
+      {
+        "name": "分歧议题",
+        "value": 4,
+        "max": 8,
+        "unit": "个",
+        "detail": "",
+        "interp": "4个核心议题存在根本分歧：伊朗政策、乌克兰援助、气候变化、贸易关税。"
+      },
+      {
+        "name": "满意度",
+        "value": 32,
+        "max": 100,
+        "unit": "%",
+        "detail": "",
+        "interp": "仅32%的与会代表对峰会成果表示满意，创G7历史新低。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "西方团结度",
+        "美欧协调力",
+        "峰会效力",
+        "全球治理影响",
+        "社会抗议强度",
+        "经济议题进展"
+      ],
+      "vals": [
+        3,
+        4,
+        2,
+        3,
+        9,
+        5
+      ]
+    },
+    "pie": [
+      {
+        "name": "无公报独立声明",
+        "value": 70
+      },
+      {
+        "name": "最低共识",
+        "value": 25
+      },
+      {
+        "name": "提前散会",
+        "value": 5
+      }
+    ],
+    "timeline": [
+      {
+        "round": "",
+        "date": "6.15",
+        "desc": "抗议冲击"
+      },
+      {
+        "round": "",
+        "date": "6.16",
+        "desc": "美欧激烈争吵"
+      },
+      {
+        "round": "",
+        "date": "6.17",
+        "desc": "公报流产"
+      },
+      {
+        "round": "",
+        "date": "6.18",
+        "desc": "各说各话"
+      }
+    ],
+    "factors": [
+      {
+        "name": "美欧分歧",
+        "score": 9
+      },
+      {
+        "name": "伊朗政策",
+        "score": 8
+      },
+      {
+        "name": "乌克兰立场",
+        "score": 7
+      },
+      {
+        "name": "社会抗议",
+        "score": 6
+      },
+      {
+        "name": "贸易争端",
+        "score": 5
+      },
+      {
+        "name": "气候议题",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "6.15",
+        "6.16",
+        "6.17",
+        "6.18"
+      ],
+      "series": [
+        {
+          "name": "团结度(分)",
+          "data": [
+            80,
+            55,
+            35,
+            30
+          ]
+        },
+        {
+          "name": "抗议强度(分)",
+          "data": [
+            30,
+            60,
+            80,
+            90
+          ]
+        },
+        {
+          "name": "峰会效力(分)",
+          "data": [
+            70,
+            40,
+            15,
+            5
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "暴力升级",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "name": "联盟破裂",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "name": "治理崩塌",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "name": "经济衰退",
+        "x": 5,
+        "y": 7
+      },
+      {
+        "name": "核扩散",
+        "x": 2,
+        "y": 9
+      }
+    ],
+    "scenarioTree": {
+      "name": "峰会召开",
+      "children": [
+        {
+          "name": "激烈博弈",
+          "children": [
+            {
+              "name": "无公报 70%",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "name": "勉强妥协",
+          "children": [
+            {
+              "name": "最低共识 25%",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "彻底崩盘",
+          "children": [
+            {
+              "name": "提前散会 5%",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "美国",
+          "category": 0,
+          "symbolSize": 48
+        },
+        {
+          "name": "德法",
+          "category": 0,
+          "symbolSize": 44
+        },
+        {
+          "name": "英国",
+          "category": 0,
+          "symbolSize": 36
+        },
+        {
+          "name": "日本",
+          "category": 0,
+          "symbolSize": 32
+        },
+        {
+          "name": "加拿大",
+          "category": 0,
+          "symbolSize": 32
+        },
+        {
+          "name": "意大利",
+          "category": 0,
+          "symbolSize": 30
+        },
+        {
+          "name": "抗议团体",
+          "category": 2,
+          "symbolSize": 34
+        }
+      ],
+      "links": [
+        {
+          "source": "美国",
+          "target": "德法",
+          "label": "分歧",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2.5
+          }
+        },
+        {
+          "source": "英国",
+          "target": "加拿大",
+          "label": "左右为难",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "抗议团体",
+          "target": "美国",
+          "label": "反对",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2
+          }
+        },
+        {
+          "source": "抗议团体",
+          "target": "德法",
+          "label": "反对",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2
+          }
+        },
+        {
+          "source": "日本",
+          "target": "美国",
+          "label": "跟随",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "意大利",
+          "target": "德法",
+          "label": "跟随",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 1.5
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/地区"
+        },
+        {
+          "name": "组织/机构"
+        },
+        {
+          "name": "群体/个人"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "全球经济阴云：增长放缓与通胀反弹",
+    "period": "2026年全年",
+    "probability": "60%",
+    "probClass": "mid",
+    "probLabel": "温和滞胀",
+    "summary": "世界银行下调增长至2.5%，能源价格上涨24%，欧洲央行被迫加息。",
+    "tags": [
+      "全球经济",
+      "通胀",
+      "货币政策",
+      "能源危机"
+    ],
+    "indicators": [
+      {
+        "name": "GDP增长",
+        "value": 2.5,
+        "max": 5,
+        "unit": "%",
+        "detail": "",
+        "interp": "全球GDP增速降至2.5%，为疫情以来最低，新兴市场拖累明显。"
+      },
+      {
+        "name": "能源涨幅",
+        "value": 24,
+        "max": 50,
+        "unit": "+%",
+        "detail": "",
+        "interp": "能源价格较年初上涨24%，地缘冲突推高油气成本，拖累工业产出。"
+      },
+      {
+        "name": "美通胀率",
+        "value": 3.8,
+        "max": 8,
+        "unit": "%",
+        "detail": "",
+        "interp": "美国CPI回升至3.8%，核心通胀粘性超预期，美联储降息预期落空。"
+      },
+      {
+        "name": "欧央行利率",
+        "value": 4.5,
+        "max": 8,
+        "unit": "%",
+        "detail": "",
+        "interp": "欧央行被迫加息至4.5%，南欧债务压力加大，滞胀风险上升。"
+      },
+      {
+        "name": "违约风险",
+        "value": 68,
+        "max": 100,
+        "unit": "/100",
+        "detail": "",
+        "interp": "新兴市场债务违约风险指数升至68，斯里兰卡、阿根廷等国处于违约边缘。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "增长动力",
+        "通胀压力",
+        "货币政策一致性",
+        "贸易保护度",
+        "金融稳定性",
+        "能源安全"
+      ],
+      "vals": [
+        3,
+        8,
+        4,
+        6,
+        5,
+        5
+      ]
+    },
+    "pie": [
+      {
+        "name": "温和滞胀",
+        "value": 60
+      },
+      {
+        "name": "局部金融危机",
+        "value": 30
+      },
+      {
+        "name": "全面衰退",
+        "value": 10
+      }
+    ],
+    "timeline": [
+      {
+        "round": "",
+        "date": "6-7月",
+        "desc": "美联储暂停加息"
+      },
+      {
+        "round": "",
+        "date": "8-9月",
+        "desc": "日本干预汇率"
+      },
+      {
+        "round": "",
+        "date": "10-11月",
+        "desc": "油价反弹"
+      },
+      {
+        "round": "",
+        "date": "12月",
+        "desc": "下调预测"
+      }
+    ],
+    "factors": [
+      {
+        "name": "能源价格",
+        "score": 9
+      },
+      {
+        "name": "利率政策",
+        "score": 8
+      },
+      {
+        "name": "地缘风险",
+        "score": 7
+      },
+      {
+        "name": "供应链断裂",
+        "score": 6
+      },
+      {
+        "name": "债务危机",
+        "score": 5
+      },
+      {
+        "name": "贸易保护",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "6-7月",
+        "8-9月",
+        "10-11月",
+        "12月"
+      ],
+      "series": [
+        {
+          "name": "GDP增长(%)",
+          "data": [
+            3.2,
+            2.8,
+            2.6,
+            2.5
+          ]
+        },
+        {
+          "name": "通胀率(%)",
+          "data": [
+            3.2,
+            3.5,
+            3.6,
+            3.8
+          ]
+        },
+        {
+          "name": "利率(%)",
+          "data": [
+            4,
+            4.2,
+            4.3,
+            4.5
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "金融危机",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "name": "债务违约",
+        "x": 6,
+        "y": 7
+      },
+      {
+        "name": "油价失控",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "name": "汇率崩盘",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "name": "供应链断裂",
+        "x": 7,
+        "y": 6
+      }
+    ],
+    "scenarioTree": {
+      "name": "增长放缓",
+      "children": [
+        {
+          "name": "政策协调",
+          "children": [
+            {
+              "name": "温和滞胀 60%",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "name": "政策失误",
+          "children": [
+            {
+              "name": "局部危机 30%",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "name": "连锁崩盘",
+          "children": [
+            {
+              "name": "全面衰退 10%",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "美联储",
+          "category": 1,
+          "symbolSize": 46
+        },
+        {
+          "name": "欧洲央行",
+          "category": 1,
+          "symbolSize": 42
+        },
+        {
+          "name": "中国人民银行",
+          "category": 1,
+          "symbolSize": 40
+        },
+        {
+          "name": "沙特(OPEC)",
+          "category": 0,
+          "symbolSize": 36
+        },
+        {
+          "name": "俄罗斯",
+          "category": 0,
+          "symbolSize": 34
+        },
+        {
+          "name": "IMF",
+          "category": 1,
+          "symbolSize": 32
+        }
+      ],
+      "links": [
+        {
+          "source": "美联储",
+          "target": "欧洲央行",
+          "label": "利率分化",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 2
+          }
+        },
+        {
+          "source": "沙特(OPEC)",
+          "target": "美联储",
+          "label": "减产博弈",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2
+          }
+        },
+        {
+          "source": "IMF",
+          "target": "美联储",
+          "label": "斡旋债务",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "中国人民银行",
+          "target": "美联储",
+          "label": "分化",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "俄罗斯",
+          "target": "沙特(OPEC)",
+          "label": "减产联盟",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#06d6a0",
+            "width": 1.5
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/地区"
+        },
+        {
+          "name": "组织/机构"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": "AI的\"出圈\"之年：从虚拟走向物理世界",
+    "period": "2026-2027年",
+    "probability": "55%",
+    "probClass": "mid",
+    "probLabel": "人形机器人规模化应用",
+    "summary": "具身智能爆发，OpenAI成立机器人团队，英伟达联手宇树科技推人形机器人。",
+    "tags": [
+      "人工智能",
+      "具身智能",
+      "人形机器人",
+      "中美科技"
+    ],
+    "indicators": [
+      {
+        "name": "机器人出货",
+        "value": 12,
+        "max": 30,
+        "unit": "万台",
+        "detail": "+200%",
+        "interp": "人形机器人出货量达12万台，同比增长200%，制造业和物流业为主要采购方。"
+      },
+      {
+        "name": "AI芯片市场",
+        "value": 1800,
+        "max": 3000,
+        "unit": "亿$",
+        "detail": "",
+        "interp": "AI芯片市场规模达1800亿美元，英伟达市占率超70%，但国产替代加速。"
+      },
+      {
+        "name": "安全事件",
+        "value": 7,
+        "max": 15,
+        "unit": "起",
+        "detail": "",
+        "interp": "已发生7起AI安全事故，包括工厂机器人误伤、自动驾驶误判等，引发安全审查。"
+      },
+      {
+        "name": "中美脱钩",
+        "value": 72,
+        "max": 100,
+        "unit": "/100",
+        "detail": "",
+        "interp": "AI领域脱钩指数达72，芯片禁令和算法出口管制持续加码。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "技术创新",
+        "产业落地",
+        "安全风险",
+        "伦理监管",
+        "地缘竞争",
+        "公众接受度"
+      ],
+      "vals": [
+        9,
+        8,
+        7,
+        5,
+        8,
+        6
+      ]
+    },
+    "pie": [
+      {
+        "name": "机器人大规模应用",
+        "value": 55
+      },
+      {
+        "name": "安全事件引发暂停",
+        "value": 30
+      },
+      {
+        "name": "中美脱钩固化",
+        "value": 15
+      }
+    ],
+    "timeline": [
+      {
+        "round": "",
+        "date": "2026H2",
+        "desc": "OpenAI机器人团队"
+      },
+      {
+        "round": "",
+        "date": "2027年初",
+        "desc": "悟道4.0"
+      },
+      {
+        "round": "",
+        "date": "2027年中",
+        "desc": "工厂事故诉讼"
+      },
+      {
+        "round": "",
+        "date": "2027年底",
+        "desc": "中美军事AI对话"
+      }
+    ],
+    "factors": [
+      {
+        "name": "技术突破",
+        "score": 9
+      },
+      {
+        "name": "中美竞争",
+        "score": 8
+      },
+      {
+        "name": "安全事件",
+        "score": 7
+      },
+      {
+        "name": "产业落地",
+        "score": 6
+      },
+      {
+        "name": "伦理争议",
+        "score": 5
+      },
+      {
+        "name": "监管力度",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "2026H2",
+        "2027年初",
+        "2027年中",
+        "2027年底"
+      ],
+      "series": [
+        {
+          "name": "机器人(万台)",
+          "data": [
+            2,
+            5,
+            8,
+            12
+          ]
+        },
+        {
+          "name": "AI芯片(千亿$)",
+          "data": [
+            12,
+            14,
+            16,
+            18
+          ]
+        },
+        {
+          "name": "安全事件(起)",
+          "data": [
+            1,
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "AI事故",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "name": "中美脱钩",
+        "x": 7,
+        "y": 7
+      },
+      {
+        "name": "就业冲击",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "name": "隐私泄露",
+        "x": 8,
+        "y": 5
+      },
+      {
+        "name": "军事AI",
+        "x": 3,
+        "y": 9
+      }
+    ],
+    "scenarioTree": {
+      "name": "AI爆发",
+      "children": [
+        {
+          "name": "规范发展",
+          "children": [
+            {
+              "name": "规模化应用 55%",
+              "value": 55
+            }
+          ]
+        },
+        {
+          "name": "安全危机",
+          "children": [
+            {
+              "name": "引发暂停 30%",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "name": "地缘分裂",
+          "children": [
+            {
+              "name": "脱钩固化 15%",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "OpenAI",
+          "category": 1,
+          "symbolSize": 42
+        },
+        {
+          "name": "英伟达",
+          "category": 1,
+          "symbolSize": 46
+        },
+        {
+          "name": "宇树科技",
+          "category": 1,
+          "symbolSize": 36
+        },
+        {
+          "name": "美国政府",
+          "category": 0,
+          "symbolSize": 42
+        },
+        {
+          "name": "中国政府",
+          "category": 0,
+          "symbolSize": 40
+        },
+        {
+          "name": "欧盟监管机构",
+          "category": 1,
+          "symbolSize": 34
+        }
+      ],
+      "links": [
+        {
+          "source": "美国政府",
+          "target": "中国政府",
+          "label": "竞争",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2.5
+          }
+        },
+        {
+          "source": "英伟达",
+          "target": "宇树科技",
+          "label": "合作",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        },
+        {
+          "source": "欧盟监管机构",
+          "target": "OpenAI",
+          "label": "施压",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 2
+          }
+        },
+        {
+          "source": "OpenAI",
+          "target": "英伟达",
+          "label": "依赖",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#06d6a0",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "美国政府",
+          "target": "英伟达",
+          "label": "管制",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 1.5
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/地区"
+        },
+        {
+          "name": "组织/企业"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": "\"九章四号\"问世：中国量子计算实现新跨越",
+    "period": "2026-2027年",
+    "probability": "70%",
+    "probClass": "high",
+    "probLabel": "竞赛加速",
+    "summary": "光量子计算机速度比超算快10^54倍，巩固中国领跑地位。",
+    "tags": [
+      "量子计算",
+      "九章",
+      "加密安全",
+      "科技竞赛"
+    ],
+    "indicators": [
+      {
+        "name": "量子优越性",
+        "value": 54,
+        "max": 60,
+        "unit": "10^倍",
+        "detail": "10⁵⁴",
+        "interp": "九章四号实现10^54倍优越性，远超经典超算极限，确立中国在光量子计算的领跑地位。"
+      },
+      {
+        "name": "研发投入比",
+        "value": 1.2,
+        "max": 2,
+        "unit": ":1",
+        "detail": "中美比",
+        "interp": "中美量子研发投入比达1.2:1，中国首次在投入上超过美国。"
+      },
+      {
+        "name": "加密迁移",
+        "value": 15,
+        "max": 100,
+        "unit": "%",
+        "detail": "",
+        "interp": "全球后量子加密迁移仅完成15%，多数国家尚未启动，安全窗口正在缩小。"
+      },
+      {
+        "name": "量子融资",
+        "value": 45,
+        "max": 80,
+        "unit": "亿$",
+        "detail": "+70%",
+        "interp": "量子初创融资达45亿美元，同比增长70%，产业资本加速涌入。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "技术领先度",
+        "产业化能力",
+        "加密安全威胁",
+        "国际竞争烈度",
+        "基础研究投入",
+        "军事应用潜力"
+      ],
+      "vals": [
+        9,
+        6,
+        8,
+        9,
+        8,
+        7
+      ]
+    },
+    "pie": [
+      {
+        "name": "竞赛加速",
+        "value": 70
+      },
+      {
+        "name": "加密恐慌",
+        "value": 25
+      },
+      {
+        "name": "军事化提前",
+        "value": 5
+      }
+    ],
+    "timeline": [
+      {
+        "round": "",
+        "date": "2026H2",
+        "desc": "中国量子谷"
+      },
+      {
+        "round": "",
+        "date": "2027年初",
+        "desc": "谷歌悬铃木3.0"
+      },
+      {
+        "round": "",
+        "date": "2027年中",
+        "desc": "量子攻击事件"
+      },
+      {
+        "round": "",
+        "date": "2027年底",
+        "desc": "中美对话"
+      }
+    ],
+    "factors": [
+      {
+        "name": "量子突破",
+        "score": 9
+      },
+      {
+        "name": "加密威胁",
+        "score": 8
+      },
+      {
+        "name": "中美竞争",
+        "score": 7
+      },
+      {
+        "name": "军事应用",
+        "score": 6
+      },
+      {
+        "name": "标准制定",
+        "score": 5
+      },
+      {
+        "name": "投资热度",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "2026H2",
+        "2027年初",
+        "2027年中",
+        "2027年底"
+      ],
+      "series": [
+        {
+          "name": "优越性指数(10^x)",
+          "data": [
+            20,
+            30,
+            40,
+            54
+          ]
+        },
+        {
+          "name": "加密迁移(%)",
+          "data": [
+            2,
+            5,
+            10,
+            15
+          ]
+        },
+        {
+          "name": "融资(亿$)",
+          "data": [
+            15,
+            25,
+            35,
+            45
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "加密崩溃",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "name": "量子军备",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "name": "经济间谍",
+        "x": 6,
+        "y": 7
+      },
+      {
+        "name": "核威慑失效",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "name": "技术垄断",
+        "x": 7,
+        "y": 6
+      }
+    ],
+    "scenarioTree": {
+      "name": "量子突破",
+      "children": [
+        {
+          "name": "竞赛持续",
+          "children": [
+            {
+              "name": "加速 70%",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "name": "安全恐慌",
+          "children": [
+            {
+              "name": "加密危机 25%",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "军事化",
+          "children": [
+            {
+              "name": "提前爆发 5%",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "中科院",
+          "category": 1,
+          "symbolSize": 44
+        },
+        {
+          "name": "谷歌",
+          "category": 1,
+          "symbolSize": 42
+        },
+        {
+          "name": "IBM",
+          "category": 1,
+          "symbolSize": 36
+        },
+        {
+          "name": "美国NSA",
+          "category": 1,
+          "symbolSize": 38
+        },
+        {
+          "name": "中国军方",
+          "category": 0,
+          "symbolSize": 34
+        },
+        {
+          "name": "NIST",
+          "category": 1,
+          "symbolSize": 30
+        }
+      ],
+      "links": [
+        {
+          "source": "中科院",
+          "target": "谷歌",
+          "label": "竞争",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2.5
+          }
+        },
+        {
+          "source": "NIST",
+          "target": "谷歌",
+          "label": "推动标准",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "美国NSA",
+          "target": "中国军方",
+          "label": "关注",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2
+          }
+        },
+        {
+          "source": "谷歌",
+          "target": "IBM",
+          "label": "竞争",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "中科院",
+          "target": "中国军方",
+          "label": "应用",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 1.5
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/军事"
+        },
+        {
+          "name": "组织/企业"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "title": "探月热潮再起：全球竞争新焦点",
+    "period": "2026-2027年",
+    "probability": "65%",
+    "probClass": "high",
+    "probLabel": "中美并行探月",
+    "summary": "NASA阿尔忒弥斯二号与嫦娥八号相继任务，月球南极成焦点。",
+    "tags": [
+      "探月",
+      "太空竞赛",
+      "月球资源",
+      "NASA"
+    ],
+    "indicators": [
+      {
+        "name": "月球任务",
+        "value": 8,
+        "max": 15,
+        "unit": "次",
+        "detail": "",
+        "interp": "2026-2027年各国共规划8次月球任务，创历史新高。"
+      },
+      {
+        "name": "水冰置信",
+        "value": 87,
+        "max": 100,
+        "unit": "%",
+        "detail": "",
+        "interp": "月球南极水冰探测置信度达87%，资源开发前景明朗。"
+      },
+      {
+        "name": "合作协定",
+        "value": 12,
+        "max": 30,
+        "unit": "国",
+        "detail": "",
+        "interp": "12国签署国际月球合作协定，但中美未在同一框架内。"
+      },
+      {
+        "name": "载荷价格",
+        "value": 120,
+        "max": 500,
+        "unit": "万$/kg",
+        "detail": "",
+        "interp": "商业载荷价格降至120万$/kg，SpaceX星舰降本效果显著。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "技术竞争",
+        "国际合作",
+        "资源开发潜力",
+        "军事化风险",
+        "科学价值",
+        "商业动力"
+      ],
+      "vals": [
+        9,
+        4,
+        8,
+        6,
+        9,
+        7
+      ]
+    },
+    "pie": [
+      {
+        "name": "中美并行探月",
+        "value": 65
+      },
+      {
+        "name": "重大事故",
+        "value": 25
+      },
+      {
+        "name": "资源争夺",
+        "value": 10
+      }
+    ],
+    "timeline": [
+      {
+        "round": "",
+        "date": "2026H2",
+        "desc": "阿尔忒弥斯二号成功"
+      },
+      {
+        "round": "",
+        "date": "2027年初",
+        "desc": "嫦娥八号着陆"
+      },
+      {
+        "round": "",
+        "date": "2027年中",
+        "desc": "印度日本发射"
+      },
+      {
+        "round": "",
+        "date": "2027年底",
+        "desc": "行为准则谈判"
+      }
+    ],
+    "factors": [
+      {
+        "name": "技术竞赛",
+        "score": 9
+      },
+      {
+        "name": "资源争夺",
+        "score": 8
+      },
+      {
+        "name": "国际合作",
+        "score": 7
+      },
+      {
+        "name": "军事化风险",
+        "score": 6
+      },
+      {
+        "name": "商业竞争",
+        "score": 5
+      },
+      {
+        "name": "科学发现",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "2026H2",
+        "2027年初",
+        "2027年中",
+        "2027年底"
+      ],
+      "series": [
+        {
+          "name": "月球任务(次)",
+          "data": [
+            1,
+            3,
+            5,
+            8
+          ]
+        },
+        {
+          "name": "水冰置信(%)",
+          "data": [
+            50,
+            65,
+            78,
+            87
+          ]
+        },
+        {
+          "name": "合作协定(国)",
+          "data": [
+            2,
+            5,
+            8,
+            12
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "月球事故",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "name": "军事冲突",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "name": "资源争夺",
+        "x": 6,
+        "y": 7
+      },
+      {
+        "name": "技术泄露",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "name": "条约破裂",
+        "x": 4,
+        "y": 7
+      }
+    ],
+    "scenarioTree": {
+      "name": "探月竞赛",
+      "children": [
+        {
+          "name": "并行探索",
+          "children": [
+            {
+              "name": "中美并进 65%",
+              "value": 65
+            }
+          ]
+        },
+        {
+          "name": "技术事故",
+          "children": [
+            {
+              "name": "重大事故 25%",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "资源冲突",
+          "children": [
+            {
+              "name": "争夺爆发 10%",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "NASA",
+          "category": 1,
+          "symbolSize": 46
+        },
+        {
+          "name": "中国国家航天局",
+          "category": 1,
+          "symbolSize": 44
+        },
+        {
+          "name": "俄罗斯航天局",
+          "category": 1,
+          "symbolSize": 34
+        },
+        {
+          "name": "欧空局",
+          "category": 1,
+          "symbolSize": 36
+        },
+        {
+          "name": "印度",
+          "category": 0,
+          "symbolSize": 32
+        },
+        {
+          "name": "SpaceX",
+          "category": 1,
+          "symbolSize": 38
+        },
+        {
+          "name": "月球",
+          "category": 2,
+          "symbolSize": 32
+        }
+      ],
+      "links": [
+        {
+          "source": "NASA",
+          "target": "中国国家航天局",
+          "label": "竞争",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2.5
+          }
+        },
+        {
+          "source": "俄罗斯航天局",
+          "target": "中国国家航天局",
+          "label": "偏向合作",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 2
+          }
+        },
+        {
+          "source": "欧空局",
+          "target": "NASA",
+          "label": "骑墙",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "SpaceX",
+          "target": "NASA",
+          "label": "商业参与",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        },
+        {
+          "source": "印度",
+          "target": "NASA",
+          "label": "合作",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 1.5
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/地区"
+        },
+        {
+          "name": "组织/机构"
+        },
+        {
+          "name": "目标/对象"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "title": "委内瑞拉危机：地缘裂痕新深渊",
+    "period": "2026年全年",
+    "probability": "55%",
+    "probClass": "mid",
+    "probLabel": "政权更迭内战",
+    "summary": "美军突袭抓获马杜罗，引发拉美震荡，美俄代理人风险。",
+    "tags": [
+      "委内瑞拉",
+      "代理人战争",
+      "人道危机",
+      "拉美"
+    ],
+    "indicators": [
+      {
+        "name": "难民人数",
+        "value": 230,
+        "max": 400,
+        "unit": "万",
+        "detail": "",
+        "interp": "难民人数飙升至230万，哥伦比亚和巴西边境难民营超载。"
+      },
+      {
+        "name": "石油产量",
+        "value": 20,
+        "max": 200,
+        "unit": "万桶/天",
+        "detail": "-85%",
+        "interp": "石油产量暴跌85%至20万桶/天，基础设施损毁严重，恢复需数年。"
+      },
+      {
+        "name": "制裁反对国",
+        "value": 45,
+        "max": 100,
+        "unit": "个",
+        "detail": "",
+        "interp": "45国公开反对美国单边制裁，联合国大会多次讨论。"
+      },
+      {
+        "name": "俄军事顾问",
+        "value": 1500,
+        "max": 3000,
+        "unit": "人",
+        "detail": "",
+        "interp": "俄罗斯在委军事顾问达1500人，实际控制部分防空和导弹系统。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "国内稳定度",
+        "人道危机",
+        "美俄对抗",
+        "拉美团结度",
+        "国际法冲击",
+        "经济恢复"
+      ],
+      "vals": [
+        2,
+        9,
+        8,
+        4,
+        9,
+        1
+      ]
+    },
+    "pie": [
+      {
+        "name": "政权更迭内战",
+        "value": 55
+      },
+      {
+        "name": "代理人战争",
+        "value": 30
+      },
+      {
+        "name": "国际撤军",
+        "value": 15
+      }
+    ],
+    "timeline": [
+      {
+        "round": "",
+        "date": "1-3月",
+        "desc": "马杜罗被捕"
+      },
+      {
+        "round": "",
+        "date": "4-6月",
+        "desc": "俄军威慑"
+      },
+      {
+        "round": "",
+        "date": "7-9月",
+        "desc": "人道饥荒"
+      },
+      {
+        "round": "",
+        "date": "10-12月",
+        "desc": "美俄秘密协议"
+      }
+    ],
+    "factors": [
+      {
+        "name": "美军行动",
+        "score": 9
+      },
+      {
+        "name": "俄军介入",
+        "score": 8
+      },
+      {
+        "name": "人道危机",
+        "score": 7
+      },
+      {
+        "name": "石油供应",
+        "score": 6
+      },
+      {
+        "name": "拉美稳定",
+        "score": 5
+      },
+      {
+        "name": "国际法",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "1-3月",
+        "4-6月",
+        "7-9月",
+        "10-12月"
+      ],
+      "series": [
+        {
+          "name": "难民(万)",
+          "data": [
+            50,
+            120,
+            180,
+            230
+          ]
+        },
+        {
+          "name": "石油(万桶/天)",
+          "data": [
+            150,
+            80,
+            40,
+            20
+          ]
+        },
+        {
+          "name": "俄顾问(人)",
+          "data": [
+            200,
+            800,
+            1200,
+            1500
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "全面内战",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "name": "代理人战争",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "name": "难民危机",
+        "x": 8,
+        "y": 7
+      },
+      {
+        "name": "石油中断",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "name": "核对峙",
+        "x": 2,
+        "y": 10
+      }
+    ],
+    "scenarioTree": {
+      "name": "政权变动",
+      "children": [
+        {
+          "name": "美俄博弈",
+          "children": [
+            {
+              "name": "内战 55%",
+              "value": 55
+            }
+          ]
+        },
+        {
+          "name": "代理人化",
+          "children": [
+            {
+              "name": "代理人战争 30%",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "name": "国际干预",
+          "children": [
+            {
+              "name": "撤军 15%",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "美国",
+          "category": 0,
+          "symbolSize": 46
+        },
+        {
+          "name": "俄罗斯",
+          "category": 0,
+          "symbolSize": 44
+        },
+        {
+          "name": "中国",
+          "category": 0,
+          "symbolSize": 40
+        },
+        {
+          "name": "委反对派",
+          "category": 2,
+          "symbolSize": 34
+        },
+        {
+          "name": "马杜罗残余",
+          "category": 2,
+          "symbolSize": 30
+        },
+        {
+          "name": "哥伦比亚",
+          "category": 0,
+          "symbolSize": 30
+        },
+        {
+          "name": "巴西",
+          "category": 0,
+          "symbolSize": 32
+        }
+      ],
+      "links": [
+        {
+          "source": "美国",
+          "target": "俄罗斯",
+          "label": "对抗",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2.5
+          }
+        },
+        {
+          "source": "中国",
+          "target": "委反对派",
+          "label": "经济援助",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "哥伦比亚",
+          "target": "巴西",
+          "label": "联合自保",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        },
+        {
+          "source": "美国",
+          "target": "马杜罗残余",
+          "label": "清剿",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2
+          }
+        },
+        {
+          "source": "俄罗斯",
+          "target": "马杜罗残余",
+          "label": "支持",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#06d6a0",
+            "width": 1.5
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/地区"
+        },
+        {
+          "name": "组织/机构"
+        },
+        {
+          "name": "派系/群体"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "title": "俄乌冲突：陷入\"边打边谈\"的僵持深渊",
+    "period": "2026-2027年",
+    "probability": "50%",
+    "probClass": "mid",
+    "probLabel": "临时停火冻结战线",
+    "summary": "消耗战持续，西方援助疲劳，中国调停作用上升。",
+    "tags": [
+      "俄乌战争",
+      "消耗战",
+      "中国调停",
+      "粮食安全"
+    ],
+    "indicators": [
+      {
+        "name": "日伤亡",
+        "value": 650,
+        "max": 1200,
+        "unit": "人",
+        "detail": "500-800",
+        "interp": "双方日均伤亡500-800人，乌东战场陷入绞肉机式消耗。"
+      },
+      {
+        "name": "乌GDP降",
+        "value": 32,
+        "max": 60,
+        "unit": "%",
+        "detail": "",
+        "interp": "乌克兰GDP较战前下降32%，工业产能大量转移或损毁。"
+      },
+      {
+        "name": "西方援助",
+        "value": 1200,
+        "max": 2000,
+        "unit": "亿$",
+        "detail": "",
+        "interp": "西方累计援助1200亿美元，但援助疲劳明显，新拨款困难。"
+      },
+      {
+        "name": "俄控领土",
+        "value": 18,
+        "max": 30,
+        "unit": "%",
+        "detail": "",
+        "interp": "俄方控制乌领土约18%，战线基本冻结但零星交火持续。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "战场烈度",
+        "外交僵局",
+        "西方团结",
+        "俄罗斯耐力",
+        "乌克兰民心",
+        "全球粮食影响"
+      ],
+      "vals": [
+        7,
+        8,
+        5,
+        6,
+        7,
+        6
+      ]
+    },
+    "pie": [
+      {
+        "name": "临时停火冻结",
+        "value": 50
+      },
+      {
+        "name": "俄军新攻势",
+        "value": 30
+      },
+      {
+        "name": "乌政权更迭",
+        "value": 20
+      }
+    ],
+    "timeline": [
+      {
+        "round": "",
+        "date": "2026H2",
+        "desc": "顿巴斯拉锯"
+      },
+      {
+        "round": "",
+        "date": "2027年初",
+        "desc": "冬季轰炸"
+      },
+      {
+        "round": "",
+        "date": "2027春",
+        "desc": "南线渡河"
+      },
+      {
+        "round": "",
+        "date": "2027夏",
+        "desc": "中国方案停火"
+      }
+    ],
+    "factors": [
+      {
+        "name": "战场消耗",
+        "score": 9
+      },
+      {
+        "name": "西方援助",
+        "score": 8
+      },
+      {
+        "name": "俄军耐力",
+        "score": 7
+      },
+      {
+        "name": "中国调停",
+        "score": 6
+      },
+      {
+        "name": "粮食安全",
+        "score": 5
+      },
+      {
+        "name": "核风险",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "2026H2",
+        "2027年初",
+        "2027春",
+        "2027夏"
+      ],
+      "series": [
+        {
+          "name": "日伤亡(人)",
+          "data": [
+            400,
+            500,
+            600,
+            650
+          ]
+        },
+        {
+          "name": "西方援助(亿$)",
+          "data": [
+            800,
+            1000,
+            1100,
+            1200
+          ]
+        },
+        {
+          "name": "俄控领土(%)",
+          "data": [
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "核升级",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "name": "乌方崩溃",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "name": "西方断供",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "name": "粮食危机",
+        "x": 6,
+        "y": 7
+      },
+      {
+        "name": "调停失败",
+        "x": 5,
+        "y": 6
+      }
+    ],
+    "scenarioTree": {
+      "name": "消耗战",
+      "children": [
+        {
+          "name": "冻结冲突",
+          "children": [
+            {
+              "name": "停火 50%",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "俄军推进",
+          "children": [
+            {
+              "name": "新攻势 30%",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "name": "乌方崩溃",
+          "children": [
+            {
+              "name": "政权更迭 20%",
+              "value": 20
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "俄罗斯",
+          "category": 0,
+          "symbolSize": 46
+        },
+        {
+          "name": "乌克兰",
+          "category": 0,
+          "symbolSize": 44
+        },
+        {
+          "name": "美国",
+          "category": 0,
+          "symbolSize": 44
+        },
+        {
+          "name": "欧盟",
+          "category": 1,
+          "symbolSize": 40
+        },
+        {
+          "name": "中国",
+          "category": 0,
+          "symbolSize": 40
+        },
+        {
+          "name": "土耳其",
+          "category": 0,
+          "symbolSize": 34
+        },
+        {
+          "name": "联合国",
+          "category": 1,
+          "symbolSize": 32
+        }
+      ],
+      "links": [
+        {
+          "source": "俄罗斯",
+          "target": "乌克兰",
+          "label": "战争",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 3
+          }
+        },
+        {
+          "source": "美国",
+          "target": "乌克兰",
+          "label": "援助",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        },
+        {
+          "source": "欧盟",
+          "target": "乌克兰",
+          "label": "援助",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        },
+        {
+          "source": "中国",
+          "target": "俄罗斯",
+          "label": "调停",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 2
+          }
+        },
+        {
+          "source": "土耳其",
+          "target": "俄罗斯",
+          "label": "斡旋",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#ffd166",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "联合国",
+          "target": "乌克兰",
+          "label": "人道援助",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 1.5
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/地区"
+        },
+        {
+          "name": "组织/机构"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "title": "\"马斯克万亿\"震撼：全球首富的新记录",
+    "period": "2026-2027年",
+    "probability": "50%",
+    "probClass": "mid",
+    "probLabel": "富豪税立法",
+    "summary": "马斯克身家首破万亿美元，引发全球财富不平等讨论。",
+    "tags": [
+      "财富不平等",
+      "亿万富翁税",
+      "马斯克",
+      "全球治理"
+    ],
+    "indicators": [
+      {
+        "name": "马斯克净资",
+        "value": 1.02,
+        "max": 2,
+        "unit": "万亿$",
+        "detail": "",
+        "interp": "马斯克净资产首次突破1万亿美元，特斯拉和SpaceX估值双轮驱动。"
+      },
+      {
+        "name": "1%财富占比",
+        "value": 45,
+        "max": 60,
+        "unit": "%",
+        "detail": "",
+        "interp": "全球最富1%人群占有财富达45%，创历史新高。"
+      },
+      {
+        "name": "支持税国",
+        "value": 14,
+        "max": 30,
+        "unit": "个",
+        "detail": "",
+        "interp": "14国公开支持亿万富翁税提案，OECD推动全球协调。"
+      },
+      {
+        "name": "政治捐款",
+        "value": 2.5,
+        "max": 5,
+        "unit": "亿$",
+        "detail": "",
+        "interp": "马斯克政治捐款达2.5亿美元，影响力渗透美国两党。"
+      }
+    ],
+    "radar": {
+      "dims": [
+        "财富集中度",
+        "社会不平等",
+        "技术影响力",
+        "政治介入度",
+        "公众舆论分歧",
+        "监管响应"
+      ],
+      "vals": [
+        9,
+        9,
+        8,
+        7,
+        8,
+        5
+      ]
+    },
+    "pie": [
+      {
+        "name": "富豪税立法",
+        "value": 50
+      },
+      {
+        "name": "马斯克参选",
+        "value": 30
+      },
+      {
+        "name": "财富缩水",
+        "value": 20
+      }
+    ],
+    "timeline": [
+      {
+        "round": "",
+        "date": "2026H2",
+        "desc": "万亿封面"
+      },
+      {
+        "round": "",
+        "date": "2027年初",
+        "desc": "参议院提案"
+      },
+      {
+        "round": "",
+        "date": "2027年中",
+        "desc": "火星城市宣布"
+      },
+      {
+        "round": "",
+        "date": "2027年底",
+        "desc": "财富再创新高"
+      }
+    ],
+    "factors": [
+      {
+        "name": "财富集中",
+        "score": 9
+      },
+      {
+        "name": "社会不满",
+        "score": 8
+      },
+      {
+        "name": "政治介入",
+        "score": 7
+      },
+      {
+        "name": "监管响应",
+        "score": 6
+      },
+      {
+        "name": "技术影响",
+        "score": 5
+      },
+      {
+        "name": "全球税收",
+        "score": 4
+      }
+    ],
+    "trends": {
+      "labels": [
+        "2026H2",
+        "2027年初",
+        "2027年中",
+        "2027年底"
+      ],
+      "series": [
+        {
+          "name": "净资产(千亿$)",
+          "data": [
+            60,
+            75,
+            90,
+            102
+          ]
+        },
+        {
+          "name": "1%占比(%)",
+          "data": [
+            38,
+            40,
+            43,
+            45
+          ]
+        },
+        {
+          "name": "支持税国(个)",
+          "data": [
+            4,
+            8,
+            11,
+            14
+          ]
+        }
+      ]
+    },
+    "risks": [
+      {
+        "name": "社会动荡",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "name": "资本外逃",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "name": "政治极化",
+        "x": 7,
+        "y": 7
+      },
+      {
+        "name": "税收战争",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "name": "马斯克参选",
+        "x": 3,
+        "y": 8
+      }
+    ],
+    "scenarioTree": {
+      "name": "万亿记录",
+      "children": [
+        {
+          "name": "立法回应",
+          "children": [
+            {
+              "name": "富豪税 50%",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "政治化",
+          "children": [
+            {
+              "name": "马斯克参选 30%",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "name": "市场调整",
+          "children": [
+            {
+              "name": "财富缩水 20%",
+              "value": 20
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "name": "马斯克",
+          "category": 2,
+          "symbolSize": 48
+        },
+        {
+          "name": "特斯拉",
+          "category": 1,
+          "symbolSize": 38
+        },
+        {
+          "name": "SpaceX",
+          "category": 1,
+          "symbolSize": 38
+        },
+        {
+          "name": "美国国会",
+          "category": 1,
+          "symbolSize": 44
+        },
+        {
+          "name": "OECD",
+          "category": 1,
+          "symbolSize": 34
+        },
+        {
+          "name": "抗议群体",
+          "category": 2,
+          "symbolSize": 34
+        },
+        {
+          "name": "其他亿万富翁",
+          "category": 2,
+          "symbolSize": 30
+        }
+      ],
+      "links": [
+        {
+          "source": "马斯克",
+          "target": "美国国会",
+          "label": "博弈",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2.5
+          }
+        },
+        {
+          "source": "OECD",
+          "target": "美国国会",
+          "label": "推动全球税",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#4361ee",
+            "width": 2
+          }
+        },
+        {
+          "source": "抗议群体",
+          "target": "马斯克",
+          "label": "抨击",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#ef476f",
+            "width": 2
+          }
+        },
+        {
+          "source": "其他亿万富翁",
+          "target": "马斯克",
+          "label": "观望",
+          "lineStyle": {
+            "type": "dashed",
+            "color": "#94a3b8",
+            "width": 1.5
+          }
+        },
+        {
+          "source": "马斯克",
+          "target": "特斯拉",
+          "label": "控制",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        },
+        {
+          "source": "马斯克",
+          "target": "SpaceX",
+          "label": "控制",
+          "lineStyle": {
+            "type": "solid",
+            "color": "#06d6a0",
+            "width": 2
+          }
+        }
+      ],
+      "categories": [
+        {
+          "name": "国家/地区"
+        },
+        {
+          "name": "组织/机构"
+        },
+        {
+          "name": "个人/群体"
+        }
+      ]
+    }
+  }
+]

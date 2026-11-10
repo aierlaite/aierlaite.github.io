@@ -1,0 +1,147 @@
+{
+  "total_items": 78,
+  "datasets": {
+    "MicroLens": {
+      "count": 20,
+      "source": "快手短视频",
+      "source_dir": "/root/gsar_jamba_topo/data_MicroLens",
+      "label_description": "log2(comment_count + 1)",
+      "feature_dims": {
+        "visual": 768,
+        "text": 1024,
+        "user": 6
+      },
+      "num_frames": 100,
+      "total_samples": {
+        "train": 13509,
+        "valid": 1929,
+        "test": 3863
+      }
+    },
+    "Informs": {
+      "count": 15,
+      "source": "TikTok",
+      "source_dir": "/root/gsar_jamba_topo/data_v2",
+      "label_description": "composite_popularity = mean(min_max_norm(comment, heart, play, share))",
+      "feature_dims": {
+        "visual": 768,
+        "text": 1024,
+        "user": 9
+      },
+      "num_frames": "variable (50-200)",
+      "total_samples": {
+        "train": 1270,
+        "valid": 318,
+        "test": 258
+      }
+    },
+    "SMP-Video": {
+      "count": 15,
+      "source": "TikTok",
+      "source_dir": "/root/rspmn/data/train-origin",
+      "label_description": "popularity (composite score)",
+      "feature_dims": {
+        "visual": "N/A (raw video)",
+        "text": "N/A (raw text)",
+        "user": 7
+      },
+      "total_samples": {
+        "train": 4000
+      }
+    },
+    "FV": {
+      "count": 28,
+      "source": "TikTok",
+      "source_dir": "/root/GSAR-Jamba-TOPO-Public/data/processed_features",
+      "label_description": "popularity (composite score from SMP-Video)",
+      "feature_dims": {
+        "visual": 768,
+        "text": 1024,
+        "user": 9
+      },
+      "num_frames": 100,
+      "total_samples": {
+        "train": 3200,
+        "test": 400
+      }
+    }
+  },
+  "heat_level_distribution": {
+    "低": 9,
+    "中": 23,
+    "中低": 15,
+    "中高": 7,
+    "极低": 23,
+    "高": 1
+  },
+  "frame_visualization": {
+    "total_videos_analyzed": 28,
+    "case_studies": 20,
+    "output_dir": "supplementary_experiments/frame_visualization/outputs/",
+    "contents": {
+      "frame_images": "28个视频的Top5/Bottom5帧截图",
+      "timeline_images": "28个视频的帧重要性时间线图",
+      "combined_analysis": "3个精选视频的深度分析",
+      "paper_figures": "论文插图 (Figure D.1, D.2, D Combined)"
+    }
+  },
+  "model_info": {
+    "model_name": "STAP Mamba (CUDA)",
+    "parameters": "42.2M-42.4M",
+    "frame_scorer": "FrameImportanceScorer: sigmoid(Linear([x_t; |x_t - x_{t-1}|]))",
+    "saved_models": {
+      "full_retrain": "/root/GSAR-Jamba-TOPO-Public/saved_models/full_retrain/",
+      "multimodal_memory_bank": "/root/GSAR-Jamba-TOPO-Public/saved_models/multimodal_memory_bank/"
+    }
+  },
+  "pptx_architecture": {
+    "file": "热度预测1.0.pptx",
+    "pages": [
+      {
+        "slide": 1,
+        "title": "封面页",
+        "description": "演示文稿封面"
+      },
+      {
+        "slide": 2,
+        "title": "系统架构总览",
+        "description": "输入(视频/标题/来源) → Content模块(HyperFusion) + Context模块(OmniTrend)"
+      },
+      {
+        "slide": 3,
+        "title": "热度预测曲线",
+        "description": "预测热度 vs 实际热度 + 情绪线"
+      },
+      {
+        "slide": 4,
+        "title": "情绪变化趋势",
+        "description": "正面/负面/中性随时间变化 → 舆情预警"
+      },
+      {
+        "slide": 5,
+        "title": "群体传播分析",
+        "description": "各群体占比与热度变化"
+      },
+      {
+        "slide": 6,
+        "title": "输出结果面板",
+        "description": "热度预测/风险评估/传播摘要/推荐行动"
+      },
+      {
+        "slide": 7,
+        "title": "双模块分析说明",
+        "description": "Content + Context 总述"
+      },
+      {
+        "slide": 8,
+        "title": "Content模块详细架构",
+        "description": "HyperFusion: 标题/正文/评论/标签 → 关键词/情感/主题/质量 → Content Score"
+      },
+      {
+        "slide": 9,
+        "title": "Context模块详细架构",
+        "description": "OmniTrend: 发布时间/用户影响力/热点事件/社会环境 → Context Score"
+      }
+    ]
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "schemaVersion": "XH-202619/opinion-analysis-1.0",
+  "capabilityId": "opinion_analysis",
+  "frontendRoute": "/opinion",
+  "scenarios": [
+    {
+      "id": 1008,
+      "title": "Vocational Student Ranks 12th Globally in Math Competition：议程干预下的舆情演化",
+      "period": "3 个已执行仿真轮次",
+      "probability": null,
+      "probClass": "pending",
+      "probLabel": "待校准",
+      "summary": "IntervenSim 已执行 3 轮闭环仿真。末轮人口加权状态为积极 7.8%、中立 34.6%、消极 57.6%；本页仅展示已执行轨迹与派生统计，不把未校准情景包装成概率结论。",
+      "tags": [
+        "IntervenSim",
+        "Agenda",
+        "已执行",
+        "待人工复核"
+      ],
+      "indicators": [
+        {
+          "name": "末轮积极占比",
+          "value": 7.8464,
+          "max": 100.0,
+          "unit": "%",
+          "detail": "末轮群体人口加权 optimism 占比",
+          "evidence": "derived"
+        },
+        {
+          "name": "末轮中立占比",
+          "value": 34.5816,
+          "max": 100.0,
+          "unit": "%",
+          "detail": "末轮群体人口加权 neutrality 占比",
+          "evidence": "derived"
+        },
+        {
+          "name": "末轮消极占比",
+          "value": 57.5721,
+          "max": 100.0,
+          "unit": "%",
+          "detail": "末轮群体人口加权 pessimism 占比",
+          "evidence": "derived"
+        },
+        {
+          "name": "末轮互动量",
+          "value": 39963.0,
+          "max": 47817.0,
+          "unit": "次",
+          "detail": "末轮 comments + shares",
+          "evidence": "executed"
+        }
+      ],
+      "radar": {
+        "dims": [
+          "积极",
+          "中立",
+          "消极",
+          "互动强度",
+          "议程连续性"
+        ],
+        "vals": [
+          0.7846,
+          3.4582,
+          5.7572,
+          8.3575,
+          10.0
+        ]
+      },
+      "pie": [
+        {
+          "name": "积极",
+          "value": 7.8464
+        },
+        {
+          "name": "中立",
+          "value": 34.5816
+        },
+        {
+          "name": "消极",
+          "value": 57.5721
+        }
+      ],
+      "pieMeaning": "final_state_distribution",
+      "timeline": [
+        {
+          "round": 1,
+          "date": "day0",
+          "desc": "shape the public interpretation of the event: The source agent issues an explanatory note on 'Vocational Student Ranks 12th Globally in Math Competition' to frame the ongoing discussion.",
+          "agendaType": "explain",
+          "sourceRoundId": 1
+        },
+        {
+          "round": 2,
+          "date": "day1",
+          "desc": "reduce antagonism and restore trust: The source agent clarifies the key facts around 'Vocational Student Ranks 12th Globally in Math Competition' and addresses the main public doubts.",
+          "agendaType": "clarify",
+          "sourceRoundId": 2
+        },
+        {
+          "round": 3,
+          "date": "day2",
+          "desc": "reduce antagonism and restore trust: The source agent clarifies the key facts around 'Vocational Student Ranks 12th Globally in Math Competition' and addresses the main public doubts.",
+          "agendaType": "clarify",
+          "sourceRoundId": 3
+        }
+      ],
+      "factors": [],
+      "trends": {
+        "labels": [
+          "第1轮",
+          "第2轮",
+          "第3轮"
+        ],
+        "series": [
+          {
+            "name": "积极",
+            "data": [
+              11.7009,
+              8.7564,
+              7.8464
+            ]
+          },
+          {
+            "name": "中立",
+            "data": [
+              50.5806,
+              39.0216,
+              34.5816
+            ]
+          },
+          {
+            "name": "消极",
+            "data": [
+              37.7185,
+              52.222,
+              57.5721
+            ]
+          },
+          {
+            "name": "互动量",
+            "data": [
+              18234.0,
+              47817.0,
+              39963.0
+            ]
+          }
+        ]
+      },
+      "risks": [],
+      "scenarioTree": {
+        "name": "事件输入",
+        "value": "executed",
+        "children": [
+          {
+            "name": "第1轮 · explain",
+            "value": "executed",
+            "children": [
+              {
+                "name": "第2轮 · clarify",
+                "value": "executed",
+                "children": [
+                  {
+                    "name": "第3轮 · clarify",
+                    "value": "executed",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "scenarioTreeMode": "executed_path",
+      "graph": {
+        "nodes": [
+          {
+            "id": "agenda_source",
+            "name": "议程源",
+            "category": 0,
+            "value": 1.0,
+            "symbolSize": 42.0
+          },
+          {
+            "id": "public_signal",
+            "name": "公共信号",
+            "category": 2,
+            "value": 0.0126,
+            "symbolSize": 38.0
+          },
+          {
+            "id": "group:education_students_integrity",
+            "name": "Academic Integrity Concern Group",
+            "category": 1,
+            "value": 24750000.0,
+            "symbolSize": 54.0
+          },
+          {
+            "id": "group:education_students_fairness",
+            "name": "Student Fairness Concern Group",
+            "category": 1,
+            "value": 20250000.0,
+            "symbolSize": 54.0
+          },
+          {
+            "id": "group:education_parents_safety",
+            "name": "Parental Trust and Safety Group",
+            "category": 1,
+            "value": 16000000.0,
+            "symbolSize": 54.0
+          },
+          {
+            "id": "group:education_parents_accountability",
+            "name": "Parental Accountability Group",
+            "category": 1,
+            "value": 16000000.0,
+            "symbolSize": 54.0
+          },
+          {
+            "id": "group:education_professionals_ethics",
+            "name": "Research Ethics Group",
+            "category": 1,
+            "value": 7200000.0,
+            "symbolSize": 54.0
+          },
+          {
+            "id": "group:education_professionals_governance",
+            "name": "Academic Governance Group",
+            "category": 1,
+            "value": 4800000.0,
+            "symbolSize": 54.0
+          }
+        ],
+        "links": [
+          {
+            "source": "agenda_source",
+            "target": "group:education_students_integrity",
+            "value": 1.0,
+            "relation": "agenda exposure",
+            "lineStyle": {
+              "width": 1.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "group:education_students_integrity",
+            "target": "public_signal",
+            "value": 12858.0,
+            "relation": "public feedback",
+            "lineStyle": {
+              "width": 6.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "agenda_source",
+            "target": "group:education_students_fairness",
+            "value": 1.0,
+            "relation": "agenda exposure",
+            "lineStyle": {
+              "width": 1.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "group:education_students_fairness",
+            "target": "public_signal",
+            "value": 10520.0,
+            "relation": "public feedback",
+            "lineStyle": {
+              "width": 6.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "agenda_source",
+            "target": "group:education_parents_safety",
+            "value": 1.0,
+            "relation": "agenda exposure",
+            "lineStyle": {
+              "width": 1.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "group:education_parents_safety",
+            "target": "public_signal",
+            "value": 6380.0,
+            "relation": "public feedback",
+            "lineStyle": {
+              "width": 6.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "agenda_source",
+            "target": "group:education_parents_accountability",
+            "value": 1.0,
+            "relation": "agenda exposure",
+            "lineStyle": {
+              "width": 1.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "group:education_parents_accountability",
+            "target": "public_signal",
+            "value": 6380.0,
+            "relation": "public feedback",
+            "lineStyle": {
+              "width": 6.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "agenda_source",
+            "target": "group:education_professionals_ethics",
+            "value": 1.0,
+            "relation": "agenda exposure",
+            "lineStyle": {
+              "width": 1.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "group:education_professionals_ethics",
+            "target": "public_signal",
+            "value": 2295.0,
+            "relation": "public feedback",
+            "lineStyle": {
+              "width": 6.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "agenda_source",
+            "target": "group:education_professionals_governance",
+            "value": 1.0,
+            "relation": "agenda exposure",
+            "lineStyle": {
+              "width": 1.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "group:education_professionals_governance",
+            "target": "public_signal",
+            "value": 1530.0,
+            "relation": "public feedback",
+            "lineStyle": {
+              "width": 6.0,
+              "opacity": 0.8
+            }
+          },
+          {
+            "source": "public_signal",
+            "target": "agenda_source",
+            "value": 1.0,
+            "relation": "next-round feedback",
+            "lineStyle": {
+              "width": 1.0,
+              "opacity": 0.8
+            }
+          }
+        ],
+        "categories": [
+          {
+            "name": "议程源"
+          },
+          {
+            "name": "群体"
+          },
+          {
+            "name": "公共信号"
+          }
+        ]
+      },
+      "graphMeaning": "agenda_group_interaction",
+      "audit": {
+        "trackId": "intervensim_social_simulation",
+        "engine": "IntervenSim + Agenda",
+        "executionMode": "actual_simulation_execution",
+        "evidenceStatus": "executed",
+        "probabilityStatus": "pending_calibration",
+        "dataset": "SNB（授权与数据血缘以 dataset_audit.json 为准）",
+        "modelProvider": "Alibaba Cloud Model Studio (Bailian)",
+        "modelName": "qwen-plus",
+        "modelCallStatus": "pending_live_call",
+        "humanReviewStatus": "not_submitted",
+        "claimScope": "One audited event and 3 executed rounds; descriptive engineering evidence only.",
+        "sourceArtifacts": [
+          "frontend/social/trajectories.json",
+          "frontend/social/events.json",
+          "experiment_results.json",
+          "agent_execution_trace.json"
+        ]
+      }
+    }
+  ],
+  "pendingSections": [
+    "scenario_probability requires held-out calibration data",
+    "factors require a registered ablation experiment",
+    "risks require calibrated likelihood and impact labels"
+  ]
+}

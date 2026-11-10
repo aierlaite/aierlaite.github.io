@@ -1,0 +1,156 @@
+[
+  {
+    "dataset_id": "intervensim-snb-events",
+    "name": "IntervenSim social-event benchmark (SNB)",
+    "description": "Forty-two real 2024 online events used by the IntervenSim social-simulation track, with engagement fields and seven-point historical traffic trajectories.",
+    "provenance": "The benchmark is distributed by the GA-S3 authors and reused here only as audited historical input to IntervenSim; the bundled copy is byte-identical to the project display archive.",
+    "access_url": "https://github.com/AI4SS/GAS-3",
+    "usage_rights": "Publicly distributed research benchmark; retain attribution and complete the organizer/institutional data-use review before external redistribution.",
+    "terms_url": "https://github.com/AI4SS/GAS-3",
+    "local_path": "app/dataset/SNB.json",
+    "sha256": "2faa043241c723efdeea668004b6ac10181402f8fa050e523caa6ad204b2ff0a",
+    "record_count": 42,
+    "historical_features": [
+      "event title and factual description",
+      "view, like, share and comment counts",
+      "seven historical network-traffic observations"
+    ],
+    "source_version": "Bundled 42-event snapshot audited 2026-08-25",
+    "license_verified": true,
+    "pii_assessment": "Aggregate event and engagement fields only; no direct personal identifiers are used by the research planner.",
+    "redistribution_scope": "Derived metrics and hashes may be submitted; redistribution of the bundled source requires the original terms and attribution review.",
+    "verification_method": "Record-count and SHA-256 verification against the project display archive plus repository/source metadata review.",
+    "verified_at": "2026-08-25T00:00:00+08:00",
+    "data_lineage": [
+      "AI4SS/GAS-3 distributed benchmark",
+      "team display archive",
+      "app/dataset/SNB.json",
+      "IntervenSim event loader"
+    ],
+    "compliance_status": "verified"
+  },
+  {
+    "dataset_id": "gas3-us-election-2020",
+    "name": "U.S. presidential election 2020 state-result snapshot",
+    "description": "Fifty states plus the District of Columbia with party winner and state-level Republican/Democratic vote totals, used only by the GAS-3 U.S.-election adapter.",
+    "provenance": "Read-only copy of the team's original-data election archive. The research source family is MIT Election Data and Science Lab's U.S. President 1976-2020 dataset; the normalized display snapshot is hashed independently and must be version-traced before publication.",
+    "access_url": "https://electionlab.mit.edu/data",
+    "usage_rights": "Public research election returns; cite the MIT Election Data and Science Lab dataset and its Harvard Dataverse DOI, preserve version metadata, and re-check state totals against the selected release before confirmatory use.",
+    "terms_url": "https://doi.org/10.7910/DVN/42MVDX",
+    "local_path": "app/dataset/election/election_2020.json",
+    "sha256": "8e460ce2c3bd2a3aad4801f83c213ce15f3855090023543723a50411c709c006",
+    "record_count": 51,
+    "historical_features": [
+      "state abbreviation",
+      "party winner",
+      "Republican candidate votes",
+      "Democratic candidate votes"
+    ],
+    "source_version": "MIT Election Lab U.S. President 1976-2020 source family; normalized 2020 state snapshot",
+    "license_verified": true,
+    "pii_assessment": "State-level aggregate certified vote totals; no voter-level personal data.",
+    "redistribution_scope": "Normalized aggregate state results with MIT Election Data and Science Lab attribution and version citation.",
+    "verification_method": "51-row schema/count check, SHA-256 local fixation, and primary Harvard Dataverse DOI/source-family review.",
+    "verified_at": "2026-08-25T00:00:00+08:00",
+    "data_lineage": [
+      "MIT Election Data and Science Lab source family",
+      "team normalized election archive",
+      "app/dataset/election/election_2020.json",
+      "GAS-3 election replay adapter"
+    ],
+    "compliance_status": "verified"
+  },
+  {
+    "dataset_id": "gas3-election-display-priors",
+    "name": "GAS-3 state display-prior snapshot",
+    "description": "Fifty states plus the District of Columbia with electoral votes and Republican/Democratic display scores used only for a bounded historical reconstruction sanity check.",
+    "provenance": "Read-only copy of the team's existing election display archive; these scores are treated as target-derived display priors and never as leakage-safe prospective inputs.",
+    "access_url": "https://github.com/AI4SS/GAS-3",
+    "usage_rights": "Research-display artifact distributed with the team project; retain GAS-3 attribution and do not claim the derived scores are independently collected polls.",
+    "terms_url": "https://github.com/AI4SS/GAS-3",
+    "local_path": "app/dataset/election/us_states.json",
+    "sha256": "466330e88abfd9b5a8c8e3ba84549bf59e0dec817a2a47eb53277d4cae10939a",
+    "record_count": 51,
+    "historical_features": [
+      "state abbreviation and name",
+      "electoral votes",
+      "population",
+      "Republican/Democratic display scores",
+      "swing-state and region labels"
+    ],
+    "source_version": "Team election display-prior snapshot audited 2026-08-25",
+    "license_verified": true,
+    "pii_assessment": "Aggregate state-level fields only; no voter-level personal data.",
+    "redistribution_scope": "Derived state display values and aggregate replay outputs with attribution; prospective-forecast claims are forbidden.",
+    "verification_method": "51-row schema/count and SHA-256 audit against the read-only frontend archive; semantic leakage warning recorded in every result.",
+    "verified_at": "2026-08-25T00:00:00+08:00",
+    "data_lineage": [
+      "team election display archive",
+      "app/dataset/election/us_states.json",
+      "GAS-3 historical reconstruction adapter"
+    ],
+    "compliance_status": "verified"
+  },
+  {
+    "dataset_id": "stap-heat-display-samples",
+    "name": "STAP popularity-prediction display samples",
+    "description": "Seventy-eight structured micro-video samples from the existing heat-prediction display, covering MicroLens, Informs, SMP-Video and FV-derived result records.",
+    "provenance": "Read-only copy of the team's original-data heat archive. It is a derived feature/result artifact aligned with the official STAP preprocessing and evaluation contract, not a redistribution of raw videos.",
+    "access_url": "https://github.com/AI4SS/STAP",
+    "usage_rights": "The STAP implementation is MIT-licensed. Retain dataset-specific terms for MicroLens, Informs and SMP/FV data; publish only authorized derived features, predictions and aggregate metrics unless raw-media redistribution is separately permitted.",
+    "terms_url": "https://github.com/AI4SS/STAP/blob/main/LICENSE",
+    "local_path": "app/dataset/heat/demo_display_data.json",
+    "sha256": "b98688e47a1094b2f8b339a93d321204f7750823f9f62f915b7c1fdbeb9e81fb",
+    "record_count": 78,
+    "historical_features": [
+      "dataset and sample identifier",
+      "multimodal visual/text/user feature summary",
+      "predicted and observed popularity evidence",
+      "heat level and model-output metadata"
+    ],
+    "source_version": "STAP-derived 78-row display artifact snapshot audited 2026-08-25",
+    "license_verified": true,
+    "pii_assessment": "Derived feature summaries and model/display outputs; no raw user identity is exported.",
+    "redistribution_scope": "Only authorized derived features, predictions, aggregate metrics and hashes; raw media remains excluded.",
+    "verification_method": "78-row schema/count check, SHA-256 fixation, simulated-flag audit, and official STAP repository license review.",
+    "verified_at": "2026-08-25T00:00:00+08:00",
+    "data_lineage": [
+      "AI4SS/STAP implementation contract",
+      "team derived display archive",
+      "app/dataset/heat/demo_display_data.json",
+      "STAP replay evaluator"
+    ],
+    "compliance_status": "verified"
+  },
+  {
+    "dataset_id": "stap-heat-output-panel",
+    "name": "STAP derived popularity output panel",
+    "description": "Seventy-eight derived prediction/label rows used for replay evaluation; every supplied row remains explicitly marked simulated.",
+    "provenance": "Read-only copy of the team's existing heat frontend output panel, aligned to the STAP display artifact ids.",
+    "access_url": "https://github.com/AI4SS/STAP",
+    "usage_rights": "Derived output artifact under the project/STAP research-display contract; raw video redistribution is excluded.",
+    "terms_url": "https://github.com/AI4SS/STAP/blob/main/LICENSE",
+    "local_path": "app/dataset/heat/demo_output_panel.json",
+    "sha256": "36d7f8b236fee5955a62106bdf194f72077298888ab02f529d35908a308955ae",
+    "record_count": 78,
+    "historical_features": [
+      "sample and dataset id",
+      "predicted popularity label",
+      "actual display label",
+      "derived engagement forecasts",
+      "simulated flag"
+    ],
+    "source_version": "STAP-derived 78-row output-panel snapshot audited 2026-08-25",
+    "license_verified": true,
+    "pii_assessment": "Derived sample-level prediction records with no exported user identity.",
+    "redistribution_scope": "Derived predictions, labels, aggregate metrics and hashes only; raw videos are excluded.",
+    "verification_method": "78-row id alignment, prediction/label schema, simulated-flag and SHA-256 audit against the read-only frontend archive.",
+    "verified_at": "2026-08-25T00:00:00+08:00",
+    "data_lineage": [
+      "team STAP display archive",
+      "app/dataset/heat/demo_output_panel.json",
+      "derived-output replay evaluator"
+    ],
+    "compliance_status": "verified"
+  }
+]

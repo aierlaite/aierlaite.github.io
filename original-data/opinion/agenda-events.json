@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1001,
+    "title": "职业学生数学竞赛事件：议程干预下的群体演化",
+    "period": "3 个已执行仿真轮次",
+    "probability": null,
+    "probLabel": "概率待校准",
+    "evidenceStatus": "executed",
+    "probabilityStatus": "pending_calibration",
+    "trackId": "intervensim_social_simulation",
+    "sourceArtifacts": ["frontend/social/trajectories.json", "experiment_results.json", "bailian_call_receipts.json"]
+  }
+]
