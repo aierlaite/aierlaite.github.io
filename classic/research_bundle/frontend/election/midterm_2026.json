@@ -16,10 +16,12 @@
     "basis": "9 月底资料 · 选区摆幅情景",
     "house": {
       "baseline_democratic": 215,
-      "projected_gain": 25,
+      "projected_gain": 23,
       "national_baseline_margin_pp": -2.788024,
       "poll_target_margin_pp": 8.070988,
-      "applied_margin_shift_pp": 10.859011,
+      "swing_weight": 0.96,
+      "parameter_origin": "analyst_scenario_assumption",
+      "applied_margin_shift_pp": 10.424651,
       "states": [
         {
           "state": "AK",
@@ -65,10 +67,10 @@
           "state": "CA",
           "total_seats": 52,
           "baseline_democratic_seats": 43,
-          "additional_democratic_seats": 3,
-          "predicted_democratic_seats": 46,
-          "predicted_republican_seats": 6,
-          "seat_margin_score": 0.769231,
+          "additional_democratic_seats": 2,
+          "predicted_democratic_seats": 45,
+          "predicted_republican_seats": 7,
+          "seat_margin_score": 0.730769,
           "leading_party": "democratic"
         },
         {
@@ -355,10 +357,10 @@
           "state": "NY",
           "total_seats": 26,
           "baseline_democratic_seats": 19,
-          "additional_democratic_seats": 2,
-          "predicted_democratic_seats": 21,
-          "predicted_republican_seats": 5,
-          "seat_margin_score": 0.615385,
+          "additional_democratic_seats": 1,
+          "predicted_democratic_seats": 20,
+          "predicted_republican_seats": 6,
+          "seat_margin_score": 0.538462,
           "leading_party": "democratic"
         },
         {
@@ -530,8 +532,9 @@
     "method": [
       "历史基线：使用 2024 年的 435 个众议院选区。各党取本党得票最高的候选人，同名候选人跨党派票线合并。",
       "全国摆幅：把 7 月 Pew 和 9 月 Reuters/Ipsos 的国会投票意向换算为两党票差后取均值（民主党领先 8.07 点），与历史基线比较。",
-      "逐区汇总：两党竞争选区的民主党票差统一上调 10.86 点，单党参选选区沿用历史阵营。以 2024 选区为比较单元，再汇总到 50 州。",
-      "情绪波按各事件的当日响应和后续变化展示，时间范围截至 9 月 30 日。",
+      "情景参数：全国摆幅采用 0.96 的响应系数。",
+      "逐区汇总：两党竞争选区的民主党票差统一上调 10.42 点，单党参选选区沿用历史阵营。以 2024 选区为比较单元，再汇总到 50 州。",
+      "情绪波采用事件峰值与指数衰减参数，时间范围截至 9 月 30 日。",
       "参议院：全国席位情景以民主党阵营 47 席为基线，设定净增 5 席。"
     ]
   },
@@ -573,10 +576,18 @@
     },
     {
       "id": "medsl-2024",
-      "label": "MIT 选举实验室 · 众议院选区结果（第 15 版）",
+      "label": "MIT 选举实验室 · 2024 年众议院选区结果",
       "url": "https://doi.org/10.7910/DVN/IG0UN2",
       "published_at": "2026-03-09",
-      "detail": "2024 年 435 个表决选区的候选人得票。"
+      "detail": "435 个表决选区的候选人得票；实际输入来自公开镜像，CSV 的 version 列为 20250910。",
+      "mirror_url": "https://crproject.org/data/jsoncsv/mit-1976-2024-house.csv"
+    },
+    {
+      "id": "real-earnings",
+      "label": "美国劳工统计局 · 7 月实际收入",
+      "url": "https://www.bls.gov/news.release/archives/realer_08122026.htm",
+      "published_at": "2026-08-12",
+      "detail": "劳工统计局公布：7 月实际平均时薪环比下降 0.1%、同比下降 0.2%；实际平均周薪环比持平。"
     },
     {
       "id": "fbi-crime",
@@ -621,6 +632,13 @@
       "detail": "美国医保与医疗补助服务中心预计，2027 年 Medicare Advantage 平均月保费由 14.37 美元降至 12 美元。"
     },
     {
+      "id": "spr",
+      "label": "美国能源部 · 战略石油储备交换招标",
+      "url": "https://www.energy.gov/articles/united-states-energy-department-continues-execution-strategic-reserve-release-commitments",
+      "published_at": "2026-09-29",
+      "detail": "能源部发布最多 4,000 万桶战略石油储备原油交换招标，计划于 2026 年 11 月和 12 月交付。"
+    },
+    {
       "id": "income",
       "label": "美国经济分析局 · 8 月个人收入与支出",
       "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
@@ -630,13 +648,30 @@
   ],
   "events": [
     {
+      "id": "real-earnings",
+      "date": "2026-08-12",
+      "title": "7 月实际时薪小幅下降",
+      "domain": "劳动收入",
+      "lean": "democratic",
+      "content": "劳工统计局公布：7 月实际平均时薪环比下降 0.1%、同比下降 0.2%；实际平均周薪环比持平。",
+      "analysis": "工资购买力走弱，使民主党关于家庭收支压力的讨论更有针对性。对依赖工资收入的家庭而言，名义工资上涨能否覆盖物价是核心关切。",
+      "impact": {
+        "rep_angry": 0.18,
+        "dem_angry": 0.25,
+        "ind_angry": 0.29
+      },
+      "source_ids": [
+        "real-earnings"
+      ]
+    },
+    {
       "id": "fbi-crime",
       "date": "2026-08-19",
       "title": "FBI 发布 2025 年治安统计",
       "domain": "公共安全",
       "lean": "republican",
       "content": "FBI 公布完整统计：2025 年全国暴力犯罪率比 2024 年低 9.3%。",
-      "analysis": "治安改善为共和党强调公共安全提供了数据；下降趋势也涉及各级执法部门的共同工作。",
+      "analysis": "治安改善为共和党强调公共安全提供了数据。在关注社区安全的郊区选民中，治安议题与日常生活体验相连，也为其争取中间选民提供了切入点。",
       "impact": {
         "rep_angry": 0.12,
         "dem_angry": 0.17,
@@ -653,7 +688,7 @@
       "domain": "宏观经济",
       "lean": "mixed",
       "content": "经济分析局的第二次估算显示，实际 GDP 折年增长 1.5%，私人国内最终销售折年增长 4.2%。",
-      "analysis": "私人需求仍有韧性，但整体增速低于第一季度。增长与放缓两种信号同时存在。",
+      "analysis": "私人需求仍有韧性，但整体增速低于第一季度。共和党可强调消费和投资的支撑作用，民主党则更容易围绕增长放缓和家庭获得感展开讨论。",
       "impact": {
         "rep_angry": 0.17,
         "dem_angry": 0.22,
@@ -670,7 +705,7 @@
       "domain": "就业",
       "lean": "republican",
       "content": "9 月 4 日公布的初值显示，8 月非农就业增加 16.2 万，失业率维持在 4.1%。",
-      "analysis": "就业增长和失业率稳定，为共和党强调劳动力市场韧性提供了依据。",
+      "analysis": "就业增长和失业率稳定，为共和党强调劳动力市场韧性提供了依据。对重视工作机会的选民而言，持续新增岗位有助于维持对经济前景的信心。",
       "impact": {
         "rep_angry": 0.11,
         "dem_angry": 0.18,
@@ -687,7 +722,7 @@
       "domain": "生活成本",
       "lean": "democratic",
       "content": "8 月 CPI 环比上升 0.4%、同比上升 3.4%；汽油价格环比上涨 3.9%。",
-      "analysis": "汽油和日常支出上涨延续了家庭预算压力，也使民主党强调降低生活成本更贴近当时的议题。",
+      "analysis": "汽油和日常支出上涨延续了家庭预算压力，也使民主党强调降低生活成本更贴近当时的议题。通勤距离较长、燃油支出占比较高的家庭更直接地感受到这类变化。",
       "impact": {
         "rep_angry": 0.24,
         "dem_angry": 0.34,
@@ -704,7 +739,7 @@
       "domain": "货币政策",
       "lean": "mixed",
       "content": "联邦基金利率目标区间上调 25 个基点至 3.75%–4.00%。",
-      "analysis": "加息体现压低通胀的政策取向，也让住房和借贷成本继续成为选举议题。",
+      "analysis": "加息体现压低通胀的政策取向，也让住房和借贷成本继续成为选举议题。储蓄者和借款人的感受不同，两党围绕抑制物价与降低融资成本各有议题空间。",
       "impact": {
         "rep_angry": 0.26,
         "dem_angry": 0.3,
@@ -721,7 +756,7 @@
       "domain": "医疗保障",
       "lean": "republican",
       "content": "美国医保与医疗补助服务中心预计，2027 年 Medicare Advantage 平均月保费由 14.37 美元降至 12 美元。",
-      "analysis": "这项官方预估为共和党政府讨论老年人医疗负担提供了具体数据。",
+      "analysis": "这项官方预估为共和党政府讨论老年人医疗负担提供了具体数据。月保费变化与退休群体的固定预算直接相关，适合围绕老年选民的医疗支出展开讨论。",
       "impact": {
         "rep_angry": 0.13,
         "dem_angry": 0.19,
@@ -732,13 +767,30 @@
       ]
     },
     {
+      "id": "spr",
+      "date": "2026-09-29",
+      "title": "能源部启动原油储备交换招标",
+      "domain": "能源供应",
+      "lean": "republican",
+      "content": "能源部发布最多 4,000 万桶战略石油储备原油交换招标，计划于 2026 年 11 月和 12 月交付。",
+      "analysis": "扩大原油供应的安排，为共和党回应能源价格和供应稳定问题提供了政策动作。对燃油支出较高的家庭和运输行业，能源供应是影响成本预期的重要因素。",
+      "impact": {
+        "rep_angry": 0.12,
+        "dem_angry": 0.19,
+        "ind_angry": 0.17
+      },
+      "source_ids": [
+        "spr"
+      ]
+    },
+    {
       "id": "income",
       "date": "2026-09-30",
       "title": "8 月实际可支配收入持平",
       "domain": "家庭收入",
       "lean": "democratic",
       "content": "经济分析局公布的 8 月数据中，扣除物价后的可支配收入环比持平，实际个人消费支出上升 0.6%。",
-      "analysis": "消费增长和购买力停滞并存，家庭预算仍是民主党讨论生活成本的有利议题。",
+      "analysis": "消费增长和购买力停滞并存，家庭预算仍是民主党讨论生活成本的有利议题。收入没有同步增加时，持续支出更容易让储蓄较少的家庭关注经济压力。",
       "impact": {
         "rep_angry": 0.21,
         "dem_angry": 0.27,
@@ -750,6 +802,82 @@
     }
   ],
   "emotion_waves": [
+    {
+      "event_id": "real-earnings",
+      "title": "7 月实际时薪小幅下降",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "date": "2026-08-10",
+          "rep_angry": 0.08,
+          "dem_angry": 0.08,
+          "ind_angry": 0.08
+        },
+        {
+          "day_offset": -1,
+          "date": "2026-08-11",
+          "rep_angry": 0.08,
+          "dem_angry": 0.08,
+          "ind_angry": 0.08
+        },
+        {
+          "day_offset": 0,
+          "date": "2026-08-12",
+          "rep_angry": 0.18,
+          "dem_angry": 0.25,
+          "ind_angry": 0.29
+        },
+        {
+          "day_offset": 1,
+          "date": "2026-08-13",
+          "rep_angry": 0.147,
+          "dem_angry": 0.194,
+          "ind_angry": 0.2208
+        },
+        {
+          "day_offset": 2,
+          "date": "2026-08-14",
+          "rep_angry": 0.1249,
+          "dem_angry": 0.1564,
+          "ind_angry": 0.1744
+        },
+        {
+          "day_offset": 3,
+          "date": "2026-08-15",
+          "rep_angry": 0.1101,
+          "dem_angry": 0.1312,
+          "ind_angry": 0.1433
+        },
+        {
+          "day_offset": 4,
+          "date": "2026-08-16",
+          "rep_angry": 0.1002,
+          "dem_angry": 0.1143,
+          "ind_angry": 0.1224
+        },
+        {
+          "day_offset": 5,
+          "date": "2026-08-17",
+          "rep_angry": 0.0935,
+          "dem_angry": 0.103,
+          "ind_angry": 0.1084
+        },
+        {
+          "day_offset": 6,
+          "date": "2026-08-18",
+          "rep_angry": 0.0891,
+          "dem_angry": 0.0954,
+          "ind_angry": 0.0991
+        },
+        {
+          "day_offset": 7,
+          "date": "2026-08-19",
+          "rep_angry": 0.0861,
+          "dem_angry": 0.0903,
+          "ind_angry": 0.0928
+        }
+      ]
+    },
     {
       "event_id": "fbi-crime",
       "title": "FBI 发布 2025 年治安统计",
@@ -1172,6 +1300,40 @@
       ]
     },
     {
+      "event_id": "spr",
+      "title": "能源部启动原油储备交换招标",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "date": "2026-09-27",
+          "rep_angry": 0.08,
+          "dem_angry": 0.08,
+          "ind_angry": 0.08
+        },
+        {
+          "day_offset": -1,
+          "date": "2026-09-28",
+          "rep_angry": 0.08,
+          "dem_angry": 0.08,
+          "ind_angry": 0.08
+        },
+        {
+          "day_offset": 0,
+          "date": "2026-09-29",
+          "rep_angry": 0.12,
+          "dem_angry": 0.19,
+          "ind_angry": 0.17
+        },
+        {
+          "day_offset": 1,
+          "date": "2026-09-30",
+          "rep_angry": 0.1068,
+          "dem_angry": 0.1537,
+          "ind_angry": 0.1403
+        }
+      ]
+    },
+    {
       "event_id": "income",
       "title": "8 月实际可支配收入持平",
       "timeline": [
@@ -1198,5 +1360,11 @@
         }
       ]
     }
-  ]
+  ],
+  "emotion_wave_model": {
+    "kind": "analyst_parameterized_exponential_decay",
+    "baseline": 0.08,
+    "daily_decay_rate": 0.4,
+    "event_peak_origin": "analyst_scenario_assumptions"
+  }
 }

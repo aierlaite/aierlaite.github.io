@@ -1,7 +1,9 @@
 {
   "source": "https://doi.org/10.7910/DVN/IG0UN2",
-  "version": "15",
   "mirror": "https://crproject.org/data/jsoncsv/mit-1976-2024-house.csv",
+  "input_sha256": "76eec42483ee9f0fc5cf6e377442c783d1ae6eefa929729fd6561a69bab47f2a",
+  "input_version_column": "20250910",
+  "swing_weight": 0.96,
   "rows": [
     {
       "state": "AK",
@@ -428,7 +430,7 @@
       "district_2024": 40,
       "democratic_votes_2024": 171637,
       "republican_votes_2024": 211998,
-      "projected_party": "democratic"
+      "projected_party": "republican"
     },
     {
       "state": "CA",
@@ -1912,7 +1914,7 @@
       "district_2024": 1,
       "democratic_votes_2024": 183540,
       "republican_votes_2024": 226285,
-      "projected_party": "democratic"
+      "projected_party": "republican"
     },
     {
       "state": "NY",

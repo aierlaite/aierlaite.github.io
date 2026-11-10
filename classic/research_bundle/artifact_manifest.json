@@ -310,8 +310,8 @@
       "artifact_type": "midterm_forecast",
       "track_id": "gas3_us_election",
       "frontend_route": "/election",
-      "sha256": "448457c97b59f0f009dc179f4e7c086887b08fcfbffb49daa1020b228da33c84",
-      "byte_size": 37923,
+      "sha256": "f9e42e80a67df7036f50679fd110d353187f3620e847c8966a3010b803e72fac",
+      "byte_size": 43979,
       "generated_at": "2026-11-10T04:15:21+00:00",
       "evidence_level": "derived"
     },
@@ -334,8 +334,8 @@
       "artifact_type": "midterm_district_baseline",
       "track_id": "gas3_us_election",
       "frontend_route": "/election",
-      "sha256": "bb241f5f453e403354904f929284d00bcfb41091a3b95daee150aac913102fc5",
-      "byte_size": 79609,
+      "sha256": "c9ec00f22dbecf94a60f9da29aabdaf1526eeb77dcb43cf5e6ab36008365f330",
+      "byte_size": 79740,
       "generated_at": "2026-11-10T04:15:21+00:00",
       "evidence_level": "derived"
     }
