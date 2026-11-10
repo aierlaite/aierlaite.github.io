@@ -307,12 +307,24 @@
       "artifact_id": "frontend:election:midterm_2026.json",
       "relative_path": "frontend/election/midterm_2026.json",
       "media_type": "application/json",
-      "artifact_type": "midterm_seat_comparison",
+      "artifact_type": "midterm_forecast",
       "track_id": "gas3_us_election",
       "frontend_route": "/election",
-      "sha256": "c201ff52221f74f4bfdc6969126c778d9a935bcc282a10bac8082b7bfe9799ed",
-      "byte_size": 17937,
-      "generated_at": "2026-11-10T03:30:00Z",
+      "sha256": "9d2fa459abadf2c12cd1c15ae7412a52f7476d6887d4ce7d626a38690605ae39",
+      "byte_size": 39085,
+      "generated_at": "2026-11-10T04:15:21+00:00",
+      "evidence_level": "derived"
+    },
+    {
+      "artifact_id": "frontend:election:midterm_2026_results.json",
+      "relative_path": "frontend/election/midterm_2026_results.json",
+      "media_type": "application/json",
+      "artifact_type": "midterm_returns_snapshot",
+      "track_id": "gas3_us_election",
+      "frontend_route": "/election",
+      "sha256": "1c92b3514171007f1f159576e28b5270c2a0833bf003fed71b8380f114a0f127",
+      "byte_size": 6787,
+      "generated_at": "2026-11-10T04:15:21+00:00",
       "evidence_level": "derived"
     }
   ],
@@ -333,6 +345,7 @@
     ],
     "/election": [
       "frontend/election/midterm_2026.json",
+      "frontend/election/midterm_2026_results.json",
       "tracks/gas3_us_election.json",
       "frontend/election/election_result.json"
     ],
@@ -344,6 +357,7 @@
   },
   "download_index": [
     "frontend/election/midterm_2026.json",
+    "frontend/election/midterm_2026_results.json",
     "capability_surfaces.json",
     "frontend/capabilities.json",
     "tracks/gas3_us_election.json",
