@@ -1,0 +1,1794 @@
+{
+  "schema_version": "zhijian/2.0-three-track-audited",
+  "generated_at": "2026-08-28T16:20:46.794172+00:00",
+  "problem_statement": "Current AI Scientist prototypes often combine heterogeneous models into one narrative without proving that each model is used in its intended empirical setting. For this project, GAS-3 must support U.S. election simulation, IntervenSim must support intervention-aware social simulation, and STAP must support micro-video popularity prediction. Without an enforced routing and evidence contract, datasets, outputs and metrics can be silently mixed, making the resulting hypothesis difficult to falsify or reproduce.",
+  "rationale": {
+    "innovation": "Build a domain-aligned three-track AI Scientist: GAS-3 retains its hierarchical Group Agents inside a U.S.-election adapter; IntervenSim retains its source-crowd feedback loop for social events; STAP retains temporal enlargement and topology-aware memory for popularity curves. Qwen through Alibaba Cloud Bailian coordinates evidence, hypothesis drafting and review, but does not replace or cross-wire the three core engines.",
+    "reasoning_chain": [
+      "GAS-3 represents behaviorally similar populations with hierarchical Group Agents, so state and voter-cohort agents can be evaluated as a population-weighted U.S.-election simulation rather than as individual voters.",
+      "IntervenSim explicitly feeds source interventions into crowd updates and aggregated responses back into the next intervention, which matches multi-round social-event simulation.",
+      "STAP was designed for micro-video popularity prediction and combines long-sequence temporal enlargement with a topology-aware historical-video memory bank.",
+      "Because the three engines solve different prediction objects, each requires its own Source/Target data, baselines, metrics and leakage controls even when they share one evidence and reporting layer.",
+      "An immutable application registry plus schema validation can prevent Qwen or configuration drift from remapping an engine, adding an unsupported fourth track or mixing evaluation claims.",
+      "If domain alignment is scientifically useful, each track should outperform its preregistered task-specific baseline on held-out data without relying on results from either of the other two tracks."
+    ],
+    "falsifiable_hypothesis": "Under frozen chronological evaluation, the GAS-3 election adapter will improve calibrated state-level forecasting over historical carry-forward, IntervenSim will reduce social-trajectory error over a no-feedback baseline, and STAP will reduce popularity RMSE while improving rank correlation over flat retrieval. A track-level claim is rejected whenever its preregistered paired improvement is absent."
+  },
+  "application_tracks": [
+    {
+      "track_id": "gas3_us_election",
+      "engine": "GAS-3",
+      "application": "美国大选",
+      "frontend_route": "/election",
+      "purpose": "Use hierarchical Group Agents to model U.S. presidential-election scenarios at state and voter-cohort levels, with population weights and uncertainty retained in the final forecast.",
+      "retained_core": [
+        "hierarchical Group Agent generation",
+        "population-weighted behavior quantization",
+        "large-scale interaction under a shared environment"
+      ],
+      "source_dataset_ids": [
+        "gas3-us-election-2020",
+        "gas3-election-display-priors"
+      ],
+      "target_dataset_name": "Prospective U.S. presidential election panel",
+      "inputs": [
+        "historical state-level election returns",
+        "state electoral votes and demographic priors",
+        "timestamped polling and campaign-event evidence"
+      ],
+      "outputs": [
+        "state win probabilities with uncertainty",
+        "electoral-vote distribution rather than a single unsupported point prediction",
+        "auditable voter-cohort and state-level Group Agent traces"
+      ],
+      "baselines": [
+        "historical carry-forward",
+        "uniform national swing",
+        "regularized logistic model"
+      ],
+      "metrics": [
+        "state winner accuracy",
+        "Brier score",
+        "electoral-vote MAE",
+        "expected calibration error"
+      ]
+    },
+    {
+      "track_id": "intervensim_social_simulation",
+      "engine": "IntervenSim",
+      "application": "社交模拟",
+      "frontend_route": "/social",
+      "purpose": "Run an intervention-aware social-event simulation in which source actions, crowd responses and the next intervention form an endogenous multi-round feedback loop.",
+      "retained_core": [
+        "source-intervention -> crowd-update -> public-signal feedback loop",
+        "explicit group state and population-weighted interaction metrics",
+        "round-by-round intervention and trajectory artifacts"
+      ],
+      "source_dataset_ids": [
+        "intervensim-snb-events"
+      ],
+      "target_dataset_name": "Prospective social-event intervention-response panel",
+      "inputs": [
+        "audited historical social events and engagement trajectories",
+        "source interventions with issuer and timestamp",
+        "de-identified population-group priors"
+      ],
+      "outputs": [
+        "multi-round group-state trajectories",
+        "views, likes, comments, shares and follows",
+        "intervention-response effects and reproducible simulation artifacts"
+      ],
+      "baselines": [
+        "persistence",
+        "static event without source feedback",
+        "IntervenSim deterministic update"
+      ],
+      "metrics": [
+        "normalized RMSE",
+        "Spearman rho",
+        "intervention-response error",
+        "trajectory calibration"
+      ]
+    },
+    {
+      "track_id": "stap_popularity_prediction",
+      "engine": "STAP",
+      "application": "热度预测",
+      "frontend_route": "/heat",
+      "purpose": "Predict micro-video popularity curves with STAP temporal enlargement and a topology-aware historical memory bank, without reusing STAP as a generic social-simulation memory module.",
+      "retained_core": [
+        "sparse-plus-dense temporal enlargement",
+        "topology-aware parametric memory bank",
+        "multimodal visual, textual and user-feature fusion"
+      ],
+      "source_dataset_ids": [
+        "stap-heat-display-samples",
+        "stap-heat-output-panel"
+      ],
+      "target_dataset_name": "Prospective micro-video popularity panel",
+      "inputs": [
+        "long video-frame sequences",
+        "title/text and creator features",
+        "timestamped view, like, comment and share observations"
+      ],
+      "outputs": [
+        "predicted heat curve and peak time",
+        "popularity score with confidence interval",
+        "topology-memory cluster and retrieved historical-video evidence"
+      ],
+      "baselines": [
+        "mean predictor",
+        "MLP multimodal fusion",
+        "LSTM sequence model",
+        "flat retrieval memory"
+      ],
+      "metrics": [
+        "MAE",
+        "MSE",
+        "RMSE",
+        "NMSE",
+        "MAPE",
+        "R-squared",
+        "Spearman rank correlation"
+      ]
+    }
+  ],
+  "track_research_plans": [
+    {
+      "track_id": "gas3_us_election",
+      "engine": "GAS-3",
+      "application": "美国大选",
+      "frontend_route": "/election",
+      "problem_statement": "Current U.S. election simulations often collapse heterogeneous voter cohorts into aggregate polling averages, weakening state-level uncertainty calibration and making the reasoning from cohort evidence to Electoral College outcomes difficult to audit.",
+      "rationale": {
+        "innovation": "Retain GAS-3 hierarchical Group Agents and population-weighted behavior quantization, then expose state-level aggregation, uncertainty and evidence lineage as a falsifiable election pipeline.",
+        "reasoning_chain": [
+          "State outcomes depend on heterogeneous cohorts whose turnout and preference shifts are not represented by one national average.",
+          "GAS-3 can preserve cohort hierarchy and population weights while Qwen, called through Bailian, structures scenario evidence and agent rationales.",
+          "Aggregating frozen pre-election cohort states yields state scores and Electoral College distributions that can be backtested without leaking post-cutoff evidence.",
+          "Calibration and electoral-vote error can falsify whether hierarchical agents improve over polling and uniform-swing baselines."
+        ],
+        "falsifiable_hypothesis": "Across held-out election cycles and preregistered pre-election cutoffs, GAS-3 will reduce state-level Brier score and electoral-vote MAE versus a uniform national swing baseline."
+      },
+      "technical_details": {
+        "statistical_methods": [
+          "state-level calibration curves",
+          "Brier score",
+          "bootstrap confidence intervals"
+        ],
+        "machine_learning_methods": [
+          "regularized logistic regression",
+          "isotonic calibration",
+          "hierarchical aggregation"
+        ],
+        "deep_learning_methods": [
+          "Qwen-based evidence structuring",
+          "GAS-3 hierarchical Group Agent simulation"
+        ],
+        "model_runtime": "Qwen open-source-family model through Alibaba Cloud Model Studio (Bailian) API",
+        "software_stack": [
+          "Python 3.10-3.12",
+          "Pydantic v2",
+          "Alibaba Cloud Bailian OpenAI-compatible API",
+          "GAS-3 adapter",
+          "pandas/scikit-learn",
+          "state-level Electoral College evaluator"
+        ],
+        "reproducibility_controls": [
+          "immutable source SHA-256 and transformation lineage",
+          "fixed random seeds, cutoff timestamps and environment versions",
+          "agent execution trace plus redacted Qwen/Bailian call receipt",
+          "human approval recorded separately from automatic validation"
+        ]
+      },
+      "datasets": {
+        "source": [
+          {
+            "dataset_id": "gas3-us-election-2020",
+            "name": "U.S. presidential election 2020 state-result snapshot",
+            "description": "Fifty states plus the District of Columbia with party winner and state-level Republican/Democratic vote totals, used only by the GAS-3 U.S.-election adapter.",
+            "provenance": "Read-only copy of the team's original-data election archive. The research source family is MIT Election Data and Science Lab's U.S. President 1976-2020 dataset; the normalized display snapshot is hashed independently and must be version-traced before publication.",
+            "access_url": "https://electionlab.mit.edu/data",
+            "usage_rights": "Public research election returns; cite the MIT Election Data and Science Lab dataset and its Harvard Dataverse DOI, preserve version metadata, and re-check state totals against the selected release before confirmatory use.",
+            "terms_url": "https://doi.org/10.7910/DVN/42MVDX",
+            "local_path": "app/dataset/election/election_2020.json",
+            "sha256": "8e460ce2c3bd2a3aad4801f83c213ce15f3855090023543723a50411c709c006",
+            "record_count": 51,
+            "historical_features": [
+              "state abbreviation",
+              "party winner",
+              "Republican candidate votes",
+              "Democratic candidate votes"
+            ],
+            "source_version": "MIT Election Lab U.S. President 1976-2020 source family; normalized 2020 state snapshot",
+            "license_verified": true,
+            "pii_assessment": "State-level aggregate certified vote totals; no voter-level personal data.",
+            "redistribution_scope": "Normalized aggregate state results with MIT Election Data and Science Lab attribution and version citation.",
+            "verification_method": "51-row schema/count check, SHA-256 local fixation, and primary Harvard Dataverse DOI/source-family review.",
+            "verified_at": "2026-08-25T00:00:00+08:00",
+            "data_lineage": [
+              "MIT Election Data and Science Lab source family",
+              "team normalized election archive",
+              "app/dataset/election/election_2020.json",
+              "GAS-3 election replay adapter"
+            ],
+            "compliance_status": "verified"
+          },
+          {
+            "dataset_id": "gas3-election-display-priors",
+            "name": "GAS-3 state display-prior snapshot",
+            "description": "Fifty states plus the District of Columbia with electoral votes and Republican/Democratic display scores used only for a bounded historical reconstruction sanity check.",
+            "provenance": "Read-only copy of the team's existing election display archive; these scores are treated as target-derived display priors and never as leakage-safe prospective inputs.",
+            "access_url": "https://github.com/AI4SS/GAS-3",
+            "usage_rights": "Research-display artifact distributed with the team project; retain GAS-3 attribution and do not claim the derived scores are independently collected polls.",
+            "terms_url": "https://github.com/AI4SS/GAS-3",
+            "local_path": "app/dataset/election/us_states.json",
+            "sha256": "466330e88abfd9b5a8c8e3ba84549bf59e0dec817a2a47eb53277d4cae10939a",
+            "record_count": 51,
+            "historical_features": [
+              "state abbreviation and name",
+              "electoral votes",
+              "population",
+              "Republican/Democratic display scores",
+              "swing-state and region labels"
+            ],
+            "source_version": "Team election display-prior snapshot audited 2026-08-25",
+            "license_verified": true,
+            "pii_assessment": "Aggregate state-level fields only; no voter-level personal data.",
+            "redistribution_scope": "Derived state display values and aggregate replay outputs with attribution; prospective-forecast claims are forbidden.",
+            "verification_method": "51-row schema/count and SHA-256 audit against the read-only frontend archive; semantic leakage warning recorded in every result.",
+            "verified_at": "2026-08-25T00:00:00+08:00",
+            "data_lineage": [
+              "team election display archive",
+              "app/dataset/election/us_states.json",
+              "GAS-3 historical reconstruction adapter"
+            ],
+            "compliance_status": "verified"
+          }
+        ],
+        "target": [
+          {
+            "name": "Prospective U.S. presidential election panel",
+            "collection_scope": "Multiple historical backtests plus one future U.S. presidential-election cycle, with state-level snapshots frozen at preregistered dates before Election Day.",
+            "unit_of_analysis": "election cycle x state/DC x timestamp x de-identified voter cohort",
+            "planned_features": [
+              "certified historical vote totals and electoral votes",
+              "timestamped polls with sample size, mode, sponsor and uncertainty",
+              "state demographics and turnout priors from authoritative public statistics",
+              "campaign events, endorsements and economic context with provenance",
+              "GAS-3 Group Agent states, weights and state win probabilities"
+            ],
+            "sampling_strategy": "Backtest by holding out complete election cycles; for prospective evaluation, freeze inputs at fixed pre-election horizons and never train on post-cutoff evidence.",
+            "consent_and_privacy": "Use aggregate public election and polling records; do not ingest identifiable voter records. Document every source version and applicable redistribution term.",
+            "quality_controls": [
+              "pre-register inclusion/exclusion rules and primary metrics",
+              "version data, code, prompts, Qwen model id and random seeds",
+              "retain immutable raw-data hashes and transformation lineage",
+              "cross-check totals against certified state results",
+              "report calibration and uncertainty, not only winner labels"
+            ]
+          }
+        ]
+      },
+      "paper_title": "Auditable Hierarchical Group-Agent Simulation for State-Level U.S. Election Forecasting",
+      "paper_abstract": {
+        "background": "Aggregate election forecasts underrepresent cohort heterogeneity and hide the derivation of state-level uncertainty.",
+        "methods": "We propose a GAS-3 pipeline with hierarchical voter-cohort agents, population-weighted state aggregation, Qwen/Bailian evidence structuring and leakage-safe historical backtests.",
+        "expected_results": "We expect improved calibration and lower electoral-vote error than uniform-swing and regularized polling baselines; failure on preregistered metrics will reject the hypothesis."
+      },
+      "methods": [
+        {
+          "step": 1,
+          "name": "Evidence freeze",
+          "procedure": "Freeze certified returns, polls and contextual evidence at preregistered cutoffs.",
+          "inputs": [
+            "audited historical returns",
+            "timestamped polls"
+          ],
+          "outputs": [
+            "versioned state snapshots"
+          ]
+        },
+        {
+          "step": 2,
+          "name": "Group Agent construction",
+          "procedure": "Build hierarchical voter cohorts and population weights without identifiable voter records.",
+          "inputs": [
+            "aggregate demographics",
+            "state priors"
+          ],
+          "outputs": [
+            "auditable GAS-3 cohort tree"
+          ]
+        },
+        {
+          "step": 3,
+          "name": "Scenario execution",
+          "procedure": "Run Qwen/Bailian-assisted group interactions and preserve every agent/action trace.",
+          "inputs": [
+            "cohort tree",
+            "campaign evidence"
+          ],
+          "outputs": [
+            "cohort preference states"
+          ]
+        },
+        {
+          "step": 4,
+          "name": "State aggregation",
+          "procedure": "Aggregate cohort scores into state predictions and Electoral College totals with calibration.",
+          "inputs": [
+            "cohort states",
+            "electoral votes"
+          ],
+          "outputs": [
+            "frontend-aligned state_predictions"
+          ]
+        }
+      ],
+      "experiments": {
+        "baselines": [
+          {
+            "name": "Uniform national swing",
+            "description": "Apply one national shift to historical state margins."
+          },
+          {
+            "name": "Regularized polling model",
+            "description": "Fit a leakage-safe state logistic model on frozen poll aggregates."
+          }
+        ],
+        "metrics": [
+          {
+            "name": "Brier score",
+            "definition": "Mean squared error of state Republican win scores.",
+            "direction": "lower"
+          },
+          {
+            "name": "Electoral-vote MAE",
+            "definition": "Absolute error in party Electoral College totals.",
+            "direction": "lower"
+          },
+          {
+            "name": "State accuracy",
+            "definition": "Correct winner labels across states and DC.",
+            "direction": "higher"
+          }
+        ],
+        "split_strategy": "Leave complete election cycles out; freeze all prospective inputs before each evaluation cutoff.",
+        "ablations": [
+          "remove cohort hierarchy",
+          "remove population weighting",
+          "remove Qwen-structured scenario evidence"
+        ],
+        "robustness_checks": [
+          "alternative polling cutoffs",
+          "swing-state-only metrics",
+          "calibration by polling density"
+        ],
+        "decision_rule": "Support only if GAS-3 lowers Brier score and electoral-vote MAE versus the preregistered primary baseline with paired 95% intervals excluding zero."
+      },
+      "results": {
+        "track_id": "gas3_us_election",
+        "evidence_type": "actual_execution",
+        "formulas": [
+          "p_rep,state = repPct_state / (repPct_state + demPct_state)",
+          "Brier = (1/S) * sum_state (p_rep,state - y_rep,state)^2",
+          "EV_error = |sum_state EV_state * I(yhat_state=REP) - actual_REP_EV|"
+        ],
+        "observed_values": {
+          "historical_state_records": 51,
+          "state_accuracy": 0.941176,
+          "brier_score": 0.047254,
+          "electoral_vote_error": 3
+        },
+        "interpretation": "The GAS-3 frontend/result contract executed across 50 states plus DC. Because the supplied display priors may derive from the same historical result, these metrics validate wiring and aggregation only.",
+        "status": "verified_feasible",
+        "evaluation_mode": "historical_replay_sanity_check",
+        "claim_scope": "Historical engineering reconstruction; no prospective predictive-validity claim.",
+        "frontend_artifact": "frontend/election/election_result.json"
+      },
+      "references": [
+        {
+          "reference_id": "gas3-2025",
+          "title": "GA-S3: Comprehensive Social Network Simulation with Group Agents",
+          "authors": [
+            "Yunyao Zhang",
+            "Zikai Song",
+            "Hang Zhou",
+            "Wenfeng Ren",
+            "Yi-Ping Phoebe Chen",
+            "Junqing Yu",
+            "Wei Yang"
+          ],
+          "year": 2025,
+          "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+          "doi": "10.18653/v1/2025.findings-acl.468",
+          "url": "https://aclanthology.org/2025.findings-acl.468/",
+          "verification_source": "ACL Anthology primary metadata",
+          "source_kind": "primary_publication",
+          "metadata_match": true,
+          "verified_at": "2026-08-25T00:00:00+08:00",
+          "verification_evidence": "Title, authors, year, venue and DOI are matched against the ACL Anthology record.",
+          "verified": true
+        },
+        {
+          "reference_id": "qwen25-2025",
+          "title": "Qwen2.5 Technical Report",
+          "authors": [
+            "An Yang",
+            "Baosong Yang",
+            "Beichen Zhang",
+            "Binyuan Hui",
+            "Bo Zheng",
+            "Bowen Yu",
+            "Chengyuan Li",
+            "Dayiheng Liu",
+            "Fei Huang",
+            "Haoran Wei",
+            "Huan Lin",
+            "Jian Yang",
+            "Jianhong Tu",
+            "Jianwei Zhang",
+            "Jianxin Yang",
+            "Jiaxi Yang",
+            "Jingren Zhou",
+            "Junyang Lin",
+            "Kai Dang",
+            "Keming Lu",
+            "Keqin Bao",
+            "Kexin Yang",
+            "Le Yu",
+            "Mei Li",
+            "Mingfeng Xue",
+            "Pei Zhang",
+            "Qin Zhu",
+            "Rui Men",
+            "Runji Lin",
+            "Tianhao Li",
+            "Tianyi Tang",
+            "Tingyu Xia",
+            "Xingzhang Ren",
+            "Xuancheng Ren",
+            "Yang Fan",
+            "Yang Su",
+            "Yichang Zhang",
+            "Yu Wan",
+            "Yuqiong Liu",
+            "Zeyu Cui",
+            "Zhenru Zhang",
+            "Zihan Qiu"
+          ],
+          "year": 2024,
+          "venue": "arXiv:2412.15115",
+          "doi": "10.48550/arXiv.2412.15115",
+          "url": "https://arxiv.org/abs/2412.15115",
+          "verification_source": "arXiv primary metadata",
+          "source_kind": "primary_publication",
+          "metadata_match": true,
+          "verified_at": "2026-08-25T00:00:00+08:00",
+          "verification_evidence": "Title, complete 42-author list, initial submission year and arXiv identifier are matched against the arXiv primary record and official Qwen citation.",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "track_id": "intervensim_social_simulation",
+      "engine": "IntervenSim",
+      "application": "社交模拟",
+      "frontend_route": "/social",
+      "problem_statement": "Existing social simulations frequently treat interventions as exogenous labels and do not close the source-intervention, crowd-response and public-signal feedback loop, limiting causal auditability and trajectory fidelity.",
+      "rationale": {
+        "innovation": "Execute IntervenSim as an endogenous multi-round feedback loop with explicit group state, interventions, public signals and reproducible artifacts.",
+        "reasoning_chain": [
+          "Public reactions change after each source intervention and those reactions influence the next intervention.",
+          "A static rollout cannot represent this bidirectional dependence.",
+          "IntervenSim records source actions, group updates and population-weighted public signals on every round.",
+          "Held-out event trajectories can test whether the closed loop improves prediction and intervention-response accuracy over static rollouts."
+        ],
+        "falsifiable_hypothesis": "On held-out events, the closed IntervenSim feedback loop will reduce normalized trajectory RMSE and intervention-response error versus a no-feedback simulation."
+      },
+      "technical_details": {
+        "statistical_methods": [
+          "normalized MAE/RMSE",
+          "Spearman correlation",
+          "paired event bootstrap"
+        ],
+        "machine_learning_methods": [
+          "population-weighted state aggregation",
+          "trajectory calibration",
+          "counterfactual intervention ablation"
+        ],
+        "deep_learning_methods": [
+          "Qwen-based source and crowd reasoning",
+          "multi-agent iterative state transition"
+        ],
+        "model_runtime": "Qwen open-source-family model through Alibaba Cloud Model Studio (Bailian) API",
+        "software_stack": [
+          "Python 3.10-3.12",
+          "Pydantic v2",
+          "Alibaba Cloud Bailian OpenAI-compatible API",
+          "IntervenSim environment",
+          "asyncio",
+          "MetaGPT-compatible roles"
+        ],
+        "reproducibility_controls": [
+          "immutable source SHA-256 and transformation lineage",
+          "fixed random seeds, cutoff timestamps and environment versions",
+          "agent execution trace plus redacted Qwen/Bailian call receipt",
+          "human approval recorded separately from automatic validation"
+        ]
+      },
+      "datasets": {
+        "source": [
+          {
+            "dataset_id": "intervensim-snb-events",
+            "name": "IntervenSim social-event benchmark (SNB)",
+            "description": "Forty-two real 2024 online events used by the IntervenSim social-simulation track, with engagement fields and seven-point historical traffic trajectories.",
+            "provenance": "The benchmark is distributed by the GA-S3 authors and reused here only as audited historical input to IntervenSim; the bundled copy is byte-identical to the project display archive.",
+            "access_url": "https://github.com/AI4SS/GAS-3",
+            "usage_rights": "Publicly distributed research benchmark; retain attribution and complete the organizer/institutional data-use review before external redistribution.",
+            "terms_url": "https://github.com/AI4SS/GAS-3",
+            "local_path": "app/dataset/SNB.json",
+            "sha256": "2faa043241c723efdeea668004b6ac10181402f8fa050e523caa6ad204b2ff0a",
+            "record_count": 42,
+            "historical_features": [
+              "event title and factual description",
+              "view, like, share and comment counts",
+              "seven historical network-traffic observations"
+            ],
+            "source_version": "Bundled 42-event snapshot audited 2026-08-25",
+            "license_verified": true,
+            "pii_assessment": "Aggregate event and engagement fields only; no direct personal identifiers are used by the research planner.",
+            "redistribution_scope": "Derived metrics and hashes may be submitted; redistribution of the bundled source requires the original terms and attribution review.",
+            "verification_method": "Record-count and SHA-256 verification against the project display archive plus repository/source metadata review.",
+            "verified_at": "2026-08-25T00:00:00+08:00",
+            "data_lineage": [
+              "AI4SS/GAS-3 distributed benchmark",
+              "team display archive",
+              "app/dataset/SNB.json",
+              "IntervenSim event loader"
+            ],
+            "compliance_status": "verified"
+          }
+        ],
+        "target": [
+          {
+            "name": "Prospective social-event intervention-response panel",
+            "collection_scope": "At least 30 newly observed public social events recorded at fixed intervals before and after source-side interventions.",
+            "unit_of_analysis": "event x time window x de-identified population group",
+            "planned_features": [
+              "timestamped views, likes, comments, shares and follows",
+              "intervention type, text, issuer, timestamp and objective",
+              "de-identified group attributes and population weights",
+              "group state, exposure controls, event category and exogenous shocks",
+              "IntervenSim round id, public signal and next-intervention linkage"
+            ],
+            "sampling_strategy": "Stratify by event category and intervention type; freeze a chronological event-level split before evaluation.",
+            "consent_and_privacy": "Collect only lawfully accessible or consented records; remove direct identifiers, minimize retained text and complete ethics/data-protection review before collection.",
+            "quality_controls": [
+              "pre-register inclusion/exclusion rules and primary metrics",
+              "version data, code, prompts, Qwen model id and random seeds",
+              "retain immutable raw-data hashes and transformation lineage",
+              "deduplicate reposts without deleting raw audit records",
+              "dual-review intervention labels"
+            ]
+          }
+        ]
+      },
+      "paper_title": "Closing the Intervention-Response Loop in Auditable Multi-Agent Social Simulation",
+      "paper_abstract": {
+        "background": "Social-event simulators rarely model how crowd response changes subsequent source intervention.",
+        "methods": "We implement an IntervenSim feedback loop with Qwen/Bailian source and crowd agents, population-weighted signals, explicit intervention traces and held-out trajectory evaluation.",
+        "expected_results": "We expect lower trajectory and intervention-response error than persistence and no-feedback baselines while retaining a complete execution audit."
+      },
+      "methods": [
+        {
+          "step": 1,
+          "name": "Event audit",
+          "procedure": "Select a provenance-audited event and freeze its historical comparison trajectory.",
+          "inputs": [
+            "SNB event records"
+          ],
+          "outputs": [
+            "event state and cutoff"
+          ]
+        },
+        {
+          "step": 2,
+          "name": "Group hierarchy",
+          "procedure": "Construct population groups and initial attitudes with no personally identifiable records.",
+          "inputs": [
+            "event category",
+            "aggregate priors"
+          ],
+          "outputs": [
+            "group hierarchy"
+          ]
+        },
+        {
+          "step": 3,
+          "name": "Feedback-loop execution",
+          "procedure": "Alternate source intervention, concurrent crowd updates and public-signal aggregation.",
+          "inputs": [
+            "group states",
+            "previous signal"
+          ],
+          "outputs": [
+            "round traces and trajectories"
+          ]
+        },
+        {
+          "step": 4,
+          "name": "Trajectory evaluation",
+          "procedure": "Compare normalized predicted traffic with frozen historical traffic and run feedback ablations.",
+          "inputs": [
+            "round metrics",
+            "benchmark traffic"
+          ],
+          "outputs": [
+            "frontend trajectories and metrics"
+          ]
+        }
+      ],
+      "experiments": {
+        "baselines": [
+          {
+            "name": "Persistence",
+            "description": "Repeat the most recent observed state."
+          },
+          {
+            "name": "No source feedback",
+            "description": "Keep source intervention fixed throughout the rollout."
+          },
+          {
+            "name": "Deterministic update",
+            "description": "Use rule-based group transitions without Qwen reasoning."
+          }
+        ],
+        "metrics": [
+          {
+            "name": "Normalized RMSE",
+            "definition": "RMSE after within-event min-max normalization.",
+            "direction": "lower"
+          },
+          {
+            "name": "Spearman rho",
+            "definition": "Rank correlation of predicted and observed trajectories.",
+            "direction": "higher"
+          },
+          {
+            "name": "Intervention-response error",
+            "definition": "Error in change following an intervention.",
+            "direction": "lower"
+          }
+        ],
+        "split_strategy": "Hold out entire events; tune only on earlier events and preserve event-level temporal order.",
+        "ablations": [
+          "remove source feedback",
+          "remove group hierarchy",
+          "remove population weighting"
+        ],
+        "robustness_checks": [
+          "different attention peaks",
+          "group-order invariance",
+          "bootstrap across events"
+        ],
+        "decision_rule": "Support only if the feedback loop lowers normalized RMSE and intervention-response error on the preregistered held-out event set."
+      },
+      "results": {
+        "track_id": "intervensim_social_simulation",
+        "evidence_type": "actual_execution",
+        "formulas": [
+          "E_t = sum_g Population_g * EngagementRate_g,t",
+          "RMSE_social = sqrt((1/T) * sum_t (y'_t - yhat'_t)^2)",
+          "rho_social = corr(rank(y), rank(yhat))"
+        ],
+        "observed_values": {
+          "executed_rounds": 3.0,
+          "comparable_rounds": 3.0,
+          "normalized_mae": 0.072467,
+          "normalized_rmse": 0.125517,
+          "spearman_rho": 1.0,
+          "behavior_constraints_hold": "true"
+        },
+        "interpretation": "The current IntervenSim source-intervention, crowd-update and public-signal loop executed and emitted frontend-aligned trajectories. This establishes engineering feasibility for one event only.",
+        "status": "verified_feasible",
+        "evaluation_mode": "actual_simulation_execution",
+        "claim_scope": "Actual one-event simulation execution; no cross-event confirmatory claim.",
+        "frontend_artifact": "frontend/social/trajectories.json"
+      },
+      "references": [
+        {
+          "reference_id": "gas3-2025",
+          "title": "GA-S3: Comprehensive Social Network Simulation with Group Agents",
+          "authors": [
+            "Yunyao Zhang",
+            "Zikai Song",
+            "Hang Zhou",
+            "Wenfeng Ren",
+            "Yi-Ping Phoebe Chen",
+            "Junqing Yu",
+            "Wei Yang"
+          ],
+          "year": 2025,
+          "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+          "doi": "10.18653/v1/2025.findings-acl.468",
+          "url": "https://aclanthology.org/2025.findings-acl.468/",
+          "verification_source": "ACL Anthology primary metadata",
+          "source_kind": "primary_publication",
+          "metadata_match": true,
+          "verified_at": "2026-08-25T00:00:00+08:00",
+          "verification_evidence": "Title, authors, year, venue and DOI are matched against the ACL Anthology record.",
+          "verified": true
+        },
+        {
+          "reference_id": "qwen25-2025",
+          "title": "Qwen2.5 Technical Report",
+          "authors": [
+            "An Yang",
+            "Baosong Yang",
+            "Beichen Zhang",
+            "Binyuan Hui",
+            "Bo Zheng",
+            "Bowen Yu",
+            "Chengyuan Li",
+            "Dayiheng Liu",
+            "Fei Huang",
+            "Haoran Wei",
+            "Huan Lin",
+            "Jian Yang",
+            "Jianhong Tu",
+            "Jianwei Zhang",
+            "Jianxin Yang",
+            "Jiaxi Yang",
+            "Jingren Zhou",
+            "Junyang Lin",
+            "Kai Dang",
+            "Keming Lu",
+            "Keqin Bao",
+            "Kexin Yang",
+            "Le Yu",
+            "Mei Li",
+            "Mingfeng Xue",
+            "Pei Zhang",
+            "Qin Zhu",
+            "Rui Men",
+            "Runji Lin",
+            "Tianhao Li",
+            "Tianyi Tang",
+            "Tingyu Xia",
+            "Xingzhang Ren",
+            "Xuancheng Ren",
+            "Yang Fan",
+            "Yang Su",
+            "Yichang Zhang",
+            "Yu Wan",
+            "Yuqiong Liu",
+            "Zeyu Cui",
+            "Zhenru Zhang",
+            "Zihan Qiu"
+          ],
+          "year": 2024,
+          "venue": "arXiv:2412.15115",
+          "doi": "10.48550/arXiv.2412.15115",
+          "url": "https://arxiv.org/abs/2412.15115",
+          "verification_source": "arXiv primary metadata",
+          "source_kind": "primary_publication",
+          "metadata_match": true,
+          "verified_at": "2026-08-25T00:00:00+08:00",
+          "verification_evidence": "Title, complete 42-author list, initial submission year and arXiv identifier are matched against the arXiv primary record and official Qwen citation.",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "track_id": "stap_popularity_prediction",
+      "engine": "STAP",
+      "application": "热度预测",
+      "frontend_route": "/heat",
+      "problem_statement": "Micro-video popularity models often sample too few frames and use flat historical retrieval, missing short salient intervals and topological relations among prior videos while offering limited evidence for their predictions.",
+      "rationale": {
+        "innovation": "Preserve STAP temporal enlargement and topology-aware parametric memory, then expose heat curves, frame importance and retrieved memory evidence as auditable outputs.",
+        "reasoning_chain": [
+          "Sparse frame sampling can miss short visual events that influence popularity.",
+          "Dense sampling alone increases cost and does not organize relevant historical videos.",
+          "STAP jointly enlarges temporal evidence and addresses a topology-aware memory bank for multimodal prediction.",
+          "Prospective popularity labels and ablations can test whether both mechanisms improve error and ranking metrics over sequence and flat-memory baselines."
+        ],
+        "falsifiable_hypothesis": "On licensed held-out micro-video data, STAP will reduce popularity RMSE and improve Spearman correlation versus LSTM and flat-retrieval baselines."
+      },
+      "technical_details": {
+        "statistical_methods": [
+          "MAE/MSE/RMSE",
+          "Spearman rank correlation",
+          "paired bootstrap"
+        ],
+        "machine_learning_methods": [
+          "multimodal feature normalization",
+          "topology-aware memory retrieval",
+          "mean and MLP baselines"
+        ],
+        "deep_learning_methods": [
+          "STAP temporal enlargement",
+          "Mamba sequence encoder",
+          "multimodal attention fusion",
+          "Qwen metadata reasoning"
+        ],
+        "model_runtime": "Qwen open-source-family model through Alibaba Cloud Model Studio (Bailian) API",
+        "software_stack": [
+          "Python 3.10-3.12",
+          "Pydantic v2",
+          "Alibaba Cloud Bailian OpenAI-compatible API",
+          "STAP/PyTorch adapter",
+          "NumPy/SciPy",
+          "frame-manifest exporter"
+        ],
+        "reproducibility_controls": [
+          "immutable source SHA-256 and transformation lineage",
+          "fixed random seeds, cutoff timestamps and environment versions",
+          "agent execution trace plus redacted Qwen/Bailian call receipt",
+          "human approval recorded separately from automatic validation"
+        ]
+      },
+      "datasets": {
+        "source": [
+          {
+            "dataset_id": "stap-heat-display-samples",
+            "name": "STAP popularity-prediction display samples",
+            "description": "Seventy-eight structured micro-video samples from the existing heat-prediction display, covering MicroLens, Informs, SMP-Video and FV-derived result records.",
+            "provenance": "Read-only copy of the team's original-data heat archive. It is a derived feature/result artifact aligned with the official STAP preprocessing and evaluation contract, not a redistribution of raw videos.",
+            "access_url": "https://github.com/AI4SS/STAP",
+            "usage_rights": "The STAP implementation is MIT-licensed. Retain dataset-specific terms for MicroLens, Informs and SMP/FV data; publish only authorized derived features, predictions and aggregate metrics unless raw-media redistribution is separately permitted.",
+            "terms_url": "https://github.com/AI4SS/STAP/blob/main/LICENSE",
+            "local_path": "app/dataset/heat/demo_display_data.json",
+            "sha256": "b98688e47a1094b2f8b339a93d321204f7750823f9f62f915b7c1fdbeb9e81fb",
+            "record_count": 78,
+            "historical_features": [
+              "dataset and sample identifier",
+              "multimodal visual/text/user feature summary",
+              "predicted and observed popularity evidence",
+              "heat level and model-output metadata"
+            ],
+            "source_version": "STAP-derived 78-row display artifact snapshot audited 2026-08-25",
+            "license_verified": true,
+            "pii_assessment": "Derived feature summaries and model/display outputs; no raw user identity is exported.",
+            "redistribution_scope": "Only authorized derived features, predictions, aggregate metrics and hashes; raw media remains excluded.",
+            "verification_method": "78-row schema/count check, SHA-256 fixation, simulated-flag audit, and official STAP repository license review.",
+            "verified_at": "2026-08-25T00:00:00+08:00",
+            "data_lineage": [
+              "AI4SS/STAP implementation contract",
+              "team derived display archive",
+              "app/dataset/heat/demo_display_data.json",
+              "STAP replay evaluator"
+            ],
+            "compliance_status": "verified"
+          },
+          {
+            "dataset_id": "stap-heat-output-panel",
+            "name": "STAP derived popularity output panel",
+            "description": "Seventy-eight derived prediction/label rows used for replay evaluation; every supplied row remains explicitly marked simulated.",
+            "provenance": "Read-only copy of the team's existing heat frontend output panel, aligned to the STAP display artifact ids.",
+            "access_url": "https://github.com/AI4SS/STAP",
+            "usage_rights": "Derived output artifact under the project/STAP research-display contract; raw video redistribution is excluded.",
+            "terms_url": "https://github.com/AI4SS/STAP/blob/main/LICENSE",
+            "local_path": "app/dataset/heat/demo_output_panel.json",
+            "sha256": "36d7f8b236fee5955a62106bdf194f72077298888ab02f529d35908a308955ae",
+            "record_count": 78,
+            "historical_features": [
+              "sample and dataset id",
+              "predicted popularity label",
+              "actual display label",
+              "derived engagement forecasts",
+              "simulated flag"
+            ],
+            "source_version": "STAP-derived 78-row output-panel snapshot audited 2026-08-25",
+            "license_verified": true,
+            "pii_assessment": "Derived sample-level prediction records with no exported user identity.",
+            "redistribution_scope": "Derived predictions, labels, aggregate metrics and hashes only; raw videos are excluded.",
+            "verification_method": "78-row id alignment, prediction/label schema, simulated-flag and SHA-256 audit against the read-only frontend archive.",
+            "verified_at": "2026-08-25T00:00:00+08:00",
+            "data_lineage": [
+              "team STAP display archive",
+              "app/dataset/heat/demo_output_panel.json",
+              "derived-output replay evaluator"
+            ],
+            "compliance_status": "verified"
+          }
+        ],
+        "target": [
+          {
+            "name": "Prospective micro-video popularity panel",
+            "collection_scope": "New micro-videos from at least three content categories and multiple creators, observed from publication through a fixed popularity horizon.",
+            "unit_of_analysis": "video x frame/time segment x observation horizon",
+            "planned_features": [
+              "long frame sequences and frame timestamps",
+              "title/text embeddings and de-identified creator attributes",
+              "timestamped views, likes, comments and shares",
+              "platform exposure controls and publication time",
+              "STAP memory-cluster id, retrieval score, predicted curve and peak time"
+            ],
+            "sampling_strategy": "Creator-disjoint and chronological train/validation/test splits; cap repeated uploads and near duplicates within a single partition.",
+            "consent_and_privacy": "Use licensed benchmark data or team-authorized derived features; do not redistribute raw media unless the dataset and platform terms explicitly permit it.",
+            "quality_controls": [
+              "pre-register inclusion/exclusion rules and primary metrics",
+              "version data, code, prompts, Qwen model id and random seeds",
+              "retain immutable raw-data hashes and transformation lineage",
+              "check creator and near-duplicate leakage",
+              "evaluate both point error and ranking consistency"
+            ]
+          }
+        ]
+      },
+      "paper_title": "Auditable Spatio-Temporal Enlargement and Topology Memory for Micro-Video Popularity Prediction",
+      "paper_abstract": {
+        "background": "Sparse temporal evidence and flat historical memory limit micro-video popularity prediction.",
+        "methods": "We evaluate STAP temporal enlargement and topology-aware memory with multimodal inputs, Qwen/Bailian metadata reasoning, frame-level evidence and leakage-safe held-out videos.",
+        "expected_results": "We expect lower MAE/RMSE and higher rank correlation than MLP, LSTM and flat-memory baselines, with ablations identifying each component's contribution."
+      },
+      "methods": [
+        {
+          "step": 1,
+          "name": "Rights and split audit",
+          "procedure": "Validate dataset-specific rights and split videos by creator/time to avoid leakage.",
+          "inputs": [
+            "licensed video features",
+            "dataset terms"
+          ],
+          "outputs": [
+            "audited train/validation/test manifest"
+          ]
+        },
+        {
+          "step": 2,
+          "name": "Temporal enlargement",
+          "procedure": "Combine sparse global frames with dense salient temporal neighborhoods.",
+          "inputs": [
+            "video frame sequence"
+          ],
+          "outputs": [
+            "enlarged temporal representation"
+          ]
+        },
+        {
+          "step": 3,
+          "name": "Topology-memory fusion",
+          "procedure": "Fuse visual, text and creator features with topology-aware historical memory.",
+          "inputs": [
+            "multimodal features",
+            "memory bank"
+          ],
+          "outputs": [
+            "popularity score and evidence"
+          ]
+        },
+        {
+          "step": 4,
+          "name": "Evaluation and export",
+          "procedure": "Compute regression/ranking metrics and export frontend heat curves and frame evidence.",
+          "inputs": [
+            "predictions",
+            "held-out labels"
+          ],
+          "outputs": [
+            "frontend heat artifacts and metrics"
+          ]
+        }
+      ],
+      "experiments": {
+        "baselines": [
+          {
+            "name": "Mean predictor",
+            "description": "Use the training-label mean."
+          },
+          {
+            "name": "MLP fusion",
+            "description": "Fuse pooled multimodal features without temporal modeling."
+          },
+          {
+            "name": "LSTM",
+            "description": "Encode ordered frames without topology memory."
+          },
+          {
+            "name": "Flat retrieval",
+            "description": "Retrieve historical features without topology-aware addressing."
+          }
+        ],
+        "metrics": [
+          {
+            "name": "MAE",
+            "definition": "Mean absolute popularity-label error.",
+            "direction": "lower"
+          },
+          {
+            "name": "RMSE",
+            "definition": "Root mean squared popularity-label error.",
+            "direction": "lower"
+          },
+          {
+            "name": "Spearman rho",
+            "definition": "Rank correlation between predicted and observed popularity.",
+            "direction": "higher"
+          }
+        ],
+        "split_strategy": "Use official splits where licensed; otherwise group by creator and time so no creator/video crosses partitions.",
+        "ablations": [
+          "remove temporal enlargement",
+          "remove topology memory",
+          "remove text features",
+          "remove creator features"
+        ],
+        "robustness_checks": [
+          "dataset-wise reporting",
+          "long/short video strata",
+          "confidence intervals across seeds"
+        ],
+        "decision_rule": "Support only if STAP lowers RMSE and improves Spearman correlation versus the strongest preregistered baseline on held-out data."
+      },
+      "results": {
+        "track_id": "stap_popularity_prediction",
+        "evidence_type": "actual_execution",
+        "formulas": [
+          "MAE_heat = (1/N) * sum_i |heat_i - heat_hat_i|",
+          "RMSE_heat = sqrt((1/N) * sum_i (heat_i - heat_hat_i)^2)",
+          "SRC_heat = corr(rank(heat), rank(heat_hat))"
+        ],
+        "observed_values": {
+          "evaluated_display_samples": 78,
+          "mae": 0.306821,
+          "rmse": 0.361744,
+          "spearman_rho": 0.991116,
+          "all_rows_marked_simulated": "true"
+        },
+        "interpretation": "The supplied 78-row STAP-derived display output was replay-evaluated against its bundled labels. This verifies output parsing and metric computation, not fresh inference by the STAP checkpoint.",
+        "status": "verified_feasible",
+        "evaluation_mode": "derived_artifact_replay_evaluation",
+        "claim_scope": "Derived display-artifact replay; full STAP checkpoint inference remains external.",
+        "frontend_artifact": "frontend/heat/demo_output_panel.json"
+      },
+      "references": [
+        {
+          "reference_id": "stap-2026",
+          "title": "Seeing Further and Wider: Joint Spatio-Temporal Enlargement for Micro-Video Popularity Prediction",
+          "authors": [
+            "Dali Wang",
+            "Yunyao Zhang",
+            "Junqing Yu",
+            "Yi-Ping Phoebe Chen",
+            "Chen Xu",
+            "Zikai Song"
+          ],
+          "year": 2026,
+          "venue": "arXiv:2604.20311; accepted by ACM Multimedia 2026",
+          "doi": "10.48550/arXiv.2604.20311",
+          "url": "https://arxiv.org/abs/2604.20311",
+          "verification_source": "arXiv primary metadata",
+          "source_kind": "primary_publication",
+          "metadata_match": true,
+          "verified_at": "2026-08-25T00:00:00+08:00",
+          "verification_evidence": "Title, listed authors, identifier and year are matched against the arXiv primary record; acceptance wording remains separately reviewable.",
+          "verified": true
+        },
+        {
+          "reference_id": "qwen25-2025",
+          "title": "Qwen2.5 Technical Report",
+          "authors": [
+            "An Yang",
+            "Baosong Yang",
+            "Beichen Zhang",
+            "Binyuan Hui",
+            "Bo Zheng",
+            "Bowen Yu",
+            "Chengyuan Li",
+            "Dayiheng Liu",
+            "Fei Huang",
+            "Haoran Wei",
+            "Huan Lin",
+            "Jian Yang",
+            "Jianhong Tu",
+            "Jianwei Zhang",
+            "Jianxin Yang",
+            "Jiaxi Yang",
+            "Jingren Zhou",
+            "Junyang Lin",
+            "Kai Dang",
+            "Keming Lu",
+            "Keqin Bao",
+            "Kexin Yang",
+            "Le Yu",
+            "Mei Li",
+            "Mingfeng Xue",
+            "Pei Zhang",
+            "Qin Zhu",
+            "Rui Men",
+            "Runji Lin",
+            "Tianhao Li",
+            "Tianyi Tang",
+            "Tingyu Xia",
+            "Xingzhang Ren",
+            "Xuancheng Ren",
+            "Yang Fan",
+            "Yang Su",
+            "Yichang Zhang",
+            "Yu Wan",
+            "Yuqiong Liu",
+            "Zeyu Cui",
+            "Zhenru Zhang",
+            "Zihan Qiu"
+          ],
+          "year": 2024,
+          "venue": "arXiv:2412.15115",
+          "doi": "10.48550/arXiv.2412.15115",
+          "url": "https://arxiv.org/abs/2412.15115",
+          "verification_source": "arXiv primary metadata",
+          "source_kind": "primary_publication",
+          "metadata_match": true,
+          "verified_at": "2026-08-25T00:00:00+08:00",
+          "verification_evidence": "Title, complete 42-author list, initial submission year and arXiv identifier are matched against the arXiv primary record and official Qwen citation.",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "technical_details": {
+    "statistical_methods": [
+      "GAS-3 election: Brier decomposition, expected calibration error and bootstrap intervals by held-out cycle",
+      "IntervenSim social: paired bootstrap intervals and Wilcoxon tests over held-out event trajectories",
+      "STAP heat: paired MAE/RMSE and Spearman comparison over creator-disjoint test videos",
+      "Holm correction across preregistered primary comparisons with effect sizes"
+    ],
+    "machine_learning_methods": [
+      "regularized logistic and uniform-swing baselines for state election outcomes",
+      "persistence and deterministic-update baselines for social-event trajectories",
+      "MLP, LSTM and flat-nearest-memory popularity baselines",
+      "chronological, cycle-level, event-level and creator-disjoint splits with leakage checks"
+    ],
+    "deep_learning_methods": [
+      "GAS-3 hierarchical Group Agents for state and voter-cohort U.S.-election simulation",
+      "IntervenSim source-intervention -> crowd-update -> public-signal feedback for social simulation",
+      "STAP sparse/dense temporal enlargement and topology-aware parametric memory for heat prediction",
+      "Qwen-Plus through Alibaba Cloud Bailian for schema-constrained evidence and hypothesis reasoning",
+      "optional Qwen SFT on schema-valid, expert-reviewed domain examples"
+    ],
+    "model_runtime": "Alibaba Cloud Model Studio (Bailian) OpenAI-compatible API with Qwen-Plus",
+    "software_stack": [
+      "Python 3.10+",
+      "Pydantic v2 application and research-plan contracts",
+      "MetaGPT-compatible role orchestration",
+      "NumPy/SciPy and scikit-learn evaluation",
+      "PyTorch runtime for the full STAP implementation",
+      "OpenAI-compatible SDK configured only for Alibaba Cloud Bailian"
+    ],
+    "reproducibility_controls": [
+      "immutable input hashes and dataset provenance records",
+      "hard-coded GAS-3/election, IntervenSim/social and STAP/heat mapping validation",
+      "JSON-schema validation and reference allowlisting",
+      "model, endpoint, response id and timestamp call receipts without API-key disclosure",
+      "frozen cutoff dates, prompts, configuration snapshots, seeds and per-track artifacts"
+    ]
+  },
+  "datasets": {
+    "source": [
+      {
+        "dataset_id": "intervensim-snb-events",
+        "name": "IntervenSim social-event benchmark (SNB)",
+        "description": "Forty-two real 2024 online events used by the IntervenSim social-simulation track, with engagement fields and seven-point historical traffic trajectories.",
+        "provenance": "The benchmark is distributed by the GA-S3 authors and reused here only as audited historical input to IntervenSim; the bundled copy is byte-identical to the project display archive.",
+        "access_url": "https://github.com/AI4SS/GAS-3",
+        "usage_rights": "Publicly distributed research benchmark; retain attribution and complete the organizer/institutional data-use review before external redistribution.",
+        "terms_url": "https://github.com/AI4SS/GAS-3",
+        "local_path": "app/dataset/SNB.json",
+        "sha256": "2faa043241c723efdeea668004b6ac10181402f8fa050e523caa6ad204b2ff0a",
+        "record_count": 42,
+        "historical_features": [
+          "event title and factual description",
+          "view, like, share and comment counts",
+          "seven historical network-traffic observations"
+        ],
+        "source_version": "Bundled 42-event snapshot audited 2026-08-25",
+        "license_verified": true,
+        "pii_assessment": "Aggregate event and engagement fields only; no direct personal identifiers are used by the research planner.",
+        "redistribution_scope": "Derived metrics and hashes may be submitted; redistribution of the bundled source requires the original terms and attribution review.",
+        "verification_method": "Record-count and SHA-256 verification against the project display archive plus repository/source metadata review.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "AI4SS/GAS-3 distributed benchmark",
+          "team display archive",
+          "app/dataset/SNB.json",
+          "IntervenSim event loader"
+        ],
+        "compliance_status": "verified"
+      },
+      {
+        "dataset_id": "gas3-us-election-2020",
+        "name": "U.S. presidential election 2020 state-result snapshot",
+        "description": "Fifty states plus the District of Columbia with party winner and state-level Republican/Democratic vote totals, used only by the GAS-3 U.S.-election adapter.",
+        "provenance": "Read-only copy of the team's original-data election archive. The research source family is MIT Election Data and Science Lab's U.S. President 1976-2020 dataset; the normalized display snapshot is hashed independently and must be version-traced before publication.",
+        "access_url": "https://electionlab.mit.edu/data",
+        "usage_rights": "Public research election returns; cite the MIT Election Data and Science Lab dataset and its Harvard Dataverse DOI, preserve version metadata, and re-check state totals against the selected release before confirmatory use.",
+        "terms_url": "https://doi.org/10.7910/DVN/42MVDX",
+        "local_path": "app/dataset/election/election_2020.json",
+        "sha256": "8e460ce2c3bd2a3aad4801f83c213ce15f3855090023543723a50411c709c006",
+        "record_count": 51,
+        "historical_features": [
+          "state abbreviation",
+          "party winner",
+          "Republican candidate votes",
+          "Democratic candidate votes"
+        ],
+        "source_version": "MIT Election Lab U.S. President 1976-2020 source family; normalized 2020 state snapshot",
+        "license_verified": true,
+        "pii_assessment": "State-level aggregate certified vote totals; no voter-level personal data.",
+        "redistribution_scope": "Normalized aggregate state results with MIT Election Data and Science Lab attribution and version citation.",
+        "verification_method": "51-row schema/count check, SHA-256 local fixation, and primary Harvard Dataverse DOI/source-family review.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "MIT Election Data and Science Lab source family",
+          "team normalized election archive",
+          "app/dataset/election/election_2020.json",
+          "GAS-3 election replay adapter"
+        ],
+        "compliance_status": "verified"
+      },
+      {
+        "dataset_id": "gas3-election-display-priors",
+        "name": "GAS-3 state display-prior snapshot",
+        "description": "Fifty states plus the District of Columbia with electoral votes and Republican/Democratic display scores used only for a bounded historical reconstruction sanity check.",
+        "provenance": "Read-only copy of the team's existing election display archive; these scores are treated as target-derived display priors and never as leakage-safe prospective inputs.",
+        "access_url": "https://github.com/AI4SS/GAS-3",
+        "usage_rights": "Research-display artifact distributed with the team project; retain GAS-3 attribution and do not claim the derived scores are independently collected polls.",
+        "terms_url": "https://github.com/AI4SS/GAS-3",
+        "local_path": "app/dataset/election/us_states.json",
+        "sha256": "466330e88abfd9b5a8c8e3ba84549bf59e0dec817a2a47eb53277d4cae10939a",
+        "record_count": 51,
+        "historical_features": [
+          "state abbreviation and name",
+          "electoral votes",
+          "population",
+          "Republican/Democratic display scores",
+          "swing-state and region labels"
+        ],
+        "source_version": "Team election display-prior snapshot audited 2026-08-25",
+        "license_verified": true,
+        "pii_assessment": "Aggregate state-level fields only; no voter-level personal data.",
+        "redistribution_scope": "Derived state display values and aggregate replay outputs with attribution; prospective-forecast claims are forbidden.",
+        "verification_method": "51-row schema/count and SHA-256 audit against the read-only frontend archive; semantic leakage warning recorded in every result.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "team election display archive",
+          "app/dataset/election/us_states.json",
+          "GAS-3 historical reconstruction adapter"
+        ],
+        "compliance_status": "verified"
+      },
+      {
+        "dataset_id": "stap-heat-display-samples",
+        "name": "STAP popularity-prediction display samples",
+        "description": "Seventy-eight structured micro-video samples from the existing heat-prediction display, covering MicroLens, Informs, SMP-Video and FV-derived result records.",
+        "provenance": "Read-only copy of the team's original-data heat archive. It is a derived feature/result artifact aligned with the official STAP preprocessing and evaluation contract, not a redistribution of raw videos.",
+        "access_url": "https://github.com/AI4SS/STAP",
+        "usage_rights": "The STAP implementation is MIT-licensed. Retain dataset-specific terms for MicroLens, Informs and SMP/FV data; publish only authorized derived features, predictions and aggregate metrics unless raw-media redistribution is separately permitted.",
+        "terms_url": "https://github.com/AI4SS/STAP/blob/main/LICENSE",
+        "local_path": "app/dataset/heat/demo_display_data.json",
+        "sha256": "b98688e47a1094b2f8b339a93d321204f7750823f9f62f915b7c1fdbeb9e81fb",
+        "record_count": 78,
+        "historical_features": [
+          "dataset and sample identifier",
+          "multimodal visual/text/user feature summary",
+          "predicted and observed popularity evidence",
+          "heat level and model-output metadata"
+        ],
+        "source_version": "STAP-derived 78-row display artifact snapshot audited 2026-08-25",
+        "license_verified": true,
+        "pii_assessment": "Derived feature summaries and model/display outputs; no raw user identity is exported.",
+        "redistribution_scope": "Only authorized derived features, predictions, aggregate metrics and hashes; raw media remains excluded.",
+        "verification_method": "78-row schema/count check, SHA-256 fixation, simulated-flag audit, and official STAP repository license review.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "AI4SS/STAP implementation contract",
+          "team derived display archive",
+          "app/dataset/heat/demo_display_data.json",
+          "STAP replay evaluator"
+        ],
+        "compliance_status": "verified"
+      },
+      {
+        "dataset_id": "stap-heat-output-panel",
+        "name": "STAP derived popularity output panel",
+        "description": "Seventy-eight derived prediction/label rows used for replay evaluation; every supplied row remains explicitly marked simulated.",
+        "provenance": "Read-only copy of the team's existing heat frontend output panel, aligned to the STAP display artifact ids.",
+        "access_url": "https://github.com/AI4SS/STAP",
+        "usage_rights": "Derived output artifact under the project/STAP research-display contract; raw video redistribution is excluded.",
+        "terms_url": "https://github.com/AI4SS/STAP/blob/main/LICENSE",
+        "local_path": "app/dataset/heat/demo_output_panel.json",
+        "sha256": "36d7f8b236fee5955a62106bdf194f72077298888ab02f529d35908a308955ae",
+        "record_count": 78,
+        "historical_features": [
+          "sample and dataset id",
+          "predicted popularity label",
+          "actual display label",
+          "derived engagement forecasts",
+          "simulated flag"
+        ],
+        "source_version": "STAP-derived 78-row output-panel snapshot audited 2026-08-25",
+        "license_verified": true,
+        "pii_assessment": "Derived sample-level prediction records with no exported user identity.",
+        "redistribution_scope": "Derived predictions, labels, aggregate metrics and hashes only; raw videos are excluded.",
+        "verification_method": "78-row id alignment, prediction/label schema, simulated-flag and SHA-256 audit against the read-only frontend archive.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "team STAP display archive",
+          "app/dataset/heat/demo_output_panel.json",
+          "derived-output replay evaluator"
+        ],
+        "compliance_status": "verified"
+      }
+    ],
+    "target": [
+      {
+        "name": "Prospective U.S. presidential election panel",
+        "collection_scope": "Multiple historical backtests plus one future U.S. presidential-election cycle, with state-level snapshots frozen at preregistered dates before Election Day.",
+        "unit_of_analysis": "election cycle x state/DC x timestamp x de-identified voter cohort",
+        "planned_features": [
+          "certified historical vote totals and electoral votes",
+          "timestamped polls with sample size, mode, sponsor and uncertainty",
+          "state demographics and turnout priors from authoritative public statistics",
+          "campaign events, endorsements and economic context with provenance",
+          "GAS-3 Group Agent states, weights and state win probabilities"
+        ],
+        "sampling_strategy": "Backtest by holding out complete election cycles; for prospective evaluation, freeze inputs at fixed pre-election horizons and never train on post-cutoff evidence.",
+        "consent_and_privacy": "Use aggregate public election and polling records; do not ingest identifiable voter records. Document every source version and applicable redistribution term.",
+        "quality_controls": [
+          "pre-register inclusion/exclusion rules and primary metrics",
+          "version data, code, prompts, Qwen model id and random seeds",
+          "retain immutable raw-data hashes and transformation lineage",
+          "cross-check totals against certified state results",
+          "report calibration and uncertainty, not only winner labels"
+        ]
+      },
+      {
+        "name": "Prospective social-event intervention-response panel",
+        "collection_scope": "At least 30 newly observed public social events recorded at fixed intervals before and after source-side interventions.",
+        "unit_of_analysis": "event x time window x de-identified population group",
+        "planned_features": [
+          "timestamped views, likes, comments, shares and follows",
+          "intervention type, text, issuer, timestamp and objective",
+          "de-identified group attributes and population weights",
+          "group state, exposure controls, event category and exogenous shocks",
+          "IntervenSim round id, public signal and next-intervention linkage"
+        ],
+        "sampling_strategy": "Stratify by event category and intervention type; freeze a chronological event-level split before evaluation.",
+        "consent_and_privacy": "Collect only lawfully accessible or consented records; remove direct identifiers, minimize retained text and complete ethics/data-protection review before collection.",
+        "quality_controls": [
+          "pre-register inclusion/exclusion rules and primary metrics",
+          "version data, code, prompts, Qwen model id and random seeds",
+          "retain immutable raw-data hashes and transformation lineage",
+          "deduplicate reposts without deleting raw audit records",
+          "dual-review intervention labels"
+        ]
+      },
+      {
+        "name": "Prospective micro-video popularity panel",
+        "collection_scope": "New micro-videos from at least three content categories and multiple creators, observed from publication through a fixed popularity horizon.",
+        "unit_of_analysis": "video x frame/time segment x observation horizon",
+        "planned_features": [
+          "long frame sequences and frame timestamps",
+          "title/text embeddings and de-identified creator attributes",
+          "timestamped views, likes, comments and shares",
+          "platform exposure controls and publication time",
+          "STAP memory-cluster id, retrieval score, predicted curve and peak time"
+        ],
+        "sampling_strategy": "Creator-disjoint and chronological train/validation/test splits; cap repeated uploads and near duplicates within a single partition.",
+        "consent_and_privacy": "Use licensed benchmark data or team-authorized derived features; do not redistribute raw media unless the dataset and platform terms explicitly permit it.",
+        "quality_controls": [
+          "pre-register inclusion/exclusion rules and primary metrics",
+          "version data, code, prompts, Qwen model id and random seeds",
+          "retain immutable raw-data hashes and transformation lineage",
+          "check creator and near-duplicate leakage",
+          "evaluate both point error and ranking consistency"
+        ]
+      }
+    ]
+  },
+  "paper_title": "A Domain-Aligned Qwen AI Scientist for U.S. Election Simulation, Social Simulation, and Micro-Video Popularity Prediction",
+  "paper_abstract": {
+    "background": "AI Scientist systems can produce complete research narratives while still misaligning models, datasets and evaluation targets, weakening falsifiability across heterogeneous application modules.",
+    "methods": "We propose a three-track architecture that maps GAS-3 to U.S. election simulation, IntervenSim to intervention-aware social simulation and STAP to micro-video popularity prediction. Each track has separate Source/Target data and evaluation rules, while Qwen through Alibaba Cloud Bailian provides a shared schema-constrained evidence, hypothesis and review workflow.",
+    "expected_results": "We expect calibrated state forecasts, lower held-out social-trajectory error and more accurate popularity curves than task-specific baselines, with auditable datasets, real references and model-call provenance."
+  },
+  "methods": [
+    {
+      "step": 1,
+      "name": "Evidence intake and track routing",
+      "procedure": "Hash each source file, validate provenance and route evidence through the immutable three-track registry.",
+      "inputs": [
+        "election snapshot",
+        "SNB social events",
+        "STAP display samples",
+        "verified literature"
+      ],
+      "outputs": [
+        "audited per-track evidence registry"
+      ]
+    },
+    {
+      "step": 2,
+      "name": "GAS-3 U.S.-election adapter",
+      "procedure": "Create state and voter-cohort Group Agents, preserve population weights and quantify state win probabilities plus electoral-vote uncertainty.",
+      "inputs": [
+        "historical returns",
+        "polls",
+        "state priors"
+      ],
+      "outputs": [
+        "state probabilities",
+        "electoral-vote distribution",
+        "Group Agent traces"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "IntervenSim social simulation",
+      "procedure": "Run the unchanged source-intervention, crowd-update and public-signal feedback loop and persist every round artifact.",
+      "inputs": [
+        "social event",
+        "group priors",
+        "source action"
+      ],
+      "outputs": [
+        "multi-round engagement trajectory",
+        "next-intervention context"
+      ]
+    },
+    {
+      "step": 4,
+      "name": "STAP popularity prediction",
+      "procedure": "Apply sparse/dense temporal enlargement, multimodal fusion and topology-aware historical-video memory to predict the heat curve.",
+      "inputs": [
+        "frames",
+        "text",
+        "creator features",
+        "historical memory"
+      ],
+      "outputs": [
+        "popularity curve",
+        "peak time",
+        "retrieval evidence"
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Qwen research synthesis",
+      "procedure": "Call Qwen-Plus only through Bailian, allow only audited reference ids and validate all mandatory research-plan fields before review.",
+      "inputs": [
+        "three track outputs",
+        "evidence registry",
+        "human feedback"
+      ],
+      "outputs": [
+        "schema-valid hypothesis and research plan"
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Separate confirmatory evaluation",
+      "procedure": "Evaluate each track on its own frozen split, baselines and metrics; do not transfer a passing result from one track to another.",
+      "inputs": [
+        "per-track predictions",
+        "three Target datasets"
+      ],
+      "outputs": [
+        "per-track metrics, intervals and rejection/retention decisions"
+      ]
+    }
+  ],
+  "experiments": {
+    "baselines": [
+      {
+        "name": "Election historical carry-forward",
+        "description": "Reuse the previous cycle's state winner or vote share."
+      },
+      {
+        "name": "Election regularized logistic",
+        "description": "Predict state outcome from preregistered historical, polling and demographic features without Group Agents."
+      },
+      {
+        "name": "Social persistence",
+        "description": "Use the previous engagement observation as the next social-simulation value."
+      },
+      {
+        "name": "IntervenSim no-feedback",
+        "description": "Run group updates without feeding the aggregated public signal into the next source intervention."
+      },
+      {
+        "name": "Popularity MLP/LSTM",
+        "description": "Use standard multimodal or sequential prediction without STAP topology-aware memory."
+      },
+      {
+        "name": "Popularity flat retrieval",
+        "description": "Retrieve nearest historical videos without topology-aware clustering or temporal enlargement."
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Election Brier score",
+        "definition": "Mean squared error of state-level GAS-3 win probabilities against held-out outcomes.",
+        "direction": "lower"
+      },
+      {
+        "name": "Electoral-vote MAE",
+        "definition": "Absolute error between predicted expected electoral votes and the held-out total.",
+        "direction": "lower"
+      },
+      {
+        "name": "Social normalized RMSE",
+        "definition": "RMSE between normalized observed and IntervenSim engagement trajectories.",
+        "direction": "lower"
+      },
+      {
+        "name": "Social intervention-response error",
+        "definition": "Absolute error in post-intervention change relative to the pre-intervention window.",
+        "direction": "lower"
+      },
+      {
+        "name": "Popularity RMSE",
+        "definition": "RMSE of STAP-predicted micro-video popularity against the held-out target.",
+        "direction": "lower"
+      },
+      {
+        "name": "Popularity Spearman rho",
+        "definition": "Rank correlation between predicted and observed micro-video popularity.",
+        "direction": "higher"
+      }
+    ],
+    "split_strategy": "Election cycles are held out as complete units; social events use a chronological event-level split; popularity data use creator-disjoint chronological splits. No duplicate or derived record may cross partitions.",
+    "ablations": [
+      "GAS-3: replace Group Agents with the regularized aggregate model",
+      "IntervenSim: remove source feedback",
+      "STAP: remove temporal enlargement",
+      "STAP: replace topology-aware memory with flat retrieval",
+      "shared layer: replace Qwen synthesis with deterministic schema templates"
+    ],
+    "robustness_checks": [
+      "election polling-cutoff and alternative population-weight sensitivity",
+      "social event-category leave-one-group-out and intervention-label noise",
+      "popularity creator/category leave-one-group-out and near-duplicate detection",
+      "bootstrap intervals across random seeds for every track"
+    ],
+    "decision_rule": "Retain a track-level claim only when its preregistered primary error decreases versus the named baseline and its paired 95% interval excludes zero after correction. Report partial support if one or two tracks pass; never claim all three from a result produced by only one track."
+  },
+  "results": {
+    "execution_type": "actual_execution",
+    "formulas": [
+      "p_rep,state = repPct_state / (repPct_state + demPct_state)",
+      "Brier = (1/S) * sum_state (p_rep,state - y_rep,state)^2",
+      "EV_error = |sum_state EV_state * I(yhat_state=REP) - actual_REP_EV|",
+      "E_t = sum_g Population_g * EngagementRate_g,t",
+      "RMSE_social = sqrt((1/T) * sum_t (y'_t - yhat'_t)^2)",
+      "rho_social = corr(rank(y), rank(yhat))",
+      "MAE_heat = (1/N) * sum_i |heat_i - heat_hat_i|",
+      "RMSE_heat = sqrt((1/N) * sum_i (heat_i - heat_hat_i)^2)",
+      "SRC_heat = corr(rank(heat), rank(heat_hat))"
+    ],
+    "observed_values": {
+      "separate_track_result_count": 3,
+      "election_evaluation_mode": "historical_replay_sanity_check",
+      "social_executed_rounds": 3,
+      "heat_evaluation_mode": "derived_artifact_replay_evaluation",
+      "all_engineering_checks_passed": "true"
+    },
+    "interpretation": "All three tracks produced separate machine-readable feasibility evidence. Election and heat are bounded replay checks, while IntervenSim is the current actual execution; no cross-track result substitution occurred.",
+    "feasibility_passed": true,
+    "limitations": [
+      "Election reconstruction is not a prospective forecast and may use target-derived historical priors.",
+      "The bundled social execution covers one event and does not establish external validity.",
+      "STAP evaluation replays supplied derived outputs rather than executing the full external checkpoint.",
+      "Confirmatory claims require preregistered target datasets, leakage-safe splits and human approval."
+    ],
+    "track_results": [
+      {
+        "track_id": "gas3_us_election",
+        "evidence_type": "actual_execution",
+        "formulas": [
+          "p_rep,state = repPct_state / (repPct_state + demPct_state)",
+          "Brier = (1/S) * sum_state (p_rep,state - y_rep,state)^2",
+          "EV_error = |sum_state EV_state * I(yhat_state=REP) - actual_REP_EV|"
+        ],
+        "observed_values": {
+          "historical_state_records": 51,
+          "state_accuracy": 0.941176,
+          "brier_score": 0.047254,
+          "electoral_vote_error": 3
+        },
+        "interpretation": "The GAS-3 frontend/result contract executed across 50 states plus DC. Because the supplied display priors may derive from the same historical result, these metrics validate wiring and aggregation only.",
+        "status": "verified_feasible",
+        "evaluation_mode": "historical_replay_sanity_check",
+        "claim_scope": "Historical engineering reconstruction; no prospective predictive-validity claim.",
+        "frontend_artifact": "frontend/election/election_result.json"
+      },
+      {
+        "track_id": "intervensim_social_simulation",
+        "evidence_type": "actual_execution",
+        "formulas": [
+          "E_t = sum_g Population_g * EngagementRate_g,t",
+          "RMSE_social = sqrt((1/T) * sum_t (y'_t - yhat'_t)^2)",
+          "rho_social = corr(rank(y), rank(yhat))"
+        ],
+        "observed_values": {
+          "executed_rounds": 3.0,
+          "comparable_rounds": 3.0,
+          "normalized_mae": 0.072467,
+          "normalized_rmse": 0.125517,
+          "spearman_rho": 1.0,
+          "behavior_constraints_hold": "true"
+        },
+        "interpretation": "The current IntervenSim source-intervention, crowd-update and public-signal loop executed and emitted frontend-aligned trajectories. This establishes engineering feasibility for one event only.",
+        "status": "verified_feasible",
+        "evaluation_mode": "actual_simulation_execution",
+        "claim_scope": "Actual one-event simulation execution; no cross-event confirmatory claim.",
+        "frontend_artifact": "frontend/social/trajectories.json"
+      },
+      {
+        "track_id": "stap_popularity_prediction",
+        "evidence_type": "actual_execution",
+        "formulas": [
+          "MAE_heat = (1/N) * sum_i |heat_i - heat_hat_i|",
+          "RMSE_heat = sqrt((1/N) * sum_i (heat_i - heat_hat_i)^2)",
+          "SRC_heat = corr(rank(heat), rank(heat_hat))"
+        ],
+        "observed_values": {
+          "evaluated_display_samples": 78,
+          "mae": 0.306821,
+          "rmse": 0.361744,
+          "spearman_rho": 0.991116,
+          "all_rows_marked_simulated": "true"
+        },
+        "interpretation": "The supplied 78-row STAP-derived display output was replay-evaluated against its bundled labels. This verifies output parsing and metric computation, not fresh inference by the STAP checkpoint.",
+        "status": "verified_feasible",
+        "evaluation_mode": "derived_artifact_replay_evaluation",
+        "claim_scope": "Derived display-artifact replay; full STAP checkpoint inference remains external.",
+        "frontend_artifact": "frontend/heat/demo_output_panel.json"
+      }
+    ]
+  },
+  "references": [
+    {
+      "reference_id": "gas3-2025",
+      "title": "GA-S3: Comprehensive Social Network Simulation with Group Agents",
+      "authors": [
+        "Yunyao Zhang",
+        "Zikai Song",
+        "Hang Zhou",
+        "Wenfeng Ren",
+        "Yi-Ping Phoebe Chen",
+        "Junqing Yu",
+        "Wei Yang"
+      ],
+      "year": 2025,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "doi": "10.18653/v1/2025.findings-acl.468",
+      "url": "https://aclanthology.org/2025.findings-acl.468/",
+      "verification_source": "ACL Anthology primary metadata",
+      "source_kind": "primary_publication",
+      "metadata_match": true,
+      "verified_at": "2026-08-25T00:00:00+08:00",
+      "verification_evidence": "Title, authors, year, venue and DOI are matched against the ACL Anthology record.",
+      "verified": true
+    },
+    {
+      "reference_id": "stap-2026",
+      "title": "Seeing Further and Wider: Joint Spatio-Temporal Enlargement for Micro-Video Popularity Prediction",
+      "authors": [
+        "Dali Wang",
+        "Yunyao Zhang",
+        "Junqing Yu",
+        "Yi-Ping Phoebe Chen",
+        "Chen Xu",
+        "Zikai Song"
+      ],
+      "year": 2026,
+      "venue": "arXiv:2604.20311; accepted by ACM Multimedia 2026",
+      "doi": "10.48550/arXiv.2604.20311",
+      "url": "https://arxiv.org/abs/2604.20311",
+      "verification_source": "arXiv primary metadata",
+      "source_kind": "primary_publication",
+      "metadata_match": true,
+      "verified_at": "2026-08-25T00:00:00+08:00",
+      "verification_evidence": "Title, listed authors, identifier and year are matched against the arXiv primary record; acceptance wording remains separately reviewable.",
+      "verified": true
+    },
+    {
+      "reference_id": "qwen25-2025",
+      "title": "Qwen2.5 Technical Report",
+      "authors": [
+        "An Yang",
+        "Baosong Yang",
+        "Beichen Zhang",
+        "Binyuan Hui",
+        "Bo Zheng",
+        "Bowen Yu",
+        "Chengyuan Li",
+        "Dayiheng Liu",
+        "Fei Huang",
+        "Haoran Wei",
+        "Huan Lin",
+        "Jian Yang",
+        "Jianhong Tu",
+        "Jianwei Zhang",
+        "Jianxin Yang",
+        "Jiaxi Yang",
+        "Jingren Zhou",
+        "Junyang Lin",
+        "Kai Dang",
+        "Keming Lu",
+        "Keqin Bao",
+        "Kexin Yang",
+        "Le Yu",
+        "Mei Li",
+        "Mingfeng Xue",
+        "Pei Zhang",
+        "Qin Zhu",
+        "Rui Men",
+        "Runji Lin",
+        "Tianhao Li",
+        "Tianyi Tang",
+        "Tingyu Xia",
+        "Xingzhang Ren",
+        "Xuancheng Ren",
+        "Yang Fan",
+        "Yang Su",
+        "Yichang Zhang",
+        "Yu Wan",
+        "Yuqiong Liu",
+        "Zeyu Cui",
+        "Zhenru Zhang",
+        "Zihan Qiu"
+      ],
+      "year": 2024,
+      "venue": "arXiv:2412.15115",
+      "doi": "10.48550/arXiv.2412.15115",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "verification_source": "arXiv primary metadata",
+      "source_kind": "primary_publication",
+      "metadata_match": true,
+      "verified_at": "2026-08-25T00:00:00+08:00",
+      "verification_evidence": "Title, complete 42-author list, initial submission year and arXiv identifier are matched against the arXiv primary record and official Qwen citation.",
+      "verified": true
+    }
+  ],
+  "model_provenance": {
+    "provider": "Alibaba Cloud Model Studio (Bailian)",
+    "model": "qwen-plus",
+    "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "generation_mode": "offline_evidence_based",
+    "call_receipt_file": "bailian_call_receipts.json"
+  },
+  "validation_report": {
+    "valid": false,
+    "checks": {
+      "mandatory_fields": true,
+      "source_and_target_datasets": true,
+      "source_datasets_audited": true,
+      "three_application_tracks": true,
+      "no_extra_application_track": true,
+      "three_complete_research_plans": true,
+      "per_track_pdf_fields": true,
+      "track_dataset_coverage": true,
+      "references_verified": true,
+      "baselines_and_metrics": true,
+      "feasibility_evidence": true,
+      "qwen_model_selected": true,
+      "bailian_endpoint_selected": true,
+      "bailian_live_call": false,
+      "separate_track_results": true,
+      "agent_execution_trace": true,
+      "adversarial_review_passed": true,
+      "human_review_approved": true
+    },
+    "warnings": [
+      "Qwen/Bailian unavailable; deterministic evidence-based narrative used.",
+      "No live Qwen/Bailian call was executed. Configure DASHSCOPE_API_KEY and rerun; the code will write a redacted call receipt. A console screenshot must still be captured by the team.",
+      "Human review approved by 王达立 (2026-09-03) for all three tracks; signed in research_bundle/human_review_status.json."
+    ],
+    "review_iterations": 1
+  }
+}

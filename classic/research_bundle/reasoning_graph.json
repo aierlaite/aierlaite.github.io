@@ -1,0 +1,365 @@
+{
+  "graph_version": "zhijian/reasoning-graph-1.0",
+  "nodes": [
+    {
+      "node_id": "gas3_us_election:source",
+      "track_id": "gas3_us_election",
+      "node_type": "source",
+      "label": "U.S. presidential election 2020 state-result snapshot; GAS-3 state display-prior snapshot",
+      "evidence_ids": [
+        "gas3-us-election-2020",
+        "gas3-election-display-priors"
+      ],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "gas3_us_election:premise:1",
+      "track_id": "gas3_us_election",
+      "node_type": "premise",
+      "label": "State outcomes depend on heterogeneous cohorts whose turnout and preference shifts are not represented by one national average.",
+      "evidence_ids": [
+        "gas3-us-election-2020",
+        "gas3-election-display-priors"
+      ],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "gas3_us_election:premise:2",
+      "track_id": "gas3_us_election",
+      "node_type": "premise",
+      "label": "GAS-3 can preserve cohort hierarchy and population weights while Qwen, called through Bailian, structures scenario evidence and agent rationales.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "gas3_us_election:premise:3",
+      "track_id": "gas3_us_election",
+      "node_type": "premise",
+      "label": "Aggregating frozen pre-election cohort states yields state scores and Electoral College distributions that can be backtested without leaking post-cutoff evidence.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "gas3_us_election:premise:4",
+      "track_id": "gas3_us_election",
+      "node_type": "premise",
+      "label": "Calibration and electoral-vote error can falsify whether hierarchical agents improve over polling and uniform-swing baselines.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "gas3_us_election:innovation",
+      "track_id": "gas3_us_election",
+      "node_type": "innovation",
+      "label": "Retain GAS-3 hierarchical Group Agents and population-weighted behavior quantization, then expose state-level aggregation, uncertainty and evidence lineage as a falsifiable election pipeline.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "gas3_us_election:hypothesis",
+      "track_id": "gas3_us_election",
+      "node_type": "hypothesis",
+      "label": "Across held-out election cycles and preregistered pre-election cutoffs, GAS-3 will reduce state-level Brier score and electoral-vote MAE versus a uniform national swing baseline.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "gas3_us_election:experiment",
+      "track_id": "gas3_us_election",
+      "node_type": "experiment",
+      "label": "Support only if GAS-3 lowers Brier score and electoral-vote MAE versus the preregistered primary baseline with paired 95% intervals excluding zero.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "gas3_us_election:result",
+      "track_id": "gas3_us_election",
+      "node_type": "result",
+      "label": "The GAS-3 frontend/result contract executed across 50 states plus DC. Because the supplied display priors may derive from the same historical result, these metrics validate wiring and aggregation only.",
+      "evidence_ids": [
+        "frontend/election/election_result.json"
+      ],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "intervensim_social_simulation:source",
+      "track_id": "intervensim_social_simulation",
+      "node_type": "source",
+      "label": "IntervenSim social-event benchmark (SNB)",
+      "evidence_ids": [
+        "intervensim-snb-events"
+      ],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "intervensim_social_simulation:premise:1",
+      "track_id": "intervensim_social_simulation",
+      "node_type": "premise",
+      "label": "Public reactions change after each source intervention and those reactions influence the next intervention.",
+      "evidence_ids": [
+        "intervensim-snb-events"
+      ],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "intervensim_social_simulation:premise:2",
+      "track_id": "intervensim_social_simulation",
+      "node_type": "premise",
+      "label": "A static rollout cannot represent this bidirectional dependence.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "intervensim_social_simulation:premise:3",
+      "track_id": "intervensim_social_simulation",
+      "node_type": "premise",
+      "label": "IntervenSim records source actions, group updates and population-weighted public signals on every round.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "intervensim_social_simulation:premise:4",
+      "track_id": "intervensim_social_simulation",
+      "node_type": "premise",
+      "label": "Held-out event trajectories can test whether the closed loop improves prediction and intervention-response accuracy over static rollouts.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "intervensim_social_simulation:innovation",
+      "track_id": "intervensim_social_simulation",
+      "node_type": "innovation",
+      "label": "Execute IntervenSim as an endogenous multi-round feedback loop with explicit group state, interventions, public signals and reproducible artifacts.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "intervensim_social_simulation:hypothesis",
+      "track_id": "intervensim_social_simulation",
+      "node_type": "hypothesis",
+      "label": "On held-out events, the closed IntervenSim feedback loop will reduce normalized trajectory RMSE and intervention-response error versus a no-feedback simulation.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "intervensim_social_simulation:experiment",
+      "track_id": "intervensim_social_simulation",
+      "node_type": "experiment",
+      "label": "Support only if the feedback loop lowers normalized RMSE and intervention-response error on the preregistered held-out event set.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "intervensim_social_simulation:result",
+      "track_id": "intervensim_social_simulation",
+      "node_type": "result",
+      "label": "The current IntervenSim source-intervention, crowd-update and public-signal loop executed and emitted frontend-aligned trajectories. This establishes engineering feasibility for one event only.",
+      "evidence_ids": [
+        "frontend/social/trajectories.json"
+      ],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "stap_popularity_prediction:source",
+      "track_id": "stap_popularity_prediction",
+      "node_type": "source",
+      "label": "STAP popularity-prediction display samples; STAP derived popularity output panel",
+      "evidence_ids": [
+        "stap-heat-display-samples",
+        "stap-heat-output-panel"
+      ],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "stap_popularity_prediction:premise:1",
+      "track_id": "stap_popularity_prediction",
+      "node_type": "premise",
+      "label": "Sparse frame sampling can miss short visual events that influence popularity.",
+      "evidence_ids": [
+        "stap-heat-display-samples",
+        "stap-heat-output-panel"
+      ],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "stap_popularity_prediction:premise:2",
+      "track_id": "stap_popularity_prediction",
+      "node_type": "premise",
+      "label": "Dense sampling alone increases cost and does not organize relevant historical videos.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "stap_popularity_prediction:premise:3",
+      "track_id": "stap_popularity_prediction",
+      "node_type": "premise",
+      "label": "STAP jointly enlarges temporal evidence and addresses a topology-aware memory bank for multimodal prediction.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "stap_popularity_prediction:premise:4",
+      "track_id": "stap_popularity_prediction",
+      "node_type": "premise",
+      "label": "Prospective popularity labels and ablations can test whether both mechanisms improve error and ranking metrics over sequence and flat-memory baselines.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "stap_popularity_prediction:innovation",
+      "track_id": "stap_popularity_prediction",
+      "node_type": "innovation",
+      "label": "Preserve STAP temporal enlargement and topology-aware parametric memory, then expose heat curves, frame importance and retrieved memory evidence as auditable outputs.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "stap_popularity_prediction:hypothesis",
+      "track_id": "stap_popularity_prediction",
+      "node_type": "hypothesis",
+      "label": "On licensed held-out micro-video data, STAP will reduce popularity RMSE and improve Spearman correlation versus LSTM and flat-retrieval baselines.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "stap_popularity_prediction:experiment",
+      "track_id": "stap_popularity_prediction",
+      "node_type": "experiment",
+      "label": "Support only if STAP lowers RMSE and improves Spearman correlation versus the strongest preregistered baseline on held-out data.",
+      "evidence_ids": [],
+      "frontend_status": "ready"
+    },
+    {
+      "node_id": "stap_popularity_prediction:result",
+      "track_id": "stap_popularity_prediction",
+      "node_type": "result",
+      "label": "The supplied 78-row STAP-derived display output was replay-evaluated against its bundled labels. This verifies output parsing and metric computation, not fresh inference by the STAP checkpoint.",
+      "evidence_ids": [
+        "frontend/heat/demo_output_panel.json"
+      ],
+      "frontend_status": "ready"
+    }
+  ],
+  "edges": [
+    {
+      "source": "gas3_us_election:source",
+      "target": "gas3_us_election:premise:1",
+      "relation": "supports"
+    },
+    {
+      "source": "gas3_us_election:premise:1",
+      "target": "gas3_us_election:premise:2",
+      "relation": "supports"
+    },
+    {
+      "source": "gas3_us_election:premise:2",
+      "target": "gas3_us_election:premise:3",
+      "relation": "supports"
+    },
+    {
+      "source": "gas3_us_election:premise:3",
+      "target": "gas3_us_election:premise:4",
+      "relation": "supports"
+    },
+    {
+      "source": "gas3_us_election:premise:4",
+      "target": "gas3_us_election:innovation",
+      "relation": "motivates"
+    },
+    {
+      "source": "gas3_us_election:innovation",
+      "target": "gas3_us_election:hypothesis",
+      "relation": "supports"
+    },
+    {
+      "source": "gas3_us_election:hypothesis",
+      "target": "gas3_us_election:experiment",
+      "relation": "tests"
+    },
+    {
+      "source": "gas3_us_election:experiment",
+      "target": "gas3_us_election:result",
+      "relation": "produces"
+    },
+    {
+      "source": "intervensim_social_simulation:source",
+      "target": "intervensim_social_simulation:premise:1",
+      "relation": "supports"
+    },
+    {
+      "source": "intervensim_social_simulation:premise:1",
+      "target": "intervensim_social_simulation:premise:2",
+      "relation": "supports"
+    },
+    {
+      "source": "intervensim_social_simulation:premise:2",
+      "target": "intervensim_social_simulation:premise:3",
+      "relation": "supports"
+    },
+    {
+      "source": "intervensim_social_simulation:premise:3",
+      "target": "intervensim_social_simulation:premise:4",
+      "relation": "supports"
+    },
+    {
+      "source": "intervensim_social_simulation:premise:4",
+      "target": "intervensim_social_simulation:innovation",
+      "relation": "motivates"
+    },
+    {
+      "source": "intervensim_social_simulation:innovation",
+      "target": "intervensim_social_simulation:hypothesis",
+      "relation": "supports"
+    },
+    {
+      "source": "intervensim_social_simulation:hypothesis",
+      "target": "intervensim_social_simulation:experiment",
+      "relation": "tests"
+    },
+    {
+      "source": "intervensim_social_simulation:experiment",
+      "target": "intervensim_social_simulation:result",
+      "relation": "produces"
+    },
+    {
+      "source": "stap_popularity_prediction:source",
+      "target": "stap_popularity_prediction:premise:1",
+      "relation": "supports"
+    },
+    {
+      "source": "stap_popularity_prediction:premise:1",
+      "target": "stap_popularity_prediction:premise:2",
+      "relation": "supports"
+    },
+    {
+      "source": "stap_popularity_prediction:premise:2",
+      "target": "stap_popularity_prediction:premise:3",
+      "relation": "supports"
+    },
+    {
+      "source": "stap_popularity_prediction:premise:3",
+      "target": "stap_popularity_prediction:premise:4",
+      "relation": "supports"
+    },
+    {
+      "source": "stap_popularity_prediction:premise:4",
+      "target": "stap_popularity_prediction:innovation",
+      "relation": "motivates"
+    },
+    {
+      "source": "stap_popularity_prediction:innovation",
+      "target": "stap_popularity_prediction:hypothesis",
+      "relation": "supports"
+    },
+    {
+      "source": "stap_popularity_prediction:hypothesis",
+      "target": "stap_popularity_prediction:experiment",
+      "relation": "tests"
+    },
+    {
+      "source": "stap_popularity_prediction:experiment",
+      "target": "stap_popularity_prediction:result",
+      "relation": "produces"
+    }
+  ]
+}

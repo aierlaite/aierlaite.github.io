@@ -1,0 +1,8 @@
+{
+  "provider": "Alibaba Cloud Model Studio (Bailian)",
+  "configured_model": "qwen3.8-flash",
+  "configured_endpoint": "https://ws-56ln2s0u1896pyri.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+  "status": "verified",
+  "successful_call_count": 178,
+  "credential_disclosure": "公开展示版仅保留调用摘要。原始回执保留在本地交付包。"
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "trackId": "intervensim_social_simulation",
+    "engine": "IntervenSim + Agenda",
+    "executionMode": "actual_simulation_execution",
+    "evidenceStatus": "executed",
+    "probabilityStatus": "pending_calibration",
+    "dataset": "SNB（授权与数据血缘以 dataset_audit.json 为准）",
+    "modelProvider": "Alibaba Cloud Model Studio (Bailian)",
+    "modelName": "qwen-plus",
+    "modelCallStatus": "pending_live_call",
+    "humanReviewStatus": "not_submitted",
+    "claimScope": "One audited event and 3 executed rounds; descriptive engineering evidence only.",
+    "sourceArtifacts": [
+      "frontend/social/trajectories.json",
+      "frontend/social/events.json",
+      "experiment_results.json",
+      "agent_execution_trace.json"
+    ]
+  }
+]

@@ -1,0 +1,337 @@
+{
+  "track_id": "gas3_us_election",
+  "engine": "GAS-3",
+  "application": "美国大选",
+  "frontend_route": "/election",
+  "problem_statement": "Current U.S. election simulations often collapse heterogeneous voter cohorts into aggregate polling averages, weakening state-level uncertainty calibration and making the reasoning from cohort evidence to Electoral College outcomes difficult to audit.",
+  "rationale": {
+    "innovation": "Retain GAS-3 hierarchical Group Agents and population-weighted behavior quantization, then expose state-level aggregation, uncertainty and evidence lineage as a falsifiable election pipeline.",
+    "reasoning_chain": [
+      "State outcomes depend on heterogeneous cohorts whose turnout and preference shifts are not represented by one national average.",
+      "GAS-3 can preserve cohort hierarchy and population weights while Qwen, called through Bailian, structures scenario evidence and agent rationales.",
+      "Aggregating frozen pre-election cohort states yields state scores and Electoral College distributions that can be backtested without leaking post-cutoff evidence.",
+      "Calibration and electoral-vote error can falsify whether hierarchical agents improve over polling and uniform-swing baselines."
+    ],
+    "falsifiable_hypothesis": "Across held-out election cycles and preregistered pre-election cutoffs, GAS-3 will reduce state-level Brier score and electoral-vote MAE versus a uniform national swing baseline."
+  },
+  "technical_details": {
+    "statistical_methods": [
+      "state-level calibration curves",
+      "Brier score",
+      "bootstrap confidence intervals"
+    ],
+    "machine_learning_methods": [
+      "regularized logistic regression",
+      "isotonic calibration",
+      "hierarchical aggregation"
+    ],
+    "deep_learning_methods": [
+      "Qwen-based evidence structuring",
+      "GAS-3 hierarchical Group Agent simulation"
+    ],
+    "model_runtime": "Qwen open-source-family model through Alibaba Cloud Model Studio (Bailian) API",
+    "software_stack": [
+      "Python 3.10-3.12",
+      "Pydantic v2",
+      "Alibaba Cloud Bailian OpenAI-compatible API",
+      "GAS-3 adapter",
+      "pandas/scikit-learn",
+      "state-level Electoral College evaluator"
+    ],
+    "reproducibility_controls": [
+      "immutable source SHA-256 and transformation lineage",
+      "fixed random seeds, cutoff timestamps and environment versions",
+      "agent execution trace plus redacted Qwen/Bailian call receipt",
+      "human approval recorded separately from automatic validation"
+    ]
+  },
+  "datasets": {
+    "source": [
+      {
+        "dataset_id": "gas3-us-election-2020",
+        "name": "U.S. presidential election 2020 state-result snapshot",
+        "description": "Fifty states plus the District of Columbia with party winner and state-level Republican/Democratic vote totals, used only by the GAS-3 U.S.-election adapter.",
+        "provenance": "Read-only copy of the team's original-data election archive. The research source family is MIT Election Data and Science Lab's U.S. President 1976-2020 dataset; the normalized display snapshot is hashed independently and must be version-traced before publication.",
+        "access_url": "https://electionlab.mit.edu/data",
+        "usage_rights": "Public research election returns; cite the MIT Election Data and Science Lab dataset and its Harvard Dataverse DOI, preserve version metadata, and re-check state totals against the selected release before confirmatory use.",
+        "terms_url": "https://doi.org/10.7910/DVN/42MVDX",
+        "local_path": "app/dataset/election/election_2020.json",
+        "sha256": "8e460ce2c3bd2a3aad4801f83c213ce15f3855090023543723a50411c709c006",
+        "record_count": 51,
+        "historical_features": [
+          "state abbreviation",
+          "party winner",
+          "Republican candidate votes",
+          "Democratic candidate votes"
+        ],
+        "source_version": "MIT Election Lab U.S. President 1976-2020 source family; normalized 2020 state snapshot",
+        "license_verified": true,
+        "pii_assessment": "State-level aggregate certified vote totals; no voter-level personal data.",
+        "redistribution_scope": "Normalized aggregate state results with MIT Election Data and Science Lab attribution and version citation.",
+        "verification_method": "51-row schema/count check, SHA-256 local fixation, and primary Harvard Dataverse DOI/source-family review.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "MIT Election Data and Science Lab source family",
+          "team normalized election archive",
+          "app/dataset/election/election_2020.json",
+          "GAS-3 election replay adapter"
+        ],
+        "compliance_status": "verified"
+      },
+      {
+        "dataset_id": "gas3-election-display-priors",
+        "name": "GAS-3 state display-prior snapshot",
+        "description": "Fifty states plus the District of Columbia with electoral votes and Republican/Democratic display scores used only for a bounded historical reconstruction sanity check.",
+        "provenance": "Read-only copy of the team's existing election display archive; these scores are treated as target-derived display priors and never as leakage-safe prospective inputs.",
+        "access_url": "https://github.com/AI4SS/GAS-3",
+        "usage_rights": "Research-display artifact distributed with the team project; retain GAS-3 attribution and do not claim the derived scores are independently collected polls.",
+        "terms_url": "https://github.com/AI4SS/GAS-3",
+        "local_path": "app/dataset/election/us_states.json",
+        "sha256": "466330e88abfd9b5a8c8e3ba84549bf59e0dec817a2a47eb53277d4cae10939a",
+        "record_count": 51,
+        "historical_features": [
+          "state abbreviation and name",
+          "electoral votes",
+          "population",
+          "Republican/Democratic display scores",
+          "swing-state and region labels"
+        ],
+        "source_version": "Team election display-prior snapshot audited 2026-08-25",
+        "license_verified": true,
+        "pii_assessment": "Aggregate state-level fields only; no voter-level personal data.",
+        "redistribution_scope": "Derived state display values and aggregate replay outputs with attribution; prospective-forecast claims are forbidden.",
+        "verification_method": "51-row schema/count and SHA-256 audit against the read-only frontend archive; semantic leakage warning recorded in every result.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "team election display archive",
+          "app/dataset/election/us_states.json",
+          "GAS-3 historical reconstruction adapter"
+        ],
+        "compliance_status": "verified"
+      }
+    ],
+    "target": [
+      {
+        "name": "Prospective U.S. presidential election panel",
+        "collection_scope": "Multiple historical backtests plus one future U.S. presidential-election cycle, with state-level snapshots frozen at preregistered dates before Election Day.",
+        "unit_of_analysis": "election cycle x state/DC x timestamp x de-identified voter cohort",
+        "planned_features": [
+          "certified historical vote totals and electoral votes",
+          "timestamped polls with sample size, mode, sponsor and uncertainty",
+          "state demographics and turnout priors from authoritative public statistics",
+          "campaign events, endorsements and economic context with provenance",
+          "GAS-3 Group Agent states, weights and state win probabilities"
+        ],
+        "sampling_strategy": "Backtest by holding out complete election cycles; for prospective evaluation, freeze inputs at fixed pre-election horizons and never train on post-cutoff evidence.",
+        "consent_and_privacy": "Use aggregate public election and polling records; do not ingest identifiable voter records. Document every source version and applicable redistribution term.",
+        "quality_controls": [
+          "pre-register inclusion/exclusion rules and primary metrics",
+          "version data, code, prompts, Qwen model id and random seeds",
+          "retain immutable raw-data hashes and transformation lineage",
+          "cross-check totals against certified state results",
+          "report calibration and uncertainty, not only winner labels"
+        ]
+      }
+    ]
+  },
+  "paper_title": "Auditable Hierarchical Group-Agent Simulation for State-Level U.S. Election Forecasting",
+  "paper_abstract": {
+    "background": "Aggregate election forecasts underrepresent cohort heterogeneity and hide the derivation of state-level uncertainty.",
+    "methods": "We propose a GAS-3 pipeline with hierarchical voter-cohort agents, population-weighted state aggregation, Qwen/Bailian evidence structuring and leakage-safe historical backtests.",
+    "expected_results": "We expect improved calibration and lower electoral-vote error than uniform-swing and regularized polling baselines; failure on preregistered metrics will reject the hypothesis."
+  },
+  "methods": [
+    {
+      "step": 1,
+      "name": "Evidence freeze",
+      "procedure": "Freeze certified returns, polls and contextual evidence at preregistered cutoffs.",
+      "inputs": [
+        "audited historical returns",
+        "timestamped polls"
+      ],
+      "outputs": [
+        "versioned state snapshots"
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Group Agent construction",
+      "procedure": "Build hierarchical voter cohorts and population weights without identifiable voter records.",
+      "inputs": [
+        "aggregate demographics",
+        "state priors"
+      ],
+      "outputs": [
+        "auditable GAS-3 cohort tree"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Scenario execution",
+      "procedure": "Run Qwen/Bailian-assisted group interactions and preserve every agent/action trace.",
+      "inputs": [
+        "cohort tree",
+        "campaign evidence"
+      ],
+      "outputs": [
+        "cohort preference states"
+      ]
+    },
+    {
+      "step": 4,
+      "name": "State aggregation",
+      "procedure": "Aggregate cohort scores into state predictions and Electoral College totals with calibration.",
+      "inputs": [
+        "cohort states",
+        "electoral votes"
+      ],
+      "outputs": [
+        "frontend-aligned state_predictions"
+      ]
+    }
+  ],
+  "experiments": {
+    "baselines": [
+      {
+        "name": "Uniform national swing",
+        "description": "Apply one national shift to historical state margins."
+      },
+      {
+        "name": "Regularized polling model",
+        "description": "Fit a leakage-safe state logistic model on frozen poll aggregates."
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Brier score",
+        "definition": "Mean squared error of state Republican win scores.",
+        "direction": "lower"
+      },
+      {
+        "name": "Electoral-vote MAE",
+        "definition": "Absolute error in party Electoral College totals.",
+        "direction": "lower"
+      },
+      {
+        "name": "State accuracy",
+        "definition": "Correct winner labels across states and DC.",
+        "direction": "higher"
+      }
+    ],
+    "split_strategy": "Leave complete election cycles out; freeze all prospective inputs before each evaluation cutoff.",
+    "ablations": [
+      "remove cohort hierarchy",
+      "remove population weighting",
+      "remove Qwen-structured scenario evidence"
+    ],
+    "robustness_checks": [
+      "alternative polling cutoffs",
+      "swing-state-only metrics",
+      "calibration by polling density"
+    ],
+    "decision_rule": "Support only if GAS-3 lowers Brier score and electoral-vote MAE versus the preregistered primary baseline with paired 95% intervals excluding zero."
+  },
+  "results": {
+    "track_id": "gas3_us_election",
+    "evidence_type": "actual_execution",
+    "formulas": [
+      "p_rep,state = repPct_state / (repPct_state + demPct_state)",
+      "Brier = (1/S) * sum_state (p_rep,state - y_rep,state)^2",
+      "EV_error = |sum_state EV_state * I(yhat_state=REP) - actual_REP_EV|"
+    ],
+    "observed_values": {
+      "historical_state_records": 51,
+      "state_accuracy": 0.941176,
+      "brier_score": 0.047254,
+      "electoral_vote_error": 3
+    },
+    "interpretation": "The GAS-3 frontend/result contract executed across 50 states plus DC. Because the supplied display priors may derive from the same historical result, these metrics validate wiring and aggregation only.",
+    "status": "verified_feasible",
+    "evaluation_mode": "historical_replay_sanity_check",
+    "claim_scope": "Historical engineering reconstruction; no prospective predictive-validity claim.",
+    "frontend_artifact": "frontend/election/election_result.json"
+  },
+  "references": [
+    {
+      "reference_id": "gas3-2025",
+      "title": "GA-S3: Comprehensive Social Network Simulation with Group Agents",
+      "authors": [
+        "Yunyao Zhang",
+        "Zikai Song",
+        "Hang Zhou",
+        "Wenfeng Ren",
+        "Yi-Ping Phoebe Chen",
+        "Junqing Yu",
+        "Wei Yang"
+      ],
+      "year": 2025,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "doi": "10.18653/v1/2025.findings-acl.468",
+      "url": "https://aclanthology.org/2025.findings-acl.468/",
+      "verification_source": "ACL Anthology primary metadata",
+      "source_kind": "primary_publication",
+      "metadata_match": true,
+      "verified_at": "2026-08-25T00:00:00+08:00",
+      "verification_evidence": "Title, authors, year, venue and DOI are matched against the ACL Anthology record.",
+      "verified": true
+    },
+    {
+      "reference_id": "qwen25-2025",
+      "title": "Qwen2.5 Technical Report",
+      "authors": [
+        "An Yang",
+        "Baosong Yang",
+        "Beichen Zhang",
+        "Binyuan Hui",
+        "Bo Zheng",
+        "Bowen Yu",
+        "Chengyuan Li",
+        "Dayiheng Liu",
+        "Fei Huang",
+        "Haoran Wei",
+        "Huan Lin",
+        "Jian Yang",
+        "Jianhong Tu",
+        "Jianwei Zhang",
+        "Jianxin Yang",
+        "Jiaxi Yang",
+        "Jingren Zhou",
+        "Junyang Lin",
+        "Kai Dang",
+        "Keming Lu",
+        "Keqin Bao",
+        "Kexin Yang",
+        "Le Yu",
+        "Mei Li",
+        "Mingfeng Xue",
+        "Pei Zhang",
+        "Qin Zhu",
+        "Rui Men",
+        "Runji Lin",
+        "Tianhao Li",
+        "Tianyi Tang",
+        "Tingyu Xia",
+        "Xingzhang Ren",
+        "Xuancheng Ren",
+        "Yang Fan",
+        "Yang Su",
+        "Yichang Zhang",
+        "Yu Wan",
+        "Yuqiong Liu",
+        "Zeyu Cui",
+        "Zhenru Zhang",
+        "Zihan Qiu"
+      ],
+      "year": 2024,
+      "venue": "arXiv:2412.15115",
+      "doi": "10.48550/arXiv.2412.15115",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "verification_source": "arXiv primary metadata",
+      "source_kind": "primary_publication",
+      "metadata_match": true,
+      "verified_at": "2026-08-25T00:00:00+08:00",
+      "verification_evidence": "Title, complete 42-author list, initial submission year and arXiv identifier are matched against the arXiv primary record and official Qwen citation.",
+      "verified": true
+    }
+  ]
+}

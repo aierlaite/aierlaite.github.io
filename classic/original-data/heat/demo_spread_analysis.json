@@ -1,0 +1,5696 @@
+[
+  {
+    "id": "FV_001",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.1
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 17.9
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.6
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.3
+        },
+        {
+          "name": "微博",
+          "proportion": 24.6
+        },
+        {
+          "name": "微信",
+          "proportion": 9.1
+        },
+        {
+          "name": "B站",
+          "proportion": 14.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 12.7
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_002",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 25.0
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 29.4
+        },
+        {
+          "name": "路人观众",
+          "proportion": 22.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 12.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 38.6
+        },
+        {
+          "name": "微博",
+          "proportion": 24.2
+        },
+        {
+          "name": "微信",
+          "proportion": 14.1
+        },
+        {
+          "name": "B站",
+          "proportion": 11.6
+        },
+        {
+          "name": "小红书",
+          "proportion": 11.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_003",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 26.3
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.7
+        },
+        {
+          "name": "路人观众",
+          "proportion": 23.5
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.0
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.5
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 36.0
+        },
+        {
+          "name": "微博",
+          "proportion": 27.9
+        },
+        {
+          "name": "微信",
+          "proportion": 12.5
+        },
+        {
+          "name": "B站",
+          "proportion": 17.0
+        },
+        {
+          "name": "小红书",
+          "proportion": 6.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_004",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 25.0
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 31.5
+        },
+        {
+          "name": "路人观众",
+          "proportion": 26.3
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 5.1
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 32.6
+        },
+        {
+          "name": "微博",
+          "proportion": 26.1
+        },
+        {
+          "name": "微信",
+          "proportion": 11.2
+        },
+        {
+          "name": "B站",
+          "proportion": 17.9
+        },
+        {
+          "name": "小红书",
+          "proportion": 12.3
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_005",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 28.4
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 26.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 23.8
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 15.0
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 6.8
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 36.9
+        },
+        {
+          "name": "微博",
+          "proportion": 22.8
+        },
+        {
+          "name": "微信",
+          "proportion": 14.4
+        },
+        {
+          "name": "B站",
+          "proportion": 17.8
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.0
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_006",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 22.8
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 34.5
+        },
+        {
+          "name": "路人观众",
+          "proportion": 17.1
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 13.6
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.0
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.5
+        },
+        {
+          "name": "微博",
+          "proportion": 24.3
+        },
+        {
+          "name": "微信",
+          "proportion": 14.0
+        },
+        {
+          "name": "B站",
+          "proportion": 17.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 9.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_007",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 24.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.5
+        },
+        {
+          "name": "路人观众",
+          "proportion": 26.1
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.6
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 9.5
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.5
+        },
+        {
+          "name": "微博",
+          "proportion": 24.6
+        },
+        {
+          "name": "微信",
+          "proportion": 14.3
+        },
+        {
+          "name": "B站",
+          "proportion": 15.1
+        },
+        {
+          "name": "小红书",
+          "proportion": 11.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_008",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 23.2
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.1
+        },
+        {
+          "name": "路人观众",
+          "proportion": 25.0
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 36.5
+        },
+        {
+          "name": "微博",
+          "proportion": 28.3
+        },
+        {
+          "name": "微信",
+          "proportion": 12.6
+        },
+        {
+          "name": "B站",
+          "proportion": 16.5
+        },
+        {
+          "name": "小红书",
+          "proportion": 6.2
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_009",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 27.3
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 27.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 22.1
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.6
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.8
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.2
+        },
+        {
+          "name": "微博",
+          "proportion": 24.6
+        },
+        {
+          "name": "微信",
+          "proportion": 11.6
+        },
+        {
+          "name": "B站",
+          "proportion": 17.0
+        },
+        {
+          "name": "小红书",
+          "proportion": 12.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_010",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 24.4
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 29.2
+        },
+        {
+          "name": "路人观众",
+          "proportion": 24.9
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 7.9
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 13.6
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 32.8
+        },
+        {
+          "name": "微博",
+          "proportion": 26.3
+        },
+        {
+          "name": "微信",
+          "proportion": 11.5
+        },
+        {
+          "name": "B站",
+          "proportion": 19.3
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.1
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_011",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.0
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 27.6
+        },
+        {
+          "name": "路人观众",
+          "proportion": 13.5
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 10.5
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 14.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.0
+        },
+        {
+          "name": "微博",
+          "proportion": 24.3
+        },
+        {
+          "name": "微信",
+          "proportion": 15.5
+        },
+        {
+          "name": "B站",
+          "proportion": 12.9
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.3
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_012",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 27.0
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 26.6
+        },
+        {
+          "name": "路人观众",
+          "proportion": 24.4
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 10.7
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 36.8
+        },
+        {
+          "name": "微博",
+          "proportion": 26.2
+        },
+        {
+          "name": "微信",
+          "proportion": 15.4
+        },
+        {
+          "name": "B站",
+          "proportion": 11.0
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_013",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 29.3
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 29.7
+        },
+        {
+          "name": "路人观众",
+          "proportion": 19.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 14.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 7.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.6
+        },
+        {
+          "name": "微博",
+          "proportion": 26.1
+        },
+        {
+          "name": "微信",
+          "proportion": 16.4
+        },
+        {
+          "name": "B站",
+          "proportion": 16.3
+        },
+        {
+          "name": "小红书",
+          "proportion": 6.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_014",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 28.4
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 26.6
+        },
+        {
+          "name": "路人观众",
+          "proportion": 25.0
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 32.4
+        },
+        {
+          "name": "微博",
+          "proportion": 28.3
+        },
+        {
+          "name": "微信",
+          "proportion": 18.9
+        },
+        {
+          "name": "B站",
+          "proportion": 13.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 6.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_015",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 35.7
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 29.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 12.3
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 12.9
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 9.8
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.5
+        },
+        {
+          "name": "微博",
+          "proportion": 24.0
+        },
+        {
+          "name": "微信",
+          "proportion": 19.5
+        },
+        {
+          "name": "B站",
+          "proportion": 10.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.4
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_016",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 29.1
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 22.4
+        },
+        {
+          "name": "路人观众",
+          "proportion": 24.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 15.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.6
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.5
+        },
+        {
+          "name": "微博",
+          "proportion": 26.8
+        },
+        {
+          "name": "微信",
+          "proportion": 13.8
+        },
+        {
+          "name": "B站",
+          "proportion": 14.6
+        },
+        {
+          "name": "小红书",
+          "proportion": 9.3
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_017",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 26.9
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 26.6
+        },
+        {
+          "name": "路人观众",
+          "proportion": 20.9
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 14.5
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 32.6
+        },
+        {
+          "name": "微博",
+          "proportion": 22.8
+        },
+        {
+          "name": "微信",
+          "proportion": 16.5
+        },
+        {
+          "name": "B站",
+          "proportion": 15.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 12.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_018",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 23.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 27.8
+        },
+        {
+          "name": "路人观众",
+          "proportion": 27.2
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 10.6
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.8
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.1
+        },
+        {
+          "name": "微博",
+          "proportion": 23.4
+        },
+        {
+          "name": "微信",
+          "proportion": 14.0
+        },
+        {
+          "name": "B站",
+          "proportion": 19.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 4.0
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_019",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 33.1
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.5
+        },
+        {
+          "name": "路人观众",
+          "proportion": 14.9
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 10.5
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 13.0
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.1
+        },
+        {
+          "name": "微博",
+          "proportion": 29.4
+        },
+        {
+          "name": "微信",
+          "proportion": 15.1
+        },
+        {
+          "name": "B站",
+          "proportion": 10.5
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_020",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 30.4
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 23.3
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 5.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.7
+        },
+        {
+          "name": "微博",
+          "proportion": 17.8
+        },
+        {
+          "name": "微信",
+          "proportion": 12.8
+        },
+        {
+          "name": "B站",
+          "proportion": 21.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_021",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 11.0
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.6
+        },
+        {
+          "name": "路人观众",
+          "proportion": 35.0
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.1
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 14.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 36.9
+        },
+        {
+          "name": "微博",
+          "proportion": 22.3
+        },
+        {
+          "name": "微信",
+          "proportion": 19.2
+        },
+        {
+          "name": "B站",
+          "proportion": 13.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.0
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_022",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 25.4
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.4
+        },
+        {
+          "name": "路人观众",
+          "proportion": 25.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 7.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.3
+        },
+        {
+          "name": "微博",
+          "proportion": 26.2
+        },
+        {
+          "name": "微信",
+          "proportion": 15.6
+        },
+        {
+          "name": "B站",
+          "proportion": 16.1
+        },
+        {
+          "name": "小红书",
+          "proportion": 7.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_023",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 26.8
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 27.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 24.4
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 13.7
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.6
+        },
+        {
+          "name": "微博",
+          "proportion": 28.6
+        },
+        {
+          "name": "微信",
+          "proportion": 17.7
+        },
+        {
+          "name": "B站",
+          "proportion": 13.1
+        },
+        {
+          "name": "小红书",
+          "proportion": 6.1
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_024",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 38.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.8
+        },
+        {
+          "name": "路人观众",
+          "proportion": 12.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 8.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 44.5
+        },
+        {
+          "name": "微博",
+          "proportion": 21.3
+        },
+        {
+          "name": "微信",
+          "proportion": 16.1
+        },
+        {
+          "name": "B站",
+          "proportion": 12.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 5.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_025",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 29.3
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 27.8
+        },
+        {
+          "name": "路人观众",
+          "proportion": 27.5
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 10.4
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 5.0
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 31.3
+        },
+        {
+          "name": "微博",
+          "proportion": 22.4
+        },
+        {
+          "name": "微信",
+          "proportion": 17.6
+        },
+        {
+          "name": "B站",
+          "proportion": 18.0
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.7
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_026",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 23.8
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 33.5
+        },
+        {
+          "name": "路人观众",
+          "proportion": 23.2
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 7.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.7
+        },
+        {
+          "name": "微博",
+          "proportion": 24.1
+        },
+        {
+          "name": "微信",
+          "proportion": 16.1
+        },
+        {
+          "name": "B站",
+          "proportion": 14.1
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.1
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_027",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 25.8
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 26.6
+        },
+        {
+          "name": "路人观众",
+          "proportion": 26.3
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 7.7
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 13.6
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.0
+        },
+        {
+          "name": "微博",
+          "proportion": 26.2
+        },
+        {
+          "name": "微信",
+          "proportion": 14.1
+        },
+        {
+          "name": "B站",
+          "proportion": 12.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 12.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "FV_028",
+    "dataset": "FV",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 21.7
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.8
+        },
+        {
+          "name": "路人观众",
+          "proportion": 24.5
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 14.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.7
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.1
+        },
+        {
+          "name": "微博",
+          "proportion": 25.8
+        },
+        {
+          "name": "微信",
+          "proportion": 15.9
+        },
+        {
+          "name": "B站",
+          "proportion": 12.6
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_001",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 31.1
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 16.9
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 8.5
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 13.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 32.3
+        },
+        {
+          "name": "微博",
+          "proportion": 21.5
+        },
+        {
+          "name": "微信",
+          "proportion": 16.0
+        },
+        {
+          "name": "B站",
+          "proportion": 20.3
+        },
+        {
+          "name": "小红书",
+          "proportion": 9.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_002",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 35.2
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 25.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 14.1
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 12.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 13.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.5
+        },
+        {
+          "name": "微博",
+          "proportion": 26.1
+        },
+        {
+          "name": "微信",
+          "proportion": 11.1
+        },
+        {
+          "name": "B站",
+          "proportion": 13.8
+        },
+        {
+          "name": "小红书",
+          "proportion": 9.4
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_003",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 37.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 25.4
+        },
+        {
+          "name": "路人观众",
+          "proportion": 19.2
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 7.6
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.3
+        },
+        {
+          "name": "微博",
+          "proportion": 25.5
+        },
+        {
+          "name": "微信",
+          "proportion": 12.3
+        },
+        {
+          "name": "B站",
+          "proportion": 11.1
+        },
+        {
+          "name": "小红书",
+          "proportion": 11.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_004",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.9
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 32.2
+        },
+        {
+          "name": "路人观众",
+          "proportion": 14.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 7.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.0
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.0
+        },
+        {
+          "name": "微博",
+          "proportion": 24.9
+        },
+        {
+          "name": "微信",
+          "proportion": 19.2
+        },
+        {
+          "name": "B站",
+          "proportion": 11.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_005",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 32.1
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 31.2
+        },
+        {
+          "name": "路人观众",
+          "proportion": 15.3
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 13.1
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.7
+        },
+        {
+          "name": "微博",
+          "proportion": 32.2
+        },
+        {
+          "name": "微信",
+          "proportion": 8.7
+        },
+        {
+          "name": "B站",
+          "proportion": 15.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.2
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_006",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 37.2
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.9
+        },
+        {
+          "name": "路人观众",
+          "proportion": 17.9
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 7.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 6.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 36.1
+        },
+        {
+          "name": "微博",
+          "proportion": 24.4
+        },
+        {
+          "name": "微信",
+          "proportion": 14.2
+        },
+        {
+          "name": "B站",
+          "proportion": 16.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_007",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 29.9
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 29.7
+        },
+        {
+          "name": "路人观众",
+          "proportion": 18.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.7
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 38.0
+        },
+        {
+          "name": "微博",
+          "proportion": 23.1
+        },
+        {
+          "name": "微信",
+          "proportion": 12.4
+        },
+        {
+          "name": "B站",
+          "proportion": 14.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 11.7
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_008",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 31.9
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 29.7
+        },
+        {
+          "name": "路人观众",
+          "proportion": 16.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 13.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 31.3
+        },
+        {
+          "name": "微博",
+          "proportion": 20.6
+        },
+        {
+          "name": "微信",
+          "proportion": 20.5
+        },
+        {
+          "name": "B站",
+          "proportion": 18.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 9.4
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_009",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 35.6
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 31.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 15.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 6.5
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.5
+        },
+        {
+          "name": "微博",
+          "proportion": 20.4
+        },
+        {
+          "name": "微信",
+          "proportion": 17.9
+        },
+        {
+          "name": "B站",
+          "proportion": 15.1
+        },
+        {
+          "name": "小红书",
+          "proportion": 12.0
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_010",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.6
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.5
+        },
+        {
+          "name": "路人观众",
+          "proportion": 12.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 13.9
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 32.3
+        },
+        {
+          "name": "微博",
+          "proportion": 27.5
+        },
+        {
+          "name": "微信",
+          "proportion": 10.5
+        },
+        {
+          "name": "B站",
+          "proportion": 20.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 9.1
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_011",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 37.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 32.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 16.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 4.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 9.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 36.4
+        },
+        {
+          "name": "微博",
+          "proportion": 24.2
+        },
+        {
+          "name": "微信",
+          "proportion": 10.5
+        },
+        {
+          "name": "B站",
+          "proportion": 14.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 14.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_012",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 37.4
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 26.9
+        },
+        {
+          "name": "路人观众",
+          "proportion": 16.8
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 10.6
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 32.2
+        },
+        {
+          "name": "微博",
+          "proportion": 27.4
+        },
+        {
+          "name": "微信",
+          "proportion": 18.8
+        },
+        {
+          "name": "B站",
+          "proportion": 15.8
+        },
+        {
+          "name": "小红书",
+          "proportion": 5.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_013",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 33.1
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.8
+        },
+        {
+          "name": "路人观众",
+          "proportion": 16.0
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 8.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.7
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.7
+        },
+        {
+          "name": "微博",
+          "proportion": 19.1
+        },
+        {
+          "name": "微信",
+          "proportion": 16.1
+        },
+        {
+          "name": "B站",
+          "proportion": 14.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 11.0
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_014",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.2
+        },
+        {
+          "name": "路人观众",
+          "proportion": 14.9
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 10.0
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.8
+        },
+        {
+          "name": "微博",
+          "proportion": 26.9
+        },
+        {
+          "name": "微信",
+          "proportion": 11.5
+        },
+        {
+          "name": "B站",
+          "proportion": 18.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 7.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "INF_015",
+    "dataset": "Informs",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.9
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.2
+        },
+        {
+          "name": "路人观众",
+          "proportion": 11.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 14.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.9
+        },
+        {
+          "name": "微博",
+          "proportion": 27.4
+        },
+        {
+          "name": "微信",
+          "proportion": 16.3
+        },
+        {
+          "name": "B站",
+          "proportion": 11.5
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_001",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 18.8
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 26.6
+        },
+        {
+          "name": "路人观众",
+          "proportion": 35.4
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.1
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.3
+        },
+        {
+          "name": "微博",
+          "proportion": 23.2
+        },
+        {
+          "name": "微信",
+          "proportion": 13.0
+        },
+        {
+          "name": "B站",
+          "proportion": 15.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 12.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_002",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.0
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.7
+        },
+        {
+          "name": "路人观众",
+          "proportion": 11.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 12.7
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.9
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 34.8
+        },
+        {
+          "name": "微博",
+          "proportion": 18.5
+        },
+        {
+          "name": "微信",
+          "proportion": 20.9
+        },
+        {
+          "name": "B站",
+          "proportion": 14.8
+        },
+        {
+          "name": "小红书",
+          "proportion": 11.1
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_003",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 24.8
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 33.1
+        },
+        {
+          "name": "路人观众",
+          "proportion": 19.9
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 14.7
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 7.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 31.8
+        },
+        {
+          "name": "微博",
+          "proportion": 24.7
+        },
+        {
+          "name": "微信",
+          "proportion": 21.0
+        },
+        {
+          "name": "B站",
+          "proportion": 15.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 7.3
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_004",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 29.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 16.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 13.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 6.8
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 31.4
+        },
+        {
+          "name": "微博",
+          "proportion": 26.8
+        },
+        {
+          "name": "微信",
+          "proportion": 13.4
+        },
+        {
+          "name": "B站",
+          "proportion": 19.6
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_005",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 20.3
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 32.1
+        },
+        {
+          "name": "路人观众",
+          "proportion": 22.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 13.0
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.0
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 33.8
+        },
+        {
+          "name": "微博",
+          "proportion": 24.7
+        },
+        {
+          "name": "微信",
+          "proportion": 12.4
+        },
+        {
+          "name": "B站",
+          "proportion": 15.5
+        },
+        {
+          "name": "小红书",
+          "proportion": 13.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_006",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.9
+        },
+        {
+          "name": "路人观众",
+          "proportion": 16.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 8.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 9.7
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 37.3
+        },
+        {
+          "name": "微博",
+          "proportion": 22.8
+        },
+        {
+          "name": "微信",
+          "proportion": 17.2
+        },
+        {
+          "name": "B站",
+          "proportion": 11.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 11.4
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_007",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.7
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 11.2
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 15.5
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.6
+        },
+        {
+          "name": "微博",
+          "proportion": 25.4
+        },
+        {
+          "name": "微信",
+          "proportion": 18.3
+        },
+        {
+          "name": "B站",
+          "proportion": 13.8
+        },
+        {
+          "name": "小红书",
+          "proportion": 6.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_008",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 21.4
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 27.9
+        },
+        {
+          "name": "路人观众",
+          "proportion": 29.3
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.9
+        },
+        {
+          "name": "微博",
+          "proportion": 26.6
+        },
+        {
+          "name": "微信",
+          "proportion": 13.7
+        },
+        {
+          "name": "B站",
+          "proportion": 13.0
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_009",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 33.8
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 33.6
+        },
+        {
+          "name": "路人观众",
+          "proportion": 17.2
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.0
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 6.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 29.7
+        },
+        {
+          "name": "微博",
+          "proportion": 25.3
+        },
+        {
+          "name": "微信",
+          "proportion": 12.2
+        },
+        {
+          "name": "B站",
+          "proportion": 24.3
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_010",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 27.6
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 29.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 24.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.7
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 31.7
+        },
+        {
+          "name": "微博",
+          "proportion": 25.2
+        },
+        {
+          "name": "微信",
+          "proportion": 14.2
+        },
+        {
+          "name": "B站",
+          "proportion": 15.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 13.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_011",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 18.3
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 24.1
+        },
+        {
+          "name": "路人观众",
+          "proportion": 29.8
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 15.0
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.7
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 36.2
+        },
+        {
+          "name": "微博",
+          "proportion": 24.1
+        },
+        {
+          "name": "微信",
+          "proportion": 12.5
+        },
+        {
+          "name": "B站",
+          "proportion": 16.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.7
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_012",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 34.1
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 34.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 16.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 8.4
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 6.6
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 40.6
+        },
+        {
+          "name": "微博",
+          "proportion": 20.9
+        },
+        {
+          "name": "微信",
+          "proportion": 17.1
+        },
+        {
+          "name": "B站",
+          "proportion": 8.8
+        },
+        {
+          "name": "小红书",
+          "proportion": 12.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_013",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 15.6
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 25.6
+        },
+        {
+          "name": "路人观众",
+          "proportion": 34.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 14.7
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 9.6
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 38.1
+        },
+        {
+          "name": "微博",
+          "proportion": 24.9
+        },
+        {
+          "name": "微信",
+          "proportion": 15.6
+        },
+        {
+          "name": "B站",
+          "proportion": 10.8
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_014",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 31.1
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 26.8
+        },
+        {
+          "name": "路人观众",
+          "proportion": 18.0
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 12.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 29.7
+        },
+        {
+          "name": "微博",
+          "proportion": 22.6
+        },
+        {
+          "name": "微信",
+          "proportion": 17.4
+        },
+        {
+          "name": "B站",
+          "proportion": 14.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 15.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_015",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 14.9
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 23.2
+        },
+        {
+          "name": "路人观众",
+          "proportion": 37.0
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 12.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 38.6
+        },
+        {
+          "name": "微博",
+          "proportion": 21.7
+        },
+        {
+          "name": "微信",
+          "proportion": 16.5
+        },
+        {
+          "name": "B站",
+          "proportion": 10.3
+        },
+        {
+          "name": "小红书",
+          "proportion": 12.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_016",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 17.3
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 21.7
+        },
+        {
+          "name": "路人观众",
+          "proportion": 36.8
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 15.0
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 9.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 30.3
+        },
+        {
+          "name": "微博",
+          "proportion": 25.8
+        },
+        {
+          "name": "微信",
+          "proportion": 18.8
+        },
+        {
+          "name": "B站",
+          "proportion": 14.8
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.3
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_017",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 30.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 31.7
+        },
+        {
+          "name": "路人观众",
+          "proportion": 18.8
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 9.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.7
+        },
+        {
+          "name": "微博",
+          "proportion": 24.1
+        },
+        {
+          "name": "微信",
+          "proportion": 19.0
+        },
+        {
+          "name": "B站",
+          "proportion": 11.5
+        },
+        {
+          "name": "小红书",
+          "proportion": 9.7
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_018",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 23.3
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.9
+        },
+        {
+          "name": "路人观众",
+          "proportion": 28.3
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 7.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 37.6
+        },
+        {
+          "name": "微博",
+          "proportion": 26.2
+        },
+        {
+          "name": "微信",
+          "proportion": 18.7
+        },
+        {
+          "name": "B站",
+          "proportion": 13.1
+        },
+        {
+          "name": "小红书",
+          "proportion": 4.4
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_019",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 15.7
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 22.2
+        },
+        {
+          "name": "路人观众",
+          "proportion": 36.4
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 16.0
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 9.8
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 30.2
+        },
+        {
+          "name": "微博",
+          "proportion": 26.4
+        },
+        {
+          "name": "微信",
+          "proportion": 15.1
+        },
+        {
+          "name": "B站",
+          "proportion": 18.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 9.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "ML_020",
+    "dataset": "MicroLens",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 10.7
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 27.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 38.2
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 10.7
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 13.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 31.8
+        },
+        {
+          "name": "微博",
+          "proportion": 24.0
+        },
+        {
+          "name": "微信",
+          "proportion": 18.7
+        },
+        {
+          "name": "B站",
+          "proportion": 16.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.7
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_001",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 28.0
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.4
+        },
+        {
+          "name": "路人观众",
+          "proportion": 25.1
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 5.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 32.5
+        },
+        {
+          "name": "微博",
+          "proportion": 23.5
+        },
+        {
+          "name": "微信",
+          "proportion": 14.4
+        },
+        {
+          "name": "B站",
+          "proportion": 15.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 14.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_002",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 22.4
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.7
+        },
+        {
+          "name": "路人观众",
+          "proportion": 20.4
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 12.8
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 13.9
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.1
+        },
+        {
+          "name": "微博",
+          "proportion": 21.8
+        },
+        {
+          "name": "微信",
+          "proportion": 18.7
+        },
+        {
+          "name": "B站",
+          "proportion": 13.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 7.0
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_003",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 33.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 28.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 18.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.5
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.4
+        },
+        {
+          "name": "微博",
+          "proportion": 22.2
+        },
+        {
+          "name": "微信",
+          "proportion": 17.5
+        },
+        {
+          "name": "B站",
+          "proportion": 14.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 6.3
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_004",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 23.9
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 32.9
+        },
+        {
+          "name": "路人观众",
+          "proportion": 25.9
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.4
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.0
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 41.6
+        },
+        {
+          "name": "微博",
+          "proportion": 23.6
+        },
+        {
+          "name": "微信",
+          "proportion": 16.5
+        },
+        {
+          "name": "B站",
+          "proportion": 10.8
+        },
+        {
+          "name": "小红书",
+          "proportion": 7.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_005",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 27.8
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 28.6
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 7.6
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 5.7
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 31.7
+        },
+        {
+          "name": "微博",
+          "proportion": 20.7
+        },
+        {
+          "name": "微信",
+          "proportion": 18.0
+        },
+        {
+          "name": "B站",
+          "proportion": 16.1
+        },
+        {
+          "name": "小红书",
+          "proportion": 13.5
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_006",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 32.2
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 16.0
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 11.1
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.7
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 37.6
+        },
+        {
+          "name": "微博",
+          "proportion": 20.8
+        },
+        {
+          "name": "微信",
+          "proportion": 23.8
+        },
+        {
+          "name": "B站",
+          "proportion": 13.0
+        },
+        {
+          "name": "小红书",
+          "proportion": 4.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_007",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 25.7
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.7
+        },
+        {
+          "name": "路人观众",
+          "proportion": 22.1
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 8.4
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 13.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 33.1
+        },
+        {
+          "name": "微博",
+          "proportion": 28.3
+        },
+        {
+          "name": "微信",
+          "proportion": 16.8
+        },
+        {
+          "name": "B站",
+          "proportion": 16.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 5.3
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_008",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 31.4
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 26.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 13.8
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 17.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 32.1
+        },
+        {
+          "name": "微博",
+          "proportion": 20.1
+        },
+        {
+          "name": "微信",
+          "proportion": 18.3
+        },
+        {
+          "name": "B站",
+          "proportion": 17.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 11.8
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_009",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 25.2
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.2
+        },
+        {
+          "name": "路人观众",
+          "proportion": 26.0
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.9
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 8.7
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 25.2
+        },
+        {
+          "name": "微博",
+          "proportion": 32.0
+        },
+        {
+          "name": "微信",
+          "proportion": 15.8
+        },
+        {
+          "name": "B站",
+          "proportion": 15.3
+        },
+        {
+          "name": "小红书",
+          "proportion": 11.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_010",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 21.0
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 30.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 22.4
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 16.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.4
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.3
+        },
+        {
+          "name": "微博",
+          "proportion": 28.8
+        },
+        {
+          "name": "微信",
+          "proportion": 12.1
+        },
+        {
+          "name": "B站",
+          "proportion": 13.2
+        },
+        {
+          "name": "小红书",
+          "proportion": 10.6
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_011",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 23.9
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 29.3
+        },
+        {
+          "name": "路人观众",
+          "proportion": 23.7
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 13.2
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.0
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 29.5
+        },
+        {
+          "name": "微博",
+          "proportion": 27.5
+        },
+        {
+          "name": "微信",
+          "proportion": 12.5
+        },
+        {
+          "name": "B站",
+          "proportion": 16.7
+        },
+        {
+          "name": "小红书",
+          "proportion": 13.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_012",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 30.8
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 33.8
+        },
+        {
+          "name": "路人观众",
+          "proportion": 17.5
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 6.9
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 10.9
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 38.9
+        },
+        {
+          "name": "微博",
+          "proportion": 22.0
+        },
+        {
+          "name": "微信",
+          "proportion": 15.6
+        },
+        {
+          "name": "B站",
+          "proportion": 15.3
+        },
+        {
+          "name": "小红书",
+          "proportion": 8.4
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_013",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 28.0
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 23.4
+        },
+        {
+          "name": "路人观众",
+          "proportion": 23.0
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 14.3
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 11.3
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 39.2
+        },
+        {
+          "name": "微博",
+          "proportion": 20.7
+        },
+        {
+          "name": "微信",
+          "proportion": 17.7
+        },
+        {
+          "name": "B站",
+          "proportion": 17.5
+        },
+        {
+          "name": "小红书",
+          "proportion": 4.9
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_014",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 20.5
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 39.0
+        },
+        {
+          "name": "路人观众",
+          "proportion": 22.4
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 9.0
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 9.2
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 35.5
+        },
+        {
+          "name": "微博",
+          "proportion": 28.1
+        },
+        {
+          "name": "微信",
+          "proportion": 9.2
+        },
+        {
+          "name": "B站",
+          "proportion": 20.0
+        },
+        {
+          "name": "小红书",
+          "proportion": 7.2
+        }
+      ],
+      "simulated": true
+    }
+  },
+  {
+    "id": "SMP_015",
+    "dataset": "SMP-Video",
+    "spread_analysis": {
+      "groups": [
+        {
+          "name": "核心粉丝",
+          "proportion": 24.6
+        },
+        {
+          "name": "兴趣用户",
+          "proportion": 31.8
+        },
+        {
+          "name": "路人观众",
+          "proportion": 19.4
+        },
+        {
+          "name": "媒体账号",
+          "proportion": 12.1
+        },
+        {
+          "name": "KOL/达人",
+          "proportion": 12.1
+        }
+      ],
+      "spread_phases": [
+        {
+          "phase": "萌芽期",
+          "hours": "0-6h",
+          "description": "核心粉丝首次曝光"
+        },
+        {
+          "phase": "扩散期",
+          "hours": "6-24h",
+          "description": "兴趣用户转发传播"
+        },
+        {
+          "phase": "爆发期",
+          "hours": "24-48h",
+          "description": "路人观众大量涌入"
+        },
+        {
+          "phase": "长尾期",
+          "hours": "48-72h",
+          "description": "媒体/KOL二次传播"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "抖音",
+          "proportion": 33.7
+        },
+        {
+          "name": "微博",
+          "proportion": 25.5
+        },
+        {
+          "name": "微信",
+          "proportion": 19.2
+        },
+        {
+          "name": "B站",
+          "proportion": 12.4
+        },
+        {
+          "name": "小红书",
+          "proportion": 9.2
+        }
+      ],
+      "simulated": true
+    }
+  }
+]

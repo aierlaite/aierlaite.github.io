@@ -1,0 +1,181 @@
+{
+  "intervensim_event_8": [
+    {
+      "date": "day0",
+      "day_index": 0,
+      "topic": "Vocational Student Ranks 12th Globally in Math Competition",
+      "mf_summary": "第1轮：6个群体参与；主导公共状态为opposed；积极/中立/消极分别为11.7%/50.6%/37.7%；互动量为18234。",
+      "daily_state_distribution": {
+        "pos": 0.117009,
+        "neu": 0.505806,
+        "neg": 0.377185
+      },
+      "cumulative_state_distribution": {
+        "pos": 0.117009,
+        "neu": 0.505806,
+        "neg": 0.377185
+      },
+      "representative_comments": [
+        "As Chinese university students focused on academic integrity, this group questions the handling and demands stronger accountability in round 1 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese university students focused on student fairness, this group questions the handling and demands stronger accountability in round 1 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese parents of college students focused on student protection, this group questions the handling and demands stronger accountability in round 1 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese parents of college students focused on institutional accountability, this group questions the handling and demands stronger accountability in round 1 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese education professionals focused on research ethics, this group questions the handling and demands stronger accountability in round 1 after reading 'Vocational Student Ranks 12th Globally in Math Competition'."
+      ],
+      "input": {
+        "state_distribution": {
+          "pos": 0.117009,
+          "neu": 0.505806,
+          "neg": 0.377185
+        },
+        "event": "The source agent issues an explanatory note on 'Vocational Student Ranks 12th Globally in Math Competition' to frame the ongoing discussion.",
+        "has_disturb": true,
+        "disturb_count": 1,
+        "disturb_names": [
+          "explain"
+        ]
+      },
+      "output": {
+        "num_interactions": 18234
+      },
+      "diagnostics": {
+        "num_records": 6,
+        "num_posts": 1,
+        "num_comments": 10017,
+        "num_shares": 8217,
+        "weighted_interactions": {
+          "comments_count": 10017,
+          "shared_count": 8217
+        },
+        "subject_stance_mapping": {
+          "active_stance": "opposed",
+          "stance_source": "population_weighted_group_states"
+        },
+        "source_t": 1
+      },
+      "audit": {
+        "track_id": "intervensim_social_simulation",
+        "evaluation_mode": "actual_simulation_execution",
+        "source_dataset": "SNB"
+      }
+    },
+    {
+      "date": "day1",
+      "day_index": 1,
+      "topic": "Vocational Student Ranks 12th Globally in Math Competition",
+      "mf_summary": "第2轮：6个群体参与；主导公共状态为opposed；积极/中立/消极分别为8.8%/39.0%/52.2%；互动量为47817。",
+      "daily_state_distribution": {
+        "pos": 0.087564,
+        "neu": 0.390216,
+        "neg": 0.52222
+      },
+      "cumulative_state_distribution": {
+        "pos": 0.087564,
+        "neu": 0.390216,
+        "neg": 0.52222
+      },
+      "representative_comments": [
+        "As Chinese university students focused on academic integrity, this group questions the handling and demands stronger accountability in round 2 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese university students focused on student fairness, this group questions the handling and demands stronger accountability in round 2 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese parents of college students focused on student protection, this group questions the handling and demands stronger accountability in round 2 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese parents of college students focused on institutional accountability, this group questions the handling and demands stronger accountability in round 2 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese education professionals focused on research ethics, this group questions the handling and demands stronger accountability in round 2 after reading 'Vocational Student Ranks 12th Globally in Math Competition'."
+      ],
+      "input": {
+        "state_distribution": {
+          "pos": 0.087564,
+          "neu": 0.390216,
+          "neg": 0.52222
+        },
+        "event": "The source agent clarifies the key facts around 'Vocational Student Ranks 12th Globally in Math Competition' and addresses the main public doubts.",
+        "has_disturb": true,
+        "disturb_count": 1,
+        "disturb_names": [
+          "clarify"
+        ]
+      },
+      "output": {
+        "num_interactions": 47817
+      },
+      "diagnostics": {
+        "num_records": 6,
+        "num_posts": 1,
+        "num_comments": 22085,
+        "num_shares": 25732,
+        "weighted_interactions": {
+          "comments_count": 22085,
+          "shared_count": 25732
+        },
+        "subject_stance_mapping": {
+          "active_stance": "opposed",
+          "stance_source": "population_weighted_group_states"
+        },
+        "source_t": 2
+      },
+      "audit": {
+        "track_id": "intervensim_social_simulation",
+        "evaluation_mode": "actual_simulation_execution",
+        "source_dataset": "SNB"
+      }
+    },
+    {
+      "date": "day2",
+      "day_index": 2,
+      "topic": "Vocational Student Ranks 12th Globally in Math Competition",
+      "mf_summary": "第3轮：6个群体参与；主导公共状态为opposed；积极/中立/消极分别为7.8%/34.6%/57.6%；互动量为39963。",
+      "daily_state_distribution": {
+        "pos": 0.078464,
+        "neu": 0.345816,
+        "neg": 0.575721
+      },
+      "cumulative_state_distribution": {
+        "pos": 0.078464,
+        "neu": 0.345816,
+        "neg": 0.575721
+      },
+      "representative_comments": [
+        "As Chinese university students focused on academic integrity, this group questions the handling and demands stronger accountability in round 3 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese university students focused on student fairness, this group questions the handling and demands stronger accountability in round 3 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese parents of college students focused on student protection, this group questions the handling and demands stronger accountability in round 3 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese parents of college students focused on institutional accountability, this group questions the handling and demands stronger accountability in round 3 after reading 'Vocational Student Ranks 12th Globally in Math Competition'.",
+        "As Chinese education professionals focused on research ethics, this group questions the handling and demands stronger accountability in round 3 after reading 'Vocational Student Ranks 12th Globally in Math Competition'."
+      ],
+      "input": {
+        "state_distribution": {
+          "pos": 0.078464,
+          "neu": 0.345816,
+          "neg": 0.575721
+        },
+        "event": "The source agent clarifies the key facts around 'Vocational Student Ranks 12th Globally in Math Competition' and addresses the main public doubts.",
+        "has_disturb": true,
+        "disturb_count": 1,
+        "disturb_names": [
+          "clarify"
+        ]
+      },
+      "output": {
+        "num_interactions": 39963
+      },
+      "diagnostics": {
+        "num_records": 6,
+        "num_posts": 1,
+        "num_comments": 18084,
+        "num_shares": 21879,
+        "weighted_interactions": {
+          "comments_count": 18084,
+          "shared_count": 21879
+        },
+        "subject_stance_mapping": {
+          "active_stance": "opposed",
+          "stance_source": "population_weighted_group_states"
+        },
+        "source_t": 3
+      },
+      "audit": {
+        "track_id": "intervensim_social_simulation",
+        "evaluation_mode": "actual_simulation_execution",
+        "source_dataset": "SNB"
+      }
+    }
+  ]
+}

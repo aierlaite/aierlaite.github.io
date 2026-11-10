@@ -1,0 +1,226 @@
+{
+  "FV_001": [
+    "/assets/heat/FV_001/bottom1_frame0011_score0.2740.jpg",
+    "/assets/heat/FV_001/bottom1_frame0095_score0.1683.jpg",
+    "/assets/heat/FV_001/top1_frame0022_score1.0000.jpg",
+    "/assets/heat/FV_001/top1_frame0024_score0.9333.jpg",
+    "/assets/heat/FV_001/top2_frame0027_score0.9090.jpg",
+    "/assets/heat/FV_001/top2_frame0064_score0.9585.jpg"
+  ],
+  "FV_002": [
+    "/assets/heat/FV_002/bottom1_frame0009_score0.2548.jpg",
+    "/assets/heat/FV_002/bottom1_frame0086_score0.0551.jpg",
+    "/assets/heat/FV_002/top1_frame0013_score0.5593.jpg",
+    "/assets/heat/FV_002/top1_frame0049_score1.0000.jpg",
+    "/assets/heat/FV_002/top2_frame0027_score0.5215.jpg",
+    "/assets/heat/FV_002/top2_frame0039_score0.9478.jpg"
+  ],
+  "FV_003": [
+    "/assets/heat/FV_003/bottom1_frame0020_score0.0392.jpg",
+    "/assets/heat/FV_003/bottom1_frame0054_score0.4661.jpg",
+    "/assets/heat/FV_003/top1_frame0066_score0.9202.jpg",
+    "/assets/heat/FV_003/top1_frame0076_score1.0000.jpg",
+    "/assets/heat/FV_003/top2_frame0034_score0.8903.jpg",
+    "/assets/heat/FV_003/top2_frame0056_score0.9644.jpg"
+  ],
+  "FV_004": [
+    "/assets/heat/FV_004/bottom1_frame0038_score0.1658.jpg",
+    "/assets/heat/FV_004/bottom1_frame0073_score0.5446.jpg",
+    "/assets/heat/FV_004/top1_frame0035_score0.8192.jpg",
+    "/assets/heat/FV_004/top1_frame0096_score1.0000.jpg",
+    "/assets/heat/FV_004/top2_frame0044_score0.8711.jpg",
+    "/assets/heat/FV_004/top2_frame0055_score0.8118.jpg"
+  ],
+  "FV_005": [
+    "/assets/heat/FV_005/bottom1_frame0050_score0.0301.jpg",
+    "/assets/heat/FV_005/bottom1_frame0088_score0.3034.jpg",
+    "/assets/heat/FV_005/top1_frame0020_score0.8912.jpg",
+    "/assets/heat/FV_005/top1_frame0054_score1.0000.jpg",
+    "/assets/heat/FV_005/top2_frame0031_score0.8425.jpg",
+    "/assets/heat/FV_005/top2_frame0074_score0.9258.jpg"
+  ],
+  "FV_006": [
+    "/assets/heat/FV_006/bottom1_frame0007_score0.3096.jpg",
+    "/assets/heat/FV_006/bottom1_frame0057_score0.0203.jpg",
+    "/assets/heat/FV_006/top1_frame0048_score0.5248.jpg",
+    "/assets/heat/FV_006/top1_frame0060_score1.0000.jpg",
+    "/assets/heat/FV_006/top2_frame0052_score0.9265.jpg",
+    "/assets/heat/FV_006/top2_frame0068_score0.5075.jpg"
+  ],
+  "FV_007": [
+    "/assets/heat/FV_007/bottom1_frame0015_score0.0179.jpg",
+    "/assets/heat/FV_007/bottom1_frame0029_score0.2378.jpg",
+    "/assets/heat/FV_007/top1_frame0007_score0.6014.jpg",
+    "/assets/heat/FV_007/top1_frame0067_score1.0000.jpg",
+    "/assets/heat/FV_007/top2_frame0008_score0.5612.jpg",
+    "/assets/heat/FV_007/top2_frame0062_score0.9547.jpg"
+  ],
+  "FV_008": [
+    "/assets/heat/FV_008/bottom1_frame0025_score0.2518.jpg",
+    "/assets/heat/FV_008/bottom1_frame0085_score0.1497.jpg",
+    "/assets/heat/FV_008/top1_frame0038_score0.6958.jpg",
+    "/assets/heat/FV_008/top1_frame0087_score1.0000.jpg",
+    "/assets/heat/FV_008/top2_frame0072_score0.5463.jpg",
+    "/assets/heat/FV_008/top2_frame0088_score0.8048.jpg"
+  ],
+  "FV_009": [
+    "/assets/heat/FV_009/bottom1_frame0009_score0.1667.jpg",
+    "/assets/heat/FV_009/bottom1_frame0087_score0.4968.jpg",
+    "/assets/heat/FV_009/top1_frame0019_score0.8349.jpg",
+    "/assets/heat/FV_009/top1_frame0023_score1.0000.jpg",
+    "/assets/heat/FV_009/top2_frame0003_score0.8983.jpg",
+    "/assets/heat/FV_009/top2_frame0018_score0.8149.jpg"
+  ],
+  "FV_010": [
+    "/assets/heat/FV_010/bottom1_frame0082_score0.0984.jpg",
+    "/assets/heat/FV_010/bottom1_frame0087_score0.2887.jpg",
+    "/assets/heat/FV_010/top1_frame0006_score1.0000.jpg",
+    "/assets/heat/FV_010/top1_frame0045_score0.7676.jpg",
+    "/assets/heat/FV_010/top2_frame0058_score0.6600.jpg",
+    "/assets/heat/FV_010/top2_frame0058_score0.9983.jpg"
+  ],
+  "FV_011": [
+    "/assets/heat/FV_011/bottom1_frame0062_score0.3468.jpg",
+    "/assets/heat/FV_011/bottom1_frame0086_score0.1322.jpg",
+    "/assets/heat/FV_011/top1_frame0014_score0.9175.jpg",
+    "/assets/heat/FV_011/top1_frame0022_score1.0000.jpg",
+    "/assets/heat/FV_011/top2_frame0004_score0.9874.jpg",
+    "/assets/heat/FV_011/top2_frame0089_score0.8721.jpg"
+  ],
+  "FV_012": [
+    "/assets/heat/FV_012/bottom1_frame0013_score0.1587.jpg",
+    "/assets/heat/FV_012/bottom1_frame0037_score0.4507.jpg",
+    "/assets/heat/FV_012/top1_frame0050_score0.8779.jpg",
+    "/assets/heat/FV_012/top1_frame0099_score1.0000.jpg",
+    "/assets/heat/FV_012/top2_frame0017_score0.9896.jpg",
+    "/assets/heat/FV_012/top2_frame0035_score0.8713.jpg"
+  ],
+  "FV_013": [
+    "/assets/heat/FV_013/bottom1_frame0007_score0.1598.jpg",
+    "/assets/heat/FV_013/bottom1_frame0076_score0.4160.jpg",
+    "/assets/heat/FV_013/top1_frame0039_score1.0000.jpg",
+    "/assets/heat/FV_013/top1_frame0088_score0.8566.jpg",
+    "/assets/heat/FV_013/top2_frame0038_score0.9920.jpg",
+    "/assets/heat/FV_013/top2_frame0065_score0.7687.jpg"
+  ],
+  "FV_014": [
+    "/assets/heat/FV_014/bottom1_frame0079_score0.1328.jpg",
+    "/assets/heat/FV_014/bottom1_frame0089_score0.3398.jpg",
+    "/assets/heat/FV_014/top1_frame0001_score0.8462.jpg",
+    "/assets/heat/FV_014/top1_frame0042_score1.0000.jpg",
+    "/assets/heat/FV_014/top2_frame0031_score0.9426.jpg",
+    "/assets/heat/FV_014/top2_frame0066_score0.8388.jpg"
+  ],
+  "FV_015": [
+    "/assets/heat/FV_015/bottom1_frame0042_score0.3845.jpg",
+    "/assets/heat/FV_015/bottom1_frame0075_score0.2168.jpg",
+    "/assets/heat/FV_015/top1_frame0099_score0.9320.jpg",
+    "/assets/heat/FV_015/top1_frame0099_score1.0000.jpg",
+    "/assets/heat/FV_015/top2_frame0053_score0.8625.jpg",
+    "/assets/heat/FV_015/top2_frame0089_score0.9169.jpg"
+  ],
+  "FV_016": [
+    "/assets/heat/FV_016/bottom1_frame0002_score0.1267.jpg",
+    "/assets/heat/FV_016/bottom1_frame0051_score0.0679.jpg",
+    "/assets/heat/FV_016/top1_frame0037_score1.0000.jpg",
+    "/assets/heat/FV_016/top1_frame0096_score0.7584.jpg",
+    "/assets/heat/FV_016/top2_frame0022_score0.6893.jpg",
+    "/assets/heat/FV_016/top2_frame0052_score0.9634.jpg"
+  ],
+  "FV_017": [
+    "/assets/heat/FV_017/bottom1_frame0072_score0.1399.jpg",
+    "/assets/heat/FV_017/bottom1_frame0090_score0.6659.jpg",
+    "/assets/heat/FV_017/top1_frame0015_score1.0000.jpg",
+    "/assets/heat/FV_017/top1_frame0041_score0.9615.jpg",
+    "/assets/heat/FV_017/top2_frame0003_score0.8943.jpg",
+    "/assets/heat/FV_017/top2_frame0059_score0.9599.jpg"
+  ],
+  "FV_018": [
+    "/assets/heat/FV_018/bottom1_frame0002_score0.0862.jpg",
+    "/assets/heat/FV_018/bottom1_frame0098_score0.2658.jpg",
+    "/assets/heat/FV_018/top1_frame0021_score1.0000.jpg",
+    "/assets/heat/FV_018/top1_frame0070_score0.6851.jpg",
+    "/assets/heat/FV_018/top2_frame0024_score0.9823.jpg",
+    "/assets/heat/FV_018/top2_frame0060_score0.6752.jpg"
+  ],
+  "FV_019": [
+    "/assets/heat/FV_019/bottom1_frame0023_score0.1364.jpg",
+    "/assets/heat/FV_019/bottom1_frame0091_score0.1663.jpg",
+    "/assets/heat/FV_019/top1_frame0074_score1.0000.jpg",
+    "/assets/heat/FV_019/top1_frame0087_score0.4656.jpg",
+    "/assets/heat/FV_019/top2_frame0038_score0.9192.jpg",
+    "/assets/heat/FV_019/top2_frame0089_score0.4284.jpg"
+  ],
+  "FV_020": [
+    "/assets/heat/FV_020/bottom1_frame0035_score0.2421.jpg",
+    "/assets/heat/FV_020/bottom1_frame0092_score0.0660.jpg",
+    "/assets/heat/FV_020/top1_frame0001_score1.0000.jpg",
+    "/assets/heat/FV_020/top1_frame0097_score0.9472.jpg",
+    "/assets/heat/FV_020/top2_frame0002_score0.9301.jpg",
+    "/assets/heat/FV_020/top2_frame0061_score0.8843.jpg"
+  ],
+  "FV_021": [
+    "/assets/heat/FV_021/bottom1_frame0029_score0.0765.jpg",
+    "/assets/heat/FV_021/bottom1_frame0087_score0.2334.jpg",
+    "/assets/heat/FV_021/top1_frame0005_score0.5985.jpg",
+    "/assets/heat/FV_021/top1_frame0088_score1.0000.jpg",
+    "/assets/heat/FV_021/top2_frame0027_score0.5675.jpg",
+    "/assets/heat/FV_021/top2_frame0050_score0.8547.jpg"
+  ],
+  "FV_022": [
+    "/assets/heat/FV_022/bottom1_frame0058_score0.0861.jpg",
+    "/assets/heat/FV_022/bottom1_frame0063_score0.1817.jpg",
+    "/assets/heat/FV_022/top1_frame0040_score0.5871.jpg",
+    "/assets/heat/FV_022/top1_frame0094_score1.0000.jpg",
+    "/assets/heat/FV_022/top2_frame0003_score0.5690.jpg",
+    "/assets/heat/FV_022/top2_frame0087_score0.9681.jpg"
+  ],
+  "FV_023": [
+    "/assets/heat/FV_023/bottom1_frame0080_score0.0906.jpg",
+    "/assets/heat/FV_023/bottom1_frame0091_score0.2899.jpg",
+    "/assets/heat/FV_023/top1_frame0076_score0.7314.jpg",
+    "/assets/heat/FV_023/top1_frame0094_score1.0000.jpg",
+    "/assets/heat/FV_023/top2_frame0008_score0.9776.jpg",
+    "/assets/heat/FV_023/top2_frame0064_score0.6706.jpg"
+  ],
+  "FV_024": [
+    "/assets/heat/FV_024/bottom1_frame0063_score0.2579.jpg",
+    "/assets/heat/FV_024/bottom1_frame0080_score0.2587.jpg",
+    "/assets/heat/FV_024/top1_frame0017_score0.8927.jpg",
+    "/assets/heat/FV_024/top1_frame0088_score1.0000.jpg",
+    "/assets/heat/FV_024/top2_frame0023_score0.8830.jpg",
+    "/assets/heat/FV_024/top2_frame0059_score0.9729.jpg"
+  ],
+  "FV_025": [
+    "/assets/heat/FV_025/bottom1_frame0012_score0.2632.jpg",
+    "/assets/heat/FV_025/bottom1_frame0053_score0.2793.jpg",
+    "/assets/heat/FV_025/top1_frame0015_score1.0000.jpg",
+    "/assets/heat/FV_025/top1_frame0088_score0.7312.jpg",
+    "/assets/heat/FV_025/top2_frame0072_score0.9855.jpg",
+    "/assets/heat/FV_025/top2_frame0083_score0.6775.jpg"
+  ],
+  "FV_026": [
+    "/assets/heat/FV_026/bottom1_frame0083_score0.4054.jpg",
+    "/assets/heat/FV_026/bottom1_frame0092_score0.2340.jpg",
+    "/assets/heat/FV_026/top1_frame0027_score1.0000.jpg",
+    "/assets/heat/FV_026/top1_frame0065_score0.8913.jpg",
+    "/assets/heat/FV_026/top2_frame0028_score0.9904.jpg",
+    "/assets/heat/FV_026/top2_frame0093_score0.8841.jpg"
+  ],
+  "FV_027": [
+    "/assets/heat/FV_027/bottom1_frame0028_score0.2055.jpg",
+    "/assets/heat/FV_027/bottom1_frame0093_score0.2110.jpg",
+    "/assets/heat/FV_027/top1_frame0021_score1.0000.jpg",
+    "/assets/heat/FV_027/top1_frame0057_score0.9588.jpg",
+    "/assets/heat/FV_027/top2_frame0053_score0.9960.jpg",
+    "/assets/heat/FV_027/top2_frame0058_score0.7694.jpg"
+  ],
+  "FV_028": [
+    "/assets/heat/FV_028/bottom1_frame0007_score0.2581.jpg",
+    "/assets/heat/FV_028/bottom1_frame0069_score0.1466.jpg",
+    "/assets/heat/FV_028/top1_frame0023_score0.6950.jpg",
+    "/assets/heat/FV_028/top1_frame0064_score1.0000.jpg",
+    "/assets/heat/FV_028/top2_frame0095_score0.7041.jpg",
+    "/assets/heat/FV_028/top2_frame0098_score0.6530.jpg"
+  ]
+}

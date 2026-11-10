@@ -1,0 +1,347 @@
+{
+  "track_id": "stap_popularity_prediction",
+  "engine": "STAP",
+  "application": "热度预测",
+  "frontend_route": "/heat",
+  "problem_statement": "Micro-video popularity models often sample too few frames and use flat historical retrieval, missing short salient intervals and topological relations among prior videos while offering limited evidence for their predictions.",
+  "rationale": {
+    "innovation": "Preserve STAP temporal enlargement and topology-aware parametric memory, then expose heat curves, frame importance and retrieved memory evidence as auditable outputs.",
+    "reasoning_chain": [
+      "Sparse frame sampling can miss short visual events that influence popularity.",
+      "Dense sampling alone increases cost and does not organize relevant historical videos.",
+      "STAP jointly enlarges temporal evidence and addresses a topology-aware memory bank for multimodal prediction.",
+      "Prospective popularity labels and ablations can test whether both mechanisms improve error and ranking metrics over sequence and flat-memory baselines."
+    ],
+    "falsifiable_hypothesis": "On licensed held-out micro-video data, STAP will reduce popularity RMSE and improve Spearman correlation versus LSTM and flat-retrieval baselines."
+  },
+  "technical_details": {
+    "statistical_methods": [
+      "MAE/MSE/RMSE",
+      "Spearman rank correlation",
+      "paired bootstrap"
+    ],
+    "machine_learning_methods": [
+      "multimodal feature normalization",
+      "topology-aware memory retrieval",
+      "mean and MLP baselines"
+    ],
+    "deep_learning_methods": [
+      "STAP temporal enlargement",
+      "Mamba sequence encoder",
+      "multimodal attention fusion",
+      "Qwen metadata reasoning"
+    ],
+    "model_runtime": "Qwen open-source-family model through Alibaba Cloud Model Studio (Bailian) API",
+    "software_stack": [
+      "Python 3.10-3.12",
+      "Pydantic v2",
+      "Alibaba Cloud Bailian OpenAI-compatible API",
+      "STAP/PyTorch adapter",
+      "NumPy/SciPy",
+      "frame-manifest exporter"
+    ],
+    "reproducibility_controls": [
+      "immutable source SHA-256 and transformation lineage",
+      "fixed random seeds, cutoff timestamps and environment versions",
+      "agent execution trace plus redacted Qwen/Bailian call receipt",
+      "human approval recorded separately from automatic validation"
+    ]
+  },
+  "datasets": {
+    "source": [
+      {
+        "dataset_id": "stap-heat-display-samples",
+        "name": "STAP popularity-prediction display samples",
+        "description": "Seventy-eight structured micro-video samples from the existing heat-prediction display, covering MicroLens, Informs, SMP-Video and FV-derived result records.",
+        "provenance": "Read-only copy of the team's original-data heat archive. It is a derived feature/result artifact aligned with the official STAP preprocessing and evaluation contract, not a redistribution of raw videos.",
+        "access_url": "https://github.com/AI4SS/STAP",
+        "usage_rights": "The STAP implementation is MIT-licensed. Retain dataset-specific terms for MicroLens, Informs and SMP/FV data; publish only authorized derived features, predictions and aggregate metrics unless raw-media redistribution is separately permitted.",
+        "terms_url": "https://github.com/AI4SS/STAP/blob/main/LICENSE",
+        "local_path": "app/dataset/heat/demo_display_data.json",
+        "sha256": "b98688e47a1094b2f8b339a93d321204f7750823f9f62f915b7c1fdbeb9e81fb",
+        "record_count": 78,
+        "historical_features": [
+          "dataset and sample identifier",
+          "multimodal visual/text/user feature summary",
+          "predicted and observed popularity evidence",
+          "heat level and model-output metadata"
+        ],
+        "source_version": "STAP-derived 78-row display artifact snapshot audited 2026-08-25",
+        "license_verified": true,
+        "pii_assessment": "Derived feature summaries and model/display outputs; no raw user identity is exported.",
+        "redistribution_scope": "Only authorized derived features, predictions, aggregate metrics and hashes; raw media remains excluded.",
+        "verification_method": "78-row schema/count check, SHA-256 fixation, simulated-flag audit, and official STAP repository license review.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "AI4SS/STAP implementation contract",
+          "team derived display archive",
+          "app/dataset/heat/demo_display_data.json",
+          "STAP replay evaluator"
+        ],
+        "compliance_status": "verified"
+      },
+      {
+        "dataset_id": "stap-heat-output-panel",
+        "name": "STAP derived popularity output panel",
+        "description": "Seventy-eight derived prediction/label rows used for replay evaluation; every supplied row remains explicitly marked simulated.",
+        "provenance": "Read-only copy of the team's existing heat frontend output panel, aligned to the STAP display artifact ids.",
+        "access_url": "https://github.com/AI4SS/STAP",
+        "usage_rights": "Derived output artifact under the project/STAP research-display contract; raw video redistribution is excluded.",
+        "terms_url": "https://github.com/AI4SS/STAP/blob/main/LICENSE",
+        "local_path": "app/dataset/heat/demo_output_panel.json",
+        "sha256": "36d7f8b236fee5955a62106bdf194f72077298888ab02f529d35908a308955ae",
+        "record_count": 78,
+        "historical_features": [
+          "sample and dataset id",
+          "predicted popularity label",
+          "actual display label",
+          "derived engagement forecasts",
+          "simulated flag"
+        ],
+        "source_version": "STAP-derived 78-row output-panel snapshot audited 2026-08-25",
+        "license_verified": true,
+        "pii_assessment": "Derived sample-level prediction records with no exported user identity.",
+        "redistribution_scope": "Derived predictions, labels, aggregate metrics and hashes only; raw videos are excluded.",
+        "verification_method": "78-row id alignment, prediction/label schema, simulated-flag and SHA-256 audit against the read-only frontend archive.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "team STAP display archive",
+          "app/dataset/heat/demo_output_panel.json",
+          "derived-output replay evaluator"
+        ],
+        "compliance_status": "verified"
+      }
+    ],
+    "target": [
+      {
+        "name": "Prospective micro-video popularity panel",
+        "collection_scope": "New micro-videos from at least three content categories and multiple creators, observed from publication through a fixed popularity horizon.",
+        "unit_of_analysis": "video x frame/time segment x observation horizon",
+        "planned_features": [
+          "long frame sequences and frame timestamps",
+          "title/text embeddings and de-identified creator attributes",
+          "timestamped views, likes, comments and shares",
+          "platform exposure controls and publication time",
+          "STAP memory-cluster id, retrieval score, predicted curve and peak time"
+        ],
+        "sampling_strategy": "Creator-disjoint and chronological train/validation/test splits; cap repeated uploads and near duplicates within a single partition.",
+        "consent_and_privacy": "Use licensed benchmark data or team-authorized derived features; do not redistribute raw media unless the dataset and platform terms explicitly permit it.",
+        "quality_controls": [
+          "pre-register inclusion/exclusion rules and primary metrics",
+          "version data, code, prompts, Qwen model id and random seeds",
+          "retain immutable raw-data hashes and transformation lineage",
+          "check creator and near-duplicate leakage",
+          "evaluate both point error and ranking consistency"
+        ]
+      }
+    ]
+  },
+  "paper_title": "Auditable Spatio-Temporal Enlargement and Topology Memory for Micro-Video Popularity Prediction",
+  "paper_abstract": {
+    "background": "Sparse temporal evidence and flat historical memory limit micro-video popularity prediction.",
+    "methods": "We evaluate STAP temporal enlargement and topology-aware memory with multimodal inputs, Qwen/Bailian metadata reasoning, frame-level evidence and leakage-safe held-out videos.",
+    "expected_results": "We expect lower MAE/RMSE and higher rank correlation than MLP, LSTM and flat-memory baselines, with ablations identifying each component's contribution."
+  },
+  "methods": [
+    {
+      "step": 1,
+      "name": "Rights and split audit",
+      "procedure": "Validate dataset-specific rights and split videos by creator/time to avoid leakage.",
+      "inputs": [
+        "licensed video features",
+        "dataset terms"
+      ],
+      "outputs": [
+        "audited train/validation/test manifest"
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Temporal enlargement",
+      "procedure": "Combine sparse global frames with dense salient temporal neighborhoods.",
+      "inputs": [
+        "video frame sequence"
+      ],
+      "outputs": [
+        "enlarged temporal representation"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Topology-memory fusion",
+      "procedure": "Fuse visual, text and creator features with topology-aware historical memory.",
+      "inputs": [
+        "multimodal features",
+        "memory bank"
+      ],
+      "outputs": [
+        "popularity score and evidence"
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Evaluation and export",
+      "procedure": "Compute regression/ranking metrics and export frontend heat curves and frame evidence.",
+      "inputs": [
+        "predictions",
+        "held-out labels"
+      ],
+      "outputs": [
+        "frontend heat artifacts and metrics"
+      ]
+    }
+  ],
+  "experiments": {
+    "baselines": [
+      {
+        "name": "Mean predictor",
+        "description": "Use the training-label mean."
+      },
+      {
+        "name": "MLP fusion",
+        "description": "Fuse pooled multimodal features without temporal modeling."
+      },
+      {
+        "name": "LSTM",
+        "description": "Encode ordered frames without topology memory."
+      },
+      {
+        "name": "Flat retrieval",
+        "description": "Retrieve historical features without topology-aware addressing."
+      }
+    ],
+    "metrics": [
+      {
+        "name": "MAE",
+        "definition": "Mean absolute popularity-label error.",
+        "direction": "lower"
+      },
+      {
+        "name": "RMSE",
+        "definition": "Root mean squared popularity-label error.",
+        "direction": "lower"
+      },
+      {
+        "name": "Spearman rho",
+        "definition": "Rank correlation between predicted and observed popularity.",
+        "direction": "higher"
+      }
+    ],
+    "split_strategy": "Use official splits where licensed; otherwise group by creator and time so no creator/video crosses partitions.",
+    "ablations": [
+      "remove temporal enlargement",
+      "remove topology memory",
+      "remove text features",
+      "remove creator features"
+    ],
+    "robustness_checks": [
+      "dataset-wise reporting",
+      "long/short video strata",
+      "confidence intervals across seeds"
+    ],
+    "decision_rule": "Support only if STAP lowers RMSE and improves Spearman correlation versus the strongest preregistered baseline on held-out data."
+  },
+  "results": {
+    "track_id": "stap_popularity_prediction",
+    "evidence_type": "actual_execution",
+    "formulas": [
+      "MAE_heat = (1/N) * sum_i |heat_i - heat_hat_i|",
+      "RMSE_heat = sqrt((1/N) * sum_i (heat_i - heat_hat_i)^2)",
+      "SRC_heat = corr(rank(heat), rank(heat_hat))"
+    ],
+    "observed_values": {
+      "evaluated_display_samples": 78,
+      "mae": 0.306821,
+      "rmse": 0.361744,
+      "spearman_rho": 0.991116,
+      "all_rows_marked_simulated": "true"
+    },
+    "interpretation": "The supplied 78-row STAP-derived display output was replay-evaluated against its bundled labels. This verifies output parsing and metric computation, not fresh inference by the STAP checkpoint.",
+    "status": "verified_feasible",
+    "evaluation_mode": "derived_artifact_replay_evaluation",
+    "claim_scope": "Derived display-artifact replay; full STAP checkpoint inference remains external.",
+    "frontend_artifact": "frontend/heat/demo_output_panel.json"
+  },
+  "references": [
+    {
+      "reference_id": "stap-2026",
+      "title": "Seeing Further and Wider: Joint Spatio-Temporal Enlargement for Micro-Video Popularity Prediction",
+      "authors": [
+        "Dali Wang",
+        "Yunyao Zhang",
+        "Junqing Yu",
+        "Yi-Ping Phoebe Chen",
+        "Chen Xu",
+        "Zikai Song"
+      ],
+      "year": 2026,
+      "venue": "arXiv:2604.20311; accepted by ACM Multimedia 2026",
+      "doi": "10.48550/arXiv.2604.20311",
+      "url": "https://arxiv.org/abs/2604.20311",
+      "verification_source": "arXiv primary metadata",
+      "source_kind": "primary_publication",
+      "metadata_match": true,
+      "verified_at": "2026-08-25T00:00:00+08:00",
+      "verification_evidence": "Title, listed authors, identifier and year are matched against the arXiv primary record; acceptance wording remains separately reviewable.",
+      "verified": true
+    },
+    {
+      "reference_id": "qwen25-2025",
+      "title": "Qwen2.5 Technical Report",
+      "authors": [
+        "An Yang",
+        "Baosong Yang",
+        "Beichen Zhang",
+        "Binyuan Hui",
+        "Bo Zheng",
+        "Bowen Yu",
+        "Chengyuan Li",
+        "Dayiheng Liu",
+        "Fei Huang",
+        "Haoran Wei",
+        "Huan Lin",
+        "Jian Yang",
+        "Jianhong Tu",
+        "Jianwei Zhang",
+        "Jianxin Yang",
+        "Jiaxi Yang",
+        "Jingren Zhou",
+        "Junyang Lin",
+        "Kai Dang",
+        "Keming Lu",
+        "Keqin Bao",
+        "Kexin Yang",
+        "Le Yu",
+        "Mei Li",
+        "Mingfeng Xue",
+        "Pei Zhang",
+        "Qin Zhu",
+        "Rui Men",
+        "Runji Lin",
+        "Tianhao Li",
+        "Tianyi Tang",
+        "Tingyu Xia",
+        "Xingzhang Ren",
+        "Xuancheng Ren",
+        "Yang Fan",
+        "Yang Su",
+        "Yichang Zhang",
+        "Yu Wan",
+        "Yuqiong Liu",
+        "Zeyu Cui",
+        "Zhenru Zhang",
+        "Zihan Qiu"
+      ],
+      "year": 2024,
+      "venue": "arXiv:2412.15115",
+      "doi": "10.48550/arXiv.2412.15115",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "verification_source": "arXiv primary metadata",
+      "source_kind": "primary_publication",
+      "metadata_match": true,
+      "verified_at": "2026-08-25T00:00:00+08:00",
+      "verification_evidence": "Title, complete 42-author list, initial submission year and arXiv identifier are matched against the arXiv primary record and official Qwen citation.",
+      "verified": true
+    }
+  ]
+}

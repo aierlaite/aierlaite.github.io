@@ -1,0 +1,744 @@
+{
+  "year": 2020,
+  "provider": "gas3",
+  "provider_name": "GAS-3 Group Agents",
+  "evaluation_mode": "historical_replay_sanity_check",
+  "claim_scope": "engineering reconstruction only; not a prospective forecast",
+  "leakage_warning": "repPct/demPct are historical display priors and may encode the evaluated outcome.",
+  "score_type": "relative_margin_not_probability",
+  "simulated": {
+    "rep_electoral_votes": 235,
+    "dem_electoral_votes": 303,
+    "state_predictions": {
+      "AL": {
+        "winner": "rep",
+        "confidence": 0.921,
+        "rep_score": 0.9605,
+        "dem_score": 0.0395,
+        "ev": 9,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "AK": {
+        "winner": "rep",
+        "confidence": 0.702,
+        "rep_score": 0.851,
+        "dem_score": 0.149,
+        "ev": 3,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "AZ": {
+        "winner": "dem",
+        "confidence": 0.512,
+        "rep_score": 0.244,
+        "dem_score": 0.756,
+        "ev": 11,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "AR": {
+        "winner": "rep",
+        "confidence": 0.886,
+        "rep_score": 0.943,
+        "dem_score": 0.057,
+        "ev": 6,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "CA": {
+        "winner": "dem",
+        "confidence": 0.964,
+        "rep_score": 0.018,
+        "dem_score": 0.982,
+        "ev": 55,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "CO": {
+        "winner": "dem",
+        "confidence": 0.873,
+        "rep_score": 0.0635,
+        "dem_score": 0.9365,
+        "ev": 9,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "CT": {
+        "winner": "dem",
+        "confidence": 0.889,
+        "rep_score": 0.0555,
+        "dem_score": 0.9445,
+        "ev": 7,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "DE": {
+        "winner": "rep",
+        "confidence": 0.498,
+        "rep_score": 0.749,
+        "dem_score": 0.251,
+        "ev": 3,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "DC": {
+        "winner": "dem",
+        "confidence": 0.996,
+        "rep_score": 0.002,
+        "dem_score": 0.998,
+        "ev": 3,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "FL": {
+        "winner": "rep",
+        "confidence": 0.518,
+        "rep_score": 0.759,
+        "dem_score": 0.241,
+        "ev": 29,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "GA": {
+        "winner": "dem",
+        "confidence": 0.502,
+        "rep_score": 0.249,
+        "dem_score": 0.751,
+        "ev": 16,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "HI": {
+        "winner": "dem",
+        "confidence": 0.961,
+        "rep_score": 0.0195,
+        "dem_score": 0.9805,
+        "ev": 4,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "ID": {
+        "winner": "rep",
+        "confidence": 0.933,
+        "rep_score": 0.9665,
+        "dem_score": 0.0335,
+        "ev": 4,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "IL": {
+        "winner": "dem",
+        "confidence": 0.912,
+        "rep_score": 0.044,
+        "dem_score": 0.956,
+        "ev": 20,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "IN": {
+        "winner": "rep",
+        "confidence": 0.831,
+        "rep_score": 0.9155,
+        "dem_score": 0.0845,
+        "ev": 11,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "IA": {
+        "winner": "dem",
+        "confidence": 0.512,
+        "rep_score": 0.244,
+        "dem_score": 0.756,
+        "ev": 6,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "KS": {
+        "winner": "rep",
+        "confidence": 0.843,
+        "rep_score": 0.9215,
+        "dem_score": 0.0785,
+        "ev": 6,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "KY": {
+        "winner": "rep",
+        "confidence": 0.912,
+        "rep_score": 0.956,
+        "dem_score": 0.044,
+        "ev": 8,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "LA": {
+        "winner": "rep",
+        "confidence": 0.878,
+        "rep_score": 0.939,
+        "dem_score": 0.061,
+        "ev": 8,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "ME": {
+        "winner": "dem",
+        "confidence": 0.681,
+        "rep_score": 0.1595,
+        "dem_score": 0.8405,
+        "ev": 4,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "MD": {
+        "winner": "dem",
+        "confidence": 0.935,
+        "rep_score": 0.0325,
+        "dem_score": 0.9675,
+        "ev": 10,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "MA": {
+        "winner": "dem",
+        "confidence": 0.968,
+        "rep_score": 0.016,
+        "dem_score": 0.984,
+        "ev": 11,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "MI": {
+        "winner": "dem",
+        "confidence": 0.518,
+        "rep_score": 0.241,
+        "dem_score": 0.759,
+        "ev": 16,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "MN": {
+        "winner": "dem",
+        "confidence": 0.632,
+        "rep_score": 0.184,
+        "dem_score": 0.816,
+        "ev": 10,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "MS": {
+        "winner": "rep",
+        "confidence": 0.871,
+        "rep_score": 0.9355,
+        "dem_score": 0.0645,
+        "ev": 6,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "MO": {
+        "winner": "rep",
+        "confidence": 0.849,
+        "rep_score": 0.9245,
+        "dem_score": 0.0755,
+        "ev": 10,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "MT": {
+        "winner": "rep",
+        "confidence": 0.718,
+        "rep_score": 0.859,
+        "dem_score": 0.141,
+        "ev": 3,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "NE": {
+        "winner": "rep",
+        "confidence": 0.856,
+        "rep_score": 0.928,
+        "dem_score": 0.072,
+        "ev": 5,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "NV": {
+        "winner": "rep",
+        "confidence": 0.507,
+        "rep_score": 0.7535,
+        "dem_score": 0.2465,
+        "ev": 6,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "NH": {
+        "winner": "dem",
+        "confidence": 0.652,
+        "rep_score": 0.174,
+        "dem_score": 0.826,
+        "ev": 4,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "NJ": {
+        "winner": "dem",
+        "confidence": 0.918,
+        "rep_score": 0.041,
+        "dem_score": 0.959,
+        "ev": 14,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "NM": {
+        "winner": "dem",
+        "confidence": 0.823,
+        "rep_score": 0.0885,
+        "dem_score": 0.9115,
+        "ev": 5,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "NY": {
+        "winner": "dem",
+        "confidence": 0.941,
+        "rep_score": 0.0295,
+        "dem_score": 0.9705,
+        "ev": 29,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "NC": {
+        "winner": "rep",
+        "confidence": 0.513,
+        "rep_score": 0.7565,
+        "dem_score": 0.2435,
+        "ev": 15,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "ND": {
+        "winner": "rep",
+        "confidence": 0.927,
+        "rep_score": 0.9635,
+        "dem_score": 0.0365,
+        "ev": 3,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "OH": {
+        "winner": "rep",
+        "confidence": 0.683,
+        "rep_score": 0.8415,
+        "dem_score": 0.1585,
+        "ev": 18,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "OK": {
+        "winner": "rep",
+        "confidence": 0.941,
+        "rep_score": 0.9705,
+        "dem_score": 0.0295,
+        "ev": 7,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "OR": {
+        "winner": "dem",
+        "confidence": 0.892,
+        "rep_score": 0.054,
+        "dem_score": 0.946,
+        "ev": 7,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "PA": {
+        "winner": "dem",
+        "confidence": 0.509,
+        "rep_score": 0.2455,
+        "dem_score": 0.7545,
+        "ev": 20,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "RI": {
+        "winner": "dem",
+        "confidence": 0.914,
+        "rep_score": 0.043,
+        "dem_score": 0.957,
+        "ev": 4,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "SC": {
+        "winner": "rep",
+        "confidence": 0.829,
+        "rep_score": 0.9145,
+        "dem_score": 0.0855,
+        "ev": 9,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "SD": {
+        "winner": "rep",
+        "confidence": 0.891,
+        "rep_score": 0.9455,
+        "dem_score": 0.0545,
+        "ev": 3,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "TN": {
+        "winner": "rep",
+        "confidence": 0.923,
+        "rep_score": 0.9615,
+        "dem_score": 0.0385,
+        "ev": 11,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "TX": {
+        "winner": "rep",
+        "confidence": 0.586,
+        "rep_score": 0.793,
+        "dem_score": 0.207,
+        "ev": 38,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "UT": {
+        "winner": "rep",
+        "confidence": 0.887,
+        "rep_score": 0.9435,
+        "dem_score": 0.0565,
+        "ev": 6,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "VT": {
+        "winner": "dem",
+        "confidence": 0.952,
+        "rep_score": 0.024,
+        "dem_score": 0.976,
+        "ev": 3,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "VA": {
+        "winner": "dem",
+        "confidence": 0.839,
+        "rep_score": 0.0805,
+        "dem_score": 0.9195,
+        "ev": 13,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "WA": {
+        "winner": "dem",
+        "confidence": 0.947,
+        "rep_score": 0.0265,
+        "dem_score": 0.9735,
+        "ev": 12,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "WV": {
+        "winner": "rep",
+        "confidence": 0.946,
+        "rep_score": 0.973,
+        "dem_score": 0.027,
+        "ev": 5,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "WI": {
+        "winner": "dem",
+        "confidence": 0.508,
+        "rep_score": 0.246,
+        "dem_score": 0.754,
+        "ev": 10,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      },
+      "WY": {
+        "winner": "rep",
+        "confidence": 0.957,
+        "rep_score": 0.9785,
+        "dem_score": 0.0215,
+        "ev": 3,
+        "score_semantics": "relative historical margin; not a calibrated probability"
+      }
+    }
+  },
+  "actual": {
+    "rep_electoral_votes": 232,
+    "dem_electoral_votes": 306,
+    "state_results": {
+      "AL": {
+        "winner": "rep",
+        "repVotes": 1441170,
+        "demVotes": 849624,
+        "ev": 9
+      },
+      "AK": {
+        "winner": "rep",
+        "repVotes": 178814,
+        "demVotes": 153778,
+        "ev": 3
+      },
+      "AZ": {
+        "winner": "dem",
+        "repVotes": 1661686,
+        "demVotes": 1672143,
+        "ev": 11
+      },
+      "AR": {
+        "winner": "rep",
+        "repVotes": 760647,
+        "demVotes": 423932,
+        "ev": 6
+      },
+      "CA": {
+        "winner": "dem",
+        "repVotes": 5569788,
+        "demVotes": 11110151,
+        "ev": 55
+      },
+      "CO": {
+        "winner": "dem",
+        "repVotes": 1306304,
+        "demVotes": 1804352,
+        "ev": 9
+      },
+      "CT": {
+        "winner": "dem",
+        "repVotes": 716874,
+        "demVotes": 1082266,
+        "ev": 7
+      },
+      "DE": {
+        "winner": "dem",
+        "repVotes": 200603,
+        "demVotes": 296368,
+        "ev": 3
+      },
+      "DC": {
+        "winner": "dem",
+        "repVotes": 20632,
+        "demVotes": 319808,
+        "ev": 3
+      },
+      "FL": {
+        "winner": "rep",
+        "repVotes": 5668731,
+        "demVotes": 5297845,
+        "ev": 29
+      },
+      "GA": {
+        "winner": "dem",
+        "repVotes": 2461854,
+        "demVotes": 2474507,
+        "ev": 16
+      },
+      "HI": {
+        "winner": "dem",
+        "repVotes": 187713,
+        "demVotes": 366130,
+        "ev": 4
+      },
+      "ID": {
+        "winner": "rep",
+        "repVotes": 554136,
+        "demVotes": 267275,
+        "ev": 4
+      },
+      "IL": {
+        "winner": "dem",
+        "repVotes": 2461888,
+        "demVotes": 3361022,
+        "ev": 20
+      },
+      "IN": {
+        "winner": "rep",
+        "repVotes": 1557286,
+        "demVotes": 1033126,
+        "ev": 11
+      },
+      "IA": {
+        "winner": "rep",
+        "repVotes": 897672,
+        "demVotes": 757640,
+        "ev": 6
+      },
+      "KS": {
+        "winner": "rep",
+        "repVotes": 771406,
+        "demVotes": 570323,
+        "ev": 6
+      },
+      "KY": {
+        "winner": "rep",
+        "repVotes": 1207463,
+        "demVotes": 763430,
+        "ev": 8
+      },
+      "LA": {
+        "winner": "rep",
+        "repVotes": 1158974,
+        "demVotes": 864059,
+        "ev": 8
+      },
+      "ME": {
+        "winner": "dem",
+        "repVotes": 355032,
+        "demVotes": 433908,
+        "ev": 4
+      },
+      "MD": {
+        "winner": "dem",
+        "repVotes": 968914,
+        "demVotes": 1870088,
+        "ev": 10
+      },
+      "MA": {
+        "winner": "dem",
+        "repVotes": 1221712,
+        "demVotes": 2278097,
+        "ev": 11
+      },
+      "MI": {
+        "winner": "dem",
+        "repVotes": 2648539,
+        "demVotes": 2793139,
+        "ev": 16
+      },
+      "MN": {
+        "winner": "dem",
+        "repVotes": 1452914,
+        "demVotes": 1717077,
+        "ev": 10
+      },
+      "MS": {
+        "winner": "rep",
+        "repVotes": 715724,
+        "demVotes": 490795,
+        "ev": 6
+      },
+      "MO": {
+        "winner": "rep",
+        "repVotes": 1718732,
+        "demVotes": 1253024,
+        "ev": 10
+      },
+      "MT": {
+        "winner": "rep",
+        "repVotes": 343582,
+        "demVotes": 243032,
+        "ev": 3
+      },
+      "NE": {
+        "winner": "rep",
+        "repVotes": 556846,
+        "demVotes": 374283,
+        "ev": 5
+      },
+      "NV": {
+        "winner": "dem",
+        "repVotes": 666058,
+        "demVotes": 703486,
+        "ev": 6
+      },
+      "NH": {
+        "winner": "dem",
+        "repVotes": 365930,
+        "demVotes": 424048,
+        "ev": 4
+      },
+      "NJ": {
+        "winner": "dem",
+        "repVotes": 1592841,
+        "demVotes": 2597831,
+        "ev": 14
+      },
+      "NM": {
+        "winner": "dem",
+        "repVotes": 401684,
+        "demVotes": 533073,
+        "ev": 5
+      },
+      "NY": {
+        "winner": "dem",
+        "repVotes": 3238908,
+        "demVotes": 5231647,
+        "ev": 29
+      },
+      "NC": {
+        "winner": "rep",
+        "repVotes": 2758775,
+        "demVotes": 2684292,
+        "ev": 15
+      },
+      "ND": {
+        "winner": "rep",
+        "repVotes": 240757,
+        "demVotes": 111052,
+        "ev": 3
+      },
+      "OH": {
+        "winner": "rep",
+        "repVotes": 3154834,
+        "demVotes": 2679166,
+        "ev": 18
+      },
+      "OK": {
+        "winner": "rep",
+        "repVotes": 1031192,
+        "demVotes": 420598,
+        "ev": 7
+      },
+      "OR": {
+        "winner": "dem",
+        "repVotes": 958648,
+        "demVotes": 1410404,
+        "ev": 7
+      },
+      "PA": {
+        "winner": "dem",
+        "repVotes": 3437874,
+        "demVotes": 3458882,
+        "ev": 20
+      },
+      "RI": {
+        "winner": "dem",
+        "repVotes": 181436,
+        "demVotes": 307486,
+        "ev": 4
+      },
+      "SC": {
+        "winner": "rep",
+        "repVotes": 1437480,
+        "demVotes": 1096332,
+        "ev": 9
+      },
+      "SD": {
+        "winner": "rep",
+        "repVotes": 261043,
+        "demVotes": 150471,
+        "ev": 3
+      },
+      "TN": {
+        "winner": "rep",
+        "repVotes": 1829852,
+        "demVotes": 1074272,
+        "ev": 11
+      },
+      "TX": {
+        "winner": "rep",
+        "repVotes": 5890167,
+        "demVotes": 5260666,
+        "ev": 38
+      },
+      "UT": {
+        "winner": "rep",
+        "repVotes": 598608,
+        "demVotes": 364621,
+        "ev": 6
+      },
+      "VT": {
+        "winner": "dem",
+        "repVotes": 112494,
+        "demVotes": 242814,
+        "ev": 3
+      },
+      "VA": {
+        "winner": "dem",
+        "repVotes": 1966723,
+        "demVotes": 2459493,
+        "ev": 13
+      },
+      "WA": {
+        "winner": "dem",
+        "repVotes": 1540923,
+        "demVotes": 2625167,
+        "ev": 12
+      },
+      "WV": {
+        "winner": "rep",
+        "repVotes": 412807,
+        "demVotes": 159025,
+        "ev": 5
+      },
+      "WI": {
+        "winner": "dem",
+        "repVotes": 1610075,
+        "demVotes": 1630866,
+        "ev": 10
+      },
+      "WY": {
+        "winner": "rep",
+        "repVotes": 193559,
+        "demVotes": 73541,
+        "ev": 3
+      }
+    }
+  },
+  "accuracy": {
+    "correctly_predicted": 48,
+    "total_states": 51,
+    "state_accuracy": 0.941176,
+    "ev_error": 3,
+    "brier_score": 0.047254
+  },
+  "events": [],
+  "emotion_waves": []
+}

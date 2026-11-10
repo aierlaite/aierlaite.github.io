@@ -1,0 +1,310 @@
+{
+  "track_id": "intervensim_social_simulation",
+  "engine": "IntervenSim",
+  "application": "社交模拟",
+  "frontend_route": "/social",
+  "problem_statement": "Existing social simulations frequently treat interventions as exogenous labels and do not close the source-intervention, crowd-response and public-signal feedback loop, limiting causal auditability and trajectory fidelity.",
+  "rationale": {
+    "innovation": "Execute IntervenSim as an endogenous multi-round feedback loop with explicit group state, interventions, public signals and reproducible artifacts.",
+    "reasoning_chain": [
+      "Public reactions change after each source intervention and those reactions influence the next intervention.",
+      "A static rollout cannot represent this bidirectional dependence.",
+      "IntervenSim records source actions, group updates and population-weighted public signals on every round.",
+      "Held-out event trajectories can test whether the closed loop improves prediction and intervention-response accuracy over static rollouts."
+    ],
+    "falsifiable_hypothesis": "On held-out events, the closed IntervenSim feedback loop will reduce normalized trajectory RMSE and intervention-response error versus a no-feedback simulation."
+  },
+  "technical_details": {
+    "statistical_methods": [
+      "normalized MAE/RMSE",
+      "Spearman correlation",
+      "paired event bootstrap"
+    ],
+    "machine_learning_methods": [
+      "population-weighted state aggregation",
+      "trajectory calibration",
+      "counterfactual intervention ablation"
+    ],
+    "deep_learning_methods": [
+      "Qwen-based source and crowd reasoning",
+      "multi-agent iterative state transition"
+    ],
+    "model_runtime": "Qwen open-source-family model through Alibaba Cloud Model Studio (Bailian) API",
+    "software_stack": [
+      "Python 3.10-3.12",
+      "Pydantic v2",
+      "Alibaba Cloud Bailian OpenAI-compatible API",
+      "IntervenSim environment",
+      "asyncio",
+      "MetaGPT-compatible roles"
+    ],
+    "reproducibility_controls": [
+      "immutable source SHA-256 and transformation lineage",
+      "fixed random seeds, cutoff timestamps and environment versions",
+      "agent execution trace plus redacted Qwen/Bailian call receipt",
+      "human approval recorded separately from automatic validation"
+    ]
+  },
+  "datasets": {
+    "source": [
+      {
+        "dataset_id": "intervensim-snb-events",
+        "name": "IntervenSim social-event benchmark (SNB)",
+        "description": "Forty-two real 2024 online events used by the IntervenSim social-simulation track, with engagement fields and seven-point historical traffic trajectories.",
+        "provenance": "The benchmark is distributed by the GA-S3 authors and reused here only as audited historical input to IntervenSim; the bundled copy is byte-identical to the project display archive.",
+        "access_url": "https://github.com/AI4SS/GAS-3",
+        "usage_rights": "Publicly distributed research benchmark; retain attribution and complete the organizer/institutional data-use review before external redistribution.",
+        "terms_url": "https://github.com/AI4SS/GAS-3",
+        "local_path": "app/dataset/SNB.json",
+        "sha256": "2faa043241c723efdeea668004b6ac10181402f8fa050e523caa6ad204b2ff0a",
+        "record_count": 42,
+        "historical_features": [
+          "event title and factual description",
+          "view, like, share and comment counts",
+          "seven historical network-traffic observations"
+        ],
+        "source_version": "Bundled 42-event snapshot audited 2026-08-25",
+        "license_verified": true,
+        "pii_assessment": "Aggregate event and engagement fields only; no direct personal identifiers are used by the research planner.",
+        "redistribution_scope": "Derived metrics and hashes may be submitted; redistribution of the bundled source requires the original terms and attribution review.",
+        "verification_method": "Record-count and SHA-256 verification against the project display archive plus repository/source metadata review.",
+        "verified_at": "2026-08-25T00:00:00+08:00",
+        "data_lineage": [
+          "AI4SS/GAS-3 distributed benchmark",
+          "team display archive",
+          "app/dataset/SNB.json",
+          "IntervenSim event loader"
+        ],
+        "compliance_status": "verified"
+      }
+    ],
+    "target": [
+      {
+        "name": "Prospective social-event intervention-response panel",
+        "collection_scope": "At least 30 newly observed public social events recorded at fixed intervals before and after source-side interventions.",
+        "unit_of_analysis": "event x time window x de-identified population group",
+        "planned_features": [
+          "timestamped views, likes, comments, shares and follows",
+          "intervention type, text, issuer, timestamp and objective",
+          "de-identified group attributes and population weights",
+          "group state, exposure controls, event category and exogenous shocks",
+          "IntervenSim round id, public signal and next-intervention linkage"
+        ],
+        "sampling_strategy": "Stratify by event category and intervention type; freeze a chronological event-level split before evaluation.",
+        "consent_and_privacy": "Collect only lawfully accessible or consented records; remove direct identifiers, minimize retained text and complete ethics/data-protection review before collection.",
+        "quality_controls": [
+          "pre-register inclusion/exclusion rules and primary metrics",
+          "version data, code, prompts, Qwen model id and random seeds",
+          "retain immutable raw-data hashes and transformation lineage",
+          "deduplicate reposts without deleting raw audit records",
+          "dual-review intervention labels"
+        ]
+      }
+    ]
+  },
+  "paper_title": "Closing the Intervention-Response Loop in Auditable Multi-Agent Social Simulation",
+  "paper_abstract": {
+    "background": "Social-event simulators rarely model how crowd response changes subsequent source intervention.",
+    "methods": "We implement an IntervenSim feedback loop with Qwen/Bailian source and crowd agents, population-weighted signals, explicit intervention traces and held-out trajectory evaluation.",
+    "expected_results": "We expect lower trajectory and intervention-response error than persistence and no-feedback baselines while retaining a complete execution audit."
+  },
+  "methods": [
+    {
+      "step": 1,
+      "name": "Event audit",
+      "procedure": "Select a provenance-audited event and freeze its historical comparison trajectory.",
+      "inputs": [
+        "SNB event records"
+      ],
+      "outputs": [
+        "event state and cutoff"
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Group hierarchy",
+      "procedure": "Construct population groups and initial attitudes with no personally identifiable records.",
+      "inputs": [
+        "event category",
+        "aggregate priors"
+      ],
+      "outputs": [
+        "group hierarchy"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Feedback-loop execution",
+      "procedure": "Alternate source intervention, concurrent crowd updates and public-signal aggregation.",
+      "inputs": [
+        "group states",
+        "previous signal"
+      ],
+      "outputs": [
+        "round traces and trajectories"
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Trajectory evaluation",
+      "procedure": "Compare normalized predicted traffic with frozen historical traffic and run feedback ablations.",
+      "inputs": [
+        "round metrics",
+        "benchmark traffic"
+      ],
+      "outputs": [
+        "frontend trajectories and metrics"
+      ]
+    }
+  ],
+  "experiments": {
+    "baselines": [
+      {
+        "name": "Persistence",
+        "description": "Repeat the most recent observed state."
+      },
+      {
+        "name": "No source feedback",
+        "description": "Keep source intervention fixed throughout the rollout."
+      },
+      {
+        "name": "Deterministic update",
+        "description": "Use rule-based group transitions without Qwen reasoning."
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Normalized RMSE",
+        "definition": "RMSE after within-event min-max normalization.",
+        "direction": "lower"
+      },
+      {
+        "name": "Spearman rho",
+        "definition": "Rank correlation of predicted and observed trajectories.",
+        "direction": "higher"
+      },
+      {
+        "name": "Intervention-response error",
+        "definition": "Error in change following an intervention.",
+        "direction": "lower"
+      }
+    ],
+    "split_strategy": "Hold out entire events; tune only on earlier events and preserve event-level temporal order.",
+    "ablations": [
+      "remove source feedback",
+      "remove group hierarchy",
+      "remove population weighting"
+    ],
+    "robustness_checks": [
+      "different attention peaks",
+      "group-order invariance",
+      "bootstrap across events"
+    ],
+    "decision_rule": "Support only if the feedback loop lowers normalized RMSE and intervention-response error on the preregistered held-out event set."
+  },
+  "results": {
+    "track_id": "intervensim_social_simulation",
+    "evidence_type": "actual_execution",
+    "formulas": [
+      "E_t = sum_g Population_g * EngagementRate_g,t",
+      "RMSE_social = sqrt((1/T) * sum_t (y'_t - yhat'_t)^2)",
+      "rho_social = corr(rank(y), rank(yhat))"
+    ],
+    "observed_values": {
+      "executed_rounds": 3.0,
+      "comparable_rounds": 3.0,
+      "normalized_mae": 0.072467,
+      "normalized_rmse": 0.125517,
+      "spearman_rho": 1.0,
+      "behavior_constraints_hold": "true"
+    },
+    "interpretation": "The current IntervenSim source-intervention, crowd-update and public-signal loop executed and emitted frontend-aligned trajectories. This establishes engineering feasibility for one event only.",
+    "status": "verified_feasible",
+    "evaluation_mode": "actual_simulation_execution",
+    "claim_scope": "Actual one-event simulation execution; no cross-event confirmatory claim.",
+    "frontend_artifact": "frontend/social/trajectories.json"
+  },
+  "references": [
+    {
+      "reference_id": "gas3-2025",
+      "title": "GA-S3: Comprehensive Social Network Simulation with Group Agents",
+      "authors": [
+        "Yunyao Zhang",
+        "Zikai Song",
+        "Hang Zhou",
+        "Wenfeng Ren",
+        "Yi-Ping Phoebe Chen",
+        "Junqing Yu",
+        "Wei Yang"
+      ],
+      "year": 2025,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "doi": "10.18653/v1/2025.findings-acl.468",
+      "url": "https://aclanthology.org/2025.findings-acl.468/",
+      "verification_source": "ACL Anthology primary metadata",
+      "source_kind": "primary_publication",
+      "metadata_match": true,
+      "verified_at": "2026-08-25T00:00:00+08:00",
+      "verification_evidence": "Title, authors, year, venue and DOI are matched against the ACL Anthology record.",
+      "verified": true
+    },
+    {
+      "reference_id": "qwen25-2025",
+      "title": "Qwen2.5 Technical Report",
+      "authors": [
+        "An Yang",
+        "Baosong Yang",
+        "Beichen Zhang",
+        "Binyuan Hui",
+        "Bo Zheng",
+        "Bowen Yu",
+        "Chengyuan Li",
+        "Dayiheng Liu",
+        "Fei Huang",
+        "Haoran Wei",
+        "Huan Lin",
+        "Jian Yang",
+        "Jianhong Tu",
+        "Jianwei Zhang",
+        "Jianxin Yang",
+        "Jiaxi Yang",
+        "Jingren Zhou",
+        "Junyang Lin",
+        "Kai Dang",
+        "Keming Lu",
+        "Keqin Bao",
+        "Kexin Yang",
+        "Le Yu",
+        "Mei Li",
+        "Mingfeng Xue",
+        "Pei Zhang",
+        "Qin Zhu",
+        "Rui Men",
+        "Runji Lin",
+        "Tianhao Li",
+        "Tianyi Tang",
+        "Tingyu Xia",
+        "Xingzhang Ren",
+        "Xuancheng Ren",
+        "Yang Fan",
+        "Yang Su",
+        "Yichang Zhang",
+        "Yu Wan",
+        "Yuqiong Liu",
+        "Zeyu Cui",
+        "Zhenru Zhang",
+        "Zihan Qiu"
+      ],
+      "year": 2024,
+      "venue": "arXiv:2412.15115",
+      "doi": "10.48550/arXiv.2412.15115",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "verification_source": "arXiv primary metadata",
+      "source_kind": "primary_publication",
+      "metadata_match": true,
+      "verified_at": "2026-08-25T00:00:00+08:00",
+      "verification_evidence": "Title, complete 42-author list, initial submission year and arXiv identifier are matched against the arXiv primary record and official Qwen citation.",
+      "verified": true
+    }
+  ]
+}
