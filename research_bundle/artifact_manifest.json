@@ -1,5 +1,5 @@
 {
-  "manifest_version": "XH-202619/artifact-manifest-1.0",
+  "manifest_version": "zhijian/artifact-manifest-1.0",
   "generated_at": "2026-08-28T16:20:46.880189+00:00",
   "run_root": "（公开版省略）",
   "artifacts": [
@@ -10,8 +10,8 @@
       "artifact_type": "four_surface_backend_registry",
       "track_id": null,
       "frontend_route": null,
-      "sha256": "e28c71ba341c6a8fd3f0160385238a829eea10c11c3ac3c052a84475b6d3b369",
-      "byte_size": 5164,
+      "sha256": "db03e01d875f8dc65c14db5b1cbef80480cc0dd16b77546599f894063196db3e",
+      "byte_size": 5162,
       "generated_at": "2026-08-28T16:20:46.802310+00:00",
       "evidence_level": "audit"
     },
@@ -22,8 +22,8 @@
       "artifact_type": "frontend_navigation_capability_contract",
       "track_id": null,
       "frontend_route": null,
-      "sha256": "e28c71ba341c6a8fd3f0160385238a829eea10c11c3ac3c052a84475b6d3b369",
-      "byte_size": 5164,
+      "sha256": "db03e01d875f8dc65c14db5b1cbef80480cc0dd16b77546599f894063196db3e",
+      "byte_size": 5162,
       "generated_at": "2026-08-28T16:20:46.803367+00:00",
       "evidence_level": "audit"
     },
@@ -82,8 +82,8 @@
       "artifact_type": "multi_agent_audit_trace",
       "track_id": null,
       "frontend_route": null,
-      "sha256": "4370d7eb3d37dbb1b1a0ce04dc0aaed38f96a457fbd466f77ebf866bfff14bfd",
-      "byte_size": 4149,
+      "sha256": "7c1ddb9875dccd52cce9bd79d2f6a5a56ad731f16a114659e5d038c5fe31cd2e",
+      "byte_size": 4147,
       "generated_at": "2026-08-28T16:20:46.843619+00:00",
       "evidence_level": "audit"
     },
@@ -94,8 +94,8 @@
       "artifact_type": "hypothesis_reasoning_graph",
       "track_id": null,
       "frontend_route": null,
-      "sha256": "8de3838268256c08ece66810fbf318014c31fa51639f047782e24ac97df1f950",
-      "byte_size": 14153,
+      "sha256": "2ff92e8da3a18fa58228cc55a807b0004f6bdba12b91712e56037a1323573a53",
+      "byte_size": 14151,
       "generated_at": "2026-08-28T16:20:46.844771+00:00",
       "evidence_level": "derived"
     },
@@ -106,8 +106,8 @@
       "artifact_type": "human_in_the_loop_status",
       "track_id": null,
       "frontend_route": null,
-      "sha256": "3909eae37b7df21e3ceab27a2f5c25504e2e4ba05f3afc5b3c1946efa2691e7c",
-      "byte_size": 643,
+      "sha256": "7d9a14907849dec5e27879f4c998a313224574b2d4c5574bd0eec9adc9265268",
+      "byte_size": 622,
       "generated_at": "2026-08-28T16:20:46.845521+00:00",
       "evidence_level": "audit"
     },
@@ -262,8 +262,8 @@
       "artifact_type": "audited_opinion_analysis_bundle",
       "track_id": "intervensim_social_simulation",
       "frontend_route": "/opinion",
-      "sha256": "637eb9117393ab6ccb9cd227dc116b5eb431b8145af8a4ad26ee70c64af8f648",
-      "byte_size": 12102,
+      "sha256": "43bbe9103d46525c188df83ec7bc614d4bc7fe84ad3c8cd68c7ea5e14bb88de8",
+      "byte_size": 12100,
       "generated_at": "2026-08-28T16:20:46.876445+00:00",
       "evidence_level": "derived"
     },

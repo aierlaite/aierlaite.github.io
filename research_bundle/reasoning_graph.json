@@ -1,5 +1,5 @@
 {
-  "graph_version": "XH-202619/reasoning-graph-1.0",
+  "graph_version": "zhijian/reasoning-graph-1.0",
   "nodes": [
     {
       "node_id": "gas3_us_election:source",

@@ -1,5 +1,5 @@
 {
-  "schema_version": "XH-202619/2.0-three-track-audited",
+  "schema_version": "zhijian/2.0-three-track-audited",
   "generated_at": "2026-08-28T16:20:46.794172+00:00",
   "problem_statement": "Current AI Scientist prototypes often combine heterogeneous models into one narrative without proving that each model is used in its intended empirical setting. For this project, GAS-3 must support U.S. election simulation, IntervenSim must support intervention-aware social simulation, and STAP must support micro-video popularity prediction. Without an enforced routing and evidence contract, datasets, outputs and metrics can be silently mixed, making the resulting hypothesis difficult to falsify or reproduce.",
   "rationale": {

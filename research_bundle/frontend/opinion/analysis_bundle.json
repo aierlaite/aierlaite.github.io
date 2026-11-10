@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "XH-202619/opinion-analysis-1.0",
+  "schemaVersion": "zhijian/opinion-analysis-1.0",
   "capabilityId": "opinion_analysis",
   "frontendRoute": "/opinion",
   "scenarios": [
